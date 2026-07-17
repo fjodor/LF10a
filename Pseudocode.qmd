@@ -18,7 +18,7 @@ execute:
 callout-appearance: simple
 ---
 
-## Wenn-Struktur
+## WENN-Struktur
 
 :::: columns
 ::: {.column width="50%"}
@@ -59,7 +59,7 @@ ENDE WENN
 ::::
 
 
-## Wenn-Struktur
+## WENN: Alternativ-Bedingungen
 
 :::: columns
 ::: {.column width="50%"}
@@ -92,6 +92,68 @@ ENDE WENN
 - ENDE WENN ist Pflicht - auch bei kurzen Blöcken!
 :::
 
+
+## FÜR-Schleifen (Zählschleife)
+
+:::: columns
+::: {.column}
+
+#### Standard-Variante
+
+```pseudo
+FUER i VON start BIS ende
+    anweisungen
+ENDE FUER
+```
+
+:::
+
+::: {.column .fragment}
+
+#### Beispiel
+
+:::
+::::
+
+
+## FÜR-Schleifen: Schrittweite
+
+#### Schrittweite
+
+```pseudo
+FUER i VON 1 BIS 10 IN SCHRITTEN VON 2
+    anweisungen
+ENDE FUER
+```
+
+::: {.fragment}
+
+#### Beispiel
+
+:::
+
+
+## FÜR-Schleifen: Abwärts
+
+:::: columns
+::: column
+
+#### Rückwärts-Zähler
+
+```pseudo
+FUER i VON 10 BIS 1
+    anweisungen
+ENDE FUER
+```
+
+:::
+
+::: {.column .fragment}
+
+#### Beispiel
+
+:::
+::::
 
 
 ## Vielen Dank!

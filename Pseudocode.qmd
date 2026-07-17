@@ -203,6 +203,80 @@ BIS bedingung
 :::
 
 
+## Ein-/Ausgabe
+
+## Variablen, Datentypen, Operationen
+
+### Zuweisung
+
+### Arrays / Listen
+
+### Operatoren
+
+
+## Funktionen / Methoden
+
+### Methoden mit Rückgabe
+
+### Methoden ohne Rückgabe
+
+
+## Klassen (prüfungsrelevant?)
+
+## Algorithmen
+
+### Akkumulator
+
+### Zähler
+
+### Maximum / Minimum
+
+### Lineare Suche
+
+
+## IHK-Prüfungsfallen
+
+- Fehlende Blockenden  
+  ENDE WENN, ENDE FUER, ENDE SOLANGE, ENDE METHODE
+
+- Falsche Operatoren  
+  = Zuweisung  
+  == Vergleich  
+
+- Keine Englischsprachige Keywords  
+  KEIN if, else, while, for, return
+
+- Keine Klammern
+  { } nicht verwenden  
+  Keine ( ) bei Kontrollstrukturen
+
+
+## IHK Stilregeln
+
+- Einrückung empfohlen
+- Schlüsselwörter GROß schreiben
+- Variablennamen klein schreiben
+- keine unnötigen Leerzeilen
+- Kommentare sparsam einsetzen
+- keine Sprache nachahmen! (kein Python-Stil, kein Java-Stil)
+
+## Erweiterte Beispiele
+
+### Bubble Sort
+
+### Passwortprüfung
+
+```pseudo
+LIES passwort
+WENN laenge(passwort) < 8 DANN
+    AUSGABE "Passwort zu kurz"
+SONST WENN NICHT enthaeltZiffer(passwort) DANN
+    AUSGABE "Keine Ziffer enthalten"
+SONST
+    AUSGABE "Passwort akzeptiert"
+ENDE WENN
+```
+
 
 ## Vielen Dank!
 

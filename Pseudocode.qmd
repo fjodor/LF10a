@@ -1,0 +1,103 @@
+---
+title: "Pseudocode"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: " "
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+    embed-resources: false
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+## Wenn-Struktur
+
+:::: columns
+::: {.column width="50%"}
+
+#### Minimal
+
+```pseudo
+WENN bedingung DANN
+    anweisungen
+ENDE WENN
+```
+
+::: {.fragment}
+
+#### Beispiel
+
+:::
+:::
+
+::: {.column .fragment}
+
+#### Alternativ-Bedingung
+
+```pseudo
+WENN bedingung DANN
+    anweisungen
+SONST WENN andere_bedingung DANN
+    anweisungen
+ENDE WENN
+```
+
+::: {.fragment}
+
+#### Beispiel
+
+:::
+:::
+::::
+
+
+## Wenn-Struktur
+
+:::: columns
+::: {.column width="50%"}
+
+#### Alternativ-Bedingungen
+
+```pseudo
+WENN bedingung DANN
+    anweisungen
+SONST WENN andere_bedingung DANN
+    anweisungen
+SONST
+    anweisungen
+ENDE WENN
+```
+
+:::
+
+::: {.column .fragment}
+
+#### Beispiel
+
+:::
+::::
+
+
+::: {style="font-size: 1.9rem"}
+- DANN ist Pflicht.
+- SONST WENN wird ausgeschrieben (nicht etwa ELSE IF).
+- ENDE WENN ist Pflicht - auch bei kurzen Blöcken!
+:::
+
+
+
+## Vielen Dank!
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg mit Pseudocode!**
+:::

@@ -156,6 +156,54 @@ ENDE FUER
 ::::
 
 
+## FUER JEDES (For-Each)
+
+```pseudo
+FUER JEDES element IN sammlung
+    anweisungen
+ENDE FUER
+```
+
+::: {.fragment}
+
+#### Beispiel
+
+:::
+
+
+## SOLANGE (While)
+
+```pseudo
+SOLANGE bedingung
+    anweisungen
+ENDE SOLANGE
+```
+
+::: {.fragment}
+
+#### Beispiel
+
+:::
+
+
+## WIEDERHOLE BIS (Do-Until)
+
+```pseudo
+WIEDERHOLE
+    anweisungen
+BIS bedingung
+```
+
+[Bedingung steht unten!]{style="font-size: 2rem"}
+
+::: {.fragment}
+
+#### Beispiel
+
+:::
+
+
+
 ## Vielen Dank!
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}

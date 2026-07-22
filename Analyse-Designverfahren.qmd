@@ -156,6 +156,16 @@ Bestehende Bibliotheken integrieren |
 ::::
 
 
+## Kombination: Meet-in-the-Middle
+
+In der Praxis werden Top-down und Bottom-up oft kombiniert:
+
+- Top-down: Architektur des Gesamtsystems wird definiert
+- Bottom-up: Vorhandene Bibliotheken und Module werden eingebunden
+- Der Treffpunkt in der Mitte ergibt die Integrationsebene
+
+
+
 ## Modularisierung
 
 ::: incremental
@@ -218,6 +228,35 @@ Niedrig: Module sollen unabhängig sein |
 - Arbeitsteilung im Team: jedes Teammitglied bearbeitet ein Modul
 
 :::
+
+
+## Modularisierung: Kriterien für gute Module
+
+::: {style="font-size: 1.9rem"}
+
+Kriterium | Gut | Schlecht
+:---|:----------|:----------
+**Kohäsion** | Alle Funktionen eines Moduls gehoeren zum gleichen Thema	| **Ein** Modul macht Login, PDF-Export **und** Datenbankzugriff
+**Kopplung** | Module kommunizieren nur über definierte Schnittstellen | Ein Modul greift direkt auf interne Variablen eines anderen Moduls zu
+**Größe** | Überschaubarer Umfang (eine klare Aufgabe) | Riesiges Modul mit hunderten Funktionen
+**Namensgebung** | Sprechender Name: BenutzerAuthentifizierung | Unklarer Name: Modul_A
+
+:::
+
+
+## Design: Prüfungstipps {style="font-size: 1.8rem"}
+
+- Szenario lesen und Top-down oder Bottom-up empfehlen mit Begründung
+- Kohaesion und Kopplung definieren und bewerten
+- Vorteile der Modularisierung nennen (mindestens drei)
+- Zerlegung eines Problems in Module darstellen (Baumdiagramm)
+
+Häufige Fehler | Korrektur
+-------|------------
+Top-down und Bottom-up verwechselt | Top-down = vom Ganzen zum Detail, <br> Bottom-up = vom Detail zum Ganzen
+Hohe Kopplung als positiv bewertet | Hohe Kopplung = schlecht (starke Abhaengigkeit), niedrig = gut
+Kohäsion mit Kopplung verwechselt | Kohäsion = innerhalb eines Moduls, <br> Kopplung = zwischen Modulen
+Modularisierung nur als Aufteilung in Dateien verstanden | Es geht um fachliche Trennung mit definierten Schnittstellen
 
 
 ## Vielen Dank!

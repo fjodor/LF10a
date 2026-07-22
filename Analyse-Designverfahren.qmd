@@ -51,8 +51,8 @@ Neue Systeme, bei denen das Gesamtsystem zuerst stehen muss
 ## Top-down-Entwurf: Wichtige Begriffe
 
 - ***Divide and Conquer***: Teile und Herrsche: Problem in Teilprobleme zerlegen
-- ***Verfeinerung***: schrittweise Detaillierung der Lösung
-- ***Hierarchie***: Ober-/Unterordnung der Module
+- **Verfeinerung**: schrittweise Detaillierung der Lösung
+- **Hierarchie**: Ober-/Unterordnung der Module
 
 
 ## Top-down-Entwurf: Beispiel
@@ -94,9 +94,9 @@ Wenn bereits wiederverwendbare Komponenten existieren
 
 ## Bottom-up-Entwurf: Wichtige Begriffe
 
-- ***Modul***: in sich geschlossene Einheit mit definierter Aufgabe
-- ***Wiederverwendung***: bestehende Module in neuen Kontext einsetzen
-- ***Integration***: Zusammenfügen von Modulen zu einem größeren System
+- **Modul**: in sich geschlossene Einheit mit definierter Aufgabe
+- **Wiederverwendung**: bestehende Module in neuen Kontext einsetzen
+- **Integration**: Zusammenfügen von Modulen zu einem größeren System
 
 
 ## Bottom-up-Entwurf: Beispiel
@@ -107,6 +107,53 @@ Wenn bereits wiederverwendbare Komponenten existieren
 ::: fragment
 ![](libs/_Images/Bottom-up-Entwurf.svg){width="120%" fig-alt="Anwendung im Bottom-up-Entwurf"}
 :::
+
+
+## Top-down vs. Bottom-up: Vergleich
+
+:::: {.columns style="font-size: 1.7rem"}
+::: {.column width="25%"}
+
+Kriterium |
+----------|
+Startpunkt |
+Richtung |	
+Eignung	<br> &nbsp; | 	
+Gesamtüberblick |
+Testbarkeit einzelner Module | 
+Risiko 	<br> &nbsp; |
+Beispiel |
+
+:::
+
+::: {.column .fragment width="35%"}
+
+Top-down |
+----------|
+Gesamtsystem |
+Vom Grossen zum Kleinen |
+Neues System, keine Vorarbeiten |
+Früh vorhanden	|
+Spät (erst wenn Module implementiert) |
+Detail-Probleme werden spät entdeckt |
+Neues ERP-System planen	|
+
+:::
+
+::: {.column .fragment width="35%"}
+
+Bottom-up |
+----------|
+Einzelne Bausteine |
+Vom Kleinen zum Grossen |
+Bestehende Module vorhanden |
+Erst spät sichtbar |
+Früh (Module einzeln testbar) |
+Gesamtkonzept passt evtl. nicht |
+Bestehende Bibliotheken integrieren |
+
+:::
+::::
 
 
 ## Modularisierung
@@ -152,6 +199,25 @@ Niedrig: Module sollen unabhängig sein |
 
 :::
 ::::
+
+
+## Modularisierung: Wichtige Begriffe
+
+- **Schnittstelle** *(Interface)*: definierter Ein-/ Ausgabekanal zwischen Modulen
+- ***Information Hiding***: interne Details eines Moduls sind von außen nicht sichtbar
+- ***Separation of Concerns***: Trennung von Zuständigkeiten
+
+
+## Modularisierung: Vorteile
+
+::: incremental
+
+- Bessere Wartbarkeit: Fehler lokal beheben
+- Bessere Testbarkeit: Module einzeln testbar
+- Bessere Wiederverwendbarkeit: Module in anderen Projekten nutzbar
+- Arbeitsteilung im Team: jedes Teammitglied bearbeitet ein Modul
+
+:::
 
 
 ## Vielen Dank!

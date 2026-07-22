@@ -40,6 +40,61 @@ Neue Systeme, bei denen das Gesamtsystem zuerst stehen muss
 :::
 
 
+## Top-down-Entwurf: Kernaussagen
+
+- Start beim Gesamtproblem, dann Zerlegung in Teilprobleme
+- Hierarchische Struktur: Hauptprogramm - Unterprogramme - Einzelfunktionen
+- Gut geeignet für komplett neue Systeme ohne bestehende Bausteine
+- Frühe Sicht auf die Gesamtarchitektur
+
+
+## Top-down-Entwurf: Wichtige Begriffe
+
+- ***Divide and Conquer***: Teile und Herrsche: Problem in Teilprobleme zerlegen
+- ***Verfeinerung***: schrittweise Detaillierung der Lösung
+- ***Hierarchie***: Ober-/Unterordnung der Module
+
+
+## Top-down-Entwurf: Beispiel
+
+- Projektleiter plant ERP-System: <br>*Enterprise Resource Planning System*
+- Gesamtsystem wird in Module aufgeteilt
+- Module werden weiter zerlegt
+
+::: fragment
+
+ ![](libs/_Images/Top-down-Entwurf.svg){width="120%" fig-alt="ERP-System im Top-down-Entwurf"}
+
+:::
+
+
+## Bottom-up-Entwurf
+
+- Beginn mit kleinsten, elementaren Bausteinen (Module, Funktionen)
+- Schrittweises Zusammensetzen zu größeren Einheiten
+
+Wann geeignet?
+
+::: fragment
+Wenn bereits wiederverwendbare Komponenten existieren
+:::
+
+
+## Bottom-up-Entwurf: Kernaussagen
+
+::: incremental
+
+- Start bei Detailkomponenten, dann Zusammenbau zum Gesamtsystem
+- Gut geeignet, wenn wiederverwendbare Bausteine bereits vorhanden sind
+- Einzelne Module können früh getestet werden
+- Risiko: Gesamtergebnis passt möglicherweise nicht zusammen
+
+:::
+
+
+## Bottom-up-Entwurf: Wichtige Begriffe
+
+
 
 
 ## Vielen Dank!

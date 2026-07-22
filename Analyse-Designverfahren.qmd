@@ -1,0 +1,51 @@
+---
+title: "Strukturierte Analyse- und Designverfahren"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: "Top-Down-Entwurf, Bottom-Up-Entwurf, Modularisierung"
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+    embed-resources: false
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+## Strukturierte Analyse- und Designverfahren
+
+Gehört zum Prüfungsteil: Konzipieren und Umsetzen von kundenspezifischen Softwareanwendungen
+
+- Top-down-Entwurf
+- Bottom-up-Entwurf
+- Modularisierung
+
+
+## Top-down-Entwurf
+
+- Beginn mit Gesamtsystem
+- schrittweise Zerlegung in kleinere Teilsysteme und Module
+- Motto: *Divide and Conquer*
+
+Wann geeignet?
+
+::: fragment
+Neue Systeme, bei denen das Gesamtsystem zuerst stehen muss
+:::
+
+
+
+
+## Vielen Dank!
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg!**
+:::

@@ -94,7 +94,64 @@ Wenn bereits wiederverwendbare Komponenten existieren
 
 ## Bottom-up-Entwurf: Wichtige Begriffe
 
+- ***Modul***: in sich geschlossene Einheit mit definierter Aufgabe
+- ***Wiederverwendung***: bestehende Module in neuen Kontext einsetzen
+- ***Integration***: Zusammenfügen von Modulen zu einem größeren System
 
+
+## Bottom-up-Entwurf: Beispiel
+
+- Entwickler baut zuerst Login-Komponente, Datenbankzugriffs-Schicht und PDF-Export-Funktion
+- Anschließend fügt er die Module zu einer Anwendung zusammen
+
+::: fragment
+![](libs/_Images/Bottom-up-Entwurf.svg){width="120%" fig-alt="Anwendung im Bottom-up-Entwurf"}
+:::
+
+
+## Modularisierung
+
+::: incremental
+
+- System wird in eigenständige, austauschbare **Module** zerlegt
+- Jedes Modul hat eine klar definierte Aufgabe und kommuniziert über definierte **Schnittstellen** mit anderen Modulen
+- Ziel:
+  + hohe **Kohäsion** innerhalb der Module
+  + geringe **Kopplung** zwischen den Modulen
+
+:::
+
+
+## Modularisierung: Kernaussagen
+
+::: {style="font-size: 1.9rem"}
+
+- Jedes Modul erfüllt genau **eine** klar abgegrenzte Aufgabe
+- Module sind über **Schnittstellen** (*Interfaces*) verbunden
+- Änderungen in einem Modul sollen keine Auswirkungen auf andere Module haben
+- Zwei zentrale Qualitätsmerkmale: **Kohäsion** und **Kopplung**
+
+:::
+
+:::: {.columns style="font-size: 1.8rem"}
+::: {.column .fragment width="60%"}
+
+Eigenschaft	| Definition |
+--- | ------------- |
+**Kohäsion** | Wie stark die Bestandteile eines Moduls inhaltlich zusammengehören |
+**Kopplung** | Wie stark Module voneinander abhängig sind |
+
+:::
+
+::: {.column .fragment width="35%"}
+
+Ziel |
+------------ |
+Hoch: alles in einem Modul gehört thematisch zusammen |
+Niedrig: Module sollen unabhängig sein |
+
+:::
+::::
 
 
 ## Vielen Dank!

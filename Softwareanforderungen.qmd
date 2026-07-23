@@ -60,7 +60,7 @@ callout-appearance: simple
 **Definition**: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.
 
 | Untermerkmal | Beschreibung | Beispiel |
-|--------------|-------------|----------|
+|:-----|-------------|----------|
 | Funktionale Vollständigkeit | Alle geforderten Funktionen vorhanden | Alle Use Cases implementiert |
 | Funktionale Korrektheit | Ergebnisse sind richtig und präzise | Berechnungen liefern korrekte Werte |
 | Funktionale Angemessenheit | Funktionen unterstützen die Aufgaben | Keine überflüssigen Features |
@@ -70,15 +70,27 @@ callout-appearance: simple
 
 ## ISO 25010 - Q2: Effizienz (Performance Efficiency) {style="font-size: 1.9rem"}
 
-**Definition**: Leistung im Verhaeltnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.
+**Definition**: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.
 
 | Untermerkmal | Beschreibung | Beispiel |
-|--------------|-------------|----------|
+|:-----|-------------|----------|
 | Zeitverhalten | Antwort- und Verarbeitungszeiten | Seitenladezeit < 3 Sekunden |
 | Ressourcenverbrauch | CPU, RAM, Speicherplatz, Bandbreite | Max. 512 MB RAM-Verbrauch |
 | Kapazität | Maximale Grenzen des Systems | 10.000 gleichzeitige Benutzer |
 
 **Messgrößen**: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde
+
+
+## ISO 25010 – Q3: Kompatibilität (Compatibility) {style="font-size: 1.9rem"}
+
+**Definition**: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.
+
+| Untermerkmal | Beschreibung | Beispiel |
+| --- | --- | --- |
+| Koexistenz | Gemeinsamer Betrieb ohne gegenseitige Beeinträchtigung | Zwei Anwendungen teilen sich CPU/RAM ohne Performance‑Einbrüche |
+| Interoperabilität | Fähigkeit zum Informationsaustausch und zur Nutzung der ausgetauschten Daten | CRM kommuniziert fehlerfrei mit ERP‑System |
+
+**Messgrößen**: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb
 
 
 ## ISO 25010 - Q4: Benutzbarkeit (Usability) {style="font-size: 1.8rem"}
@@ -91,9 +103,108 @@ callout-appearance: simple
 | Bedienbarkeit | Wie einfach lässt sich das System steuern? | Max. 3 Klicks bis zur Zielfunktion |
 | Fehlertoleranz (UI) | Wie gut wird der Benutzer vor Fehlern geschützt? | Validierung bei Formulareingaben |
 | Ästhetik | Ansprechendes, konsistentes Design | Einheitliches Farbschema, klare Struktur |
-| Barrierefreiheit | Zugänglichkeit fuer Menschen mit Einschränkungen | Screenreader-Kompatibilität, Kontraste |
+| Barrierefreiheit | Zugänglichkeit für Menschen mit Einschränkungen | Screenreader-Kompatibilität, Kontraste |
 
-**Messgrößen**:: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)
+**Messgrößen**: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)
+
+
+## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.8rem"}
+
+**Definition**: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.
+
+| Untermerkmal | Beschreibung | Beispiel |
+|:-----|-------------|----------|
+| Reife | Zuverlässigkeit im Normalbetrieb | MTBF > 1000h |
+| Verfügbarkeit | System ist einsatzbereit wenn benötigt | 99,9% Verfügbarkeit (SLA) |
+| Fehlertoleranz | Funktioniert trotz Fehlern weiter | Graceful Degradation |
+| Wiederherstell-barkeit | Daten und Zustand nach Ausfall wiederherstellen | Recovery Time < 5 min |
+
+**Schlüsselkennzahlen**:
+
+- **MTBF** = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)
+- **MTTR** = Mean Time To Repair (Mittlere Reparaturzeit)
+- **Verfügbarkeit** = MTBF / (MTBF + MTTR)
+
+
+## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.8rem"}
+
+**Definition**: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.
+
+| Untermerkmal | Beschreibung | Beispiel |
+|:----- |------------- |-----------|
+| Vertraulichkeit | Schutz vor unbefugtem Zugriff | Daten nur für autorisierte Rollen sichtbar |
+| Integrität | Schutz vor unbefugter oder unbeabsichtigter Änderung | Hash‑Prüfungen verhindern Manipulation |
+| Nichtabstreit-barkeit | Aktionen sind eindeutig zuordenbar | Digitale Signaturen für Transaktionen |
+| Authentizität | Identitäten und Daten sind echt | MFA stellt sicher, dass der Nutzer korrekt identifiziert ist |
+| Zugriffskontrolle | Autorisierte Nutzung von Funktionen und Daten | Rollenbasierte Berechtigungen im Backend |
+
+
+## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.8rem"}
+
+**Definition**:
+
+Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.
+
+<br>
+
+**Messgrößen**:
+
+- Anzahl Sicherheitsvorfälle
+- Pen‑Test‑Ergebnisse
+- Abdeckung von Sicherheitsanforderungen
+- MFA‑Quote
+
+
+## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.8rem"}
+
+**Definition**: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.
+
+| Untermerkmal | Beschreibung | Beispiel |
+|:-----|-------------|----------|
+| Modularität | Aenderung einer Komponente hat minimale Auswirkung | Lose Kopplung zwischen Modulen |
+| Wiederverwendbarkeit | Komponenten können in anderen Systemen genutzt werden | Bibliotheken, Microservices |
+| Analysierbarkeit | Wie leicht kann man Fehlerursachen finden? | Aussagekräftige Logs, klarer Code |
+| Modifizierbarkeit | Wie einfach sind Änderungen umsetzbar? | Saubere Architektur, Design Patterns |
+| Testbarkeit | Wie einfach kann man Tests durchführen? | Unit-Test-Abdeckung > 80% |
+
+
+## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.8rem"}
+
+**Definition**:
+
+Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.
+
+<br>
+
+**Messgrößen**:
+
+- Zyklomatische Komplexität
+- Code-Coverage
+- Coupling / Cohesion-Metriken
+
+
+## ISO 25010 - Q8: Übertragbarkeit (Portability) {style="font-size: 1.9rem"}
+
+**Definition**: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.
+
+| Untermerkmal | Beschreibung | Beispiel |
+|--------------|-------------|----------|
+| Anpassbarkeit | An verschiedene Umgebungen anpassbar | Konfigurationsdateien statt Hardcoding |
+| Installierbarkeit | Einfache Installation / Deinstallation | Setup-Wizard, Paketmanager |
+| Austauschbarkeit | Kann andere Software ersetzen | Standardisierte Schnittstellen |
+
+**Messgrößen**: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand
+
+
+## Weitere Normen
+
+| Norm | Inhalt |
+|:--------------|:--------------|
+| ISO&nbsp;25010 | Qualitätsmodell für Softwareprodukte |
+| IEEE&nbsp;830 | Empfehlungen für Softwareanforderungsspezifikationen |
+| ISO&nbsp;25030 | Qualitätsanforderungen |
+| ISO&nbsp;9241 | Ergonomie der Mensch-System-Interaktion |
+
 
 
 ## Vielen Dank!

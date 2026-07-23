@@ -1,0 +1,105 @@
+---
+title: "Softwareanforderungen erfassen"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: ""
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+    embed-resources: false
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+## Lernziele
+
+- 8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können
+- Funktionale von nicht-funktionalen Anforderungen unterscheiden können
+- Anforderungen messbar formulieren können
+- Qualitätsmerkmale an konkreten Beispielnen erkennen können
+
+
+## Funktionale vs. Nichtfunktionale Anforderungen
+
+::: {style="font-size: 1.9rem"}
+
+| Merkmal | Funktionale Anforderungen | Nicht-funktionale Anforderungen |
+|---------|--------------------------|-------------------------------|
+| Definition | WAS das System tun soll | WIE GUT das System arbeiten soll |
+| Beispiel | "Benutzer kann sich einloggen" | "Login dauert max. 2 Sekunden" |
+| Prüfung | Funktionstest | Leistungstest, Review |
+| Quelle | Fachliche Anforderungen | Qualitätsanforderungen |
+| Dokumentation | Use Cases, User Stories | Qualitätsszenarien |
+
+:::
+
+
+## Software-Qualitätsmerkmale: ISO 25010 {style="font-size: 2rem"}
+
+| Nr. | Qualitätsmerkmal | englisch |
+|-----|-------------|-------------|
+| 1 | Funktionale Eignung | Functional Suitability
+| 2 | Leistungseffizienz | Performance Efficiency
+| 3 | Kompatibilität | Compatibility
+| 4 | Benutzbarkeit | Usability
+| 5 | Zuverlässigkeit  | Reliability
+| 6 | Sicherheit | Security
+| 7 | Wartbarkeit | Maintainability
+| 8 | Übertragbarkeit | Portability
+
+
+## ISO 25010 - Q1: Funktionalität (Functional Suitability) {style="font-size: 1.9rem"}
+
+**Definition**: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.
+
+| Untermerkmal | Beschreibung | Beispiel |
+|--------------|-------------|----------|
+| Funktionale Vollständigkeit | Alle geforderten Funktionen vorhanden | Alle Use Cases implementiert |
+| Funktionale Korrektheit | Ergebnisse sind richtig und präzise | Berechnungen liefern korrekte Werte |
+| Funktionale Angemessenheit | Funktionen unterstützen die Aufgaben | Keine überflüssigen Features |
+
+**Messgrößen**: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad
+
+
+## ISO 25010 - Q2: Effizienz (Performance Efficiency) {style="font-size: 1.9rem"}
+
+**Definition**: Leistung im Verhaeltnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.
+
+| Untermerkmal | Beschreibung | Beispiel |
+|--------------|-------------|----------|
+| Zeitverhalten | Antwort- und Verarbeitungszeiten | Seitenladezeit < 3 Sekunden |
+| Ressourcenverbrauch | CPU, RAM, Speicherplatz, Bandbreite | Max. 512 MB RAM-Verbrauch |
+| Kapazität | Maximale Grenzen des Systems | 10.000 gleichzeitige Benutzer |
+
+**Messgrößen**: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde
+
+
+## ISO 25010 - Q4: Benutzbarkeit (Usability) {style="font-size: 1.8rem"}
+
+**Definition**: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.
+
+| Untermerkmal | Beschreibung | Beispiel |
+|:-----|-------------|----------|
+| Erlernbarkeit | Wie schnell kann ein neuer Benutzer das System bedienen? | Einarbeitungszeit < 1 Tag |
+| Bedienbarkeit | Wie einfach lässt sich das System steuern? | Max. 3 Klicks bis zur Zielfunktion |
+| Fehlertoleranz (UI) | Wie gut wird der Benutzer vor Fehlern geschützt? | Validierung bei Formulareingaben |
+| Ästhetik | Ansprechendes, konsistentes Design | Einheitliches Farbschema, klare Struktur |
+| Barrierefreiheit | Zugänglichkeit fuer Menschen mit Einschränkungen | Screenreader-Kompatibilität, Kontraste |
+
+**Messgrößen**:: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)
+
+
+## Vielen Dank!
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg!**
+:::

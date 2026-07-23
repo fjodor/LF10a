@@ -206,6 +206,58 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 | ISO&nbsp;9241 | Ergonomie der Mensch-System-Interaktion |
 
 
+## Anforderungen messbar formulieren: SMART
+
+[Anforderungen müssen **messbar** sein, damit sie prüfbar werden.]{style="font-size: 1.9rem"}
+
+**SMART-Kriterien fuer Anforderungen**:
+
+- **S**pezifisch – klar und eindeutig formuliert
+- **M**essbar – quantifizierbar mit Metriken
+- **A**kzeptiert – vom Stakeholder abgenommen
+- **R**ealistisch – technisch umsetzbar
+- **T**erminiert – zeitlich eingrenzbar
+
+
+## SMART: Beispiele {style="font-size: 1.8rem"}
+
+:::: columns
+::: column
+
+| Schlecht (vage) | 
+|----------------|
+| "Das System soll schnell sein" <br> &nbsp; | 
+| "Einfache Bedienung" <br> &nbsp; | 
+| "Hohe Verfügbarkeit" <br> &nbsp; | 
+| "Sicher" <br> &nbsp; | 
+| "Wartbar" | 
+
+:::
+
+::: {.column .fragment}
+
+| Gut (messbar) |
+|---------------|
+| "Die Antwortzeit beträgt max. 2 Sekunden bei 1000 Nutzern" |
+| "Ein neuer Benutzer kann die Kernaufgabe in < 5 Minuten erledigen" |
+| "Verfügbarkeit >= 99,9% pro Monat (max. 43 Min. Downtime)" |
+| "Authentifizierung per 2FA, Verschlüsselung mit AES-256" |
+| "Zyklomatische Komplexität pro Methode < 10" |
+
+:::
+::::
+
+
+## Prüfungstipps {style="font-size: 1.9rem"}
+
+| Häufige Fehler | Korrektur |
+|--------|-----------|
+| Funktionale mit nicht-funktionalen Anforderungen verwechseln | Funktional = WAS, Nicht-funktional = WIE GUT |
+| Effizienz und Effektivität verwechseln | Effizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen |
+| Wartbarkeit und Änderbarkeit gleichsetzen | Wartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt |
+| Zuverlässigkeit nur als "läuft ohne Fehler" verstehen | Umfasst auch Fehlertoleranz und Wiederherstellbarkeit |
+| Benutzbarkeit mit "schönem Design" gleichsetzen | Umfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc. |
+
 
 ## Vielen Dank!
 

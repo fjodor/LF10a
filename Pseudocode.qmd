@@ -321,6 +321,8 @@ FUER JEDES z IN liste
 ENDE FUER
 ```
 
+:::
+
 ::: column
 
 ```pseudo
@@ -336,40 +338,33 @@ ENDE FUER
 ::::
 
 
-### Lineare Suche
+## Algorithmen: Lineare Suche
+
+```pseudo
+gefunden = FALSCH
+FUER JEDES z IN liste
+    WENN z == gesucht DANN
+        gefunden = WAHR
+    ENDE WENN
+ENDE FUER
+```
+
+## Algorithmen: Bubble Sort
+
+```pseudo
+FUER i VON 0 BIS laenge(liste)-1
+    FUER j VON 0 BIS laenge(liste)-2
+        WENN liste[j] > liste[j+1] DANN
+            temp = liste[j]
+            liste[j] = liste[j+1]
+            liste[j+1] = temp
+        ENDE WENN
+    ENDE FUER
+ENDE FUER
+```
 
 
-## IHK-Prüfungsfallen
-
-- Fehlende Blockenden  
-  ENDE WENN, ENDE FUER, ENDE SOLANGE, ENDE METHODE
-
-- Falsche Operatoren  
-  = Zuweisung  
-  == Vergleich  
-
-- Keine Englischsprachige Keywords  
-  KEIN if, else, while, for, return
-
-- Keine Klammern
-  { } nicht verwenden  
-  Keine ( ) bei Kontrollstrukturen
-
-
-## IHK Stilregeln
-
-- Einrückung empfohlen
-- Schlüsselwörter GROß schreiben
-- Variablennamen klein schreiben
-- keine unnötigen Leerzeilen
-- Kommentare sparsam einsetzen
-- keine Sprache nachahmen! (kein Python-Stil, kein Java-Stil)
-
-## Erweiterte Beispiele
-
-### Bubble Sort
-
-### Passwortprüfung
+## Passwortprüfung
 
 ```pseudo
 LIES passwort
@@ -381,6 +376,33 @@ SONST
     AUSGABE "Passwort akzeptiert"
 ENDE WENN
 ```
+
+
+## IHK-Prüfungsfallen
+
+- Fehlende Blockenden  
+  ENDE WENN, ENDE FUER, ENDE SOLANGE, <br>ENDE METHODE
+
+- Falsche Operatoren  
+  = Zuweisung  
+  == Vergleich  
+
+- Keine Englischsprachigen Keywords  
+  KEIN if, else, while, for, return
+
+- Keine Klammern
+  { } nicht verwenden  
+  Keine ( ) bei Kontrollstrukturen
+
+
+## IHK Stilregeln
+
+- Einrückung empfohlen
+- Schlüsselwörter `GROß` schreiben
+- Variablennamen `klein` schreiben
+- keine unnötigen Leerzeilen
+- Kommentare sparsam einsetzen
+- keine Sprache nachahmen! (kein Python-Stil, kein Java-Stil)
 
 
 ## Vielen Dank!

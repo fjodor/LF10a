@@ -276,20 +276,65 @@ ENDE KLASSE
 :::
 
 
-## Methoden mit Rückgabe
+## Methoden ohne Rückgabe?
 
-## Methoden ohne Rückgabe
+## Algorithmen: Akkumulator
+
+```pseudo
+summe = 0
+FUER JEDES z IN zahlen
+    summe = summe + z
+ENDE FUER
+RUECKGABE summe
+```
+
+## Algorithmen: Zähler
+
+```pseudo
+anzahl = 0
+FUER JEDES z IN zahlen
+    WENN z MOD 2 == 0 DANN
+        anzahl = anzahl + 1
+    ENDE WENN
+ENDE FUER
+RUECKGABE anzahl
+```
+
+Zählt?
+
+::: fragment
+... Anzahl der geraden Zahlen
+::: 
 
 
-## Klassen (prüfungsrelevant?)
+## Algorithmen: Maximum, Minimum
 
-## Algorithmen
+:::: columns
+::: column
 
-### Akkumulator
+```pseudo
+max = liste[0]
+FUER JEDES z IN liste
+    WENN z > max DANN
+        max = z
+    ENDE WENN
+ENDE FUER
+```
 
-### Zähler
+::: column
 
-### Maximum / Minimum
+```pseudo
+min = liste[0]
+FUER JEDES z IN liste
+    WENN z < min DANN
+        min = z
+    ENDE WENN
+ENDE FUER
+```
+
+:::
+::::
+
 
 ### Lineare Suche
 

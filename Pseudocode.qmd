@@ -205,20 +205,80 @@ BIS bedingung
 
 ## Ein-/Ausgabe
 
-## Variablen, Datentypen, Operationen
+:::: columns
+::: column
 
-### Zuweisung
+#### Eingabe
 
-### Arrays / Listen
+```pseudo
+LIES x
+```
 
-### Operatoren
+:::
+
+::: column
+
+```pseudo
+AUSGABE "Text"
+
+ausgabe("Text")
+```
+
+:::
+::::
 
 
-## Funktionen / Methoden
+## Variablen und Operationen
 
-### Methoden mit Rückgabe
 
-### Methoden ohne Rückgabe
+```pseudo
+# Zuweisung
+
+x = 5
+
+# Arrayzugriff
+
+liste[i]
+
+# Länge
+
+laenge(liste)
+
+# Modulo
+
+z MOD 2
+```
+
+
+## Methoden / Funktionen und Klassen
+
+#### Methode / Funktion
+
+```pseudo
+METHODE name(parameter): Rueckgabetyp
+    ...
+    RUECKGABE wert
+ENDE METHODE
+```
+<br>
+
+#### Klasse
+
+```pseudo
+KLASSE Name
+    attribute
+    methoden
+ENDE KLASSE
+```
+
+::: {.callout-tip}
+**Einrückungen beachten!**
+:::
+
+
+## Methoden mit Rückgabe
+
+## Methoden ohne Rückgabe
 
 
 ## Klassen (prüfungsrelevant?)

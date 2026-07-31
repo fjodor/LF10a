@@ -14,9 +14,17 @@ website:
 
 format:
   revealjs:
+    profile: public
     include-after-body: libs/backlink.html
     css: libs/styles.css
     logo: libs/_Images/logo-AFBB.svg
 
+profiles:
+  internal:
+    # zum Zeigen, mit Bildern
+  public:
+    # zum Veröffentlichen, ohne manche Bilder
+
 publish:
   gh-pages: true
+

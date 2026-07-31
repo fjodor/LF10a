@@ -27,7 +27,7 @@ Urheber: Geek and Poke, Oliver Widder
 :::
 :::
 
-::: {.content-visible when-profile="public"}
+::: {.content-hidden when-profile="internal"}
 ::: {style="font-size: 2rem"}
 Cartoon *The Art of Programming*  
 Geek and Code, Oliver Widder

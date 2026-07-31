@@ -1,14 +1,11 @@
 ---
-title: "Willkommen zu LF10a!"
+title: "Willkommen in LF10a!"
 title-slide-attributes:
   data-background-color: "#D7E6F4"
 subtitle: " "
 format:
   revealjs:
     theme: simple
-    logo: libs/_Images/logo-AFBB.svg
-    css: libs/styles.css
-    embed-resources: false
 execute:
   echo: false
   eval: true
@@ -19,13 +16,30 @@ callout-appearance: simple
 ---
 
 ## Willkommen in LF10a!
-
 `Benutzerschnittstellen gestalten und entwickeln`
 
-![The Art of Programming](libs/_Images/Art-of-Programming.jpg)
+::: {.content-visible when-profile="internal"}
+![](libs/_Images/Art-of-Programming.jpg)
+
+::: {style="font-size: 1rem"}
+Urheber: Geek and Poke, Oliver Widder  
+<https://devhumor.com/media/the-art-of-programming>
+:::
+:::
+
+::: {.content-visible when-profile="public"}
+::: {style="font-size: 2rem"}
+Cartoon *The Art of Programming*  
+Geek and Code, Oliver Widder
+
+<https://devhumor.com/media/the-art-of-programming>
+:::
+:::
 
 
 ## Willkommen in LF10a!
+
+`Benutzerschnittstellen gestalten und entwickeln`
 
 ### Themenübersicht
 
@@ -48,6 +62,10 @@ callout-appearance: simple
 ## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="text-align: center; font-size: 1rem;"}
+[©torange.biz](https://torange.biz/cup-coffee-30851) CC-BY 4.0
+:::
 
 ::: {style="color: green; text-align: center; font-size: 2.8rem"}
 **Viel Erfolg!**

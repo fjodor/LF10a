@@ -1,0 +1,451 @@
+[
+  {
+    "objectID": "Willkommen_Struktur.html#willkommen-in-lf10a",
+    "href": "Willkommen_Struktur.html#willkommen-in-lf10a",
+    "title": "Willkommen zu LF10a!",
+    "section": "Willkommen in LF10a!",
+    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\n\nThe Art of Programming",
+    "crumbs": [
+      "Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "Willkommen_Struktur.html#willkommen-in-lf10a-1",
+    "href": "Willkommen_Struktur.html#willkommen-in-lf10a-1",
+    "title": "Willkommen zu LF10a!",
+    "section": "Willkommen in LF10a!",
+    "text": "Willkommen in LF10a!\nThemenübersicht\n\nAlgorithmen, Pseudocode, Datenstrukturen\nSoftware-Anforderungen\nUML, Modellierung, Analyse- und Designverfahren\nWerkzeuge und Entwicklungsumgebungen\nBenutzeroberflächen: UI / UX, Usability",
+    "crumbs": [
+      "Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "Willkommen_Struktur.html#zeitplan-und-noten",
+    "href": "Willkommen_Struktur.html#zeitplan-und-noten",
+    "title": "Willkommen zu LF10a!",
+    "section": "Zeitplan und Noten",
+    "text": "Zeitplan und Noten\n\nKlassenarbeit am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen\nKlassenarbeit am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren\nSOL am 28. August, die am 29. September präsentiert und benotet wird\nPraxisprojekt vom 30. September bis 2. Oktober\nPräsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung\nAm Dienstag, 6. Oktober beginnt LF11a",
+    "crumbs": [
+      "Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "Willkommen_Struktur.html#section",
+    "href": "Willkommen_Struktur.html#section",
+    "title": "Willkommen zu LF10a!",
+    "section": "",
+    "text": "Viel Erfolg!",
+    "crumbs": [
+      "Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "LF10a",
+    "section": "",
+    "text": "Willkommen!\nHier sammle ich Unterlagen zu LF10a.\nDer Quellcode liegt hier: https://github.com/fjodor/LF10a",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
+    "href": "Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Strukturierte Analyse- und Designverfahren",
+    "text": "Strukturierte Analyse- und Designverfahren\nGehört zum Prüfungsteil: Konzipieren und Umsetzen von kundenspezifischen Softwareanwendungen\n\nTop-down-Entwurf\nBottom-up-Entwurf\nModularisierung"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#top-down-entwurf",
+    "href": "Analyse-Designverfahren.html#top-down-entwurf",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Top-down-Entwurf",
+    "text": "Top-down-Entwurf\n\nBeginn mit Gesamtsystem\nschrittweise Zerlegung in kleinere Teilsysteme und Module\nMotto: Divide and Conquer\n\nWann geeignet?\n\nNeue Systeme, bei denen das Gesamtsystem zuerst stehen muss"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
+    "href": "Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Top-down-Entwurf: Kernaussagen",
+    "text": "Top-down-Entwurf: Kernaussagen\n\nStart beim Gesamtproblem, dann Zerlegung in Teilprobleme\nHierarchische Struktur: Hauptprogramm - Unterprogramme - Einzelfunktionen\nGut geeignet für komplett neue Systeme ohne bestehende Bausteine\nFrühe Sicht auf die Gesamtarchitektur"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
+    "href": "Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Top-down-Entwurf: Wichtige Begriffe",
+    "text": "Top-down-Entwurf: Wichtige Begriffe\n\nDivide and Conquer: Teile und Herrsche: Problem in Teilprobleme zerlegen\nVerfeinerung: schrittweise Detaillierung der Lösung\nHierarchie: Ober-/Unterordnung der Module"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#top-down-entwurf-beispiel",
+    "href": "Analyse-Designverfahren.html#top-down-entwurf-beispiel",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Top-down-Entwurf: Beispiel",
+    "text": "Top-down-Entwurf: Beispiel\n\nProjektleiter plant ERP-System: Enterprise Resource Planning System\nGesamtsystem wird in Module aufgeteilt\nModule werden weiter zerlegt"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#bottom-up-entwurf",
+    "href": "Analyse-Designverfahren.html#bottom-up-entwurf",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Bottom-up-Entwurf",
+    "text": "Bottom-up-Entwurf\n\nBeginn mit kleinsten, elementaren Bausteinen (Module, Funktionen)\nSchrittweises Zusammensetzen zu größeren Einheiten\n\nWann geeignet?\n\nWenn bereits wiederverwendbare Komponenten existieren"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
+    "href": "Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Bottom-up-Entwurf: Kernaussagen",
+    "text": "Bottom-up-Entwurf: Kernaussagen\n\nStart bei Detailkomponenten, dann Zusammenbau zum Gesamtsystem\nGut geeignet, wenn wiederverwendbare Bausteine bereits vorhanden sind\nEinzelne Module können früh getestet werden\nRisiko: Gesamtergebnis passt möglicherweise nicht zusammen"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
+    "href": "Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Bottom-up-Entwurf: Wichtige Begriffe",
+    "text": "Bottom-up-Entwurf: Wichtige Begriffe\n\nModul: in sich geschlossene Einheit mit definierter Aufgabe\nWiederverwendung: bestehende Module in neuen Kontext einsetzen\nIntegration: Zusammenfügen von Modulen zu einem größeren System"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
+    "href": "Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Bottom-up-Entwurf: Beispiel",
+    "text": "Bottom-up-Entwurf: Beispiel\n\nEntwickler baut zuerst Login-Komponente, Datenbankzugriffs-Schicht und PDF-Export-Funktion\nAnschließend fügt er die Module zu einer Anwendung zusammen"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
+    "href": "Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Top-down vs. Bottom-up: Vergleich",
+    "text": "Top-down vs. Bottom-up: Vergleich\n\n\n\n\n\nKriterium\n\n\n\n\nStartpunkt\n\n\nRichtung\n\n\nEignung   \n\n\nGesamtüberblick\n\n\nTestbarkeit einzelner Module\n\n\nRisiko   \n\n\nBeispiel\n\n\n\n\n\n\n\nTop-down\n\n\n\n\nGesamtsystem\n\n\nVom Grossen zum Kleinen\n\n\nNeues System, keine Vorarbeiten\n\n\nFrüh vorhanden\n\n\nSpät (erst wenn Module implementiert)\n\n\nDetail-Probleme werden spät entdeckt\n\n\nNeues ERP-System planen\n\n\n\n\n\n\n\nBottom-up\n\n\n\n\nEinzelne Bausteine\n\n\nVom Kleinen zum Grossen\n\n\nBestehende Module vorhanden\n\n\nErst spät sichtbar\n\n\nFrüh (Module einzeln testbar)\n\n\nGesamtkonzept passt evtl. nicht\n\n\nBestehende Bibliotheken integrieren"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#kombination-meet-in-the-middle",
+    "href": "Analyse-Designverfahren.html#kombination-meet-in-the-middle",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Kombination: Meet-in-the-Middle",
+    "text": "Kombination: Meet-in-the-Middle\nIn der Praxis werden Top-down und Bottom-up oft kombiniert:\n\nTop-down: Architektur des Gesamtsystems wird definiert\nBottom-up: Vorhandene Bibliotheken und Module werden eingebunden\nDer Treffpunkt in der Mitte ergibt die Integrationsebene"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#modularisierung",
+    "href": "Analyse-Designverfahren.html#modularisierung",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Modularisierung",
+    "text": "Modularisierung\n\nSystem wird in eigenständige, austauschbare Module zerlegt\nJedes Modul hat eine klar definierte Aufgabe und kommuniziert über definierte Schnittstellen mit anderen Modulen\nZiel:\n\nhohe Kohäsion innerhalb der Module\ngeringe Kopplung zwischen den Modulen"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#modularisierung-kernaussagen",
+    "href": "Analyse-Designverfahren.html#modularisierung-kernaussagen",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Modularisierung: Kernaussagen",
+    "text": "Modularisierung: Kernaussagen\n\n\nJedes Modul erfüllt genau eine klar abgegrenzte Aufgabe\nModule sind über Schnittstellen (Interfaces) verbunden\nÄnderungen in einem Modul sollen keine Auswirkungen auf andere Module haben\nZwei zentrale Qualitätsmerkmale: Kohäsion und Kopplung\n\n\n\n\n\n\n\n\n\n\n\nEigenschaft\nDefinition\n\n\n\n\nKohäsion\nWie stark die Bestandteile eines Moduls inhaltlich zusammengehören\n\n\nKopplung\nWie stark Module voneinander abhängig sind\n\n\n\n\n\n\n\nZiel\n\n\n\n\nHoch: alles in einem Modul gehört thematisch zusammen\n\n\nNiedrig: Module sollen unabhängig sein"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
+    "href": "Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Modularisierung: Wichtige Begriffe",
+    "text": "Modularisierung: Wichtige Begriffe\n\nSchnittstelle (Interface): definierter Ein-/ Ausgabekanal zwischen Modulen\nInformation Hiding: interne Details eines Moduls sind von außen nicht sichtbar\nSeparation of Concerns: Trennung von Zuständigkeiten"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#modularisierung-vorteile",
+    "href": "Analyse-Designverfahren.html#modularisierung-vorteile",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Modularisierung: Vorteile",
+    "text": "Modularisierung: Vorteile\n\nBessere Wartbarkeit: Fehler lokal beheben\nBessere Testbarkeit: Module einzeln testbar\nBessere Wiederverwendbarkeit: Module in anderen Projekten nutzbar\nArbeitsteilung im Team: jedes Teammitglied bearbeitet ein Modul"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
+    "href": "Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Modularisierung: Kriterien für gute Module",
+    "text": "Modularisierung: Kriterien für gute Module\n\n\n\n\n\n\n\n\n\nKriterium\nGut\nSchlecht\n\n\n\n\nKohäsion\nAlle Funktionen eines Moduls gehoeren zum gleichen Thema\nEin Modul macht Login, PDF-Export und Datenbankzugriff\n\n\nKopplung\nModule kommunizieren nur über definierte Schnittstellen\nEin Modul greift direkt auf interne Variablen eines anderen Moduls zu\n\n\nGröße\nÜberschaubarer Umfang (eine klare Aufgabe)\nRiesiges Modul mit hunderten Funktionen\n\n\nNamensgebung\nSprechender Name: BenutzerAuthentifizierung\nUnklarer Name: Modul_A"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#design-prüfungstipps",
+    "href": "Analyse-Designverfahren.html#design-prüfungstipps",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Design: Prüfungstipps",
+    "text": "Design: Prüfungstipps\n\nSzenario lesen und Top-down oder Bottom-up empfehlen mit Begründung\nKohaesion und Kopplung definieren und bewerten\nVorteile der Modularisierung nennen (mindestens drei)\nZerlegung eines Problems in Module darstellen (Baumdiagramm)\n\n\n\n\n\n\n\n\nHäufige Fehler\nKorrektur\n\n\n\n\nTop-down und Bottom-up verwechselt\nTop-down = vom Ganzen zum Detail,  Bottom-up = vom Detail zum Ganzen\n\n\nHohe Kopplung als positiv bewertet\nHohe Kopplung = schlecht (starke Abhaengigkeit), niedrig = gut\n\n\nKohäsion mit Kopplung verwechselt\nKohäsion = innerhalb eines Moduls,  Kopplung = zwischen Modulen\n\n\nModularisierung nur als Aufteilung in Dateien verstanden\nEs geht um fachliche Trennung mit definierten Schnittstellen"
+  },
+  {
+    "objectID": "Analyse-Designverfahren.html#vielen-dank",
+    "href": "Analyse-Designverfahren.html#vielen-dank",
+    "title": "Strukturierte Analyse- und Designverfahren",
+    "section": "Vielen Dank!",
+    "text": "Vielen Dank!\n\n\nViel Erfolg!"
+  },
+  {
+    "objectID": "Pseudocode.html#wenn-struktur",
+    "href": "Pseudocode.html#wenn-struktur",
+    "title": "Pseudocode",
+    "section": "WENN-Struktur",
+    "text": "WENN-Struktur\n\n\nMinimal\nWENN bedingung DANN\n    anweisungen\nENDE WENN\n\nBeispiel\n\n\nAlternativ-Bedingung\nWENN bedingung DANN\n    anweisungen\nSONST WENN andere_bedingung DANN\n    anweisungen\nENDE WENN\n\nBeispiel"
+  },
+  {
+    "objectID": "Pseudocode.html#wenn-alternativ-bedingungen",
+    "href": "Pseudocode.html#wenn-alternativ-bedingungen",
+    "title": "Pseudocode",
+    "section": "WENN: Alternativ-Bedingungen",
+    "text": "WENN: Alternativ-Bedingungen\n\n\nAlternativ-Bedingungen\nWENN bedingung DANN\n    anweisungen\nSONST WENN andere_bedingung DANN\n    anweisungen\nSONST\n    anweisungen\nENDE WENN\n\nBeispiel\n\n\n\nDANN ist Pflicht.\nSONST WENN wird ausgeschrieben (nicht etwa ELSE IF).\nENDE WENN ist Pflicht - auch bei kurzen Blöcken!"
+  },
+  {
+    "objectID": "Pseudocode.html#für-schleifen-zählschleife",
+    "href": "Pseudocode.html#für-schleifen-zählschleife",
+    "title": "Pseudocode",
+    "section": "FÜR-Schleifen (Zählschleife)",
+    "text": "FÜR-Schleifen (Zählschleife)\n\n\nStandard-Variante\nFUER i VON start BIS ende\n    anweisungen\nENDE FUER\n\nBeispiel"
+  },
+  {
+    "objectID": "Pseudocode.html#für-schleifen-schrittweite",
+    "href": "Pseudocode.html#für-schleifen-schrittweite",
+    "title": "Pseudocode",
+    "section": "FÜR-Schleifen: Schrittweite",
+    "text": "FÜR-Schleifen: Schrittweite\nSchrittweite\nFUER i VON 1 BIS 10 IN SCHRITTEN VON 2\n    anweisungen\nENDE FUER\n\nBeispiel"
+  },
+  {
+    "objectID": "Pseudocode.html#für-schleifen-abwärts",
+    "href": "Pseudocode.html#für-schleifen-abwärts",
+    "title": "Pseudocode",
+    "section": "FÜR-Schleifen: Abwärts",
+    "text": "FÜR-Schleifen: Abwärts\n\n\nRückwärts-Zähler\nFUER i VON 10 BIS 1\n    anweisungen\nENDE FUER\n\nBeispiel"
+  },
+  {
+    "objectID": "Pseudocode.html#fuer-jedes-for-each",
+    "href": "Pseudocode.html#fuer-jedes-for-each",
+    "title": "Pseudocode",
+    "section": "FUER JEDES (For-Each)",
+    "text": "FUER JEDES (For-Each)\nFUER JEDES element IN sammlung\n    anweisungen\nENDE FUER\n\nBeispiel"
+  },
+  {
+    "objectID": "Pseudocode.html#solange-while",
+    "href": "Pseudocode.html#solange-while",
+    "title": "Pseudocode",
+    "section": "SOLANGE (While)",
+    "text": "SOLANGE (While)\nSOLANGE bedingung\n    anweisungen\nENDE SOLANGE\n\nBeispiel"
+  },
+  {
+    "objectID": "Pseudocode.html#wiederhole-bis-do-until",
+    "href": "Pseudocode.html#wiederhole-bis-do-until",
+    "title": "Pseudocode",
+    "section": "WIEDERHOLE BIS (Do-Until)",
+    "text": "WIEDERHOLE BIS (Do-Until)\nWIEDERHOLE\n    anweisungen\nBIS bedingung\nBedingung steht unten!\n\nBeispiel"
+  },
+  {
+    "objectID": "Pseudocode.html#ein-ausgabe",
+    "href": "Pseudocode.html#ein-ausgabe",
+    "title": "Pseudocode",
+    "section": "Ein-/Ausgabe",
+    "text": "Ein-/Ausgabe\n\n\nEingabe\nLIES x\n\nAUSGABE \"Text\"\n\nausgabe(\"Text\")"
+  },
+  {
+    "objectID": "Pseudocode.html#variablen-und-operationen",
+    "href": "Pseudocode.html#variablen-und-operationen",
+    "title": "Pseudocode",
+    "section": "Variablen und Operationen",
+    "text": "Variablen und Operationen\n# Zuweisung\n\nx = 5\n\n# Arrayzugriff\n\nliste[i]\n\n# Länge\n\nlaenge(liste)\n\n# Modulo\n\nz MOD 2"
+  },
+  {
+    "objectID": "Pseudocode.html#methoden-funktionen-und-klassen",
+    "href": "Pseudocode.html#methoden-funktionen-und-klassen",
+    "title": "Pseudocode",
+    "section": "Methoden / Funktionen und Klassen",
+    "text": "Methoden / Funktionen und Klassen\nMethode / Funktion\nMETHODE name(parameter): Rueckgabetyp\n    ...\n    RUECKGABE wert\nENDE METHODE\n\nKlasse\nKLASSE Name\n    attribute\n    methoden\nENDE KLASSE\n\n\n\n\n\n\nEinrückungen beachten!"
+  },
+  {
+    "objectID": "Pseudocode.html#methoden-ohne-rückgabe",
+    "href": "Pseudocode.html#methoden-ohne-rückgabe",
+    "title": "Pseudocode",
+    "section": "Methoden ohne Rückgabe?",
+    "text": "Methoden ohne Rückgabe?"
+  },
+  {
+    "objectID": "Pseudocode.html#algorithmen-akkumulator",
+    "href": "Pseudocode.html#algorithmen-akkumulator",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Akkumulator",
+    "text": "Algorithmen: Akkumulator\nsumme = 0\nFUER JEDES z IN zahlen\n    summe = summe + z\nENDE FUER\nRUECKGABE summe"
+  },
+  {
+    "objectID": "Pseudocode.html#algorithmen-zähler",
+    "href": "Pseudocode.html#algorithmen-zähler",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Zähler",
+    "text": "Algorithmen: Zähler\nanzahl = 0\nFUER JEDES z IN zahlen\n    WENN z MOD 2 == 0 DANN\n        anzahl = anzahl + 1\n    ENDE WENN\nENDE FUER\nRUECKGABE anzahl\nZählt?\n\n… Anzahl der geraden Zahlen"
+  },
+  {
+    "objectID": "Pseudocode.html#algorithmen-maximum-minimum",
+    "href": "Pseudocode.html#algorithmen-maximum-minimum",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Maximum, Minimum",
+    "text": "Algorithmen: Maximum, Minimum\n\n\nmax = liste[0]\nFUER JEDES z IN liste\n    WENN z &gt; max DANN\n        max = z\n    ENDE WENN\nENDE FUER\n\nmin = liste[0]\nFUER JEDES z IN liste\n    WENN z &lt; min DANN\n        min = z\n    ENDE WENN\nENDE FUER"
+  },
+  {
+    "objectID": "Pseudocode.html#algorithmen-lineare-suche",
+    "href": "Pseudocode.html#algorithmen-lineare-suche",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Lineare Suche",
+    "text": "Algorithmen: Lineare Suche\ngefunden = FALSCH\nFUER JEDES z IN liste\n    WENN z == gesucht DANN\n        gefunden = WAHR\n    ENDE WENN\nENDE FUER"
+  },
+  {
+    "objectID": "Pseudocode.html#algorithmen-bubble-sort",
+    "href": "Pseudocode.html#algorithmen-bubble-sort",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Bubble Sort",
+    "text": "Algorithmen: Bubble Sort\nFUER i VON 0 BIS laenge(liste)-1\n    FUER j VON 0 BIS laenge(liste)-2\n        WENN liste[j] &gt; liste[j+1] DANN\n            temp = liste[j]\n            liste[j] = liste[j+1]\n            liste[j+1] = temp\n        ENDE WENN\n    ENDE FUER\nENDE FUER"
+  },
+  {
+    "objectID": "Pseudocode.html#passwortprüfung",
+    "href": "Pseudocode.html#passwortprüfung",
+    "title": "Pseudocode",
+    "section": "Passwortprüfung",
+    "text": "Passwortprüfung\nLIES passwort\nWENN laenge(passwort) &lt; 8 DANN\n    AUSGABE \"Passwort zu kurz\"\nSONST WENN NICHT enthaeltZiffer(passwort) DANN\n    AUSGABE \"Keine Ziffer enthalten\"\nSONST\n    AUSGABE \"Passwort akzeptiert\"\nENDE WENN"
+  },
+  {
+    "objectID": "Pseudocode.html#ihk-prüfungsfallen",
+    "href": "Pseudocode.html#ihk-prüfungsfallen",
+    "title": "Pseudocode",
+    "section": "IHK-Prüfungsfallen",
+    "text": "IHK-Prüfungsfallen\n\nFehlende Blockenden\nENDE WENN, ENDE FUER, ENDE SOLANGE, ENDE METHODE\nFalsche Operatoren\n= Zuweisung\n== Vergleich\nKeine Englischsprachigen Keywords\nKEIN if, else, while, for, return\nKeine Klammern { } nicht verwenden\nKeine ( ) bei Kontrollstrukturen"
+  },
+  {
+    "objectID": "Pseudocode.html#ihk-stilregeln",
+    "href": "Pseudocode.html#ihk-stilregeln",
+    "title": "Pseudocode",
+    "section": "IHK Stilregeln",
+    "text": "IHK Stilregeln\n\nEinrückung empfohlen\nSchlüsselwörter GROß schreiben\nVariablennamen klein schreiben\nkeine unnötigen Leerzeilen\nKommentare sparsam einsetzen\nkeine Sprache nachahmen! (kein Python-Stil, kein Java-Stil)"
+  },
+  {
+    "objectID": "Pseudocode.html#vielen-dank",
+    "href": "Pseudocode.html#vielen-dank",
+    "title": "Pseudocode",
+    "section": "Vielen Dank!",
+    "text": "Vielen Dank!\n\n\nViel Erfolg mit Pseudocode!"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#lernziele",
+    "href": "Softwareanforderungen.html#lernziele",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Lernziele",
+    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielnen erkennen können"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
+    "href": "Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Funktionale vs. Nichtfunktionale Anforderungen",
+    "text": "Funktionale vs. Nichtfunktionale Anforderungen\n\n\n\n\n\n\n\n\n\nMerkmal\nFunktionale Anforderungen\nNicht-funktionale Anforderungen\n\n\n\n\nDefinition\nWAS das System tun soll\nWIE GUT das System arbeiten soll\n\n\nBeispiel\n“Benutzer kann sich einloggen”\n“Login dauert max. 2 Sekunden”\n\n\nPrüfung\nFunktionstest\nLeistungstest, Review\n\n\nQuelle\nFachliche Anforderungen\nQualitätsanforderungen\n\n\nDokumentation\nUse Cases, User Stories\nQualitätsszenarien"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
+    "href": "Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Software-Qualitätsmerkmale: ISO 25010",
+    "text": "Software-Qualitätsmerkmale: ISO 25010\n\n\n\nNr.\nQualitätsmerkmal\nenglisch\n\n\n\n\n1\nFunktionale Eignung\nFunctional Suitability\n\n\n2\nLeistungseffizienz\nPerformance Efficiency\n\n\n3\nKompatibilität\nCompatibility\n\n\n4\nBenutzbarkeit\nUsability\n\n\n5\nZuverlässigkeit\nReliability\n\n\n6\nSicherheit\nSecurity\n\n\n7\nWartbarkeit\nMaintainability\n\n\n8\nÜbertragbarkeit\nPortability"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
+    "href": "Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q1: Funktionalität (Functional Suitability)",
+    "text": "ISO 25010 - Q1: Funktionalität (Functional Suitability)\nDefinition: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nFunktionale Vollständigkeit\nAlle geforderten Funktionen vorhanden\nAlle Use Cases implementiert\n\n\nFunktionale Korrektheit\nErgebnisse sind richtig und präzise\nBerechnungen liefern korrekte Werte\n\n\nFunktionale Angemessenheit\nFunktionen unterstützen die Aufgaben\nKeine überflüssigen Features\n\n\n\nMessgrößen: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
+    "href": "Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q2: Effizienz (Performance Efficiency)",
+    "text": "ISO 25010 - Q2: Effizienz (Performance Efficiency)\nDefinition: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nZeitverhalten\nAntwort- und Verarbeitungszeiten\nSeitenladezeit &lt; 3 Sekunden\n\n\nRessourcenverbrauch\nCPU, RAM, Speicherplatz, Bandbreite\nMax. 512 MB RAM-Verbrauch\n\n\nKapazität\nMaximale Grenzen des Systems\n10.000 gleichzeitige Benutzer\n\n\n\nMessgrößen: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
+    "href": "Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 – Q3: Kompatibilität (Compatibility)",
+    "text": "ISO 25010 – Q3: Kompatibilität (Compatibility)\nDefinition: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nKoexistenz\nGemeinsamer Betrieb ohne gegenseitige Beeinträchtigung\nZwei Anwendungen teilen sich CPU/RAM ohne Performance‑Einbrüche\n\n\nInteroperabilität\nFähigkeit zum Informationsaustausch und zur Nutzung der ausgetauschten Daten\nCRM kommuniziert fehlerfrei mit ERP‑System\n\n\n\nMessgrößen: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
+    "href": "Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q4: Benutzbarkeit (Usability)",
+    "text": "ISO 25010 - Q4: Benutzbarkeit (Usability)\nDefinition: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nErlernbarkeit\nWie schnell kann ein neuer Benutzer das System bedienen?\nEinarbeitungszeit &lt; 1 Tag\n\n\nBedienbarkeit\nWie einfach lässt sich das System steuern?\nMax. 3 Klicks bis zur Zielfunktion\n\n\nFehlertoleranz (UI)\nWie gut wird der Benutzer vor Fehlern geschützt?\nValidierung bei Formulareingaben\n\n\nÄsthetik\nAnsprechendes, konsistentes Design\nEinheitliches Farbschema, klare Struktur\n\n\nBarrierefreiheit\nZugänglichkeit für Menschen mit Einschränkungen\nScreenreader-Kompatibilität, Kontraste\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
+    "href": "Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)",
+    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nReife\nZuverlässigkeit im Normalbetrieb\nMTBF &gt; 1000h\n\n\nVerfügbarkeit\nSystem ist einsatzbereit wenn benötigt\n99,9% Verfügbarkeit (SLA)\n\n\nFehlertoleranz\nFunktioniert trotz Fehlern weiter\nGraceful Degradation\n\n\nWiederherstell-barkeit\nDaten und Zustand nach Ausfall wiederherstellen\nRecovery Time &lt; 5 min\n\n\n\nSchlüsselkennzahlen:\n\nMTBF = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)\nMTTR = Mean Time To Repair (Mittlere Reparaturzeit)\nVerfügbarkeit = MTBF / (MTBF + MTTR)"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
+    "href": "Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 – Q6: Sicherheit (Security)",
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nVertraulichkeit\nSchutz vor unbefugtem Zugriff\nDaten nur für autorisierte Rollen sichtbar\n\n\nIntegrität\nSchutz vor unbefugter oder unbeabsichtigter Änderung\nHash‑Prüfungen verhindern Manipulation\n\n\nNichtabstreit-barkeit\nAktionen sind eindeutig zuordenbar\nDigitale Signaturen für Transaktionen\n\n\nAuthentizität\nIdentitäten und Daten sind echt\nMFA stellt sicher, dass der Nutzer korrekt identifiziert ist\n\n\nZugriffskontrolle\nAutorisierte Nutzung von Funktionen und Daten\nRollenbasierte Berechtigungen im Backend"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
+    "href": "Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 – Q6: Sicherheit (Security)",
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition:\nGrad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.\n\nMessgrößen:\n\nAnzahl Sicherheitsvorfälle\nPen‑Test‑Ergebnisse\nAbdeckung von Sicherheitsanforderungen\nMFA‑Quote"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
+    "href": "Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nAenderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
+    "href": "Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition:\nGrad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\nMessgrößen:\n\nZyklomatische Komplexität\nCode-Coverage\nCoupling / Cohesion-Metriken"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
+    "href": "Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q8: Übertragbarkeit (Portability)",
+    "text": "ISO 25010 - Q8: Übertragbarkeit (Portability)\nDefinition: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nAnpassbarkeit\nAn verschiedene Umgebungen anpassbar\nKonfigurationsdateien statt Hardcoding\n\n\nInstallierbarkeit\nEinfache Installation / Deinstallation\nSetup-Wizard, Paketmanager\n\n\nAustauschbarkeit\nKann andere Software ersetzen\nStandardisierte Schnittstellen\n\n\n\nMessgrößen: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#weitere-normen",
+    "href": "Softwareanforderungen.html#weitere-normen",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Weitere Normen",
+    "text": "Weitere Normen\n\n\n\nNorm\nInhalt\n\n\n\n\nISO 25010\nQualitätsmodell für Softwareprodukte\n\n\nIEEE 830\nEmpfehlungen für Softwareanforderungsspezifikationen\n\n\nISO 25030\nQualitätsanforderungen\n\n\nISO 9241\nErgonomie der Mensch-System-Interaktion"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
+    "href": "Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Anforderungen messbar formulieren: SMART",
+    "text": "Anforderungen messbar formulieren: SMART\nAnforderungen müssen messbar sein, damit sie prüfbar werden.\nSMART-Kriterien fuer Anforderungen:\n\nSpezifisch – klar und eindeutig formuliert\nMessbar – quantifizierbar mit Metriken\nAkzeptiert – vom Stakeholder abgenommen\nRealistisch – technisch umsetzbar\nTerminiert – zeitlich eingrenzbar"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#smart-beispiele",
+    "href": "Softwareanforderungen.html#smart-beispiele",
+    "title": "Softwareanforderungen erfassen",
+    "section": "SMART: Beispiele",
+    "text": "SMART: Beispiele\n\n\n\n\n\nSchlecht (vage)\n\n\n\n\n“Das System soll schnell sein”   \n\n\n“Einfache Bedienung”   \n\n\n“Hohe Verfügbarkeit”   \n\n\n“Sicher”   \n\n\n“Wartbar”\n\n\n\n\n\n\n\nGut (messbar)\n\n\n\n\n“Die Antwortzeit beträgt max. 2 Sekunden bei 1000 Nutzern”\n\n\n“Ein neuer Benutzer kann die Kernaufgabe in &lt; 5 Minuten erledigen”\n\n\n“Verfügbarkeit &gt;= 99,9% pro Monat (max. 43 Min. Downtime)”\n\n\n“Authentifizierung per 2FA, Verschlüsselung mit AES-256”\n\n\n“Zyklomatische Komplexität pro Methode &lt; 10”"
+  },
+  {
+    "objectID": "Softwareanforderungen.html#prüfungstipps",
+    "href": "Softwareanforderungen.html#prüfungstipps",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Prüfungstipps",
+    "text": "Prüfungstipps\n\n\n\n\n\n\n\nHäufige Fehler\nKorrektur\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz und Effektivität verwechseln\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc."
+  },
+  {
+    "objectID": "Softwareanforderungen.html#vielen-dank",
+    "href": "Softwareanforderungen.html#vielen-dank",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Vielen Dank!",
+    "text": "Vielen Dank!\n\n\nViel Erfolg!"
+  }
+]

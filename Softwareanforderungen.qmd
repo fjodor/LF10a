@@ -161,7 +161,7 @@ Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gem
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
-| Modularität | Aenderung einer Komponente hat minimale Auswirkung | Lose Kopplung zwischen Modulen |
+| Modularität | Änderung einer Komponente hat minimale Auswirkung | Lose Kopplung zwischen Modulen |
 | Wiederverwendbarkeit | Komponenten können in anderen Systemen genutzt werden | Bibliotheken, Microservices |
 | Analysierbarkeit | Wie leicht kann man Fehlerursachen finden? | Aussagekräftige Logs, klarer Code |
 | Modifizierbarkeit | Wie einfach sind Änderungen umsetzbar? | Saubere Architektur, Design Patterns |
@@ -252,16 +252,20 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 
 | Häufige Fehler | Korrektur |
 |--------|-----------|
-| Funktionale mit nicht-funktionalen Anforderungen verwechseln | Funktional = WAS, Nicht-funktional = WIE GUT |
+| Funktionale mit nicht-funktionalen Anforderungen verwechseln | Funktional = WAS, <br>Nicht-funktional = WIE GUT |
 | Effizienz und Effektivität verwechseln | Effizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen |
 | Wartbarkeit und Änderbarkeit gleichsetzen | Wartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt |
 | Zuverlässigkeit nur als "läuft ohne Fehler" verstehen | Umfasst auch Fehlertoleranz und Wiederherstellbarkeit |
 | Benutzbarkeit mit "schönem Design" gleichsetzen | Umfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc. |
 
 
-## Vielen Dank!
+## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="text-align: center; font-size: 1rem;"}
+[©torange.biz](https://torange.biz/cup-coffee-30851) CC-BY 4.0
+:::
 
 ::: {style="color: green; text-align: center; font-size: 2.8rem"}
 **Viel Erfolg!**

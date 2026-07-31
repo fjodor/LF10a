@@ -34,7 +34,7 @@
     "href": "Willkommen_Struktur.html#section",
     "title": "Willkommen in LF10a!",
     "section": "",
-    "text": "©torange.biz CC-BY 4.0\n\nViel Erfolg!",
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
     "crumbs": [
       "Willkommen zu LF10a - Themen und Zeitplan"
     ]
@@ -397,7 +397,7 @@
     "href": "Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
-    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nAenderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%"
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nÄnderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%"
   },
   {
     "objectID": "Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
@@ -442,10 +442,10 @@
     "text": "Prüfungstipps\n\n\n\n\n\n\n\nHäufige Fehler\nKorrektur\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz und Effektivität verwechseln\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc."
   },
   {
-    "objectID": "Softwareanforderungen.html#vielen-dank",
-    "href": "Softwareanforderungen.html#vielen-dank",
+    "objectID": "Softwareanforderungen.html#section",
+    "href": "Softwareanforderungen.html#section",
     "title": "Softwareanforderungen erfassen",
-    "section": "Vielen Dank!",
-    "text": "Vielen Dank!\n\n\nViel Erfolg!"
+    "section": "",
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
   }
 ]

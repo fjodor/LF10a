@@ -1,0 +1,54 @@
+---
+title: "Willkommen zu LF10a!"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: " "
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+    embed-resources: false
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+## Willkommen in LF10a!
+
+`Benutzerschnittstellen gestalten und entwickeln`
+
+![The Art of Programming](libs/_Images/Art-of-Programming.jpg)
+
+
+## Willkommen in LF10a!
+
+### Themenübersicht
+
+- Algorithmen, Pseudocode, Datenstrukturen
+- Software-Anforderungen
+- UML, Modellierung, Analyse- und Designverfahren
+- Werkzeuge und Entwicklungsumgebungen
+- Benutzeroberflächen: UI / UX, Usability
+
+
+## Zeitplan und Noten
+
+- **Klassenarbeit** am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen
+- **Klassenarbeit** am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren
+- **SOL** am 28. August, die am 29. September präsentiert und benotet wird
+- **Praxisprojekt** vom 30. September bis 2. Oktober
+- Präsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung
+- Am Dienstag, 6. Oktober beginnt LF11a
+
+## <!-- -->
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg!**
+:::

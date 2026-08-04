@@ -1,0 +1,96 @@
+---
+title: "Software-Ergonomie"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: ""
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+    embed-resources: false
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+***IHK-Prüfung-Lernmaterial 3.4.13***
+
+## Lernziele
+
+- Grundsätze der Softwareergonomie nach **DIN EN ISO 9241** kennen, anwenden und in Pruefungsszenarien bewerten können
+- Dazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien
+
+
+## DIN EN ISO 9241 – Ergonomie der Mensch-System-Interaktion
+
+Die Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsaetze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:
+
+| Nr. | Grundsatz | Bedeutung | Beispiel |
+|-----|-----------|-----------|----------|
+| 1 | Aufgabenangemessenheit | Software unterstützt die Aufgabe ohne unnötige Schritte | Bestellformular zeigt nur relevante Felder |
+| 2 | Selbstbeschreibungsfähigkeit | Jeder Schritt ist verständlich, ohne Handbuch | Tooltips, Hilfetexte, klare Beschriftungen |
+| 3 | Erwartungskonformität | Software verhält sich so, wie der Benutzer es erwartet | "Speichern"-Button oben links, Abbruch mit ESC |
+| 4 | Fehlertoleranz | Fehlerhafte Eingaben fuehren nicht zu Datenverlust | Rückgaengig-Funktion, Validierung vor Absenden |
+| 5 | Steuerbarkeit | Benutzer kann Ablauf und Geschwindigkeit steuern | Zurueck-Button, Abbruch-Moeglichkeit, Undo |
+| 6 | Individualisierbarkeit | Software laesst sich an Benutzerbedürfnisse anpassen | Schriftgrösse, Farbschema, Dashboard-Layout |
+| 7 | Lernförderlichkeit | Software unterstützt das Erlernen der Bedienung | Tutorials, Assistenten, kontextsensitive Hilfe |
+
+
+## Usability (Gebrauchstauglichkeit)
+
+**Definition (DIN EN ISO 9241-11):** Das Ausmass, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele **effektiv**, **effizient** und **zufriedenstellend** zu erreichen.
+
+| Kriterium | Bedeutung | Beispiel |
+|-----------|-----------|----------|
+| Effektivität | Aufgabe wird korrekt und vollständig erledigt | Bestellung wird fehlerfrei abgeschlossen |
+| Effizienz | Aufgabe wird mit minimalem Aufwand erledigt | Wenige Klicks bis zum Ziel |
+| Zufriedenheit | Benutzer hat positives Nutzungserlebnis | Klare Rückmeldungen, angenehmes Design |
+
+
+## Barrierefreiheit (Accessibility)
+
+**Definition:** Software muss so gestaltet sein, dass sie auch von Menschen mit Behinderungen genutzt werden kann.
+
+**Regelwerke:**
+
+| Standard | Beschreibung | Geltungsbereich |
+|----------|-------------|-----------------|
+| WCAG 2.1 | Web Content Accessibility Guidelines (W3C) | International, Webinhalte |
+| BITV 2.0 | Barrierefreie-Informationstechnik-Verordnung | Deutschland, oeffentliche Stellen |
+| DIN EN ISO 9241-171 | Leitlinien fuer barrierefreie Software | International, allgemein |
+
+
+## WCAG-Prinzipien (POUR)
+
+1. **Perceivable (Wahrnehmbar):** Textalternativen fuer Bilder, Untertitel fuer Videos
+2. **Operable (Bedienbar):** Tastaturnavigation, ausreichend Zeit fuer Eingaben
+3. **Understandable (Verstaendlich):** Klare Sprache, konsistente Navigation
+4. **Robust:** Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)
+
+
+## WCAG: Praktische Maßnahmen
+
+- Alt-Texte fuer Bilder
+- Kontrastverhaeeltnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)
+- Tastaturbedienbarkeit aller Funktionen
+- Formularbeschriftungen mit `<label>`-Elementen
+- Skip-Links fuer Screenreader
+- Keine reinen Farb-Informationen (z.B. "rote Felder sind Pflichtfelder")
+
+
+## <!-- -->
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="text-align: center; font-size: 1rem;"}
+[©torange.biz](https://torange.biz/cup-coffee-30851) CC-BY 4.0
+:::
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg!**
+:::

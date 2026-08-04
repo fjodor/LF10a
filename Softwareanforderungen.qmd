@@ -259,6 +259,37 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 | Benutzbarkeit mit "schönem Design" gleichsetzen | Umfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc. |
 
 
+## User Stories
+
+- kurze, informelle Beschreibung einer Anforderung **aus Benutzersicht**
+- wird vor allem in agilen Projekten verwendet
+
+#### Standardformat
+
+::: fragment
+
+> Als [Rolle] möchte ich [Funktion], damit [Nutzen].
+
+:::
+
+#### Beispiel
+
+::: fragment
+
+> Als Sachbearbeiter möchte ich Rechnungen nach Datum filtern,  
+> damit ich offene Posten schneller finde.
+
+:::
+
+
+## User Stories
+
+User Stories werden durch **Akzeptanzkriterien** ersetzt.
+
+Diese ersetzen nicht das Lastenheft,  
+sondern ergänzen es **in agilen Projekten**. 
+
+
 ## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}

@@ -290,6 +290,20 @@ Diese ersetzen nicht das Lastenheft,
 sondern ergänzen es **in agilen Projekten**. 
 
 
+## User Stories: Tipps
+
+Beantworte die Fragen: **WER? WAS? WOZU?**
+
+Alternative Satzschablonen:
+
+- „Um (Nutzen) als (Rolle) zu erreichen, möchte ich (Funktionalität/Ziel/Wunsch).“
+- „Als (Rolle) möchte ich (was) (warum).“
+- „Als (wer) (wann) (wo) möchte ich (was) (warum).“
+- „Als (Persona) möchte ich (was) warum.“
+
+Vgl. <https://t2informatik.de/wissen-kompakt/user-story/>
+
+
 ## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}

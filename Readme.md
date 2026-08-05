@@ -10,7 +10,7 @@ Die Präsentationen werden erstellt mit
   <tr>
     <td align="center" width="50%">
       <a href="https://quarto.org/">
-        <img src="https://quarto.org/assets/images/quarto-logo.svg" alt="Quarto Logo" height="80">
+        <img src="libs/_images/logo-quarto.png" alt="Quarto Logo" height="80">
       </a>
       <br>
       <strong>Quarto</strong><br>
@@ -18,7 +18,7 @@ Die Präsentationen werden erstellt mit
     </td>
     <td align="center" width="50%">
       <a href="https://positron.posit.co/">
-        <img src="https://positron.posit.co/images/logo.svg" alt="Positron Logo" height="80">
+        <img src="libs/_images/logo-positron.png" alt="Positron Logo" height="80">
       </a>
       <br>
       <strong>Positron</strong><br>
@@ -26,3 +26,7 @@ Die Präsentationen werden erstellt mit
     </td>
   </tr>
 </table>
+
+- Die Präsentationen sind html-basiert und nutzen Revealjs
+- Aus `.qmd` (=Quarto Markdown) im Terminal rendern mit: `quarto render Dateiname.qmd`
+- Mit der `_quarto.yml` werden die einzelnen Präsentationen zu einem Website-Projekt verbunden.

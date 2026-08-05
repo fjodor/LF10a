@@ -15,6 +15,8 @@ Die Präsentationen werden erstellt mit
       <br>
       <strong>Quarto</strong><br>
       Ein Open-Source-System für wissenschaftliches und technisches Publizieren
+           <br>
+      <small><a href="https://quarto.org/">https://quarto.org/</a></small>
     </td>
     <td align="center" width="50%">
       <a href="https://positron.posit.co/">
@@ -23,6 +25,7 @@ Die Präsentationen werden erstellt mit
       <br>
       <strong>Positron</strong><br>
       Moderne IDE von Posit – mit nativer Quarto-Unterstützung, die PyCharm nicht bietet
+      <small><a href="https://positron.posit.co/">https://positron.posit.co/</a></small>
     </td>
   </tr>
 </table>

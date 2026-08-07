@@ -121,6 +121,33 @@ Grundsatz | Bedeutung | Beispiel |
 :::
 
 
+## Evaluationskriterien in der Praxis  {style="font-size: 1.8rem"}
+
+| Methode | Beschreibung | Wann einsetzen |
+|---------|-------------|----------------|
+| Heuristische Evaluation | Experten prüfen anhand von Regeln (z.B. Nielsen) | Früh im Entwicklungsprozess |
+| Usability-Test | Echte Benutzer testen die Software | Nach Prototyp-Phase |
+| Cognitive Walkthrough | Schritt-für-Schritt-Analyse aus Benutzersicht | Entwurfsphase |
+| Fragebogen (SUS, UEQ) | Standardisierte Befragung nach Nutzung | Nach Einführung / Release |
+
+
+## Typische Prüfungsaspekte
+
+- Grundsätze der DIN EN ISO 9241-110 benennen und in Szenarien erkennen
+- Negativbeispiel bewerten: Welcher Grundsatz ist verletzt?
+- Unterschied Usability vs. User Experience erklären
+- WCAG-Prinzipien nennen können
+- Maßnahmen für Barrierefreiheit benennen
+
+
+## Häufige Fehler
+
+- Usability wird mit Design verwechselt: Schön ≠ benutzbar
+- Barrierefreiheit wird nur auf Sehbehinderung reduziert → betrifft auch motorische, kognitive und auditive Einschränkungen
+- Erwartungskonformität wird vergessen: Software funktioniert, aber anders als gewohnt → frustriert Benutzer
+- Individualisierbarkeit wird als "optional nice-to-have" abgetan → ist ein Grundsatz der Norm
+
+
 ## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}

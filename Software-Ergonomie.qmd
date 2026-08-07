@@ -22,28 +22,30 @@ callout-appearance: simple
 
 ## Lernziele
 
-- Grundsätze der Softwareergonomie nach **DIN EN ISO 9241** kennen, anwenden und in Pruefungsszenarien bewerten können
+- Grundsätze der Softwareergonomie nach <br>**DIN EN ISO 9241** kennen, anwenden und in Prüfungsszenarien bewerten können
 - Dazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien
 
 
-## DIN EN ISO 9241 – Ergonomie der Mensch-System-Interaktion
+---
 
-Die Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsaetze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:
+## DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion {style="font-size: 1.6rem"}
 
-| Nr. | Grundsatz | Bedeutung | Beispiel |
-|-----|-----------|-----------|----------|
-| 1 | Aufgabenangemessenheit | Software unterstützt die Aufgabe ohne unnötige Schritte | Bestellformular zeigt nur relevante Felder |
-| 2 | Selbstbeschreibungsfähigkeit | Jeder Schritt ist verständlich, ohne Handbuch | Tooltips, Hilfetexte, klare Beschriftungen |
-| 3 | Erwartungskonformität | Software verhält sich so, wie der Benutzer es erwartet | "Speichern"-Button oben links, Abbruch mit ESC |
-| 4 | Fehlertoleranz | Fehlerhafte Eingaben fuehren nicht zu Datenverlust | Rückgaengig-Funktion, Validierung vor Absenden |
-| 5 | Steuerbarkeit | Benutzer kann Ablauf und Geschwindigkeit steuern | Zurueck-Button, Abbruch-Moeglichkeit, Undo |
-| 6 | Individualisierbarkeit | Software laesst sich an Benutzerbedürfnisse anpassen | Schriftgrösse, Farbschema, Dashboard-Layout |
-| 7 | Lernförderlichkeit | Software unterstützt das Erlernen der Bedienung | Tutorials, Assistenten, kontextsensitive Hilfe |
+Die Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsätze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:
+
+Grundsatz | Bedeutung | Beispiel |
+|--------|-----------|----------|
+| (1) Aufgaben-angemessenheit | Software unterstützt die Aufgabe ohne unnötige Schritte | Bestellformular zeigt nur relevante Felder |
+| (2) Selbstbeschrei-bungsfähigkeit | Jeder Schritt ist verständlich, ohne Handbuch | Tooltips, Hilfetexte, klare Beschriftungen |
+| (3) Erwartungs-konformität | Software verhält sich so, wie der Benutzer es erwartet | "Speichern"-Button oben links, Abbruch mit ESC |
+| (4) Fehlertoleranz | Fehlerhafte Eingaben fuehren nicht zu Datenverlust | Rückgaengig-Funktion, Validierung vor Absenden |
+| (5) Steuerbarkeit | Benutzer kann Ablauf und Geschwindigkeit steuern | Zurück-Button, Abbruch-Möglichkeit, Undo |
+| (6) Individualisier-barkeit | Software lässt sich an Benutzerbedürfnisse anpassen | Schriftgröße, Farbschema, Dashboard-Layout |
+| (7) Lernförderlichkeit | Software unterstützt das Erlernen der Bedienung | Tutorials, Assistenten, kontextsensitive Hilfe |
 
 
-## Usability (Gebrauchstauglichkeit)
+## Usability (Gebrauchstauglichkeit) {style="font-size: 1.8rem"}
 
-**Definition (DIN EN ISO 9241-11):** Das Ausmass, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele **effektiv**, **effizient** und **zufriedenstellend** zu erreichen.
+**Definition (DIN EN ISO 9241-11):** Das Ausmaß, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele **effektiv**, **effizient** und **zufriedenstellend** zu erreichen.
 
 | Kriterium | Bedeutung | Beispiel |
 |-----------|-----------|----------|
@@ -52,7 +54,7 @@ Die Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsaetze der Dialoggesta
 | Zufriedenheit | Benutzer hat positives Nutzungserlebnis | Klare Rückmeldungen, angenehmes Design |
 
 
-## Barrierefreiheit (Accessibility)
+## Barrierefreiheit (Accessibility) {style="font-size: 1.8rem"}
 
 **Definition:** Software muss so gestaltet sein, dass sie auch von Menschen mit Behinderungen genutzt werden kann.
 
@@ -61,8 +63,8 @@ Die Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsaetze der Dialoggesta
 | Standard | Beschreibung | Geltungsbereich |
 |----------|-------------|-----------------|
 | WCAG 2.1 | Web Content Accessibility Guidelines (W3C) | International, Webinhalte |
-| BITV 2.0 | Barrierefreie-Informationstechnik-Verordnung | Deutschland, oeffentliche Stellen |
-| DIN EN ISO 9241-171 | Leitlinien fuer barrierefreie Software | International, allgemein |
+| BITV 2.0 | Barrierefreie-Informationstechnik-Verordnung | Deutschland, öffentliche Stellen |
+| DIN EN ISO 9241-171 | Leitlinien für barrierefreie Software | International, allgemein |
 
 
 ## WCAG-Prinzipien (POUR)
@@ -73,14 +75,50 @@ Die Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsaetze der Dialoggesta
 4. **Robust:** Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)
 
 
-## WCAG: Praktische Maßnahmen
+## WCAG: Praktische Maßnahmen {style="font-size: 2rem"}
 
-- Alt-Texte fuer Bilder
+- Alt-Texte für Bilder
 - Kontrastverhaeeltnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)
 - Tastaturbedienbarkeit aller Funktionen
 - Formularbeschriftungen mit `<label>`-Elementen
-- Skip-Links fuer Screenreader
-- Keine reinen Farb-Informationen (z.B. "rote Felder sind Pflichtfelder")
+- Skip-Links für Screenreader
+- Keine reinen Farb-Informationen <br> (z.B. "rote Felder sind Pflichtfelder")
+
+
+## Zusammenhang der Konzepte
+
+::: note
+```
++--------------------------------------------+
+|  DIN EN ISO 9241-110                       |
+|  (7 Grundsätze der Dialoggestaltung)       |
++--------------------------------------------+
+```
+:::
+
+            |
+            v
+
+::: info
+```
++--------------------------------------------+
+|  Usability (DIN EN ISO 9241-11)            |
+|  Effektiv, Effizient, Zufriedenstellend    |
++--------------------------------------------+
+```
+:::
+
+            |
+            v
+
+::: note            
+```
++--------------------------------------------+
+|  Accessibility (WCAG, BITV)                |
+|  Barrierefreiheit für alle Nutzergruppen   |
++--------------------------------------------+
+```
+:::
 
 
 ## <!-- -->

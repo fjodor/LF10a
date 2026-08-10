@@ -18,6 +18,38 @@ execute:
 callout-appearance: simple
 ---
 
+## Warum Pseudocode?
+
+:::: columns
+::: column
+
+![](libs/_Images/spiegeleier_susan-lu4esm_pixabay.jpg)
+
+[Quelle: susan-lu4esm auf pixabay]{style="font-size: 1.3rem"}
+:::
+
+::: {.column .fragment style="font-size: 2.2rem"}
+
+In Kochrezepten steht nie:
+
+```pseudo
+for(i=0; i<2; i++) {
+   add(egg);
+}
+```
+
+Sondern: `Zwei Eier hinzufügen`
+
+::: {.callout-note .fragment}
+Pseudocode ist genau das:  
+***Kochen ohne Grammatikprüfung.***
+
+Aufschreiben, was passieren soll - <br>egal, ***wie*** die Programmiersprache es genau formuliert.
+:::
+:::
+::::
+
+
 ## WENN-Struktur
 
 :::: columns

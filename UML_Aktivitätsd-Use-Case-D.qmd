@@ -552,7 +552,7 @@ include_graphics("libs/_Images/Use-Case-Bibo-extend.png")
 :::
 
 
-## Vielen Dank!
+## <!-- -->
 
 ```{r, fig.align = "center", out.width = "50%", out.height = "50%"}
 include_graphics("libs/_Images/coffee.jpg")

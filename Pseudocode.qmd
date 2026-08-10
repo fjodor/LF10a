@@ -45,6 +45,7 @@ Pseudocode ist genau das:
 ***Kochen ohne Grammatikprüfung.***
 
 Aufschreiben, was passieren soll - <br>egal, ***wie*** die Programmiersprache es genau formuliert.
+
 :::
 :::
 ::::
@@ -67,6 +68,11 @@ ENDE WENN
 
 #### Beispiel
 
+```pseudo
+WENN Benutzername ist leer DANN
+    AUSGABE "Bitte Namen eingeben."
+ENDE WENN
+```
 :::
 :::
 
@@ -86,6 +92,13 @@ ENDE WENN
 
 #### Beispiel
 
+```pseudo
+WENN Punktzahl ≥ 92 DANN
+    AUSGABE "Hervorragend"
+SONST WENN Punktzahl ≥ 81
+    AUSGABE "Gut!"
+ENDE WENN
+```
 :::
 :::
 ::::
@@ -114,6 +127,15 @@ ENDE WENN
 
 #### Beispiel
 
+```pseudo
+WENN Punktzahl ≥ 81 DANN
+    AUSGABE "Gut!"
+SONST WENN Punktzahl ≥ 50 DANN
+    AUSGABE "Geschafft!"
+SONST
+    AUSGABE "Dann eben Nachprüfung."
+ENDE WENN
+```
 :::
 ::::
 
@@ -133,7 +155,7 @@ ENDE WENN
 #### Standard-Variante
 
 ```pseudo
-FUER i VON start BIS ende
+FUER i VON start BIS ende WIEDERHOLE
     anweisungen
 ENDE FUER
 ```
@@ -143,6 +165,12 @@ ENDE FUER
 ::: {.column .fragment}
 
 #### Beispiel
+
+```pseudo
+FUER i VON 0 BIS 2 WIEDERHOLE
+    hinzufügen(Ei)
+ENDE FUER
+```
 
 :::
 ::::
@@ -161,6 +189,12 @@ ENDE FUER
 ::: {.fragment}
 
 #### Beispiel
+
+```pseudo
+FUER i VON 1 BIS 10 IN SCHRITTEN VON 2
+    AUSGABE i
+ENDE FUER
+```
 
 :::
 
@@ -184,6 +218,13 @@ ENDE FUER
 
 #### Beispiel
 
+```pseudo
+// Countdown
+
+FUER i VON 10 BIS 1
+    AUSGABE i
+ENDE FUER
+```
 :::
 ::::
 
@@ -200,6 +241,12 @@ ENDE FUER
 
 #### Beispiel
 
+```pseudo
+FUER JEDES element IN sammlung
+    AUSGABE element
+ENDE FUER
+```
+
 :::
 
 
@@ -214,6 +261,12 @@ ENDE SOLANGE
 ::: {.fragment}
 
 #### Beispiel
+
+```pseudo
+SOLANGE KontoStand < 0
+    AUSGABE "Bitte Konto ausgleichen"
+ENDE SOLANGE
+```
 
 :::
 
@@ -231,6 +284,14 @@ BIS bedingung
 ::: {.fragment}
 
 #### Beispiel
+
+```pseudo
+WIEDERHOLE
+    AUSGABE "Passwort falsch"
+BIS Passwort = korrekt
+```
+
+[**Wird mindestens 1x ausgeführt**]{style="font-size: 2rem"}
 
 :::
 
@@ -410,7 +471,9 @@ ENDE WENN
 ```
 
 
-## IHK-Prüfungsfallen
+## IHK-Prüfungsfallen {style="font-size: 2.1rem"}
+
+::: incremental
 
 - Fehlende Blockenden  
   ENDE WENN, ENDE FUER, ENDE SOLANGE, <br>ENDE METHODE
@@ -422,9 +485,11 @@ ENDE WENN
 - Keine Englischsprachigen Keywords  
   KEIN if, else, while, for, return
 
-- Keine Klammern
+- Keine Klammern  
   { } nicht verwenden  
   Keine ( ) bei Kontrollstrukturen
+
+:::
 
 
 ## IHK Stilregeln
@@ -434,10 +499,10 @@ ENDE WENN
 - Variablennamen `klein` schreiben
 - keine unnötigen Leerzeilen
 - Kommentare sparsam einsetzen
-- keine Sprache nachahmen! (kein Python-Stil, kein Java-Stil)
+- keine Sprache nachahmen! <br> (kein Python-Stil, kein Java-Stil)
 
 
-## Vielen Dank!
+## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
 

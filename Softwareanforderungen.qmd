@@ -23,22 +23,36 @@ callout-appearance: simple
 - 8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können
 - Funktionale von nicht-funktionalen Anforderungen unterscheiden können
 - Anforderungen messbar formulieren können
-- Qualitätsmerkmale an konkreten Beispielnen erkennen können
+- Qualitätsmerkmale an konkreten Beispielen erkennen können
 
 
-## Funktionale vs. Nichtfunktionale Anforderungen
+## Funktionale vs. Nichtfunktionale Anforderungen {style="font-size: 1.9rem"}
 
-::: {style="font-size: 1.9rem"}
+:::: columns
+::: {.column width="60%"}
 
-| Merkmal | Funktionale Anforderungen | Nicht-funktionale Anforderungen |
-|---------|--------------------------|-------------------------------|
-| Definition | WAS das System tun soll | WIE GUT das System arbeiten soll |
-| Beispiel | "Benutzer kann sich einloggen" | "Login dauert max. 2 Sekunden" |
-| Prüfung | Funktionstest | Leistungstest, Review |
-| Quelle | Fachliche Anforderungen | Qualitätsanforderungen |
-| Dokumentation | Use Cases, User Stories | Qualitätsszenarien |
+| Merkmal | Funktionale Anforderungen |
+|---------|--------------------------|
+| Definition | WAS das System tun soll <br> &nbsp; | 
+| Beispiel | "Benutzer kann sich einloggen" | 
+| Prüfung | Funktionstest |
+| Quelle | Fachliche Anforderungen |
+| Dokumentation | Use Cases, User Stories |
 
 :::
+
+::: {.column .fragment width="35%"}
+
+| Nicht-funktionale Anforderungen |
+|-------------------------------|
+| WIE GUT das System arbeiten soll |
+| "Login dauert max. 2 Sekunden" |
+| Leistungstest, Review |
+| Qualitätsanforderungen |
+| Qualitätsszenarien |
+
+:::
+::::
 
 
 ## Software-Qualitätsmerkmale: ISO 25010 {style="font-size: 2rem"}
@@ -250,13 +264,31 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 
 ## Prüfungstipps {style="font-size: 1.9rem"}
 
-| Häufige Fehler | Korrektur |
-|--------|-----------|
-| Funktionale mit nicht-funktionalen Anforderungen verwechseln | Funktional = WAS, <br>Nicht-funktional = WIE GUT |
-| Effizienz und Effektivität verwechseln | Effizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen |
-| Wartbarkeit und Änderbarkeit gleichsetzen | Wartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt |
-| Zuverlässigkeit nur als "läuft ohne Fehler" verstehen | Umfasst auch Fehlertoleranz und Wiederherstellbarkeit |
-| Benutzbarkeit mit "schönem Design" gleichsetzen | Umfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc. |
+:::: columns
+::: column
+
+| Häufige Fehler |
+|--------|
+| Funktionale mit nicht-funktionalen Anforderungen verwechseln |
+| Effizienz und Effektivität verwechseln | 
+| Wartbarkeit und Änderbarkeit gleichsetzen | 
+| Zuverlässigkeit nur als "läuft ohne Fehler" verstehen | 
+| Benutzbarkeit mit "schönem Design" gleichsetzen |
+
+:::
+
+::: {.column .fragment}
+
+| Korrektur |
+|-----------|
+| Funktional = WAS, <br>Nicht-funktional = WIE GUT |
+| Effizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen |
+| Wartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt |
+| Umfasst auch Fehlertoleranz und Wiederherstellbarkeit |
+| Umfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc. |
+
+:::
+::::
 
 
 ## User Stories

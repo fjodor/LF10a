@@ -1,0 +1,83 @@
+---
+title: "Algorithmen"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: " "
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+    embed-resources: false
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+## Suchalgorithen: Lineare Suche
+
+
+## Suchalgorithmen: Binäre Suche
+
+
+## Algorithmen: iterativ vs. rekursiv  {style="font-size: 2rem"}
+
+:::: columns
+::: column
+
+#### Iterative Vorgehensweise
+
+::: incremental
+
+- Aufgabe wird wiederholt mit Schleifenstrukturen wie `for`, `while` oder `do-while`
+- in der Regel einfacher zu verstehen
+- erfordern weniger Speicher
+
+:::
+:::
+
+::: column
+
+#### Rekursive Vorgehensweise
+
+::: incremental
+
+- Funktion ruft **sich selbst** auf
+- löst Probleme, **die "natürlich" in kleinere Teilprobleme zerlegt** werden können
+- kann eleganter und intuitiver sein, näher an der mathematischen Idee
+- evtl. schwieriger zu verstehen
+- kann zu erhöhtem Speicherverbrauch führen: *Stack Overflow*!
+
+:::
+:::
+::::
+
+**to-do** Siehe Notizen in Python Spielwiese
+
+::: notes
+Quelle: Lernkarte AP2 146
+:::
+
+
+## Sortieralgorithmen: Bubble Sort
+
+
+## Sortieralgorithmen: Selection Sort
+
+
+## Sortieralgorithmen: Insertion Sort
+
+
+
+
+## <!-- -->
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg mit allen Algorithmen!**
+:::

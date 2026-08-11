@@ -238,6 +238,10 @@ Rekursive Algorithmen sind geeignet, wenn:
 :::
 
 
+## Sortieralgorithmen: Quick Sort
+
+
+
 ## O(n log n) vs. O(n²)
 
 | n (Länge Liste) | n log2(n) (ungefähr) | n²            |
@@ -252,12 +256,24 @@ Rekursive Algorithmen sind geeignet, wenn:
 ## Merge Sort vs. Bubble / Selection / Insertion Sort
 
 - Deutlich schneller: O(n log n) statt O(n²)
-- Komplexer zu implementieren (Rekursion + Zusammenführen)
+- Komplexer zu implementieren <br> (Rekursion + Zusammenführen)
 - Benötigt zusätzlichen Speicher zum Mergen
 - Für große Datenmengen klar überlegen
 - Während die einfachen Sortierverfahren oft **verschachtelte Schleifen** nutzen, arbeitet Merge Sort mit **Teilen und Zusammenfügen**
 
+---
 
+### Quadratische vs. Logarithmische Sortierverfahren
+
+::: {style="font-size: 1.7rem"}
+
+| Quadratische Sortierverfahren | Logarithmische Sortierverfahren |
+|------------------------------|----------------------------------|
+| **Vorteile**<br>– Einfache Implementierung<br>– Gut für kleine Datenmengen<br>– Leicht verständlich<br>– Einfaches Debugging | **Vorteile**<br>– Effizientere und schnellere Sortierung<br>– Gute Skalierbarkeit<br>– Häufiger Standard in Bibliotheken |
+| **Nachteile**<br>– Je nach Datenmenge sehr ineffizient<br>– Viele unnötige Vertauschungen<br>– Nicht optimal für moderne Hardware<br>– Nicht für verteilte Systeme geeignet | **Nachteile**<br>– Aufwändige Implementierung<br>– Benötigt ggf. zusätzlichen Speicherplatz<br>– Ggf. höherer Verwaltungsaufwand |
+| **Beispiele**<br>– Bubble Sort<br>– Selection Sort<br>– Insertion Sort | **Beispiele**<br>– Merge Sort<br>– Quick Sort |
+
+:::
 
 
 ## <!-- -->

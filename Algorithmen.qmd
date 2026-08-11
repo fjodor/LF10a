@@ -111,6 +111,20 @@ siehe Lernkarte AP2 146; hier ausführlicher!
 :::
 
 
+## Algorithmen: Wann ist Rekursion möglich? {style="font-size: 2.2rem"}
+
+Rekursive Algorithmen sind geeignet, wenn:
+
+::: incremental
+
+- der Algorithmus mehrmals ausgeführt werden muss
+- der Algorithmus Daten benötigt, die sich bei jedem Aufruf ändern
+- der Algorithmus selbst jedesmal unverändert bleibt
+- es eine klare Bedingung gibt, bei deren Erfüllung der Algorithmus endet
+
+:::
+
+
 ## Algorithmen: iterativ vs. rekursiv  {style="font-size: 2rem"}
 
 :::: columns
@@ -161,15 +175,54 @@ siehe Lernkarte AP2 146; hier ausführlicher!
 
 
 
-## Sortieralgorithmen: Bubble Sort
+## Sortieralgorithmen: Bubble Sort {style="font-size: 2rem"}
+
+::: incremental
+
+- Vergleicht wiederholt benachbarte Elemente und vertauscht sie, wenn sie sich in der falschen Reihenfolge befinden
+- Größte Elemente "wandern" pro Durchlauf nach rechts (wie Blasen nach oben)
+- Wird wiederholt, bis keien Vertauschungen mehr nötig sind
+- Vorteil: relativ einfach zu verstehen
+- Nachteil: ineffizient bei großen Datenmengen
+- Laufzeit: O(n²)
+
+:::
 
 
-## Sortieralgorithmen: Selection Sort
+## Was bedeutet O(n²)?
+
+- Aussprache: „O von n Quadrat“
+- O steht für „Order of“ → beschreibt die Größenordnung des Wachstums
+- n ist die Eingabegröße (z. B. Anzahl der Listenelemente)
+- Quadratisches Wachstum: **Verdoppelt** man n, **vervierfacht** sich die Laufzeit
+- Typisch bei Algorithmen mit verschachtelten Schleifen
+- Beispiele: Bubble Sort, Selection Sort, Insertion Sort
+
+
+## Sortieralgorithmen: Selection Sort {style="font-size: 2rem"}
+
+::: incremental
+
+- Sucht im unsortierten Teil das kleinste (oder größte) Element
+- Tauscht es an die aktuelle Position
+- Verschiebt die Grenze zwischen sortiertem und unsortiertem Bereich Schritt für Schritt
+- Wenige Vertauschungen, aber viele Vergleiche
+- Laufzeit: O(n²)
+
+:::
 
 
 ## Sortieralgorithmen: Insertion Sort
 
+::: incremental
 
+- Baut die sortierte Liste schrittweise auf
+- Nimmt das nächste Element und fügt es an der richtigen Stelle im bereits sortierten Teil ein
+- Gut für kleine oder fast sortierte Listen
+- Intuitiv (ähnlich wie Kartensortieren in der Hand)
+- Laufzeit: O(n²), aber sehr schnell für fast sortierte Daten
+
+:::
 
 
 ## <!-- -->

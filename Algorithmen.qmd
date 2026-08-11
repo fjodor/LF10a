@@ -18,24 +18,62 @@ execute:
 callout-appearance: simple
 ---
 
-## Suchalgorithen: Lineare Suche
+## Suchalgorithen: Lineare Suche {style="font-size: 2.1rem"}
+
+::: incremental
+
+- Durchsucht eine Liste schrittweise von vorne nach hinten
+- Nach einander wird jeder Eintrag mit dem gesuchten Wert verglichen
+- Wird der Wert gefunden, wird die Position zurückgegeben
+- Wenn das Ende der Liste erreicht ist, ohne Treffer, gilt: nicht gefunden.
+- Vorteil: Einfach umzusetzen, keine Vorbereitung der Daten nötig
+- Nachteil: Langsam bei großen Listen, da im schlimmsten Fall alle Elemente geprüft werden müssen
+
+:::
 
 
-## Suchalgorithmen: Binäre Suche
+## Suchalgorithmen: Binäre Suche {style="font-size: 2rem"}
+
+::: incremental
+
+- findet Werte in sortierten Listen besonders effizient
+- Der Suchbereich wird wiederholt halbiert:
+  + Mittleres Element prüfen
+  + Ist der gesuchte Wert kleiner, wird nur die linke Hälfte weiter durchsucht
+  + Ist er größer, wird nur die rechte Hälfte betrachtet.
+- Prozess wird fortgesetzt, bis der Wert gefunden oder der Bereich leer ist
+- Vorteil: Sehr schnell – benötigt nur logarithmisch viele Schritte.
+- Nachteil: Funktioniert nur mit sortierten Daten.
+
+:::
 
 
-## Algorithmen: iterativ vs. rekursiv  {style="font-size: 1.7rem"}
+## Binäre Suche: Maximale Anzahl Suchschritte {style="font-size: 2rem"}
+
+Was bedeutet *"logarithmisch viele Schritte"*?
+
+| Listengröße \(n\) | log2(n) (ungefähr) | Maximale Schritte (ceiling) |
+|-------------------:|-------------------:|----------------------------:|
+| 8 | 3 | 3 |
+| 16 | 4 | 4 |
+| 100 | 6.64 | 7 |
+| 1 000 | 9.97 | 10 |
+| 1 000 000 | 19.93 | 20 |
+| 1 000 000 000 | 29.90 | 30 |
+
+
+## Algorithmen: iterativ vs. rekursiv {style="font-size: 1.7rem"}
 
 :::: columns
 ::: column
 
-### Iterative Vorgehensweise
+### Iterative Vorgehensweise 
 
 Aufgabe wird wiederholt mit Schleifenstrukturen wie `for`, <br> `while` oder `do-while`
 
-#### Vorteile
+#### Vorteile 
 
-::: incremental
+::: {.incremental style="font-size: 1.6rem"}
 
   + in der Regel einfacher zu verstehen
   + geringerer Speicherverbrauch

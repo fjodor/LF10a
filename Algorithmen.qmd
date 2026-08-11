@@ -24,43 +24,103 @@ callout-appearance: simple
 ## Suchalgorithmen: Binäre Suche
 
 
-## Algorithmen: iterativ vs. rekursiv  {style="font-size: 2rem"}
+## Algorithmen: iterativ vs. rekursiv  {style="font-size: 1.7rem"}
 
 :::: columns
 ::: column
 
-#### Iterative Vorgehensweise
+### Iterative Vorgehensweise
+
+Aufgabe wird wiederholt mit Schleifenstrukturen wie `for`, <br> `while` oder `do-while`
+
+#### Vorteile
 
 ::: incremental
 
-- Aufgabe wird wiederholt mit Schleifenstrukturen wie `for`, `while` oder `do-while`
-- in der Regel einfacher zu verstehen
-- erfordern weniger Speicher
+  + in der Regel einfacher zu verstehen
+  + geringerer Speicherverbrauch
+  + Effizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller
+  + Robustheit: keine Gefahr eines *Stack Overflow*
+  + Debugging: Schleifen einfacher nachzuverfolgen
+  + Praxisnähe: in realen Systeme fast immer bevorzugt
 
 :::
 :::
 
 ::: column
 
-#### Rekursive Vorgehensweise
-
-::: incremental
+### Rekursive Vorgehensweise
 
 - Funktion ruft **sich selbst** auf
 - löst Probleme, **die "natürlich" in kleinere Teilprobleme zerlegt** werden können
-- kann eleganter und intuitiver sein, näher an der mathematischen Idee
-- evtl. schwieriger zu verstehen
-- kann zu erhöhtem Speicherverbrauch führen: *Stack Overflow*!
+
+#### Vorteile
+
+::: incremental
+
+  + Eleganz; kann intuitiver sein, näher an der mathematischen Idee
+  + Lesbarkeit: Struktur folgt direkt der Problemdefinition
+  + Verwaltungsaufwand geringer: kein explizites Schleifen-Management
 
 :::
 :::
 ::::
 
-**to-do** Siehe Notizen in Python Spielwiese
-
 ::: notes
-Quelle: Lernkarte AP2 146
+
+siehe Lernkarte AP2 146; hier ausführlicher!
+
 :::
+
+
+## Algorithmen: iterativ vs. rekursiv  {style="font-size: 2rem"}
+
+:::: columns
+::: column
+
+### Iterative Vorgehensweise
+
+#### Nachteile
+
+::: incremental
+
+  + weniger elegant
+  + mehr Verwaltungslogik; z. B. binäre Suche: *left, right, mid*
+  + weniger mathematisch; z. B. binäre Suche: Idee der Halbierung nicht so klar sichtbar
+
+:::
+:::
+
+::: column
+
+### Rekursive Vorgehensweise
+
+#### Nachteile
+
+::: incremental
+
+  + evtl. schwieriger zu verstehen
+  + Speicher: jeder Funktionsaufruf landet auf dem *Stack*
+  + bei sehr großen Listen *Stack Overflow* möglich
+  + langsamer: Funktionsaufrufe teurer als Schleifen
+  + Debuggen schwieriger: man muss Rekursionstiefe und Aufrufkette verstehen
+
+:::
+:::
+::::
+
+## Algorithmen: iterativ vs. rekursiv  {style="font-size: 1.9rem"}
+
+| Aspekt | **Iterativ** | **Rekursiv** |
+| --- | --- | --- |
+| **Performance** | Schnell | Etwas langsamer |
+| **Speicher** | Minimal | Rekursionsstack |
+| **Lesbarkeit** | Technisch | Elegant |
+| **Debugbarkeit** | Einfach | Anspruchsvoll |
+| **Gefahr Stack Overflow** | Keine | Ja |
+| **Praxis** | Standard | Selten |
+| **Didaktik** | OK | Sehr gut |
+
 
 
 ## Sortieralgorithmen: Bubble Sort

@@ -8,3 +8,5 @@
 _freeze/*
 _site/*
 .idea/vcs.xml
+
+**/*.quarto_ipynb

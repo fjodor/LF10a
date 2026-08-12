@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://fjodor.github.io/LF10a/UML_Aktivitätsd-Use-Case-D.html</loc>
+    <loc>https://fjodor.github.io/LF10a/Readme.html</loc>
     <lastmod>2026-08-11T07:40:50.280Z</lastmod>
   </url>
   <url>
-    <loc>https://fjodor.github.io/LF10a/Software-Ergonomie.html</loc>
-    <lastmod>2026-08-11T07:40:50.280Z</lastmod>
+    <loc>https://fjodor.github.io/LF10a/08_Software-Ergonomie.html</loc>
+    <lastmod>2026-08-12T08:54:54.341Z</lastmod>
   </url>
   <url>
-    <loc>https://fjodor.github.io/LF10a/index.html</loc>
-    <lastmod>2026-07-23T07:06:31.483Z</lastmod>
+    <loc>https://fjodor.github.io/LF10a/06_Analyse-Designverfahren.html</loc>
+    <lastmod>2026-08-12T08:54:41.766Z</lastmod>
   </url>
   <url>
-    <loc>https://fjodor.github.io/LF10a/03_Algorithmen.html</loc>
-    <lastmod>2026-08-12T08:50:20.859Z</lastmod>
+    <loc>https://fjodor.github.io/LF10a/04_Softwareanforderungen.html</loc>
+    <lastmod>2026-08-12T09:15:00.174Z</lastmod>
+  </url>
+  <url>
+    <loc>https://fjodor.github.io/LF10a/02_Pseudocode.html</loc>
+    <lastmod>2026-08-12T09:40:50.276Z</lastmod>
   </url>
   <url>
     <loc>https://fjodor.github.io/LF10a/01_Willkommen_Struktur.html</loc>
     <lastmod>2026-08-11T07:40:50.276Z</lastmod>
   </url>
   <url>
-    <loc>https://fjodor.github.io/LF10a/02_Pseudocode.html</loc>
-    <lastmod>2026-08-12T08:50:31.136Z</lastmod>
+    <loc>https://fjodor.github.io/LF10a/03_Algorithmen.html</loc>
+    <lastmod>2026-08-12T09:47:53.266Z</lastmod>
   </url>
   <url>
-    <loc>https://fjodor.github.io/LF10a/Analyse-Designverfahren.html</loc>
-    <lastmod>2026-08-11T07:40:50.280Z</lastmod>
+    <loc>https://fjodor.github.io/LF10a/05_UML_Aktivitätsd-Use-Case-D.html</loc>
+    <lastmod>2026-08-12T09:01:44.841Z</lastmod>
   </url>
   <url>
-    <loc>https://fjodor.github.io/LF10a/Readme.html</loc>
-    <lastmod>2026-08-11T07:40:50.280Z</lastmod>
+    <loc>https://fjodor.github.io/LF10a/07_Werkzeuge-Entwicklgsumgebungen.html</loc>
+    <lastmod>2026-08-12T09:00:46.491Z</lastmod>
   </url>
   <url>
-    <loc>https://fjodor.github.io/LF10a/Softwareanforderungen.html</loc>
-    <lastmod>2026-08-11T07:40:50.280Z</lastmod>
+    <loc>https://fjodor.github.io/LF10a/index.html</loc>
+    <lastmod>2026-07-23T07:06:31.483Z</lastmod>
   </url>
 </urlset>

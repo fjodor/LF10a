@@ -1285,25 +1285,50 @@ margin-right: 0; }
 </div>
 </section>
 <section id="methoden-ohne-rückgabe" class="slide level2">
-<h2>Methoden ohne Rückgabe?</h2>
+<h2>Methoden ohne Rückgabe</h2>
+<p>Es gibt auch Methoden <strong>ohne Rückgabewerte</strong>.</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb25-1"><a></a>METHODE name(parameter)</span>
+<span id="cb25-2"><a></a>    ...</span>
+<span id="cb25-3"><a></a>ENDE METHODE</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="callout callout-tip callout-titled callout-style-simple">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Prüfungsrelevant (Lernkarte): Funktion vs. Prozedur</strong></p>
+</div>
+<div class="callout-content">
+<p>Eine <strong>Funktion</strong> liefert einen <strong>Rückgabewert.</strong><br>
+Eine <strong>Prozedur</strong> liefert <strong>keinen</strong> Rückgabewert!</p>
+</div>
+</div>
+</div>
+<div style="font-size: 1.9rem">
+<ul>
+<li>Beide führen Anweisungen aus.</li>
+<li>Funktionen können in Ausdrücken verwendet werden, z. B. <code>x = f(a, b)</code>;<br>
+Prozeduren können nicht in Ausdrücken verwendet werden.</li>
+</ul>
+</div>
 </section>
 <section id="algorithmen-akkumulator" class="slide level2">
 <h2>Algorithmen: Akkumulator</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb25"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb25-1"><a></a>summe = 0</span>
-<span id="cb25-2"><a></a>FUER JEDES z IN zahlen</span>
-<span id="cb25-3"><a></a>    summe = summe + z</span>
-<span id="cb25-4"><a></a>ENDE FUER</span>
-<span id="cb25-5"><a></a>RUECKGABE summe</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb26-1"><a></a>summe = 0</span>
+<span id="cb26-2"><a></a>FUER JEDES z IN zahlen</span>
+<span id="cb26-3"><a></a>    summe = summe + z</span>
+<span id="cb26-4"><a></a>ENDE FUER</span>
+<span id="cb26-5"><a></a>RUECKGABE summe</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="algorithmen-zähler" class="slide level2">
 <h2>Algorithmen: Zähler</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb26"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb26-1"><a></a>anzahl = 0</span>
-<span id="cb26-2"><a></a>FUER JEDES z IN zahlen</span>
-<span id="cb26-3"><a></a>    WENN z MOD 2 == 0 DANN</span>
-<span id="cb26-4"><a></a>        anzahl = anzahl + 1</span>
-<span id="cb26-5"><a></a>    ENDE WENN</span>
-<span id="cb26-6"><a></a>ENDE FUER</span>
-<span id="cb26-7"><a></a>RUECKGABE anzahl</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb27-1"><a></a>anzahl = 0</span>
+<span id="cb27-2"><a></a>FUER JEDES z IN zahlen</span>
+<span id="cb27-3"><a></a>    WENN z MOD 2 == 0 DANN</span>
+<span id="cb27-4"><a></a>        anzahl = anzahl + 1</span>
+<span id="cb27-5"><a></a>    ENDE WENN</span>
+<span id="cb27-6"><a></a>ENDE FUER</span>
+<span id="cb27-7"><a></a>RUECKGABE anzahl</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Zählt?</p>
 <div class="fragment">
 <p>… Anzahl der geraden Zahlen</p>
@@ -1313,52 +1338,52 @@ margin-right: 0; }
 <h2>Algorithmen: Maximum, Minimum</h2>
 <div class="columns">
 <div class="column">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb27-1"><a></a>max = liste[0]</span>
-<span id="cb27-2"><a></a>FUER JEDES z IN liste</span>
-<span id="cb27-3"><a></a>    WENN z &gt; max DANN</span>
-<span id="cb27-4"><a></a>        max = z</span>
-<span id="cb27-5"><a></a>    ENDE WENN</span>
-<span id="cb27-6"><a></a>ENDE FUER</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div><div class="column">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb28-1"><a></a>min = liste[0]</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb28"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb28-1"><a></a>max = liste[0]</span>
 <span id="cb28-2"><a></a>FUER JEDES z IN liste</span>
-<span id="cb28-3"><a></a>    WENN z &lt; min DANN</span>
-<span id="cb28-4"><a></a>        min = z</span>
+<span id="cb28-3"><a></a>    WENN z &gt; max DANN</span>
+<span id="cb28-4"><a></a>        max = z</span>
 <span id="cb28-5"><a></a>    ENDE WENN</span>
 <span id="cb28-6"><a></a>ENDE FUER</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div><div class="column fragment">
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb29-1"><a></a>min = liste[0]</span>
+<span id="cb29-2"><a></a>FUER JEDES z IN liste</span>
+<span id="cb29-3"><a></a>    WENN z &lt; min DANN</span>
+<span id="cb29-4"><a></a>        min = z</span>
+<span id="cb29-5"><a></a>    ENDE WENN</span>
+<span id="cb29-6"><a></a>ENDE FUER</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div></div>
 </section>
 <section id="algorithmen-lineare-suche" class="slide level2">
 <h2>Algorithmen: Lineare Suche</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb29"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb29-1"><a></a>gefunden = FALSCH</span>
-<span id="cb29-2"><a></a>FUER JEDES z IN liste</span>
-<span id="cb29-3"><a></a>    WENN z == gesucht DANN</span>
-<span id="cb29-4"><a></a>        gefunden = WAHR</span>
-<span id="cb29-5"><a></a>    ENDE WENN</span>
-<span id="cb29-6"><a></a>ENDE FUER</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb30-1"><a></a>gefunden = FALSCH</span>
+<span id="cb30-2"><a></a>FUER JEDES z IN liste</span>
+<span id="cb30-3"><a></a>    WENN z == gesucht DANN</span>
+<span id="cb30-4"><a></a>        gefunden = WAHR</span>
+<span id="cb30-5"><a></a>    ENDE WENN</span>
+<span id="cb30-6"><a></a>ENDE FUER</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="algorithmen-bubble-sort" class="slide level2">
 <h2>Algorithmen: Bubble Sort</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb30"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb30-1"><a></a>FUER i VON 0 BIS laenge(liste)-1</span>
-<span id="cb30-2"><a></a>    FUER j VON 0 BIS laenge(liste)-2</span>
-<span id="cb30-3"><a></a>        WENN liste[j] &gt; liste[j+1] DANN</span>
-<span id="cb30-4"><a></a>            temp = liste[j]</span>
-<span id="cb30-5"><a></a>            liste[j] = liste[j+1]</span>
-<span id="cb30-6"><a></a>            liste[j+1] = temp</span>
-<span id="cb30-7"><a></a>        ENDE WENN</span>
-<span id="cb30-8"><a></a>    ENDE FUER</span>
-<span id="cb30-9"><a></a>ENDE FUER</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb31-1"><a></a>FUER i VON 0 BIS laenge(liste)-1</span>
+<span id="cb31-2"><a></a>    FUER j VON 0 BIS laenge(liste)-2</span>
+<span id="cb31-3"><a></a>        WENN liste[j] &gt; liste[j+1] DANN</span>
+<span id="cb31-4"><a></a>            temp = liste[j]</span>
+<span id="cb31-5"><a></a>            liste[j] = liste[j+1]</span>
+<span id="cb31-6"><a></a>            liste[j+1] = temp</span>
+<span id="cb31-7"><a></a>        ENDE WENN</span>
+<span id="cb31-8"><a></a>    ENDE FUER</span>
+<span id="cb31-9"><a></a>ENDE FUER</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="passwortprüfung" class="slide level2">
 <h2>Passwortprüfung</h2>
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb31"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb31-1"><a></a>LIES passwort</span>
-<span id="cb31-2"><a></a>WENN laenge(passwort) &lt; 8 DANN</span>
-<span id="cb31-3"><a></a>    AUSGABE &quot;Passwort zu kurz&quot;</span>
-<span id="cb31-4"><a></a>SONST WENN NICHT enthaeltZiffer(passwort) DANN</span>
-<span id="cb31-5"><a></a>    AUSGABE &quot;Keine Ziffer enthalten&quot;</span>
-<span id="cb31-6"><a></a>SONST</span>
-<span id="cb31-7"><a></a>    AUSGABE &quot;Passwort akzeptiert&quot;</span>
-<span id="cb31-8"><a></a>ENDE WENN</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb32"><pre class="sourceCode numberSource pseudo number-lines code-with-copy"><code class="sourceCode"><span id="cb32-1"><a></a>LIES passwort</span>
+<span id="cb32-2"><a></a>WENN laenge(passwort) &lt; 8 DANN</span>
+<span id="cb32-3"><a></a>    AUSGABE &quot;Passwort zu kurz&quot;</span>
+<span id="cb32-4"><a></a>SONST WENN NICHT enthaeltZiffer(passwort) DANN</span>
+<span id="cb32-5"><a></a>    AUSGABE &quot;Keine Ziffer enthalten&quot;</span>
+<span id="cb32-6"><a></a>SONST</span>
+<span id="cb32-7"><a></a>    AUSGABE &quot;Passwort akzeptiert&quot;</span>
+<span id="cb32-8"><a></a>ENDE WENN</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="ihk-prüfungsfallen" class="slide level2" style="font-size: 2.1rem">
 <h2>IHK-Prüfungsfallen</h2>

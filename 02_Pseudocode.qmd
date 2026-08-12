@@ -440,7 +440,7 @@ ENDE FUER
 
 :::
 
-::: column
+::: {.column .fragment}
 
 ```pseudo
 min = liste[0]

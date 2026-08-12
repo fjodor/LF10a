@@ -237,8 +237,31 @@ Rekursive Algorithmen sind geeignet, wenn:
 :::
 
 
+## Merge Sort vs. Bubble / Selection / Insertion Sort
+
+- Deutlich schneller: O(n log n) statt O(n²)
+- Komplexer zu implementieren <br> (Rekursion + Zusammenführen)
+- Benötigt zusätzlichen Speicher zum Mergen
+- Für große Datenmengen klar überlegen
+- Während die einfachen Sortierverfahren oft **verschachtelte Schleifen** nutzen, arbeitet Merge Sort mit **Teilen und Zusammenfügen**
+
+
 ## Sortieralgorithmen: Quick Sort
 
+::: {.incremental style="font-size: 2rem"}
+
+- **Teile-und-Herrsche**-Algorithmus: zerlegt Problem in kleinere Teilprobleme -> **Rekursion**!
+- Wählt ein Element als **Pivot** aus (z. B. erstes, letztes oder mittleres)
+- **Partitionierung**
+  + Alle Elemente **kleiner** als Pivot nach links, E. **größer** als P. nach rechts
+  + Pivot wird an seiner endgültigen Position platziert
+- Laufzeiten:
+  + Günstiger Fall: O(n log n)
+  + Ungünstiger Fall: max. O(𝑛²) (z. B. wenn Pivot ungünstig gewählt wird)
+- Geringer Speicherbedarf: meist wird im Array (**in place**) umsortiert
+- Nicht stabil: relative Reihenfolge gleicher Elemente kann sich ändern!
+
+:::
 
 
 ## O(n log n) vs. O(n²)
@@ -251,14 +274,6 @@ Rekursive Algorithmen sind geeignet, wenn:
 | 10 000   | 132 877              | 100 000 000    |
 | 1 000 000| 19 931 568           | 1 000 000 000 000 |
 
-
-## Merge Sort vs. Bubble / Selection / Insertion Sort
-
-- Deutlich schneller: O(n log n) statt O(n²)
-- Komplexer zu implementieren <br> (Rekursion + Zusammenführen)
-- Benötigt zusätzlichen Speicher zum Mergen
-- Für große Datenmengen klar überlegen
-- Während die einfachen Sortierverfahren oft **verschachtelte Schleifen** nutzen, arbeitet Merge Sort mit **Teilen und Zusammenfügen**
 
 ---
 

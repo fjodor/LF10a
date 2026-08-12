@@ -368,7 +368,32 @@ ENDE KLASSE
 :::
 
 
-## Methoden ohne Rückgabe?
+## Methoden ohne Rückgabe
+
+Es gibt auch Methoden **ohne Rückgabewerte**.
+
+```pseudo
+METHODE name(parameter)
+    ...
+ENDE METHODE
+```
+
+::: {.callout-tip}
+
+#### Prüfungsrelevant (Lernkarte): Funktion vs. Prozedur
+
+Eine **Funktion** liefert einen **Rückgabewert.**  
+Eine **Prozedur** liefert **keinen** Rückgabewert!
+
+:::
+
+::: {style="font-size: 1.9rem"}
+
+- Beide führen Anweisungen aus.
+- Funktionen können in Ausdrücken verwendet werden, z. B. `x = f(a, b)`;  
+  Prozeduren können nicht in Ausdrücken verwendet werden.
+:::
+
 
 ## Algorithmen: Akkumulator
 

@@ -315,7 +315,7 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 
 ## User Stories
 
-User Stories werden durch **Akzeptanzkriterien** ersetzt.
+User Stories enthalten **Akzeptanzkriterien**.
 
 Diese ersetzen nicht das Lastenheft,  
 sondern ergänzen es **in agilen Projekten**. 

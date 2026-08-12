@@ -9,11 +9,14 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: Willkommen_Struktur.qmd
-        text: Willkommen zu LF10a - Themen und Zeitplan
+      - href: 01_Willkommen_Struktur.qmd
+        text: 01 Willkommen zu LF10a - Themen und Zeitplan
+      - href: 02_Pseudocode.qmd
+        text: 02 Pseudocode
 
 format:
   revealjs:
+    embed-resources: true
     profile: public
     include-after-body: libs/backlink.html
     css: libs/styles.css

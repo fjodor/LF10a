@@ -1,0 +1,160 @@
+---
+title: "Software-Ergonomie"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: ""
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+***IHK-Prüfung-Lernmaterial 3.4.13***
+
+## Lernziele
+
+- Grundsätze der Softwareergonomie nach <br>**DIN EN ISO 9241** kennen, anwenden und in Prüfungsszenarien bewerten können
+- Dazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien
+
+
+---
+
+## DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion {style="font-size: 1.6rem"}
+
+Die Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsätze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:
+
+Grundsatz | Bedeutung | Beispiel |
+|--------|-----------|----------|
+| (1) Aufgaben-angemessenheit | Software unterstützt die Aufgabe ohne unnötige Schritte | Bestellformular zeigt nur relevante Felder |
+| (2) Selbstbeschrei-bungsfähigkeit | Jeder Schritt ist verständlich, ohne Handbuch | Tooltips, Hilfetexte, klare Beschriftungen |
+| (3) Erwartungs-konformität | Software verhält sich so, wie der Benutzer es erwartet | "Speichern"-Button oben links, Abbruch mit ESC |
+| (4) Fehlertoleranz | Fehlerhafte Eingaben fuehren nicht zu Datenverlust | Rückgaengig-Funktion, Validierung vor Absenden |
+| (5) Steuerbarkeit | Benutzer kann Ablauf und Geschwindigkeit steuern | Zurück-Button, Abbruch-Möglichkeit, Undo |
+| (6) Individualisier-barkeit | Software lässt sich an Benutzerbedürfnisse anpassen | Schriftgröße, Farbschema, Dashboard-Layout |
+| (7) Lernförderlichkeit | Software unterstützt das Erlernen der Bedienung | Tutorials, Assistenten, kontextsensitive Hilfe |
+
+
+## Usability (Gebrauchstauglichkeit) {style="font-size: 1.8rem"}
+
+**Definition (DIN EN ISO 9241-11):** Das Ausmaß, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele **effektiv**, **effizient** und **zufriedenstellend** zu erreichen.
+
+| Kriterium | Bedeutung | Beispiel |
+|-----------|-----------|----------|
+| Effektivität | Aufgabe wird korrekt und vollständig erledigt | Bestellung wird fehlerfrei abgeschlossen |
+| Effizienz | Aufgabe wird mit minimalem Aufwand erledigt | Wenige Klicks bis zum Ziel |
+| Zufriedenheit | Benutzer hat positives Nutzungserlebnis | Klare Rückmeldungen, angenehmes Design |
+
+
+## Barrierefreiheit (Accessibility) {style="font-size: 1.8rem"}
+
+**Definition:** Software muss so gestaltet sein, dass sie auch von Menschen mit Behinderungen genutzt werden kann.
+
+**Regelwerke:**
+
+| Standard | Beschreibung | Geltungsbereich |
+|----------|-------------|-----------------|
+| WCAG 2.1 | Web Content Accessibility Guidelines (W3C) | International, Webinhalte |
+| BITV 2.0 | Barrierefreie-Informationstechnik-Verordnung | Deutschland, öffentliche Stellen |
+| DIN EN ISO 9241-171 | Leitlinien für barrierefreie Software | International, allgemein |
+
+
+## WCAG-Prinzipien (POUR)
+
+1. **Perceivable (Wahrnehmbar):** Textalternativen fuer Bilder, Untertitel fuer Videos
+2. **Operable (Bedienbar):** Tastaturnavigation, ausreichend Zeit fuer Eingaben
+3. **Understandable (Verstaendlich):** Klare Sprache, konsistente Navigation
+4. **Robust:** Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)
+
+
+## WCAG: Praktische Maßnahmen {style="font-size: 2rem"}
+
+- Alt-Texte für Bilder
+- Kontrastverhaeeltnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)
+- Tastaturbedienbarkeit aller Funktionen
+- Formularbeschriftungen mit `<label>`-Elementen
+- Skip-Links für Screenreader
+- Keine reinen Farb-Informationen <br> (z.B. "rote Felder sind Pflichtfelder")
+
+
+## Zusammenhang der Konzepte
+
+::: note
+```
++--------------------------------------------+
+|  DIN EN ISO 9241-110                       |
+|  (7 Grundsätze der Dialoggestaltung)       |
++--------------------------------------------+
+```
+:::
+
+            |
+            v
+
+::: info
+```
++--------------------------------------------+
+|  Usability (DIN EN ISO 9241-11)            |
+|  Effektiv, Effizient, Zufriedenstellend    |
++--------------------------------------------+
+```
+:::
+
+            |
+            v
+
+::: note            
+```
++--------------------------------------------+
+|  Accessibility (WCAG, BITV)                |
+|  Barrierefreiheit für alle Nutzergruppen   |
++--------------------------------------------+
+```
+:::
+
+
+## Evaluationskriterien in der Praxis  {style="font-size: 1.8rem"}
+
+| Methode | Beschreibung | Wann einsetzen |
+|---------|-------------|----------------|
+| Heuristische Evaluation | Experten prüfen anhand von Regeln (z.B. Nielsen) | Früh im Entwicklungsprozess |
+| Usability-Test | Echte Benutzer testen die Software | Nach Prototyp-Phase |
+| Cognitive Walkthrough | Schritt-für-Schritt-Analyse aus Benutzersicht | Entwurfsphase |
+| Fragebogen (SUS, UEQ) | Standardisierte Befragung nach Nutzung | Nach Einführung / Release |
+
+
+## Typische Prüfungsaspekte
+
+- Grundsätze der DIN EN ISO 9241-110 benennen und in Szenarien erkennen
+- Negativbeispiel bewerten: Welcher Grundsatz ist verletzt?
+- Unterschied Usability vs. User Experience erklären
+- WCAG-Prinzipien nennen können
+- Maßnahmen für Barrierefreiheit benennen
+
+
+## Häufige Fehler
+
+- Usability wird mit Design verwechselt: Schön ≠ benutzbar
+- Barrierefreiheit wird nur auf Sehbehinderung reduziert → betrifft auch motorische, kognitive und auditive Einschränkungen
+- Erwartungskonformität wird vergessen: Software funktioniert, aber anders als gewohnt → frustriert Benutzer
+- Individualisierbarkeit wird als "optional nice-to-have" abgetan → ist ein Grundsatz der Norm
+
+
+## <!-- -->
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="text-align: center; font-size: 1rem;"}
+[©torange.biz](https://torange.biz/cup-coffee-30851) CC-BY 4.0
+:::
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg!**
+:::

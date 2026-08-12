@@ -1,0 +1,271 @@
+---
+title: "Strukturierte Analyse- und Designverfahren"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: "Top-Down-Entwurf, Bottom-Up-Entwurf, Modularisierung"
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+## Strukturierte Analyse- und Designverfahren
+
+Gehört zum Prüfungsteil: Konzipieren und Umsetzen von kundenspezifischen Softwareanwendungen
+
+- Top-down-Entwurf
+- Bottom-up-Entwurf
+- Modularisierung
+
+
+## Top-down-Entwurf
+
+- Beginn mit Gesamtsystem
+- schrittweise Zerlegung in kleinere Teilsysteme und Module
+- Motto: *Divide and Conquer*
+
+Wann geeignet?
+
+::: fragment
+Neue Systeme, bei denen das Gesamtsystem zuerst stehen muss
+:::
+
+
+## Top-down-Entwurf: Kernaussagen
+
+- Start beim Gesamtproblem, dann Zerlegung in Teilprobleme
+- Hierarchische Struktur: Hauptprogramm - Unterprogramme - Einzelfunktionen
+- Gut geeignet für komplett neue Systeme ohne bestehende Bausteine
+- Frühe Sicht auf die Gesamtarchitektur
+
+
+## Top-down-Entwurf: Wichtige Begriffe
+
+- ***Divide and Conquer***: Teile und Herrsche: Problem in Teilprobleme zerlegen
+- **Verfeinerung**: schrittweise Detaillierung der Lösung
+- **Hierarchie**: Ober-/Unterordnung der Module
+
+
+## Top-down-Entwurf: Beispiel
+
+- Projektleiter plant ERP-System: <br>*Enterprise Resource Planning System*
+- Gesamtsystem wird in Module aufgeteilt
+- Module werden weiter zerlegt
+
+::: fragment
+
+ ![](libs/_Images/Top-down-Entwurf.svg){width="120%" fig-alt="ERP-System im Top-down-Entwurf"}
+
+:::
+
+
+## Bottom-up-Entwurf
+
+- Beginn mit kleinsten, elementaren Bausteinen (Module, Funktionen)
+- Schrittweises Zusammensetzen zu größeren Einheiten
+
+Wann geeignet?
+
+::: fragment
+Wenn bereits wiederverwendbare Komponenten existieren
+:::
+
+
+## Bottom-up-Entwurf: Kernaussagen
+
+::: incremental
+
+- Start bei Detailkomponenten, dann Zusammenbau zum Gesamtsystem
+- Gut geeignet, wenn wiederverwendbare Bausteine bereits vorhanden sind
+- Einzelne Module können früh getestet werden
+- Risiko: Gesamtergebnis passt möglicherweise nicht zusammen
+
+:::
+
+
+## Bottom-up-Entwurf: Wichtige Begriffe
+
+- **Modul**: in sich geschlossene Einheit mit definierter Aufgabe
+- **Wiederverwendung**: bestehende Module in neuen Kontext einsetzen
+- **Integration**: Zusammenfügen von Modulen zu einem größeren System
+
+
+## Bottom-up-Entwurf: Beispiel
+
+- Entwickler baut zuerst Login-Komponente, Datenbankzugriffs-Schicht und PDF-Export-Funktion
+- Anschließend fügt er die Module zu einer Anwendung zusammen
+
+::: fragment
+![](libs/_Images/Bottom-up-Entwurf.svg){width="120%" fig-alt="Anwendung im Bottom-up-Entwurf"}
+:::
+
+
+## Top-down vs. Bottom-up: Vergleich
+
+:::: {.columns style="font-size: 1.7rem"}
+::: {.column width="25%"}
+
+Kriterium |
+----------|
+Startpunkt |
+Richtung |	
+Eignung	<br> &nbsp; | 	
+Gesamtüberblick |
+Testbarkeit einzelner Module | 
+Risiko 	<br> &nbsp; |
+Beispiel |
+
+:::
+
+::: {.column .fragment width="35%"}
+
+Top-down |
+----------|
+Gesamtsystem |
+Vom Grossen zum Kleinen |
+Neues System, keine Vorarbeiten |
+Früh vorhanden	|
+Spät (erst wenn Module implementiert) |
+Detail-Probleme werden spät entdeckt |
+Neues ERP-System planen	|
+
+:::
+
+::: {.column .fragment width="35%"}
+
+Bottom-up |
+----------|
+Einzelne Bausteine |
+Vom Kleinen zum Grossen |
+Bestehende Module vorhanden |
+Erst spät sichtbar |
+Früh (Module einzeln testbar) |
+Gesamtkonzept passt evtl. nicht |
+Bestehende Bibliotheken integrieren |
+
+:::
+::::
+
+
+## Kombination: Meet-in-the-Middle
+
+In der Praxis werden Top-down und Bottom-up oft kombiniert:
+
+- Top-down: Architektur des Gesamtsystems wird definiert
+- Bottom-up: Vorhandene Bibliotheken und Module werden eingebunden
+- Der Treffpunkt in der Mitte ergibt die Integrationsebene
+
+
+
+## Modularisierung
+
+::: incremental
+
+- System wird in eigenständige, austauschbare **Module** zerlegt
+- Jedes Modul hat eine klar definierte Aufgabe und kommuniziert über definierte **Schnittstellen** mit anderen Modulen
+- Ziel:
+  + hohe **Kohäsion** innerhalb der Module
+  + geringe **Kopplung** zwischen den Modulen
+
+:::
+
+
+## Modularisierung: Kernaussagen
+
+::: {style="font-size: 1.9rem"}
+
+- Jedes Modul erfüllt genau **eine** klar abgegrenzte Aufgabe
+- Module sind über **Schnittstellen** (*Interfaces*) verbunden
+- Änderungen in einem Modul sollen keine Auswirkungen auf andere Module haben
+- Zwei zentrale Qualitätsmerkmale: **Kohäsion** und **Kopplung**
+
+:::
+
+:::: {.columns style="font-size: 1.8rem"}
+::: {.column .fragment width="60%"}
+
+Eigenschaft	| Definition |
+--- | ------------- |
+**Kohäsion** | Wie stark die Bestandteile eines Moduls inhaltlich zusammengehören |
+**Kopplung** | Wie stark Module voneinander abhängig sind |
+
+:::
+
+::: {.column .fragment width="35%"}
+
+Ziel |
+------------ |
+Hoch: alles in einem Modul gehört thematisch zusammen |
+Niedrig: Module sollen unabhängig sein |
+
+:::
+::::
+
+
+## Modularisierung: Wichtige Begriffe
+
+- **Schnittstelle** *(Interface)*: definierter Ein-/ Ausgabekanal zwischen Modulen
+- ***Information Hiding***: interne Details eines Moduls sind von außen nicht sichtbar
+- ***Separation of Concerns***: Trennung von Zuständigkeiten
+
+
+## Modularisierung: Vorteile
+
+::: incremental
+
+- Bessere Wartbarkeit: Fehler lokal beheben
+- Bessere Testbarkeit: Module einzeln testbar
+- Bessere Wiederverwendbarkeit: Module in anderen Projekten nutzbar
+- Arbeitsteilung im Team: jedes Teammitglied bearbeitet ein Modul
+
+:::
+
+
+## Modularisierung: Kriterien für gute Module
+
+::: {style="font-size: 1.9rem"}
+
+Kriterium | Gut | Schlecht
+:---|:----------|:----------
+**Kohäsion** | Alle Funktionen eines Moduls gehoeren zum gleichen Thema	| **Ein** Modul macht Login, PDF-Export **und** Datenbankzugriff
+**Kopplung** | Module kommunizieren nur über definierte Schnittstellen | Ein Modul greift direkt auf interne Variablen eines anderen Moduls zu
+**Größe** | Überschaubarer Umfang (eine klare Aufgabe) | Riesiges Modul mit hunderten Funktionen
+**Namensgebung** | Sprechender Name: BenutzerAuthentifizierung | Unklarer Name: Modul_A
+
+:::
+
+
+## Design: Prüfungstipps {style="font-size: 1.8rem"}
+
+- Szenario lesen und Top-down oder Bottom-up empfehlen mit Begründung
+- Kohaesion und Kopplung definieren und bewerten
+- Vorteile der Modularisierung nennen (mindestens drei)
+- Zerlegung eines Problems in Module darstellen (Baumdiagramm)
+
+Häufige Fehler | Korrektur
+-------|------------
+Top-down und Bottom-up verwechselt | Top-down = vom Ganzen zum Detail, <br> Bottom-up = vom Detail zum Ganzen
+Hohe Kopplung als positiv bewertet | Hohe Kopplung = schlecht (starke Abhaengigkeit), niedrig = gut
+Kohäsion mit Kopplung verwechselt | Kohäsion = innerhalb eines Moduls, <br> Kopplung = zwischen Modulen
+Modularisierung nur als Aufteilung in Dateien verstanden | Es geht um fachliche Trennung mit definierten Schnittstellen
+
+
+## <!-- -->
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="text-align: center; font-size: 1rem;"}
+[©torange.biz](https://torange.biz/cup-coffee-30851) CC-BY 4.0
+:::
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg!**
+:::

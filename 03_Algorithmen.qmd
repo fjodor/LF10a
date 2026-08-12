@@ -1,0 +1,284 @@
+---
+title: "Algorithmen"
+title-slide-attributes:
+  data-background-color: "#D7E6F4"
+subtitle: " "
+format:
+  revealjs:
+    theme: simple
+    logo: libs/_Images/logo-AFBB.svg
+    css: libs/styles.css
+execute:
+  echo: false
+  eval: true
+  freeze: auto
+  warning: false
+  message: false
+callout-appearance: simple
+---
+
+## Suchalgorithen: Lineare Suche {style="font-size: 2.1rem"}
+
+::: incremental
+
+- Durchsucht eine Liste schrittweise von vorne nach hinten
+- Nach einander wird jeder Eintrag mit dem gesuchten Wert verglichen
+- Wird der Wert gefunden, wird die Position zurückgegeben
+- Wenn das Ende der Liste erreicht ist, ohne Treffer, gilt: nicht gefunden.
+- Vorteil: Einfach umzusetzen, keine Vorbereitung der Daten nötig
+- Nachteil: Langsam bei großen Listen, da im schlimmsten Fall alle Elemente geprüft werden müssen
+
+:::
+
+
+## Suchalgorithmen: Binäre Suche {style="font-size: 2rem"}
+
+::: incremental
+
+- findet Werte in sortierten Listen besonders effizient
+- Der Suchbereich wird wiederholt halbiert:
+  + Mittleres Element prüfen
+  + Ist der gesuchte Wert kleiner, wird nur die linke Hälfte weiter durchsucht
+  + Ist er größer, wird nur die rechte Hälfte betrachtet.
+- Prozess wird fortgesetzt, bis der Wert gefunden oder der Bereich leer ist
+- Vorteil: Sehr schnell – benötigt nur logarithmisch viele Schritte.
+- Nachteil: Funktioniert nur mit sortierten Daten.
+
+:::
+
+
+## Binäre Suche: Maximale Anzahl Suchschritte {style="font-size: 2rem"}
+
+Was bedeutet *"logarithmisch viele Schritte"*?
+
+| Listengröße \(n\) | log2(n) (ungefähr) | Maximale Schritte (ceiling) |
+|-------------------:|-------------------:|----------------------------:|
+| 8 | 3 | 3 |
+| 16 | 4 | 4 |
+| 100 | 6.64 | 7 |
+| 1 000 | 9.97 | 10 |
+| 1 000 000 | 19.93 | 20 |
+| 1 000 000 000 | 29.90 | 30 |
+
+
+## Algorithmen: iterativ vs. rekursiv {style="font-size: 1.7rem"}
+
+:::: columns
+::: column
+
+### Iterative Vorgehensweise 
+
+Aufgabe wird wiederholt mit Schleifenstrukturen wie `for`, <br> `while` oder `do-while`
+
+#### Vorteile 
+
+::: {.incremental style="font-size: 1.6rem"}
+
+  + in der Regel einfacher zu verstehen
+  + geringerer Speicherverbrauch
+  + Effizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller
+  + Robustheit: keine Gefahr eines *Stack Overflow*
+  + Debugging: Schleifen einfacher nachzuverfolgen
+  + Praxisnähe: in realen Systeme fast immer bevorzugt
+
+:::
+:::
+
+::: column
+
+### Rekursive Vorgehensweise
+
+- Funktion ruft **sich selbst** auf
+- löst Probleme, **die "natürlich" in kleinere Teilprobleme zerlegt** werden können
+
+#### Vorteile
+
+::: incremental
+
+  + Eleganz; kann intuitiver sein, näher an der mathematischen Idee
+  + Lesbarkeit: Struktur folgt direkt der Problemdefinition
+  + Verwaltungsaufwand geringer: kein explizites Schleifen-Management
+
+:::
+:::
+::::
+
+::: notes
+
+siehe Lernkarte AP2 146; hier ausführlicher!
+
+:::
+
+
+## Algorithmen: Wann ist Rekursion möglich? {style="font-size: 2.2rem"}
+
+Rekursive Algorithmen sind geeignet, wenn:
+
+::: incremental
+
+- der Algorithmus mehrmals ausgeführt werden muss
+- der Algorithmus Daten benötigt, die sich bei jedem Aufruf ändern
+- der Algorithmus selbst jedesmal unverändert bleibt
+- es eine klare Bedingung gibt, bei deren Erfüllung der Algorithmus endet
+
+:::
+
+
+## Algorithmen: iterativ vs. rekursiv  {style="font-size: 2rem"}
+
+:::: columns
+::: column
+
+### Iterative Vorgehensweise
+
+#### Nachteile
+
+::: incremental
+
+  + weniger elegant
+  + mehr Verwaltungslogik; z. B. binäre Suche: *left, right, mid*
+  + weniger mathematisch; z. B. binäre Suche: Idee der Halbierung nicht so klar sichtbar
+
+:::
+:::
+
+::: column
+
+### Rekursive Vorgehensweise
+
+#### Nachteile
+
+::: incremental
+
+  + evtl. schwieriger zu verstehen
+  + Speicher: jeder Funktionsaufruf landet auf dem *Stack*
+  + bei sehr großen Listen *Stack Overflow* möglich
+  + langsamer: Funktionsaufrufe teurer als Schleifen
+  + Debuggen schwieriger: man muss Rekursionstiefe und Aufrufkette verstehen
+
+:::
+:::
+::::
+
+## Algorithmen: iterativ vs. rekursiv  {style="font-size: 1.9rem"}
+
+| Aspekt | **Iterativ** | **Rekursiv** |
+| --- | --- | --- |
+| **Performance** | Schnell | Etwas langsamer |
+| **Speicher** | Minimal | Rekursionsstack |
+| **Lesbarkeit** | Technisch | Elegant |
+| **Debugbarkeit** | Einfach | Anspruchsvoll |
+| **Gefahr Stack Overflow** | Keine | Ja |
+| **Praxis** | Standard | Selten |
+| **Didaktik** | OK | Sehr gut |
+
+
+
+## Sortieralgorithmen: Bubble Sort {style="font-size: 2.2rem"}
+
+::: incremental
+
+- Vergleicht wiederholt benachbarte Elemente und vertauscht sie, wenn sie sich in der falschen Reihenfolge befinden
+- Größte Elemente "wandern" pro Durchlauf nach rechts (wie Blasen nach oben)
+- Wird wiederholt, bis keien Vertauschungen mehr nötig sind
+- Vorteil: relativ einfach zu verstehen
+- Nachteil: ineffizient bei großen Datenmengen
+- Laufzeit: O(n²)
+
+:::
+
+
+## Was bedeutet O(n²)?
+
+- Aussprache: „O von n Quadrat“
+- O steht für „Order of“ → beschreibt die Größenordnung des Wachstums
+- n ist die Eingabegröße (z. B. Anzahl der Listenelemente)
+- Quadratisches Wachstum: **Verdoppelt** man n, **vervierfacht** sich die Laufzeit
+- Typisch bei Algorithmen mit verschachtelten Schleifen
+
+
+## Sortieralgorithmen: Selection Sort
+
+::: incremental
+
+- Sucht im unsortierten Teil das kleinste (oder größte) Element
+- Tauscht es an die aktuelle Position
+- Verschiebt die Grenze zwischen sortiertem und unsortiertem Bereich Schritt für Schritt
+- Wenige Vertauschungen, aber viele Vergleiche
+- Laufzeit: O(n²)
+
+:::
+
+
+## Sortieralgorithmen: Insertion Sort
+
+::: incremental
+
+- Baut die sortierte Liste schrittweise auf
+- Nimmt das nächste Element und fügt es an der richtigen Stelle im bereits sortierten Teil ein
+- Gut für kleine oder fast sortierte Listen
+- Intuitiv (ähnlich wie Kartensortieren in der Hand)
+- Laufzeit: O(n²), aber sehr schnell für fast sortierte Daten
+
+:::
+
+
+## Sortieralgorithmen: Merge Sort
+
+::: incremental
+
+- Teilt die Liste rekursiv in immer kleinere Hälften
+- Sortiert die Teilstücke und führt sie geordnet wieder zusammen („merge“)
+- Nutzt das Prinzip *Divide and Conquer* ("Teile und herrsche")
+- Sehr effizient, auch bei großen Datenmengen
+- Laufzeit: O(n log n)
+- Stabil und gut parallelisierbar
+
+:::
+
+
+## Sortieralgorithmen: Quick Sort
+
+
+
+## O(n log n) vs. O(n²)
+
+| n (Länge Liste) | n log2(n) (ungefähr) | n²            |
+|---------:|----------------------:|---------------:|
+| 10       | 33                   | 100            |
+| 100      | 664                  | 10 000         |
+| 1 000    | 9 966                | 1 000 000      |
+| 10 000   | 132 877              | 100 000 000    |
+| 1 000 000| 19 931 568           | 1 000 000 000 000 |
+
+
+## Merge Sort vs. Bubble / Selection / Insertion Sort
+
+- Deutlich schneller: O(n log n) statt O(n²)
+- Komplexer zu implementieren <br> (Rekursion + Zusammenführen)
+- Benötigt zusätzlichen Speicher zum Mergen
+- Für große Datenmengen klar überlegen
+- Während die einfachen Sortierverfahren oft **verschachtelte Schleifen** nutzen, arbeitet Merge Sort mit **Teilen und Zusammenfügen**
+
+---
+
+### Quadratische vs. Logarithmische Sortierverfahren
+
+::: {style="font-size: 1.7rem"}
+
+| Quadratische Sortierverfahren | Logarithmische Sortierverfahren |
+|------------------------------|----------------------------------|
+| **Vorteile**<br>– Einfache Implementierung<br>– Gut für kleine Datenmengen<br>– Leicht verständlich<br>– Einfaches Debugging | **Vorteile**<br>– Effizientere und schnellere Sortierung<br>– Gute Skalierbarkeit<br>– Häufiger Standard in Bibliotheken |
+| **Nachteile**<br>– Je nach Datenmenge sehr ineffizient<br>– Viele unnötige Vertauschungen<br>– Nicht optimal für moderne Hardware<br>– Nicht für verteilte Systeme geeignet | **Nachteile**<br>– Aufwändige Implementierung<br>– Benötigt ggf. zusätzlichen Speicherplatz<br>– Ggf. höherer Verwaltungsaufwand |
+| **Beispiele**<br>– Bubble Sort<br>– Selection Sort<br>– Insertion Sort | **Beispiele**<br>– Merge Sort<br>– Quick Sort |
+
+:::
+
+
+## <!-- -->
+
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="color: green; text-align: center; font-size: 2.8rem"}
+**Viel Erfolg mit allen Algorithmen!**
+:::

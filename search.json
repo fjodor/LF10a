@@ -1,43 +1,276 @@
 [
   {
-    "objectID": "Willkommen_Struktur.html#willkommen-in-lf10a",
-    "href": "Willkommen_Struktur.html#willkommen-in-lf10a",
-    "title": "Willkommen in LF10a!",
-    "section": "Willkommen in LF10a!",
-    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\n\nCartoon The Art of Programming\nGeek and Code, Oliver Widder\nhttps://devhumor.com/media/the-art-of-programming",
-    "crumbs": [
-      "Willkommen zu LF10a - Themen und Zeitplan"
-    ]
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lokaler-computer-experte",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lokaler-computer-experte",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lokaler Computer-Experte …",
+    "text": "Lokaler Computer-Experte …\n\n\n\n\n\n\n\n\n\n\n\n\n\nKein echtes UML!\n\nQuelle: xkcd.com/627/"
   },
   {
-    "objectID": "Willkommen_Struktur.html#willkommen-in-lf10a-1",
-    "href": "Willkommen_Struktur.html#willkommen-in-lf10a-1",
-    "title": "Willkommen in LF10a!",
-    "section": "Willkommen in LF10a!",
-    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\nThemenübersicht\n\nAlgorithmen, Pseudocode, Datenstrukturen\nSoftware-Anforderungen\nUML, Modellierung, Analyse- und Designverfahren\nWerkzeuge und Entwicklungsumgebungen\nBenutzeroberflächen: UI / UX, Usability",
-    "crumbs": [
-      "Willkommen zu LF10a - Themen und Zeitplan"
-    ]
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#uml-diagramm-übersicht",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#uml-diagramm-übersicht",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "UML Diagramm-Übersicht",
+    "text": "UML Diagramm-Übersicht\n\nQuelle: esb-dev.github.io"
   },
   {
-    "objectID": "Willkommen_Struktur.html#zeitplan-und-noten",
-    "href": "Willkommen_Struktur.html#zeitplan-und-noten",
-    "title": "Willkommen in LF10a!",
-    "section": "Zeitplan und Noten",
-    "text": "Zeitplan und Noten\n\nKlassenarbeit am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen\nKlassenarbeit am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren\nSOL am 28. August, die am 29. September präsentiert und benotet wird\nPraxisprojekt vom 30. September bis 2. Oktober\nPräsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung\nAm Dienstag, 6. Oktober beginnt LF11a",
-    "crumbs": [
-      "Willkommen zu LF10a - Themen und Zeitplan"
-    ]
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#ein-echtes-aktivitätsdiagramm",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#ein-echtes-aktivitätsdiagramm",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Ein “echtes” Aktivitätsdiagramm",
+    "text": "Ein “echtes” Aktivitätsdiagramm\n\n\n\n\n\n\n\n\n\n\n\n\n\nbildet die von einem System ausgeführten Aktivitäten ab\nzählt zu den Verhaltensdiagrammen in der UML\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStartknoten\nAktion\nKonnektor\nEndknoten"
   },
   {
-    "objectID": "Willkommen_Struktur.html#section",
-    "href": "Willkommen_Struktur.html#section",
-    "title": "Willkommen in LF10a!",
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek",
+    "text": "Aufgabe: Bibliothek\n\nStellen Sie sich vor, Sie besuchen die Bibliothek, um ein Buch auszuleihen.\nErstellen Sie ein Aktivitätsdiagramm, das den gesamten Ablauf Ihres Besuchs in der Bibliothek beschreibt.\n\nSie betreten die Bibliothek.\nSie gehen zur Buchabteilung und suchen ein Buch.\nSie prüfen, ob das Buch ausleihbar ist.\nSie verlassen die Bibliothek.\n\nErstellen Sie das Aktivitäts-Diagramm mit draw.io. Speichern Sie es so, dass Sie es in der Folge weiter nutzen und verändern können."
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek",
+    "text": "Lösung: Bibliothek"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-verzweigung",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-verzweigung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aktivitätsdiagramm: Verzweigung",
+    "text": "Aktivitätsdiagramm: Verzweigung"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-verzweigung",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-verzweigung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek, Verzweigung",
+    "text": "Aufgabe: Bibliothek, Verzweigung\n\nSie besuchen die Bibliothek, um ein Buch auszuleihen.\nErstellen Sie ein Aktivitätsdiagramm mit Verzweigung.\n\nSie betreten die Bibliothek.\nSie suchen und finden ein Buch.\nSie prüfen, ob es ausleihbar ist.\nWenn ja (Buch ausleihbar):\n\nSie gehen zur Ausleihtheke.\nSie leihen das Buch aus.\nSie verlassen die Bibliothek.\n\nWenn nein (Buch nicht ausleihbar):\n\nPrüfen, ob Sie noch ein anderes Buch suchen\nFalls ja:\n\nBuch suchen\n\nFalls nein:\n\nSie verlassen die Bibliothek."
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-verzweigung",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-verzweigung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek, Verzweigung",
+    "text": "Lösung: Bibliothek, Verzweigung"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-parallel",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-parallel",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek, parallel",
+    "text": "Aufgabe: Bibliothek, parallel\n\n\nWie zuletzt\nSie besuchen die Bibliothek, um ein Buch auszuleihen.\n\nSie betreten die Bibliothek.\nSie suchen und finden ein Buch.\nSie prüfen, ob es ausleihbar ist.\nWenn ja (Buch ausleihbar):\n\nSie gehen zur Ausleihtheke.\nSie leihen das Buch aus.\nSie verlassen die Bibliothek.\n\nWenn nein (Buch nicht ausleihbar):\n\nPrüfen, ob Sie noch ein anderes Buch suchen\nFalls ja:\n\nBuch suchen\n\nFalls nein:\n\nSie verlassen die Bibliothek.\n\n\n\n\nNeu\nNach der Ausleihe laufen vor dem Verlassen der Bibo zwei Prozesse parallel:\n\nBibliotheksdatenbank muss das ausgeliehene Buch registrieren\nArbeitskraft am Schalter stellt Ausleihbeleg aus."
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-parallel",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-parallel",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek, parallel",
+    "text": "Lösung: Bibliothek, parallel"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-mit-swimlanes",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-mit-swimlanes",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek mit Swimlanes",
+    "text": "Aufgabe: Bibliothek mit Swimlanes\n\nDiagramm wie bisher, mit parallelen Prozessen vor dem Verlassen der Bibliothek.\nNeu: Kennzeichnen Sie die Verantwortlichkeiten anhand von Swimlanes."
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-mit-swimlanes",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-mit-swimlanes",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek mit Swimlanes",
+    "text": "Lösung: Bibliothek mit Swimlanes"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-übersicht",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-übersicht",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aktivitätsdiagramm: Übersicht",
+    "text": "Aktivitätsdiagramm: Übersicht"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramme",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramme",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Anwendungsfalldiagramme",
+    "text": "Anwendungsfalldiagramme\nWas ist ein Anwendungsfall?\n\nVerhalten, das ein modelliertes System nach außen anbietet\nPerspektive: Nutzer\n\n\nWas ist ein Anwendungsfall-Diagramm (Use-Case-Diagramm)?\n\nZeigt das externe Verhalten eines Systems aus Sicht der Nutzer\nBeantwortet die Frage:\nWas soll mein geplantes System eigentlich leisten?"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Anwendungsfalldiagramm: Yachthafen",
+    "text": "Anwendungsfalldiagramm: Yachthafen\n\n\nLiegeplatzverwaltung\n\nProjekt: Softwarekomponente für Vermietung von Liegeplätzen\nTeil des Yachthafen-Managements\n\nAnforderungen:\n\n\nKunden können Liegeplatz mieten und kündigen\nKunden können sich im Yachthafen mit Yacht an- und abmelden\nMitarbeiter können einzelne Liegeplätze für Wartung sperren\nNutzer des Programms können aktuelle Liegeplatzbelegung ansehen\n\n\nProjektteam:\n\nobjektorientierte Entwicklung\nUML zur Planung\n\n\n\n\n\n\n\n\n\n\n\nQuelle: PaterMcFly, Wikimedia Commons\n\nNächster Schritt in Softwareentwicklung?\nWie können sich Entwickler einen Überblick über alle Anwendungsfälle verschaffen?"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen-1",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen-1",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Anwendungsfalldiagramm: Yachthafen",
+    "text": "Anwendungsfalldiagramm: Yachthafen"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-grundelemente",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-grundelemente",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-Diagramm: Grundelemente",
+    "text": "Use-Case-Diagramm: Grundelemente"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-generalisierung",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-generalisierung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-Diagramm: Generalisierung",
+    "text": "Use-Case-Diagramm: Generalisierung\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneralisierung / Spezialisierung\n\nzeigt Beziehung zwischen allgemeinem und spezialisiertem Element\nkann sowohl zwischen Anwendungsfällen als auch zwischen Akteuren dargestellt werden\nPfeilrichtung beachten:  Vom speziellen zum generellen Element!"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-bibliothek",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Use-Case-D. Bibliothek",
+    "text": "Aufgabe: Use-Case-D. Bibliothek\n\nBibliothek möchte neues System einführen zur Automatisierung:\n\nAusleihe von Büchern\nBenutzerverwaltung\nBücherverwaltung\n\nAufgabe: Use-Case-Diagramm\nAnforderungen\n\nBenutzer kann Bücher ausleihen, Bücher zurückgeben und seinen Kontostand für ausgeliehene Bücher überprüfen\nPremium-Benutzer kann zusätzlich Bücher vorbestellen\nBibliothekar kann neue Benutzer registrieren, Bücher hinzufügen und Bücher entfernen\nChef-Bibliothekar kann zusätzlich Berichte über die Ausleihe erstellen und die Verwaltung der Bibliothek übernehmen"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-bibliothek",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Use-Case-D. Bibliothek",
+    "text": "Lösung: Use-Case-D. Bibliothek"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#use-case-d.-include",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#use-case-d.-include",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-D.: <<include>>",
+    "text": "Use-Case-D.: &lt;&lt;include&gt;&gt;\n\n\nEin Anwendungsfall führt immer einen anderen mit aus\nPflicht-Einbindung\nincludierter Use Case ist wiederverwendbar\nPfeilrichtung: vom Basis-Use-Case zum inkludierten Use-Case"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-include",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-include",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Use-Case-D., include",
+    "text": "Aufgabe: Use-Case-D., include\nBibliothek, wie zuletzt\nNeue Beziehungen\n\nAusleihen von Büchern enthält immer Berechtigungs-Prüfung\nRegistrieren eines Benutzers: immer Bestätigungs-Email\n\nUse-Case-Diagramm zeichnen."
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-include",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-include",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Use-Case-D., include",
+    "text": "Lösung: Use-Case-D., include"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#use-case-d.-extend",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#use-case-d.-extend",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-D.: <<extend>>",
+    "text": "Use-Case-D.: &lt;&lt;extend&gt;&gt;\n\n\n\n\n\n\n\n\n\n\n\nEin Anwendungsfall führt optional einen anderen mit aus\nErweiterung unter bestimmten Bedingungen\nAchtung: Pfeilrichtung vom erweiternden Anwendungsfall zum Basis-Use-Case\nAnders als bei &lt;&lt;include&gt;&gt;!!\nB ist Basis-Use-Case, A ist extended use case"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-extend",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-extend",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Use-Case-D., extend",
+    "text": "Aufgabe: Use-Case-D., extend\nBibliothek, wie zuletzt, mit include\nNeue Sonderfälle\n\nBücher zurückgeben: manchmal müssen Gebühren erhoben werden\n-&gt; erweitert den Use Case “Bücher zurückgeben”\nWenn Bibliothekar ein Buch hinzufügt:  manchmal müssen Buchinformationen validiert werden,  wenn sie unvollständig sind\n\nAufgabe: Use-Case-Diagramm mit zwei Conditions"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-extend",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-extend",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Use-Case-D., extend",
+    "text": "Lösung: Use-Case-D., extend"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-so-klappts",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-so-klappts",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-Diagramm: So klappt’s",
+    "text": "Use-Case-Diagramm: So klappt’s\n\n\nInclude (zwingende Folge) und extend (optionale Folge) gut unterscheiden\nPfeilrichtungen beachten:\n\nGeneralisierung / Spezialisierung: Vom speziellen zum generellen Element\nBeispiel: vom Premium-Benutzer zum Benutzer\n&lt;&lt;include&gt;&gt;: vom Basis-Use-Case zum inkludierten Use-Case\nBeispiel: von Bücher ausleihen zu Berechtigung prüfen\n&lt;&lt;extend&gt;&gt;: vom erweiternden Anwendungsfall zum Basis-Use-Case\nBeispiel: von Gebühren erheben zu Bücher zurückgeben\n\nUse-Case-Diagramm ist statisch\nNicht für Abläufe verwenden!"
+  },
+  {
+    "objectID": "UML_Aktivitätsd-Use-Case-D.html#section",
+    "href": "UML_Aktivitätsd-Use-Case-D.html#section",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
     "section": "",
-    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
-    "crumbs": [
-      "Willkommen zu LF10a - Themen und Zeitplan"
-    ]
+    "text": "Viel Erfolg mit UML!"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#lernziele",
+    "href": "Software-Ergonomie.html#lernziele",
+    "title": "Software-Ergonomie",
+    "section": "Lernziele",
+    "text": "Lernziele\n\nGrundsätze der Softwareergonomie nach DIN EN ISO 9241 kennen, anwenden und in Prüfungsszenarien bewerten können\nDazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
+    "href": "Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
+    "title": "Software-Ergonomie",
+    "section": "DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion",
+    "text": "DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion\nDie Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsätze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:\n\n\n\n\n\n\n\n\nGrundsatz\nBedeutung\nBeispiel\n\n\n\n\n(1) Aufgaben-angemessenheit\nSoftware unterstützt die Aufgabe ohne unnötige Schritte\nBestellformular zeigt nur relevante Felder\n\n\n(2) Selbstbeschrei-bungsfähigkeit\nJeder Schritt ist verständlich, ohne Handbuch\nTooltips, Hilfetexte, klare Beschriftungen\n\n\n(3) Erwartungs-konformität\nSoftware verhält sich so, wie der Benutzer es erwartet\n“Speichern”-Button oben links, Abbruch mit ESC\n\n\n(4) Fehlertoleranz\nFehlerhafte Eingaben fuehren nicht zu Datenverlust\nRückgaengig-Funktion, Validierung vor Absenden\n\n\n(5) Steuerbarkeit\nBenutzer kann Ablauf und Geschwindigkeit steuern\nZurück-Button, Abbruch-Möglichkeit, Undo\n\n\n(6) Individualisier-barkeit\nSoftware lässt sich an Benutzerbedürfnisse anpassen\nSchriftgröße, Farbschema, Dashboard-Layout\n\n\n(7) Lernförderlichkeit\nSoftware unterstützt das Erlernen der Bedienung\nTutorials, Assistenten, kontextsensitive Hilfe"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#usability-gebrauchstauglichkeit",
+    "href": "Software-Ergonomie.html#usability-gebrauchstauglichkeit",
+    "title": "Software-Ergonomie",
+    "section": "Usability (Gebrauchstauglichkeit)",
+    "text": "Usability (Gebrauchstauglichkeit)\nDefinition (DIN EN ISO 9241-11): Das Ausmaß, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.\n\n\n\n\n\n\n\n\nKriterium\nBedeutung\nBeispiel\n\n\n\n\nEffektivität\nAufgabe wird korrekt und vollständig erledigt\nBestellung wird fehlerfrei abgeschlossen\n\n\nEffizienz\nAufgabe wird mit minimalem Aufwand erledigt\nWenige Klicks bis zum Ziel\n\n\nZufriedenheit\nBenutzer hat positives Nutzungserlebnis\nKlare Rückmeldungen, angenehmes Design"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#barrierefreiheit-accessibility",
+    "href": "Software-Ergonomie.html#barrierefreiheit-accessibility",
+    "title": "Software-Ergonomie",
+    "section": "Barrierefreiheit (Accessibility)",
+    "text": "Barrierefreiheit (Accessibility)\nDefinition: Software muss so gestaltet sein, dass sie auch von Menschen mit Behinderungen genutzt werden kann.\nRegelwerke:\n\n\n\n\n\n\n\n\nStandard\nBeschreibung\nGeltungsbereich\n\n\n\n\nWCAG 2.1\nWeb Content Accessibility Guidelines (W3C)\nInternational, Webinhalte\n\n\nBITV 2.0\nBarrierefreie-Informationstechnik-Verordnung\nDeutschland, öffentliche Stellen\n\n\nDIN EN ISO 9241-171\nLeitlinien für barrierefreie Software\nInternational, allgemein"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#wcag-prinzipien-pour",
+    "href": "Software-Ergonomie.html#wcag-prinzipien-pour",
+    "title": "Software-Ergonomie",
+    "section": "WCAG-Prinzipien (POUR)",
+    "text": "WCAG-Prinzipien (POUR)\n\nPerceivable (Wahrnehmbar): Textalternativen fuer Bilder, Untertitel fuer Videos\nOperable (Bedienbar): Tastaturnavigation, ausreichend Zeit fuer Eingaben\nUnderstandable (Verstaendlich): Klare Sprache, konsistente Navigation\nRobust: Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#wcag-praktische-maßnahmen",
+    "href": "Software-Ergonomie.html#wcag-praktische-maßnahmen",
+    "title": "Software-Ergonomie",
+    "section": "WCAG: Praktische Maßnahmen",
+    "text": "WCAG: Praktische Maßnahmen\n\nAlt-Texte für Bilder\nKontrastverhaeeltnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)\nTastaturbedienbarkeit aller Funktionen\nFormularbeschriftungen mit &lt;label&gt;-Elementen\nSkip-Links für Screenreader\nKeine reinen Farb-Informationen  (z.B. “rote Felder sind Pflichtfelder”)"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#zusammenhang-der-konzepte",
+    "href": "Software-Ergonomie.html#zusammenhang-der-konzepte",
+    "title": "Software-Ergonomie",
+    "section": "Zusammenhang der Konzepte",
+    "text": "Zusammenhang der Konzepte\n\n+--------------------------------------------+\n|  DIN EN ISO 9241-110                       |\n|  (7 Grundsätze der Dialoggestaltung)       |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Usability (DIN EN ISO 9241-11)            |\n|  Effektiv, Effizient, Zufriedenstellend    |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Accessibility (WCAG, BITV)                |\n|  Barrierefreiheit für alle Nutzergruppen   |\n+--------------------------------------------+"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
+    "href": "Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
+    "title": "Software-Ergonomie",
+    "section": "Evaluationskriterien in der Praxis",
+    "text": "Evaluationskriterien in der Praxis\n\n\n\n\n\n\n\n\nMethode\nBeschreibung\nWann einsetzen\n\n\n\n\nHeuristische Evaluation\nExperten prüfen anhand von Regeln (z.B. Nielsen)\nFrüh im Entwicklungsprozess\n\n\nUsability-Test\nEchte Benutzer testen die Software\nNach Prototyp-Phase\n\n\nCognitive Walkthrough\nSchritt-für-Schritt-Analyse aus Benutzersicht\nEntwurfsphase\n\n\nFragebogen (SUS, UEQ)\nStandardisierte Befragung nach Nutzung\nNach Einführung / Release"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#typische-prüfungsaspekte",
+    "href": "Software-Ergonomie.html#typische-prüfungsaspekte",
+    "title": "Software-Ergonomie",
+    "section": "Typische Prüfungsaspekte",
+    "text": "Typische Prüfungsaspekte\n\nGrundsätze der DIN EN ISO 9241-110 benennen und in Szenarien erkennen\nNegativbeispiel bewerten: Welcher Grundsatz ist verletzt?\nUnterschied Usability vs. User Experience erklären\nWCAG-Prinzipien nennen können\nMaßnahmen für Barrierefreiheit benennen"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#häufige-fehler",
+    "href": "Software-Ergonomie.html#häufige-fehler",
+    "title": "Software-Ergonomie",
+    "section": "Häufige Fehler",
+    "text": "Häufige Fehler\n\nUsability wird mit Design verwechselt: Schön ≠ benutzbar\nBarrierefreiheit wird nur auf Sehbehinderung reduziert → betrifft auch motorische, kognitive und auditive Einschränkungen\nErwartungskonformität wird vergessen: Software funktioniert, aber anders als gewohnt → frustriert Benutzer\nIndividualisierbarkeit wird als “optional nice-to-have” abgetan → ist ein Grundsatz der Norm"
+  },
+  {
+    "objectID": "Software-Ergonomie.html#section",
+    "href": "Software-Ergonomie.html#section",
+    "title": "Software-Ergonomie",
+    "section": "",
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
   },
   {
     "objectID": "index.html",
@@ -47,6 +280,366 @@
     "text": "Willkommen!\nHier sammle ich Unterlagen zu LF10a.\nDer Quellcode liegt hier: https://github.com/fjodor/LF10a",
     "crumbs": [
       "Home"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#suchalgorithen-lineare-suche",
+    "href": "03_Algorithmen.html#suchalgorithen-lineare-suche",
+    "title": "Algorithmen",
+    "section": "Suchalgorithen: Lineare Suche",
+    "text": "Suchalgorithen: Lineare Suche\n\nDurchsucht eine Liste schrittweise von vorne nach hinten\nNach einander wird jeder Eintrag mit dem gesuchten Wert verglichen\nWird der Wert gefunden, wird die Position zurückgegeben\nWenn das Ende der Liste erreicht ist, ohne Treffer, gilt: nicht gefunden.\nVorteil: Einfach umzusetzen, keine Vorbereitung der Daten nötig\nNachteil: Langsam bei großen Listen, da im schlimmsten Fall alle Elemente geprüft werden müssen"
+  },
+  {
+    "objectID": "03_Algorithmen.html#suchalgorithmen-binäre-suche",
+    "href": "03_Algorithmen.html#suchalgorithmen-binäre-suche",
+    "title": "Algorithmen",
+    "section": "Suchalgorithmen: Binäre Suche",
+    "text": "Suchalgorithmen: Binäre Suche\n\nfindet Werte in sortierten Listen besonders effizient\nDer Suchbereich wird wiederholt halbiert:\n\nMittleres Element prüfen\nIst der gesuchte Wert kleiner, wird nur die linke Hälfte weiter durchsucht\nIst er größer, wird nur die rechte Hälfte betrachtet.\n\nProzess wird fortgesetzt, bis der Wert gefunden oder der Bereich leer ist\nVorteil: Sehr schnell – benötigt nur logarithmisch viele Schritte.\nNachteil: Funktioniert nur mit sortierten Daten."
+  },
+  {
+    "objectID": "03_Algorithmen.html#binäre-suche-maximale-anzahl-suchschritte",
+    "href": "03_Algorithmen.html#binäre-suche-maximale-anzahl-suchschritte",
+    "title": "Algorithmen",
+    "section": "Binäre Suche: Maximale Anzahl Suchschritte",
+    "text": "Binäre Suche: Maximale Anzahl Suchschritte\nWas bedeutet “logarithmisch viele Schritte”?\n\n\n\n\n\n\n\n\nListengröße (n)\nlog2(n) (ungefähr)\nMaximale Schritte (ceiling)\n\n\n\n\n8\n3\n3\n\n\n16\n4\n4\n\n\n100\n6.64\n7\n\n\n1 000\n9.97\n10\n\n\n1 000 000\n19.93\n20\n\n\n1 000 000 000\n29.90\n30"
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv",
+    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv",
+    "title": "Algorithmen",
+    "section": "Algorithmen: iterativ vs. rekursiv",
+    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nAufgabe wird wiederholt mit Schleifenstrukturen wie for,  while oder do-while\nVorteile\n\n\nin der Regel einfacher zu verstehen\ngeringerer Speicherverbrauch\nEffizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller\nRobustheit: keine Gefahr eines Stack Overflow\nDebugging: Schleifen einfacher nachzuverfolgen\nPraxisnähe: in realen Systeme fast immer bevorzugt\n\n\n\nRekursive Vorgehensweise\n\nFunktion ruft sich selbst auf\nlöst Probleme, die “natürlich” in kleinere Teilprobleme zerlegt werden können\n\nVorteile\n\nEleganz; kann intuitiver sein, näher an der mathematischen Idee\nLesbarkeit: Struktur folgt direkt der Problemdefinition\nVerwaltungsaufwand geringer: kein explizites Schleifen-Management\n\n\n\nsiehe Lernkarte AP2 146; hier ausführlicher!"
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-wann-ist-rekursion-möglich",
+    "href": "03_Algorithmen.html#algorithmen-wann-ist-rekursion-möglich",
+    "title": "Algorithmen",
+    "section": "Algorithmen: Wann ist Rekursion möglich?",
+    "text": "Algorithmen: Wann ist Rekursion möglich?\nRekursive Algorithmen sind geeignet, wenn:\n\nder Algorithmus mehrmals ausgeführt werden muss\nder Algorithmus Daten benötigt, die sich bei jedem Aufruf ändern\nder Algorithmus selbst jedesmal unverändert bleibt\nes eine klare Bedingung gibt, bei deren Erfüllung der Algorithmus endet"
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-1",
+    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-1",
+    "title": "Algorithmen",
+    "section": "Algorithmen: iterativ vs. rekursiv",
+    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nNachteile\n\nweniger elegant\nmehr Verwaltungslogik; z. B. binäre Suche: left, right, mid\nweniger mathematisch; z. B. binäre Suche: Idee der Halbierung nicht so klar sichtbar\n\n\nRekursive Vorgehensweise\nNachteile\n\nevtl. schwieriger zu verstehen\nSpeicher: jeder Funktionsaufruf landet auf dem Stack\nbei sehr großen Listen Stack Overflow möglich\nlangsamer: Funktionsaufrufe teurer als Schleifen\nDebuggen schwieriger: man muss Rekursionstiefe und Aufrufkette verstehen"
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-2",
+    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-2",
+    "title": "Algorithmen",
+    "section": "Algorithmen: iterativ vs. rekursiv",
+    "text": "Algorithmen: iterativ vs. rekursiv\n\n\n\nAspekt\nIterativ\nRekursiv\n\n\n\n\nPerformance\nSchnell\nEtwas langsamer\n\n\nSpeicher\nMinimal\nRekursionsstack\n\n\nLesbarkeit\nTechnisch\nElegant\n\n\nDebugbarkeit\nEinfach\nAnspruchsvoll\n\n\nGefahr Stack Overflow\nKeine\nJa\n\n\nPraxis\nStandard\nSelten\n\n\nDidaktik\nOK\nSehr gut"
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-bubble-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-bubble-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Bubble Sort",
+    "text": "Sortieralgorithmen: Bubble Sort\n\nVergleicht wiederholt benachbarte Elemente und vertauscht sie, wenn sie sich in der falschen Reihenfolge befinden\nGrößte Elemente “wandern” pro Durchlauf nach rechts (wie Blasen nach oben)\nWird wiederholt, bis keien Vertauschungen mehr nötig sind\nVorteil: relativ einfach zu verstehen\nNachteil: ineffizient bei großen Datenmengen\nLaufzeit: O(n²)"
+  },
+  {
+    "objectID": "03_Algorithmen.html#was-bedeutet-on²",
+    "href": "03_Algorithmen.html#was-bedeutet-on²",
+    "title": "Algorithmen",
+    "section": "Was bedeutet O(n²)?",
+    "text": "Was bedeutet O(n²)?\n\nAussprache: „O von n Quadrat“\nO steht für „Order of“ → beschreibt die Größenordnung des Wachstums\nn ist die Eingabegröße (z. B. Anzahl der Listenelemente)\nQuadratisches Wachstum: Verdoppelt man n, vervierfacht sich die Laufzeit\nTypisch bei Algorithmen mit verschachtelten Schleifen"
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-selection-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-selection-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Selection Sort",
+    "text": "Sortieralgorithmen: Selection Sort\n\nSucht im unsortierten Teil das kleinste (oder größte) Element\nTauscht es an die aktuelle Position\nVerschiebt die Grenze zwischen sortiertem und unsortiertem Bereich Schritt für Schritt\nWenige Vertauschungen, aber viele Vergleiche\nLaufzeit: O(n²)"
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-insertion-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-insertion-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Insertion Sort",
+    "text": "Sortieralgorithmen: Insertion Sort\n\nBaut die sortierte Liste schrittweise auf\nNimmt das nächste Element und fügt es an der richtigen Stelle im bereits sortierten Teil ein\nGut für kleine oder fast sortierte Listen\nIntuitiv (ähnlich wie Kartensortieren in der Hand)\nLaufzeit: O(n²), aber sehr schnell für fast sortierte Daten"
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-merge-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-merge-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Merge Sort",
+    "text": "Sortieralgorithmen: Merge Sort\n\nTeilt die Liste rekursiv in immer kleinere Hälften\nSortiert die Teilstücke und führt sie geordnet wieder zusammen („merge“)\nNutzt das Prinzip Divide and Conquer (“Teile und herrsche”)\nSehr effizient, auch bei großen Datenmengen\nLaufzeit: O(n log n)\nStabil und gut parallelisierbar"
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-quick-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-quick-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Quick Sort",
+    "text": "Sortieralgorithmen: Quick Sort"
+  },
+  {
+    "objectID": "03_Algorithmen.html#on-log-n-vs.-on²",
+    "href": "03_Algorithmen.html#on-log-n-vs.-on²",
+    "title": "Algorithmen",
+    "section": "O(n log n) vs. O(n²)",
+    "text": "O(n log n) vs. O(n²)\n\n\n\nn (Länge Liste)\nn log2(n) (ungefähr)\nn²\n\n\n\n\n10\n33\n100\n\n\n100\n664\n10 000\n\n\n1 000\n9 966\n1 000 000\n\n\n10 000\n132 877\n100 000 000\n\n\n1 000 000\n19 931 568\n1 000 000 000 000"
+  },
+  {
+    "objectID": "03_Algorithmen.html#merge-sort-vs.-bubble-selection-insertion-sort",
+    "href": "03_Algorithmen.html#merge-sort-vs.-bubble-selection-insertion-sort",
+    "title": "Algorithmen",
+    "section": "Merge Sort vs. Bubble / Selection / Insertion Sort",
+    "text": "Merge Sort vs. Bubble / Selection / Insertion Sort\n\nDeutlich schneller: O(n log n) statt O(n²)\nKomplexer zu implementieren  (Rekursion + Zusammenführen)\nBenötigt zusätzlichen Speicher zum Mergen\nFür große Datenmengen klar überlegen\nWährend die einfachen Sortierverfahren oft verschachtelte Schleifen nutzen, arbeitet Merge Sort mit Teilen und Zusammenfügen"
+  },
+  {
+    "objectID": "03_Algorithmen.html#section",
+    "href": "03_Algorithmen.html#section",
+    "title": "Algorithmen",
+    "section": "",
+    "text": "Viel Erfolg mit allen Algorithmen!"
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#willkommen-in-lf10a",
+    "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a",
+    "title": "Willkommen in LF10a!",
+    "section": "Willkommen in LF10a!",
+    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\n\nCartoon The Art of Programming\nGeek and Code, Oliver Widder\nhttps://devhumor.com/media/the-art-of-programming"
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
+    "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
+    "title": "Willkommen in LF10a!",
+    "section": "Willkommen in LF10a!",
+    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\nThemenübersicht\n\nAlgorithmen, Pseudocode, Datenstrukturen\nSoftware-Anforderungen\nUML, Modellierung, Analyse- und Designverfahren\nWerkzeuge und Entwicklungsumgebungen\nBenutzeroberflächen: UI / UX, Usability"
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#zeitplan-und-noten",
+    "href": "01_Willkommen_Struktur.html#zeitplan-und-noten",
+    "title": "Willkommen in LF10a!",
+    "section": "Zeitplan und Noten",
+    "text": "Zeitplan und Noten\n\nKlassenarbeit am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen\nKlassenarbeit am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren\nSOL am 28. August, die am 29. September präsentiert und benotet wird\nPraxisprojekt vom 30. September bis 2. Oktober\nPräsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung\nAm Dienstag, 6. Oktober beginnt LF11a"
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#section",
+    "href": "01_Willkommen_Struktur.html#section",
+    "title": "Willkommen in LF10a!",
+    "section": "",
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
+  },
+  {
+    "objectID": "02_Pseudocode.html#warum-pseudocode",
+    "href": "02_Pseudocode.html#warum-pseudocode",
+    "title": "Pseudocode",
+    "section": "Warum Pseudocode?",
+    "text": "Warum Pseudocode?\n\n\n\nQuelle: susan-lu4esm auf pixabay\n\nIn Kochrezepten steht nie:\nfor(i=0; i&lt;2; i++) {\n   add(egg);\n}\nSondern: Zwei Eier hinzufügen\n\n\n\n\n\n\n\nPseudocode ist genau das:\nKochen ohne Grammatikprüfung.\nAufschreiben, was passieren soll - egal, wie die Programmiersprache es genau formuliert.",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#wenn-struktur",
+    "href": "02_Pseudocode.html#wenn-struktur",
+    "title": "Pseudocode",
+    "section": "WENN-Struktur",
+    "text": "WENN-Struktur\n\n\nMinimal\nWENN bedingung DANN\n    anweisungen\nENDE WENN\n\nBeispiel\nWENN Benutzername ist leer DANN\n    AUSGABE \"Bitte Namen eingeben.\"\nENDE WENN\n\n\nAlternativ-Bedingung\nWENN bedingung DANN\n    anweisungen\nSONST WENN andere_bedingung DANN\n    anweisungen\nENDE WENN\n\nBeispiel\nWENN Punktzahl ≥ 92 DANN\n    AUSGABE \"Hervorragend\"\nSONST WENN Punktzahl ≥ 81\n    AUSGABE \"Gut!\"\nENDE WENN",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#wenn-alternativ-bedingungen",
+    "href": "02_Pseudocode.html#wenn-alternativ-bedingungen",
+    "title": "Pseudocode",
+    "section": "WENN: Alternativ-Bedingungen",
+    "text": "WENN: Alternativ-Bedingungen\n\n\nAlternativ-Bedingungen\nWENN bedingung DANN\n    anweisungen\nSONST WENN andere_bedingung DANN\n    anweisungen\nSONST\n    anweisungen\nENDE WENN\n\nBeispiel\nWENN Punktzahl ≥ 81 DANN\n    AUSGABE \"Gut!\"\nSONST WENN Punktzahl ≥ 50 DANN\n    AUSGABE \"Geschafft!\"\nSONST\n    AUSGABE \"Dann eben Nachprüfung.\"\nENDE WENN\n\n\n\nDANN ist Pflicht.\nSONST WENN wird ausgeschrieben (nicht etwa ELSE IF).\nENDE WENN ist Pflicht - auch bei kurzen Blöcken!",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#für-schleifen-zählschleife",
+    "href": "02_Pseudocode.html#für-schleifen-zählschleife",
+    "title": "Pseudocode",
+    "section": "FÜR-Schleifen (Zählschleife)",
+    "text": "FÜR-Schleifen (Zählschleife)\n\n\nStandard-Variante\nFUER i VON start BIS ende WIEDERHOLE\n    anweisungen\nENDE FUER\n\nBeispiel\nFUER i VON 0 BIS 2 WIEDERHOLE\n    hinzufügen(Ei)\nENDE FUER",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#für-schleifen-schrittweite",
+    "href": "02_Pseudocode.html#für-schleifen-schrittweite",
+    "title": "Pseudocode",
+    "section": "FÜR-Schleifen: Schrittweite",
+    "text": "FÜR-Schleifen: Schrittweite\nSchrittweite\nFUER i VON 1 BIS 10 IN SCHRITTEN VON 2\n    anweisungen\nENDE FUER\n\nBeispiel\nFUER i VON 1 BIS 10 IN SCHRITTEN VON 2\n    AUSGABE i\nENDE FUER",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#für-schleifen-abwärts",
+    "href": "02_Pseudocode.html#für-schleifen-abwärts",
+    "title": "Pseudocode",
+    "section": "FÜR-Schleifen: Abwärts",
+    "text": "FÜR-Schleifen: Abwärts\n\n\nRückwärts-Zähler\nFUER i VON 10 BIS 1\n    anweisungen\nENDE FUER\n\nBeispiel\n// Countdown\n\nFUER i VON 10 BIS 1\n    AUSGABE i\nENDE FUER",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#fuer-jedes-for-each",
+    "href": "02_Pseudocode.html#fuer-jedes-for-each",
+    "title": "Pseudocode",
+    "section": "FUER JEDES (For-Each)",
+    "text": "FUER JEDES (For-Each)\nFUER JEDES element IN sammlung\n    anweisungen\nENDE FUER\n\nBeispiel\nFUER JEDES element IN sammlung\n    AUSGABE element\nENDE FUER",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#solange-while",
+    "href": "02_Pseudocode.html#solange-while",
+    "title": "Pseudocode",
+    "section": "SOLANGE (While)",
+    "text": "SOLANGE (While)\nSOLANGE bedingung\n    anweisungen\nENDE SOLANGE\n\nBeispiel\nSOLANGE KontoStand &lt; 0\n    AUSGABE \"Bitte Konto ausgleichen\"\nENDE SOLANGE",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#wiederhole-bis-do-until",
+    "href": "02_Pseudocode.html#wiederhole-bis-do-until",
+    "title": "Pseudocode",
+    "section": "WIEDERHOLE BIS (Do-Until)",
+    "text": "WIEDERHOLE BIS (Do-Until)\nWIEDERHOLE\n    anweisungen\nBIS bedingung\nBedingung steht unten!\n\nBeispiel\nWIEDERHOLE\n    AUSGABE \"Passwort falsch\"\nBIS Passwort = korrekt\nWird mindestens 1x ausgeführt",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#ein-ausgabe",
+    "href": "02_Pseudocode.html#ein-ausgabe",
+    "title": "Pseudocode",
+    "section": "Ein-/Ausgabe",
+    "text": "Ein-/Ausgabe\n\n\nEingabe\nLIES x\n\nAUSGABE \"Text\"\n\nausgabe(\"Text\")",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#variablen-und-operationen",
+    "href": "02_Pseudocode.html#variablen-und-operationen",
+    "title": "Pseudocode",
+    "section": "Variablen und Operationen",
+    "text": "Variablen und Operationen\n# Zuweisung\n\nx = 5\n\n# Arrayzugriff\n\nliste[i]\n\n# Länge\n\nlaenge(liste)\n\n# Modulo\n\nz MOD 2",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#methoden-funktionen-und-klassen",
+    "href": "02_Pseudocode.html#methoden-funktionen-und-klassen",
+    "title": "Pseudocode",
+    "section": "Methoden / Funktionen und Klassen",
+    "text": "Methoden / Funktionen und Klassen\nMethode / Funktion\nMETHODE name(parameter): Rueckgabetyp\n    ...\n    RUECKGABE wert\nENDE METHODE\n\nKlasse\nKLASSE Name\n    attribute\n    methoden\nENDE KLASSE\n\n\n\n\n\n\nEinrückungen beachten!",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#methoden-ohne-rückgabe",
+    "href": "02_Pseudocode.html#methoden-ohne-rückgabe",
+    "title": "Pseudocode",
+    "section": "Methoden ohne Rückgabe?",
+    "text": "Methoden ohne Rückgabe?",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#algorithmen-akkumulator",
+    "href": "02_Pseudocode.html#algorithmen-akkumulator",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Akkumulator",
+    "text": "Algorithmen: Akkumulator\nsumme = 0\nFUER JEDES z IN zahlen\n    summe = summe + z\nENDE FUER\nRUECKGABE summe",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#algorithmen-zähler",
+    "href": "02_Pseudocode.html#algorithmen-zähler",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Zähler",
+    "text": "Algorithmen: Zähler\nanzahl = 0\nFUER JEDES z IN zahlen\n    WENN z MOD 2 == 0 DANN\n        anzahl = anzahl + 1\n    ENDE WENN\nENDE FUER\nRUECKGABE anzahl\nZählt?\n\n… Anzahl der geraden Zahlen",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#algorithmen-maximum-minimum",
+    "href": "02_Pseudocode.html#algorithmen-maximum-minimum",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Maximum, Minimum",
+    "text": "Algorithmen: Maximum, Minimum\n\n\nmax = liste[0]\nFUER JEDES z IN liste\n    WENN z &gt; max DANN\n        max = z\n    ENDE WENN\nENDE FUER\n\nmin = liste[0]\nFUER JEDES z IN liste\n    WENN z &lt; min DANN\n        min = z\n    ENDE WENN\nENDE FUER",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#algorithmen-lineare-suche",
+    "href": "02_Pseudocode.html#algorithmen-lineare-suche",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Lineare Suche",
+    "text": "Algorithmen: Lineare Suche\ngefunden = FALSCH\nFUER JEDES z IN liste\n    WENN z == gesucht DANN\n        gefunden = WAHR\n    ENDE WENN\nENDE FUER",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#algorithmen-bubble-sort",
+    "href": "02_Pseudocode.html#algorithmen-bubble-sort",
+    "title": "Pseudocode",
+    "section": "Algorithmen: Bubble Sort",
+    "text": "Algorithmen: Bubble Sort\nFUER i VON 0 BIS laenge(liste)-1\n    FUER j VON 0 BIS laenge(liste)-2\n        WENN liste[j] &gt; liste[j+1] DANN\n            temp = liste[j]\n            liste[j] = liste[j+1]\n            liste[j+1] = temp\n        ENDE WENN\n    ENDE FUER\nENDE FUER",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#passwortprüfung",
+    "href": "02_Pseudocode.html#passwortprüfung",
+    "title": "Pseudocode",
+    "section": "Passwortprüfung",
+    "text": "Passwortprüfung\nLIES passwort\nWENN laenge(passwort) &lt; 8 DANN\n    AUSGABE \"Passwort zu kurz\"\nSONST WENN NICHT enthaeltZiffer(passwort) DANN\n    AUSGABE \"Keine Ziffer enthalten\"\nSONST\n    AUSGABE \"Passwort akzeptiert\"\nENDE WENN",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#ihk-prüfungsfallen",
+    "href": "02_Pseudocode.html#ihk-prüfungsfallen",
+    "title": "Pseudocode",
+    "section": "IHK-Prüfungsfallen",
+    "text": "IHK-Prüfungsfallen\n\nFehlende Blockenden\nENDE WENN, ENDE FUER, ENDE SOLANGE, ENDE METHODE\nFalsche Operatoren\n= Zuweisung\n== Vergleich\nKeine Englischsprachigen Keywords\nKEIN if, else, while, for, return\nKeine Klammern\n{ } nicht verwenden\nKeine ( ) bei Kontrollstrukturen",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#ihk-stilregeln",
+    "href": "02_Pseudocode.html#ihk-stilregeln",
+    "title": "Pseudocode",
+    "section": "IHK Stilregeln",
+    "text": "IHK Stilregeln\n\nEinrückung empfohlen\nSchlüsselwörter GROß schreiben\nVariablennamen klein schreiben\nkeine unnötigen Leerzeilen\nKommentare sparsam einsetzen\nkeine Sprache nachahmen!  (kein Python-Stil, kein Java-Stil)",
+    "crumbs": [
+      "02 Pseudocode"
+    ]
+  },
+  {
+    "objectID": "02_Pseudocode.html#section",
+    "href": "02_Pseudocode.html#section",
+    "title": "Pseudocode",
+    "section": "",
+    "text": "Viel Erfolg mit Pseudocode!",
+    "crumbs": [
+      "02 Pseudocode"
     ]
   },
   {
@@ -169,172 +762,25 @@
     "text": "Design: Prüfungstipps\n\nSzenario lesen und Top-down oder Bottom-up empfehlen mit Begründung\nKohaesion und Kopplung definieren und bewerten\nVorteile der Modularisierung nennen (mindestens drei)\nZerlegung eines Problems in Module darstellen (Baumdiagramm)\n\n\n\n\n\n\n\n\nHäufige Fehler\nKorrektur\n\n\n\n\nTop-down und Bottom-up verwechselt\nTop-down = vom Ganzen zum Detail,  Bottom-up = vom Detail zum Ganzen\n\n\nHohe Kopplung als positiv bewertet\nHohe Kopplung = schlecht (starke Abhaengigkeit), niedrig = gut\n\n\nKohäsion mit Kopplung verwechselt\nKohäsion = innerhalb eines Moduls,  Kopplung = zwischen Modulen\n\n\nModularisierung nur als Aufteilung in Dateien verstanden\nEs geht um fachliche Trennung mit definierten Schnittstellen"
   },
   {
-    "objectID": "Analyse-Designverfahren.html#vielen-dank",
-    "href": "Analyse-Designverfahren.html#vielen-dank",
+    "objectID": "Analyse-Designverfahren.html#section",
+    "href": "Analyse-Designverfahren.html#section",
     "title": "Strukturierte Analyse- und Designverfahren",
-    "section": "Vielen Dank!",
-    "text": "Vielen Dank!\n\n\nViel Erfolg!"
-  },
-  {
-    "objectID": "Pseudocode.html#wenn-struktur",
-    "href": "Pseudocode.html#wenn-struktur",
-    "title": "Pseudocode",
-    "section": "WENN-Struktur",
-    "text": "WENN-Struktur\n\n\nMinimal\nWENN bedingung DANN\n    anweisungen\nENDE WENN\n\nBeispiel\n\n\nAlternativ-Bedingung\nWENN bedingung DANN\n    anweisungen\nSONST WENN andere_bedingung DANN\n    anweisungen\nENDE WENN\n\nBeispiel"
-  },
-  {
-    "objectID": "Pseudocode.html#wenn-alternativ-bedingungen",
-    "href": "Pseudocode.html#wenn-alternativ-bedingungen",
-    "title": "Pseudocode",
-    "section": "WENN: Alternativ-Bedingungen",
-    "text": "WENN: Alternativ-Bedingungen\n\n\nAlternativ-Bedingungen\nWENN bedingung DANN\n    anweisungen\nSONST WENN andere_bedingung DANN\n    anweisungen\nSONST\n    anweisungen\nENDE WENN\n\nBeispiel\n\n\n\nDANN ist Pflicht.\nSONST WENN wird ausgeschrieben (nicht etwa ELSE IF).\nENDE WENN ist Pflicht - auch bei kurzen Blöcken!"
-  },
-  {
-    "objectID": "Pseudocode.html#für-schleifen-zählschleife",
-    "href": "Pseudocode.html#für-schleifen-zählschleife",
-    "title": "Pseudocode",
-    "section": "FÜR-Schleifen (Zählschleife)",
-    "text": "FÜR-Schleifen (Zählschleife)\n\n\nStandard-Variante\nFUER i VON start BIS ende\n    anweisungen\nENDE FUER\n\nBeispiel"
-  },
-  {
-    "objectID": "Pseudocode.html#für-schleifen-schrittweite",
-    "href": "Pseudocode.html#für-schleifen-schrittweite",
-    "title": "Pseudocode",
-    "section": "FÜR-Schleifen: Schrittweite",
-    "text": "FÜR-Schleifen: Schrittweite\nSchrittweite\nFUER i VON 1 BIS 10 IN SCHRITTEN VON 2\n    anweisungen\nENDE FUER\n\nBeispiel"
-  },
-  {
-    "objectID": "Pseudocode.html#für-schleifen-abwärts",
-    "href": "Pseudocode.html#für-schleifen-abwärts",
-    "title": "Pseudocode",
-    "section": "FÜR-Schleifen: Abwärts",
-    "text": "FÜR-Schleifen: Abwärts\n\n\nRückwärts-Zähler\nFUER i VON 10 BIS 1\n    anweisungen\nENDE FUER\n\nBeispiel"
-  },
-  {
-    "objectID": "Pseudocode.html#fuer-jedes-for-each",
-    "href": "Pseudocode.html#fuer-jedes-for-each",
-    "title": "Pseudocode",
-    "section": "FUER JEDES (For-Each)",
-    "text": "FUER JEDES (For-Each)\nFUER JEDES element IN sammlung\n    anweisungen\nENDE FUER\n\nBeispiel"
-  },
-  {
-    "objectID": "Pseudocode.html#solange-while",
-    "href": "Pseudocode.html#solange-while",
-    "title": "Pseudocode",
-    "section": "SOLANGE (While)",
-    "text": "SOLANGE (While)\nSOLANGE bedingung\n    anweisungen\nENDE SOLANGE\n\nBeispiel"
-  },
-  {
-    "objectID": "Pseudocode.html#wiederhole-bis-do-until",
-    "href": "Pseudocode.html#wiederhole-bis-do-until",
-    "title": "Pseudocode",
-    "section": "WIEDERHOLE BIS (Do-Until)",
-    "text": "WIEDERHOLE BIS (Do-Until)\nWIEDERHOLE\n    anweisungen\nBIS bedingung\nBedingung steht unten!\n\nBeispiel"
-  },
-  {
-    "objectID": "Pseudocode.html#ein-ausgabe",
-    "href": "Pseudocode.html#ein-ausgabe",
-    "title": "Pseudocode",
-    "section": "Ein-/Ausgabe",
-    "text": "Ein-/Ausgabe\n\n\nEingabe\nLIES x\n\nAUSGABE \"Text\"\n\nausgabe(\"Text\")"
-  },
-  {
-    "objectID": "Pseudocode.html#variablen-und-operationen",
-    "href": "Pseudocode.html#variablen-und-operationen",
-    "title": "Pseudocode",
-    "section": "Variablen und Operationen",
-    "text": "Variablen und Operationen\n# Zuweisung\n\nx = 5\n\n# Arrayzugriff\n\nliste[i]\n\n# Länge\n\nlaenge(liste)\n\n# Modulo\n\nz MOD 2"
-  },
-  {
-    "objectID": "Pseudocode.html#methoden-funktionen-und-klassen",
-    "href": "Pseudocode.html#methoden-funktionen-und-klassen",
-    "title": "Pseudocode",
-    "section": "Methoden / Funktionen und Klassen",
-    "text": "Methoden / Funktionen und Klassen\nMethode / Funktion\nMETHODE name(parameter): Rueckgabetyp\n    ...\n    RUECKGABE wert\nENDE METHODE\n\nKlasse\nKLASSE Name\n    attribute\n    methoden\nENDE KLASSE\n\n\n\n\n\n\nEinrückungen beachten!"
-  },
-  {
-    "objectID": "Pseudocode.html#methoden-ohne-rückgabe",
-    "href": "Pseudocode.html#methoden-ohne-rückgabe",
-    "title": "Pseudocode",
-    "section": "Methoden ohne Rückgabe?",
-    "text": "Methoden ohne Rückgabe?"
-  },
-  {
-    "objectID": "Pseudocode.html#algorithmen-akkumulator",
-    "href": "Pseudocode.html#algorithmen-akkumulator",
-    "title": "Pseudocode",
-    "section": "Algorithmen: Akkumulator",
-    "text": "Algorithmen: Akkumulator\nsumme = 0\nFUER JEDES z IN zahlen\n    summe = summe + z\nENDE FUER\nRUECKGABE summe"
-  },
-  {
-    "objectID": "Pseudocode.html#algorithmen-zähler",
-    "href": "Pseudocode.html#algorithmen-zähler",
-    "title": "Pseudocode",
-    "section": "Algorithmen: Zähler",
-    "text": "Algorithmen: Zähler\nanzahl = 0\nFUER JEDES z IN zahlen\n    WENN z MOD 2 == 0 DANN\n        anzahl = anzahl + 1\n    ENDE WENN\nENDE FUER\nRUECKGABE anzahl\nZählt?\n\n… Anzahl der geraden Zahlen"
-  },
-  {
-    "objectID": "Pseudocode.html#algorithmen-maximum-minimum",
-    "href": "Pseudocode.html#algorithmen-maximum-minimum",
-    "title": "Pseudocode",
-    "section": "Algorithmen: Maximum, Minimum",
-    "text": "Algorithmen: Maximum, Minimum\n\n\nmax = liste[0]\nFUER JEDES z IN liste\n    WENN z &gt; max DANN\n        max = z\n    ENDE WENN\nENDE FUER\n\nmin = liste[0]\nFUER JEDES z IN liste\n    WENN z &lt; min DANN\n        min = z\n    ENDE WENN\nENDE FUER"
-  },
-  {
-    "objectID": "Pseudocode.html#algorithmen-lineare-suche",
-    "href": "Pseudocode.html#algorithmen-lineare-suche",
-    "title": "Pseudocode",
-    "section": "Algorithmen: Lineare Suche",
-    "text": "Algorithmen: Lineare Suche\ngefunden = FALSCH\nFUER JEDES z IN liste\n    WENN z == gesucht DANN\n        gefunden = WAHR\n    ENDE WENN\nENDE FUER"
-  },
-  {
-    "objectID": "Pseudocode.html#algorithmen-bubble-sort",
-    "href": "Pseudocode.html#algorithmen-bubble-sort",
-    "title": "Pseudocode",
-    "section": "Algorithmen: Bubble Sort",
-    "text": "Algorithmen: Bubble Sort\nFUER i VON 0 BIS laenge(liste)-1\n    FUER j VON 0 BIS laenge(liste)-2\n        WENN liste[j] &gt; liste[j+1] DANN\n            temp = liste[j]\n            liste[j] = liste[j+1]\n            liste[j+1] = temp\n        ENDE WENN\n    ENDE FUER\nENDE FUER"
-  },
-  {
-    "objectID": "Pseudocode.html#passwortprüfung",
-    "href": "Pseudocode.html#passwortprüfung",
-    "title": "Pseudocode",
-    "section": "Passwortprüfung",
-    "text": "Passwortprüfung\nLIES passwort\nWENN laenge(passwort) &lt; 8 DANN\n    AUSGABE \"Passwort zu kurz\"\nSONST WENN NICHT enthaeltZiffer(passwort) DANN\n    AUSGABE \"Keine Ziffer enthalten\"\nSONST\n    AUSGABE \"Passwort akzeptiert\"\nENDE WENN"
-  },
-  {
-    "objectID": "Pseudocode.html#ihk-prüfungsfallen",
-    "href": "Pseudocode.html#ihk-prüfungsfallen",
-    "title": "Pseudocode",
-    "section": "IHK-Prüfungsfallen",
-    "text": "IHK-Prüfungsfallen\n\nFehlende Blockenden\nENDE WENN, ENDE FUER, ENDE SOLANGE, ENDE METHODE\nFalsche Operatoren\n= Zuweisung\n== Vergleich\nKeine Englischsprachigen Keywords\nKEIN if, else, while, for, return\nKeine Klammern { } nicht verwenden\nKeine ( ) bei Kontrollstrukturen"
-  },
-  {
-    "objectID": "Pseudocode.html#ihk-stilregeln",
-    "href": "Pseudocode.html#ihk-stilregeln",
-    "title": "Pseudocode",
-    "section": "IHK Stilregeln",
-    "text": "IHK Stilregeln\n\nEinrückung empfohlen\nSchlüsselwörter GROß schreiben\nVariablennamen klein schreiben\nkeine unnötigen Leerzeilen\nKommentare sparsam einsetzen\nkeine Sprache nachahmen! (kein Python-Stil, kein Java-Stil)"
-  },
-  {
-    "objectID": "Pseudocode.html#vielen-dank",
-    "href": "Pseudocode.html#vielen-dank",
-    "title": "Pseudocode",
-    "section": "Vielen Dank!",
-    "text": "Vielen Dank!\n\n\nViel Erfolg mit Pseudocode!"
+    "section": "",
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
   },
   {
     "objectID": "Softwareanforderungen.html#lernziele",
     "href": "Softwareanforderungen.html#lernziele",
     "title": "Softwareanforderungen erfassen",
     "section": "Lernziele",
-    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielnen erkennen können"
+    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielen erkennen können"
   },
   {
     "objectID": "Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
     "href": "Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
     "title": "Softwareanforderungen erfassen",
     "section": "Funktionale vs. Nichtfunktionale Anforderungen",
-    "text": "Funktionale vs. Nichtfunktionale Anforderungen\n\n\n\n\n\n\n\n\n\nMerkmal\nFunktionale Anforderungen\nNicht-funktionale Anforderungen\n\n\n\n\nDefinition\nWAS das System tun soll\nWIE GUT das System arbeiten soll\n\n\nBeispiel\n“Benutzer kann sich einloggen”\n“Login dauert max. 2 Sekunden”\n\n\nPrüfung\nFunktionstest\nLeistungstest, Review\n\n\nQuelle\nFachliche Anforderungen\nQualitätsanforderungen\n\n\nDokumentation\nUse Cases, User Stories\nQualitätsszenarien"
+    "text": "Funktionale vs. Nichtfunktionale Anforderungen\n\n\n\n\n\nMerkmal\nFunktionale Anforderungen\n\n\n\n\nDefinition\nWAS das System tun soll   \n\n\nBeispiel\n“Benutzer kann sich einloggen”\n\n\nPrüfung\nFunktionstest\n\n\nQuelle\nFachliche Anforderungen\n\n\nDokumentation\nUse Cases, User Stories\n\n\n\n\n\n\n\nNicht-funktionale Anforderungen\n\n\n\n\nWIE GUT das System arbeiten soll\n\n\n“Login dauert max. 2 Sekunden”\n\n\nLeistungstest, Review\n\n\nQualitätsanforderungen\n\n\nQualitätsszenarien"
   },
   {
     "objectID": "Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
@@ -439,7 +885,28 @@
     "href": "Softwareanforderungen.html#prüfungstipps",
     "title": "Softwareanforderungen erfassen",
     "section": "Prüfungstipps",
-    "text": "Prüfungstipps\n\n\n\n\n\n\n\nHäufige Fehler\nKorrektur\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz und Effektivität verwechseln\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc."
+    "text": "Prüfungstipps\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\n\n\nEffizienz und Effektivität verwechseln\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc."
+  },
+  {
+    "objectID": "Softwareanforderungen.html#user-stories",
+    "href": "Softwareanforderungen.html#user-stories",
+    "title": "Softwareanforderungen erfassen",
+    "section": "User Stories",
+    "text": "User Stories\n\nkurze, informelle Beschreibung einer Anforderung aus Benutzersicht\nwird vor allem in agilen Projekten verwendet\n\nStandardformat\n\n\nAls [Rolle] möchte ich [Funktion], damit [Nutzen].\n\n\nBeispiel\n\n\nAls Sachbearbeiter möchte ich Rechnungen nach Datum filtern,\ndamit ich offene Posten schneller finde."
+  },
+  {
+    "objectID": "Softwareanforderungen.html#user-stories-1",
+    "href": "Softwareanforderungen.html#user-stories-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "User Stories",
+    "text": "User Stories\nUser Stories werden durch Akzeptanzkriterien ersetzt.\nDiese ersetzen nicht das Lastenheft,\nsondern ergänzen es in agilen Projekten."
+  },
+  {
+    "objectID": "Softwareanforderungen.html#user-stories-tipps",
+    "href": "Softwareanforderungen.html#user-stories-tipps",
+    "title": "Softwareanforderungen erfassen",
+    "section": "User Stories: Tipps",
+    "text": "User Stories: Tipps\nBeantworte die Fragen: WER? WAS? WOZU?\nAlternative Satzschablonen:\n\n„Um (Nutzen) als (Rolle) zu erreichen, möchte ich (Funktionalität/Ziel/Wunsch).“\n„Als (Rolle) möchte ich (was) (warum).“\n„Als (wer) (wann) (wo) möchte ich (was) (warum).“\n„Als (Persona) möchte ich (was) warum.“\n\nVgl. https://t2informatik.de/wissen-kompakt/user-story/"
   },
   {
     "objectID": "Softwareanforderungen.html#section",

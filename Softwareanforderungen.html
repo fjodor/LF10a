@@ -6,8 +6,8 @@
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.31">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.27">
 
   <title>LF10a – Softwareanforderungen erfassen</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -28,7 +28,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-2c1b5f745a11cfad616ebade4a4a7d24.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-0fde88a82f0356838740f155f1088782.css">
   <link rel="stylesheet" href="libs/styles.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -139,54 +139,69 @@
 <li>8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können</li>
 <li>Funktionale von nicht-funktionalen Anforderungen unterscheiden können</li>
 <li>Anforderungen messbar formulieren können</li>
-<li>Qualitätsmerkmale an konkreten Beispielnen erkennen können</li>
+<li>Qualitätsmerkmale an konkreten Beispielen erkennen können</li>
 </ul>
 </section>
-<section id="funktionale-vs.-nichtfunktionale-anforderungen" class="slide level2">
+<section id="funktionale-vs.-nichtfunktionale-anforderungen" class="slide level2" style="font-size: 1.9rem">
 <h2>Funktionale vs.&nbsp;Nichtfunktionale Anforderungen</h2>
-<div style="font-size: 1.9rem">
+<div class="columns">
+<div class="column" style="width:60%;">
 <table class="caption-top">
-<colgroup>
-<col style="width: 13%">
-<col style="width: 39%">
-<col style="width: 46%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Merkmal</th>
 <th>Funktionale Anforderungen</th>
-<th>Nicht-funktionale Anforderungen</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Definition</td>
-<td>WAS das System tun soll</td>
-<td>WIE GUT das System arbeiten soll</td>
+<td>WAS das System tun soll <br> &nbsp;</td>
 </tr>
 <tr class="even">
 <td>Beispiel</td>
 <td>“Benutzer kann sich einloggen”</td>
-<td>“Login dauert max. 2 Sekunden”</td>
 </tr>
 <tr class="odd">
 <td>Prüfung</td>
 <td>Funktionstest</td>
-<td>Leistungstest, Review</td>
 </tr>
 <tr class="even">
 <td>Quelle</td>
 <td>Fachliche Anforderungen</td>
-<td>Qualitätsanforderungen</td>
 </tr>
 <tr class="odd">
 <td>Dokumentation</td>
 <td>Use Cases, User Stories</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column fragment" style="width:35%;">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Nicht-funktionale Anforderungen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>WIE GUT das System arbeiten soll</td>
+</tr>
+<tr class="even">
+<td>“Login dauert max. 2 Sekunden”</td>
+</tr>
+<tr class="odd">
+<td>Leistungstest, Review</td>
+</tr>
+<tr class="even">
+<td>Qualitätsanforderungen</td>
+</tr>
+<tr class="odd">
 <td>Qualitätsszenarien</td>
 </tr>
 </tbody>
 </table>
-</div>
+</div></div>
 </section>
 <section id="software-qualitätsmerkmale-iso-25010" class="slide level2" style="font-size: 2rem">
 <h2>Software-Qualitätsmerkmale: ISO 25010</h2>
@@ -686,40 +701,96 @@
 </section>
 <section id="prüfungstipps" class="slide level2" style="font-size: 1.9rem">
 <h2>Prüfungstipps</h2>
+<div class="columns">
+<div class="column">
 <table class="caption-top">
-<colgroup>
-<col style="width: 42%">
-<col style="width: 57%">
-</colgroup>
 <thead>
 <tr class="header">
 <th>Häufige Fehler</th>
-<th>Korrektur</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Funktionale mit nicht-funktionalen Anforderungen verwechseln</td>
-<td>Funktional = WAS, <br>Nicht-funktional = WIE GUT</td>
 </tr>
 <tr class="even">
 <td>Effizienz und Effektivität verwechseln</td>
-<td>Effizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen</td>
 </tr>
 <tr class="odd">
 <td>Wartbarkeit und Änderbarkeit gleichsetzen</td>
-<td>Wartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt</td>
 </tr>
 <tr class="even">
 <td>Zuverlässigkeit nur als “läuft ohne Fehler” verstehen</td>
-<td>Umfasst auch Fehlertoleranz und Wiederherstellbarkeit</td>
 </tr>
 <tr class="odd">
 <td>Benutzbarkeit mit “schönem Design” gleichsetzen</td>
+</tr>
+</tbody>
+</table>
+</div><div class="column fragment">
+<table class="caption-top">
+<thead>
+<tr class="header">
+<th>Korrektur</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Funktional = WAS, <br>Nicht-funktional = WIE GUT</td>
+</tr>
+<tr class="even">
+<td>Effizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen</td>
+</tr>
+<tr class="odd">
+<td>Wartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt</td>
+</tr>
+<tr class="even">
+<td>Umfasst auch Fehlertoleranz und Wiederherstellbarkeit</td>
+</tr>
+<tr class="odd">
 <td>Umfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc.</td>
 </tr>
 </tbody>
 </table>
+</div></div>
+</section>
+<section id="user-stories" class="slide level2">
+<h2>User Stories</h2>
+<ul>
+<li>kurze, informelle Beschreibung einer Anforderung <strong>aus Benutzersicht</strong></li>
+<li>wird vor allem in agilen Projekten verwendet</li>
+</ul>
+<h4 id="standardformat">Standardformat</h4>
+<div class="fragment">
+<blockquote>
+<p>Als [Rolle] möchte ich [Funktion], damit [Nutzen].</p>
+</blockquote>
+</div>
+<h4 id="beispiel">Beispiel</h4>
+<div class="fragment">
+<blockquote>
+<p>Als Sachbearbeiter möchte ich Rechnungen nach Datum filtern,<br>
+damit ich offene Posten schneller finde.</p>
+</blockquote>
+</div>
+</section>
+<section id="user-stories-1" class="slide level2">
+<h2>User Stories</h2>
+<p>User Stories werden durch <strong>Akzeptanzkriterien</strong> ersetzt.</p>
+<p>Diese ersetzen nicht das Lastenheft,<br>
+sondern ergänzen es <strong>in agilen Projekten</strong>.</p>
+</section>
+<section id="user-stories-tipps" class="slide level2">
+<h2>User Stories: Tipps</h2>
+<p>Beantworte die Fragen: <strong>WER? WAS? WOZU?</strong></p>
+<p>Alternative Satzschablonen:</p>
+<ul>
+<li>„Um (Nutzen) als (Rolle) zu erreichen, möchte ich (Funktionalität/Ziel/Wunsch).“</li>
+<li>„Als (Rolle) möchte ich (was) (warum).“</li>
+<li>„Als (wer) (wann) (wo) möchte ich (was) (warum).“</li>
+<li>„Als (Persona) möchte ich (was) warum.“</li>
+</ul>
+<p>Vgl. <a href="https://t2informatik.de/wissen-kompakt/user-story/" class="uri">https://t2informatik.de/wissen-kompakt/user-story/</a></p>
 </section>
 <section id="section" class="slide level2">
 <h2><!-- --></h2>
@@ -923,7 +994,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -998,13 +1069,14 @@
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

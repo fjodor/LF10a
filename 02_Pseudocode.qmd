@@ -249,6 +249,32 @@ ENDE FUER
 :::
 
 
+## FÜR-Schleifen kann man schachteln!
+
+::: {style="font-size: 1.7rem"}
+
+Punkte für Schachfiguren:  
+Bauer: 1 Punkt; Springer und Läufer: je 3 Punkte; Turm: 5; Dame: 9  
+König: unendlich, da er nicht eingetauscht werden kann (Verlust = Spielende)
+
+:::
+
+```pseudo
+FUNKTION BauernAufSchachbrettZählen
+    zaehler = 0
+    FÜR i VON 1 BIS 8
+        FÜR j VON 1 BIS 8
+            WENN Feld[i][j] == 1
+                zaehler = zaehler + 1
+            ENDE WENN
+        ENDE FÜR
+    ENDE FÜR
+
+    RÜCKGABE zaehler
+ENDE FUNKTION
+``` 
+
+
 ## SOLANGE (While)
 
 ```pseudo

@@ -399,28 +399,40 @@
     "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a",
     "title": "Willkommen in LF10a!",
     "section": "Willkommen in LF10a!",
-    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\n\nCartoon The Art of Programming\nGeek and Code, Oliver Widder\nhttps://devhumor.com/media/the-art-of-programming"
+    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\n\nCartoon The Art of Programming\nGeek and Code, Oliver Widder\nhttps://devhumor.com/media/the-art-of-programming",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
   },
   {
     "objectID": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
     "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
     "title": "Willkommen in LF10a!",
     "section": "Willkommen in LF10a!",
-    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\nThemenübersicht\n\nAlgorithmen, Pseudocode, Datenstrukturen\nSoftware-Anforderungen\nUML, Modellierung, Analyse- und Designverfahren\nWerkzeuge und Entwicklungsumgebungen\nBenutzeroberflächen: UI / UX, Usability"
+    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\nThemenübersicht\n\nAlgorithmen, Pseudocode, Datenstrukturen\nSoftware-Anforderungen\nUML, Modellierung, Analyse- und Designverfahren\nWerkzeuge und Entwicklungsumgebungen\nBenutzeroberflächen: UI / UX, Usability",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
   },
   {
     "objectID": "01_Willkommen_Struktur.html#zeitplan-und-noten",
     "href": "01_Willkommen_Struktur.html#zeitplan-und-noten",
     "title": "Willkommen in LF10a!",
     "section": "Zeitplan und Noten",
-    "text": "Zeitplan und Noten\n\nKlassenarbeit am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen\nKlassenarbeit am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren\nSOL am 28. August, die am 29. September präsentiert und benotet wird\nPraxisprojekt vom 30. September bis 2. Oktober\nPräsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung\nAm Dienstag, 6. Oktober beginnt LF11a"
+    "text": "Zeitplan und Noten\n\nKlassenarbeit am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen\nKlassenarbeit am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren\nSOL am 28. August, die am 29. September präsentiert und benotet wird\nPraxisprojekt vom 30. September bis 2. Oktober\nPräsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung\nAm Dienstag, 6. Oktober beginnt LF11a",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
   },
   {
     "objectID": "01_Willkommen_Struktur.html#section",
     "href": "01_Willkommen_Struktur.html#section",
     "title": "Willkommen in LF10a!",
     "section": "",
-    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
   },
   {
     "objectID": "02_Pseudocode.html#warum-pseudocode",

@@ -255,8 +255,8 @@ ENDE FUER
 
 Punkte für Schachfiguren:  
 Bauer: 1 Punkt; Springer und Läufer: je 3 Punkte; Turm: 5; Dame: 9  
-König: unendlich, da er nicht eingetauscht werden kann (Verlust = Spielende)
-
+König: unendlich, da er nicht eingetauscht werden kann (Verlust = Spielende)  
+Der Einfachheit halber unterscheiden wir nicht zwischen schwarz und weiß.
 :::
 
 ```pseudo

@@ -59,6 +59,37 @@ Geek and Code, Oliver Widder
 - Präsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung
 - Am Dienstag, 6. Oktober beginnt LF11a
 
+
+## SuS Vorträge {style="font-size: 1.5rem"}
+
+ca. 10 Minuten; Teamarbeit zu zweit möglich: dann tragen beide je einen Teil vor
+
+- 24.08.2026: **Aktivitätsdiagramme** vorstellen zu Bubble Sort, Insertion Sort, Selection Sort
+  codebasierte Erstellung mit **PlantUML**, **Mermaid** oder anderer geeigneter Software
+- 24.08.2026: **Merge Sort** erklären, mit Aktivitätsdiagramm und Pseudocode
+  + reicht ohne Implementierung; Algorithmus verständlich erklären, Nachfragen beantworten
+- 24.08.2026: **Quick Sort** erklären, mit Aktivitätsdiagramm und Pseudocode
+  + reicht ohne Implementierung; Algorithmus verständlich erklären, Nachfragen beantworten
+- 24.08.2026: optional: **Heap Sort**, wie Merge Sort / Quick Sort
+- 28.08.2026: Vorstellung Beispielprojekt und *"Lessons Learnt"* <br> z. B. Namensgebung, Kohäsion, Kopplung, Größe;
+              Was waren Herausforderungen? Was würden Sie künftig anders machen?
+- 30.09.2026: **WCAG:** *Web Content Accessibility Guidelines (W3C)*
+- 30.09.2026: **BITV:** Barrierefreie-Informationstechnik-Verordnung
+- 30.09.2026: **DIN ISO 9241:171** Leitlinien für Software-Barrierefreiheit <br> (2025er Version ersetzt 2008er Version)
+
+
+## Zusatzaufgaben für Fortgeschrittene {style="font-size: 2rem"}
+
+- **bis 29.9. in Ilias hochladen: Beispiele für misslungene UIs sammeln, mindestens 15 Screenshots / Bilder**
+  + schon mal vorüberlegen: Welche Möglichkeiten gibt es, schlechte UIs zu bauen? Was kann schief gehen?
+- Merge Sort, Quick Sort oder Heap Sort implementieren
+- Sortieralgorithmen benchmarken: mit größeren Daten "füttern", Zeitmessungen dokumentieren und darstellen
+  + Daten mit bestimmten Eigenschaften präparieren: z. B. fast sortierte Liste, "falsch herum" sortierte Liste, willkürlich unsortierte Liste etc.
+  + Ergebnistabelle; Bonus: Sortier- oder Filteroptionen
+  + Bonus: Grafischer Vergleich der Ergebnisse
+  + UI bauen, um Daten einzugeben oder gar nach Optionen zu simulieren 
+
+
 ## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}

@@ -71,7 +71,7 @@ ca. 10 Minuten; Teamarbeit zu zweit möglich: dann tragen beide je einen Teil vo
 - 24.08.2026: **Quick Sort** erklären, mit Aktivitätsdiagramm und Pseudocode
   + reicht ohne Implementierung; Algorithmus verständlich erklären, Nachfragen beantworten
 - 24.08.2026: optional: **Heap Sort**, wie Merge Sort / Quick Sort
-- 28.08.2026: Vorstellung Beispielprojekt und *"Lessons Learnt"* <br> z. B. Namensgebung, Kohäsion, Kopplung, Größe;
+- 28.08.2026: **Modularisierung:** Vorstellung Beispielprojekt und *"Lessons Learnt"* <br> z. B. Namensgebung, Kohäsion, Kopplung, Größe;
               Was waren Herausforderungen? Was würden Sie künftig anders machen?
 - 30.09.2026: **WCAG:** *Web Content Accessibility Guidelines (W3C)*
 - 30.09.2026: **BITV:** Barrierefreie-Informationstechnik-Verordnung

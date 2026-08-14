@@ -13,6 +13,8 @@ website:
         text: 01 Willkommen zu LF10a - Themen und Zeitplan
       - href: 02_Pseudocode.qmd
         text: 02 Pseudocode
+      - href: 03_Algorithmen.qmd
+        text: 03 Algorithmen
 
 format:
   revealjs:

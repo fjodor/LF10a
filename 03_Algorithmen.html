@@ -1246,15 +1246,25 @@ display:block!important;
 <li class="fragment">Stabil und gut parallelisierbar</li>
 </ul>
 </section>
-<section id="sortieralgorithmen-quick-sort" class="slide level2" style="font-size: 2rem">
+<section id="merge-sort-vs.-bubble-selection-insertion-sort" class="slide level2">
+<h2>Merge Sort vs. Bubble / Selection / Insertion Sort</h2>
+<ul>
+<li>Deutlich schneller: O(n log n) statt O(n²)</li>
+<li>Komplexer zu implementieren <br> (Rekursion + Zusammenführen)</li>
+<li>Benötigt zusätzlichen Speicher zum Mergen</li>
+<li>Für große Datenmengen klar überlegen</li>
+<li>Während die einfachen Sortierverfahren oft <strong>verschachtelte Schleifen</strong> nutzen, arbeitet Merge Sort mit <strong>Teilen und Zusammenfügen</strong></li>
+</ul>
+</section>
+<section id="sortieralgorithmen-quick-sort" class="slide level2">
 <h2>Sortieralgorithmen: Quick Sort</h2>
+<div style="font-size: 2rem">
 <ul>
 <li class="fragment"><strong>Teile-und-Herrsche</strong>-Algorithmus: zerlegt Problem in kleinere Teilprobleme -&gt; <strong>Rekursion</strong>!</li>
-<li class="fragment">Wählt ein Element als <strong>Pivot</strong> aus (z. B. erstes, letztes oder mittleres Element)</li>
+<li class="fragment">Wählt ein Element als <strong>Pivot</strong> aus (z. B. erstes, letztes oder mittleres)</li>
 <li class="fragment"><strong>Partitionierung</strong>
 <ul>
-<li class="fragment">Alle Elemente <strong>kleiner</strong> als Pivot nach links</li>
-<li class="fragment">Alle Elemente <strong>größer</strong> als Pivot nach rechts</li>
+<li class="fragment">Alle Elemente <strong>kleiner</strong> als Pivot nach links, E. <strong>größer</strong> als P. nach rechts</li>
 <li class="fragment">Pivot wird an seiner endgültigen Position platziert</li>
 </ul></li>
 <li class="fragment">Laufzeiten:
@@ -1262,9 +1272,10 @@ display:block!important;
 <li class="fragment">Günstiger Fall: O(n log n)</li>
 <li class="fragment">Ungünstiger Fall: max. O(𝑛²) (z. B. wenn Pivot ungünstig gewählt wird)</li>
 </ul></li>
-<li class="fragment">Geringer Speicherbedarf, da meist im Array selbst umsortiert wird (<strong>in place</strong>)</li>
-<li class="fragment">Achtung, nicht stabil: relative Reihenfolge gleicher Elemente kann sich ändern!</li>
+<li class="fragment">Geringer Speicherbedarf: meist wird im Array (<strong>in place</strong>) umsortiert</li>
+<li class="fragment">Nicht stabil: relative Reihenfolge gleicher Elemente kann sich ändern!</li>
 </ul>
+</div>
 </section>
 <section id="on-log-n-vs.-on²" class="slide level2">
 <h2>O(n log n) vs. O(n²)</h2>
@@ -1304,16 +1315,6 @@ display:block!important;
 </tr>
 </tbody>
 </table>
-</section>
-<section id="merge-sort-vs.-bubble-selection-insertion-sort" class="slide level2">
-<h2>Merge Sort vs. Bubble / Selection / Insertion Sort</h2>
-<ul>
-<li>Deutlich schneller: O(n log n) statt O(n²)</li>
-<li>Komplexer zu implementieren <br> (Rekursion + Zusammenführen)</li>
-<li>Benötigt zusätzlichen Speicher zum Mergen</li>
-<li>Für große Datenmengen klar überlegen</li>
-<li>Während die einfachen Sortierverfahren oft <strong>verschachtelte Schleifen</strong> nutzen, arbeitet Merge Sort mit <strong>Teilen und Zusammenfügen</strong></li>
-</ul>
 </section>
 <section class="slide level2">
 

@@ -6,8 +6,6 @@ subtitle: " "
 format:
   revealjs:
     theme: simple
-    logo: libs/_Images/logo-AFBB.svg
-    css: libs/styles.css
 execute:
   echo: false
   eval: true

@@ -23,6 +23,12 @@ format:
     include-after-body: libs/backlink.html
     css: libs/styles.css
     logo: libs/_Images/logo-AFBB.svg
+    # title-slide: false   # doesn't exist!
+    # theme: dracula
+    # theme: blood
+    # theme: league
+    # slide-number: speaker
+    # slide-number: true
 
 profiles:
   internal:

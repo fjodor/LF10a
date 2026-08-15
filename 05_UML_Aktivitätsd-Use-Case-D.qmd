@@ -7,14 +7,6 @@ subtitle: " "
 format:
   revealjs:
     theme: simple
-    logo: libs/_Images/logo-AFBB.svg
-    css: libs/styles.css
-    # title-slide: false   # doesn't exist!
-    # theme: dracula
-    # theme: blood
-    # theme: league
-    # slide-number: speaker
-    # slide-number: true
 execute:
   echo: false
   eval: true

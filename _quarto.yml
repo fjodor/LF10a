@@ -29,6 +29,12 @@ format:
     # theme: league
     # slide-number: speaker
     # slide-number: true
+    # google-fonts: ["Lato"]
+    # font-family: "Lato"
+
+  # html:
+  #   google-fonts: ["Lato"]
+  #   font-family: "Lato"
 
 profiles:
   internal:

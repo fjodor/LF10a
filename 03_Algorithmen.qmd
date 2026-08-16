@@ -15,7 +15,7 @@ execute:
 callout-appearance: simple
 ---
 
-## Suchalgorithen: Lineare Suche {style="font-size: 2.1rem"}
+## Suchalgorithmen: Lineare Suche {style="font-size: 2.1rem"}
 
 ::: incremental
 

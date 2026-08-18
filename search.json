@@ -1,353 +1,706 @@
 [
   {
-    "objectID": "08_Software-Ergonomie.html#lernziele",
-    "href": "08_Software-Ergonomie.html#lernziele",
+    "objectID": "09_Software-Ergonomie.html#lernziele",
+    "href": "09_Software-Ergonomie.html#lernziele",
     "title": "Software-Ergonomie",
     "section": "Lernziele",
     "text": "Lernziele\n\nGrundsätze der Softwareergonomie nach DIN EN ISO 9241 kennen, anwenden und in Prüfungsszenarien bewerten können\nDazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
-    "href": "08_Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
+    "objectID": "09_Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
+    "href": "09_Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
     "title": "Software-Ergonomie",
     "section": "DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion",
     "text": "DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion\nDie Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsätze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:\n\n\n\n\n\n\n\n\nGrundsatz\nBedeutung\nBeispiel\n\n\n\n\n(1) Aufgaben-angemessenheit\nSoftware unterstützt die Aufgabe ohne unnötige Schritte\nBestellformular zeigt nur relevante Felder\n\n\n(2) Selbstbeschrei-bungsfähigkeit\nJeder Schritt ist verständlich, ohne Handbuch\nTooltips, Hilfetexte, klare Beschriftungen\n\n\n(3) Erwartungs-konformität\nSoftware verhält sich so, wie der Benutzer es erwartet\n“Speichern”-Button oben links, Abbruch mit ESC\n\n\n(4) Fehlertoleranz\nFehlerhafte Eingaben fuehren nicht zu Datenverlust\nRückgaengig-Funktion, Validierung vor Absenden\n\n\n(5) Steuerbarkeit\nBenutzer kann Ablauf und Geschwindigkeit steuern\nZurück-Button, Abbruch-Möglichkeit, Undo\n\n\n(6) Individualisier-barkeit\nSoftware lässt sich an Benutzerbedürfnisse anpassen\nSchriftgröße, Farbschema, Dashboard-Layout\n\n\n(7) Lernförderlichkeit\nSoftware unterstützt das Erlernen der Bedienung\nTutorials, Assistenten, kontextsensitive Hilfe"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#usability-gebrauchstauglichkeit",
-    "href": "08_Software-Ergonomie.html#usability-gebrauchstauglichkeit",
+    "objectID": "09_Software-Ergonomie.html#usability-gebrauchstauglichkeit",
+    "href": "09_Software-Ergonomie.html#usability-gebrauchstauglichkeit",
     "title": "Software-Ergonomie",
     "section": "Usability (Gebrauchstauglichkeit)",
     "text": "Usability (Gebrauchstauglichkeit)\nDefinition (DIN EN ISO 9241-11): Das Ausmaß, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.\n\n\n\n\n\n\n\n\nKriterium\nBedeutung\nBeispiel\n\n\n\n\nEffektivität\nAufgabe wird korrekt und vollständig erledigt\nBestellung wird fehlerfrei abgeschlossen\n\n\nEffizienz\nAufgabe wird mit minimalem Aufwand erledigt\nWenige Klicks bis zum Ziel\n\n\nZufriedenheit\nBenutzer hat positives Nutzungserlebnis\nKlare Rückmeldungen, angenehmes Design"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#barrierefreiheit-accessibility",
-    "href": "08_Software-Ergonomie.html#barrierefreiheit-accessibility",
+    "objectID": "09_Software-Ergonomie.html#barrierefreiheit-accessibility",
+    "href": "09_Software-Ergonomie.html#barrierefreiheit-accessibility",
     "title": "Software-Ergonomie",
     "section": "Barrierefreiheit (Accessibility)",
     "text": "Barrierefreiheit (Accessibility)\nDefinition: Software muss so gestaltet sein, dass sie auch von Menschen mit Behinderungen genutzt werden kann.\nRegelwerke:\n\n\n\n\n\n\n\n\nStandard\nBeschreibung\nGeltungsbereich\n\n\n\n\nWCAG 2.1\nWeb Content Accessibility Guidelines (W3C)\nInternational, Webinhalte\n\n\nBITV 2.0\nBarrierefreie-Informationstechnik-Verordnung\nDeutschland, öffentliche Stellen\n\n\nDIN EN ISO 9241-171\nLeitlinien für barrierefreie Software\nInternational, allgemein"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#wcag-prinzipien-pour",
-    "href": "08_Software-Ergonomie.html#wcag-prinzipien-pour",
+    "objectID": "09_Software-Ergonomie.html#wcag-prinzipien-pour",
+    "href": "09_Software-Ergonomie.html#wcag-prinzipien-pour",
     "title": "Software-Ergonomie",
     "section": "WCAG-Prinzipien (POUR)",
     "text": "WCAG-Prinzipien (POUR)\n\nPerceivable (Wahrnehmbar): Textalternativen fuer Bilder, Untertitel fuer Videos\nOperable (Bedienbar): Tastaturnavigation, ausreichend Zeit fuer Eingaben\nUnderstandable (Verstaendlich): Klare Sprache, konsistente Navigation\nRobust: Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#wcag-praktische-maßnahmen",
-    "href": "08_Software-Ergonomie.html#wcag-praktische-maßnahmen",
+    "objectID": "09_Software-Ergonomie.html#wcag-praktische-maßnahmen",
+    "href": "09_Software-Ergonomie.html#wcag-praktische-maßnahmen",
     "title": "Software-Ergonomie",
     "section": "WCAG: Praktische Maßnahmen",
     "text": "WCAG: Praktische Maßnahmen\n\nAlt-Texte für Bilder\nKontrastverhaeeltnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)\nTastaturbedienbarkeit aller Funktionen\nFormularbeschriftungen mit &lt;label&gt;-Elementen\nSkip-Links für Screenreader\nKeine reinen Farb-Informationen  (z.B. “rote Felder sind Pflichtfelder”)"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#zusammenhang-der-konzepte",
-    "href": "08_Software-Ergonomie.html#zusammenhang-der-konzepte",
+    "objectID": "09_Software-Ergonomie.html#zusammenhang-der-konzepte",
+    "href": "09_Software-Ergonomie.html#zusammenhang-der-konzepte",
     "title": "Software-Ergonomie",
     "section": "Zusammenhang der Konzepte",
     "text": "Zusammenhang der Konzepte\n\n+--------------------------------------------+\n|  DIN EN ISO 9241-110                       |\n|  (7 Grundsätze der Dialoggestaltung)       |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Usability (DIN EN ISO 9241-11)            |\n|  Effektiv, Effizient, Zufriedenstellend    |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Accessibility (WCAG, BITV)                |\n|  Barrierefreiheit für alle Nutzergruppen   |\n+--------------------------------------------+"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
-    "href": "08_Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
+    "objectID": "09_Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
+    "href": "09_Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
     "title": "Software-Ergonomie",
     "section": "Evaluationskriterien in der Praxis",
     "text": "Evaluationskriterien in der Praxis\n\n\n\n\n\n\n\n\nMethode\nBeschreibung\nWann einsetzen\n\n\n\n\nHeuristische Evaluation\nExperten prüfen anhand von Regeln (z.B. Nielsen)\nFrüh im Entwicklungsprozess\n\n\nUsability-Test\nEchte Benutzer testen die Software\nNach Prototyp-Phase\n\n\nCognitive Walkthrough\nSchritt-für-Schritt-Analyse aus Benutzersicht\nEntwurfsphase\n\n\nFragebogen (SUS, UEQ)\nStandardisierte Befragung nach Nutzung\nNach Einführung / Release"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#typische-prüfungsaspekte",
-    "href": "08_Software-Ergonomie.html#typische-prüfungsaspekte",
+    "objectID": "09_Software-Ergonomie.html#typische-prüfungsaspekte",
+    "href": "09_Software-Ergonomie.html#typische-prüfungsaspekte",
     "title": "Software-Ergonomie",
     "section": "Typische Prüfungsaspekte",
     "text": "Typische Prüfungsaspekte\n\nGrundsätze der DIN EN ISO 9241-110 benennen und in Szenarien erkennen\nNegativbeispiel bewerten: Welcher Grundsatz ist verletzt?\nUnterschied Usability vs. User Experience erklären\nWCAG-Prinzipien nennen können\nMaßnahmen für Barrierefreiheit benennen"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#häufige-fehler",
-    "href": "08_Software-Ergonomie.html#häufige-fehler",
+    "objectID": "09_Software-Ergonomie.html#häufige-fehler",
+    "href": "09_Software-Ergonomie.html#häufige-fehler",
     "title": "Software-Ergonomie",
     "section": "Häufige Fehler",
     "text": "Häufige Fehler\n\nUsability wird mit Design verwechselt: Schön ≠ benutzbar\nBarrierefreiheit wird nur auf Sehbehinderung reduziert → betrifft auch motorische, kognitive und auditive Einschränkungen\nErwartungskonformität wird vergessen: Software funktioniert, aber anders als gewohnt → frustriert Benutzer\nIndividualisierbarkeit wird als “optional nice-to-have” abgetan → ist ein Grundsatz der Norm"
   },
   {
-    "objectID": "08_Software-Ergonomie.html#section",
-    "href": "08_Software-Ergonomie.html#section",
+    "objectID": "09_Software-Ergonomie.html#section",
+    "href": "09_Software-Ergonomie.html#section",
     "title": "Software-Ergonomie",
     "section": "",
     "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
-    "href": "06_Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
+    "objectID": "07_Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
+    "href": "07_Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Strukturierte Analyse- und Designverfahren",
     "text": "Strukturierte Analyse- und Designverfahren\nGehört zum Prüfungsteil: Konzipieren und Umsetzen von kundenspezifischen Softwareanwendungen\n\nTop-down-Entwurf\nBottom-up-Entwurf\nModularisierung"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#top-down-entwurf",
-    "href": "06_Analyse-Designverfahren.html#top-down-entwurf",
+    "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf",
+    "href": "07_Analyse-Designverfahren.html#top-down-entwurf",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf",
     "text": "Top-down-Entwurf\n\nBeginn mit Gesamtsystem\nschrittweise Zerlegung in kleinere Teilsysteme und Module\nMotto: Divide and Conquer\n\nWann geeignet?\n\nNeue Systeme, bei denen das Gesamtsystem zuerst stehen muss"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
-    "href": "06_Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
+    "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
+    "href": "07_Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf: Kernaussagen",
     "text": "Top-down-Entwurf: Kernaussagen\n\nStart beim Gesamtproblem, dann Zerlegung in Teilprobleme\nHierarchische Struktur: Hauptprogramm - Unterprogramme - Einzelfunktionen\nGut geeignet für komplett neue Systeme ohne bestehende Bausteine\nFrühe Sicht auf die Gesamtarchitektur"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
-    "href": "06_Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
+    "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
+    "href": "07_Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf: Wichtige Begriffe",
     "text": "Top-down-Entwurf: Wichtige Begriffe\n\nDivide and Conquer: Teile und Herrsche: Problem in Teilprobleme zerlegen\nVerfeinerung: schrittweise Detaillierung der Lösung\nHierarchie: Ober-/Unterordnung der Module"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#top-down-entwurf-beispiel",
-    "href": "06_Analyse-Designverfahren.html#top-down-entwurf-beispiel",
+    "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf-beispiel",
+    "href": "07_Analyse-Designverfahren.html#top-down-entwurf-beispiel",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf: Beispiel",
     "text": "Top-down-Entwurf: Beispiel\n\nProjektleiter plant ERP-System: Enterprise Resource Planning System\nGesamtsystem wird in Module aufgeteilt\nModule werden weiter zerlegt"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#bottom-up-entwurf",
-    "href": "06_Analyse-Designverfahren.html#bottom-up-entwurf",
+    "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf",
+    "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf",
     "text": "Bottom-up-Entwurf\n\nBeginn mit kleinsten, elementaren Bausteinen (Module, Funktionen)\nSchrittweises Zusammensetzen zu größeren Einheiten\n\nWann geeignet?\n\nWenn bereits wiederverwendbare Komponenten existieren"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
-    "href": "06_Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
+    "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
+    "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf: Kernaussagen",
     "text": "Bottom-up-Entwurf: Kernaussagen\n\nStart bei Detailkomponenten, dann Zusammenbau zum Gesamtsystem\nGut geeignet, wenn wiederverwendbare Bausteine bereits vorhanden sind\nEinzelne Module können früh getestet werden\nRisiko: Gesamtergebnis passt möglicherweise nicht zusammen"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
-    "href": "06_Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
+    "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
+    "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf: Wichtige Begriffe",
     "text": "Bottom-up-Entwurf: Wichtige Begriffe\n\nModul: in sich geschlossene Einheit mit definierter Aufgabe\nWiederverwendung: bestehende Module in neuen Kontext einsetzen\nIntegration: Zusammenfügen von Modulen zu einem größeren System"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
-    "href": "06_Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
+    "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
+    "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf: Beispiel",
     "text": "Bottom-up-Entwurf: Beispiel\n\nEntwickler baut zuerst Login-Komponente, Datenbankzugriffs-Schicht und PDF-Export-Funktion\nAnschließend fügt er die Module zu einer Anwendung zusammen"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
-    "href": "06_Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
+    "objectID": "07_Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
+    "href": "07_Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down vs. Bottom-up: Vergleich",
     "text": "Top-down vs. Bottom-up: Vergleich\n\n\n\n\n\nKriterium\n\n\n\n\nStartpunkt\n\n\nRichtung\n\n\nEignung   \n\n\nGesamtüberblick\n\n\nTestbarkeit einzelner Module\n\n\nRisiko   \n\n\nBeispiel\n\n\n\n\n\n\n\nTop-down\n\n\n\n\nGesamtsystem\n\n\nVom Grossen zum Kleinen\n\n\nNeues System, keine Vorarbeiten\n\n\nFrüh vorhanden\n\n\nSpät (erst wenn Module implementiert)\n\n\nDetail-Probleme werden spät entdeckt\n\n\nNeues ERP-System planen\n\n\n\n\n\n\n\nBottom-up\n\n\n\n\nEinzelne Bausteine\n\n\nVom Kleinen zum Grossen\n\n\nBestehende Module vorhanden\n\n\nErst spät sichtbar\n\n\nFrüh (Module einzeln testbar)\n\n\nGesamtkonzept passt evtl. nicht\n\n\nBestehende Bibliotheken integrieren"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#kombination-meet-in-the-middle",
-    "href": "06_Analyse-Designverfahren.html#kombination-meet-in-the-middle",
+    "objectID": "07_Analyse-Designverfahren.html#kombination-meet-in-the-middle",
+    "href": "07_Analyse-Designverfahren.html#kombination-meet-in-the-middle",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Kombination: Meet-in-the-Middle",
     "text": "Kombination: Meet-in-the-Middle\nIn der Praxis werden Top-down und Bottom-up oft kombiniert:\n\nTop-down: Architektur des Gesamtsystems wird definiert\nBottom-up: Vorhandene Bibliotheken und Module werden eingebunden\nDer Treffpunkt in der Mitte ergibt die Integrationsebene"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#modularisierung",
-    "href": "06_Analyse-Designverfahren.html#modularisierung",
+    "objectID": "07_Analyse-Designverfahren.html#modularisierung",
+    "href": "07_Analyse-Designverfahren.html#modularisierung",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung",
     "text": "Modularisierung\n\nSystem wird in eigenständige, austauschbare Module zerlegt\nJedes Modul hat eine klar definierte Aufgabe und kommuniziert über definierte Schnittstellen mit anderen Modulen\nZiel:\n\nhohe Kohäsion innerhalb der Module\ngeringe Kopplung zwischen den Modulen"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#modularisierung-kernaussagen",
-    "href": "06_Analyse-Designverfahren.html#modularisierung-kernaussagen",
+    "objectID": "07_Analyse-Designverfahren.html#modularisierung-kernaussagen",
+    "href": "07_Analyse-Designverfahren.html#modularisierung-kernaussagen",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Kernaussagen",
     "text": "Modularisierung: Kernaussagen\n\n\nJedes Modul erfüllt genau eine klar abgegrenzte Aufgabe\nModule sind über Schnittstellen (Interfaces) verbunden\nÄnderungen in einem Modul sollen keine Auswirkungen auf andere Module haben\nZwei zentrale Qualitätsmerkmale: Kohäsion und Kopplung\n\n\n\n\n\n\n\n\n\n\n\nEigenschaft\nDefinition\n\n\n\n\nKohäsion\nWie stark die Bestandteile eines Moduls inhaltlich zusammengehören\n\n\nKopplung\nWie stark Module voneinander abhängig sind\n\n\n\n\n\n\n\nZiel\n\n\n\n\nHoch: alles in einem Modul gehört thematisch zusammen\n\n\nNiedrig: Module sollen unabhängig sein"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
-    "href": "06_Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
+    "objectID": "07_Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
+    "href": "07_Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Wichtige Begriffe",
     "text": "Modularisierung: Wichtige Begriffe\n\nSchnittstelle (Interface): definierter Ein-/ Ausgabekanal zwischen Modulen\nInformation Hiding: interne Details eines Moduls sind von außen nicht sichtbar\nSeparation of Concerns: Trennung von Zuständigkeiten"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#modularisierung-vorteile",
-    "href": "06_Analyse-Designverfahren.html#modularisierung-vorteile",
+    "objectID": "07_Analyse-Designverfahren.html#modularisierung-vorteile",
+    "href": "07_Analyse-Designverfahren.html#modularisierung-vorteile",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Vorteile",
     "text": "Modularisierung: Vorteile\n\nBessere Wartbarkeit: Fehler lokal beheben\nBessere Testbarkeit: Module einzeln testbar\nBessere Wiederverwendbarkeit: Module in anderen Projekten nutzbar\nArbeitsteilung im Team: jedes Teammitglied bearbeitet ein Modul"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
-    "href": "06_Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
+    "objectID": "07_Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
+    "href": "07_Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Kriterien für gute Module",
     "text": "Modularisierung: Kriterien für gute Module\n\n\n\n\n\n\n\n\n\nKriterium\nGut\nSchlecht\n\n\n\n\nKohäsion\nAlle Funktionen eines Moduls gehoeren zum gleichen Thema\nEin Modul macht Login, PDF-Export und Datenbankzugriff\n\n\nKopplung\nModule kommunizieren nur über definierte Schnittstellen\nEin Modul greift direkt auf interne Variablen eines anderen Moduls zu\n\n\nGröße\nÜberschaubarer Umfang (eine klare Aufgabe)\nRiesiges Modul mit hunderten Funktionen\n\n\nNamensgebung\nSprechender Name: BenutzerAuthentifizierung\nUnklarer Name: Modul_A"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#design-prüfungstipps",
-    "href": "06_Analyse-Designverfahren.html#design-prüfungstipps",
+    "objectID": "07_Analyse-Designverfahren.html#design-prüfungstipps",
+    "href": "07_Analyse-Designverfahren.html#design-prüfungstipps",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Design: Prüfungstipps",
     "text": "Design: Prüfungstipps\n\nSzenario lesen und Top-down oder Bottom-up empfehlen mit Begründung\nKohaesion und Kopplung definieren und bewerten\nVorteile der Modularisierung nennen (mindestens drei)\nZerlegung eines Problems in Module darstellen (Baumdiagramm)\n\n\n\n\n\n\n\n\nHäufige Fehler\nKorrektur\n\n\n\n\nTop-down und Bottom-up verwechselt\nTop-down = vom Ganzen zum Detail,  Bottom-up = vom Detail zum Ganzen\n\n\nHohe Kopplung als positiv bewertet\nHohe Kopplung = schlecht (starke Abhaengigkeit), niedrig = gut\n\n\nKohäsion mit Kopplung verwechselt\nKohäsion = innerhalb eines Moduls,  Kopplung = zwischen Modulen\n\n\nModularisierung nur als Aufteilung in Dateien verstanden\nEs geht um fachliche Trennung mit definierten Schnittstellen"
   },
   {
-    "objectID": "06_Analyse-Designverfahren.html#section",
-    "href": "06_Analyse-Designverfahren.html#section",
+    "objectID": "07_Analyse-Designverfahren.html#section",
+    "href": "07_Analyse-Designverfahren.html#section",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "",
     "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
   },
   {
-    "objectID": "04_Softwareanforderungen.html#lernziele",
-    "href": "04_Softwareanforderungen.html#lernziele",
-    "title": "Softwareanforderungen erfassen",
-    "section": "Lernziele",
-    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielen erkennen können"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lokaler-computer-experte",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lokaler-computer-experte",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lokaler Computer-Experte …",
+    "text": "Lokaler Computer-Experte …\n\n\n\n\n\n\n\n\n\n\n\n\n\nKein echtes UML!\n\nQuelle: xkcd.com/627/",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
-    "href": "04_Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
-    "title": "Softwareanforderungen erfassen",
-    "section": "Funktionale vs. Nichtfunktionale Anforderungen",
-    "text": "Funktionale vs. Nichtfunktionale Anforderungen\n\n\n\n\n\nMerkmal\nFunktionale Anforderungen\n\n\n\n\nDefinition\nWAS das System tun soll   \n\n\nBeispiel\n“Benutzer kann sich einloggen”\n\n\nPrüfung\nFunktionstest\n\n\nQuelle\nFachliche Anforderungen\n\n\nDokumentation\nUse Cases, User Stories\n\n\n\n\n\n\n\nNicht-funktionale Anforderungen\n\n\n\n\nWIE GUT das System arbeiten soll\n\n\n“Login dauert max. 2 Sekunden”\n\n\nLeistungstest, Review\n\n\nQualitätsanforderungen\n\n\nQualitätsszenarien"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#uml-diagramm-übersicht",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#uml-diagramm-übersicht",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "UML Diagramm-Übersicht",
+    "text": "UML Diagramm-Übersicht\n\nQuelle: esb-dev.github.io",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
-    "href": "04_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
-    "title": "Softwareanforderungen erfassen",
-    "section": "Software-Qualitätsmerkmale: ISO 25010",
-    "text": "Software-Qualitätsmerkmale: ISO 25010\n\n\n\nNr.\nQualitätsmerkmal\nenglisch\n\n\n\n\n1\nFunktionale Eignung\nFunctional Suitability\n\n\n2\nLeistungseffizienz\nPerformance Efficiency\n\n\n3\nKompatibilität\nCompatibility\n\n\n4\nBenutzbarkeit\nUsability\n\n\n5\nZuverlässigkeit\nReliability\n\n\n6\nSicherheit\nSecurity\n\n\n7\nWartbarkeit\nMaintainability\n\n\n8\nÜbertragbarkeit\nPortability"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#ein-echtes-aktivitätsdiagramm",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#ein-echtes-aktivitätsdiagramm",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Ein “echtes” Aktivitätsdiagramm",
+    "text": "Ein “echtes” Aktivitätsdiagramm\n\n\n\n\n\n\n\n\n\n\n\n\n\nbildet die von einem System ausgeführten Aktivitäten ab\nzählt zu den Verhaltensdiagrammen in der UML\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStartknoten\nAktion\nKonnektor\nEndknoten",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
-    "href": "04_Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q1: Funktionalität (Functional Suitability)",
-    "text": "ISO 25010 - Q1: Funktionalität (Functional Suitability)\nDefinition: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nFunktionale Vollständigkeit\nAlle geforderten Funktionen vorhanden\nAlle Use Cases implementiert\n\n\nFunktionale Korrektheit\nErgebnisse sind richtig und präzise\nBerechnungen liefern korrekte Werte\n\n\nFunktionale Angemessenheit\nFunktionen unterstützen die Aufgaben\nKeine überflüssigen Features\n\n\n\nMessgrößen: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek",
+    "text": "Aufgabe: Bibliothek\n\nStellen Sie sich vor, Sie besuchen die Bibliothek, um ein Buch auszuleihen.\nErstellen Sie ein Aktivitätsdiagramm, das den gesamten Ablauf Ihres Besuchs in der Bibliothek beschreibt.\n\nSie betreten die Bibliothek.\nSie gehen zur Buchabteilung und suchen ein Buch.\nSie prüfen, ob das Buch ausleihbar ist.\nSie verlassen die Bibliothek.\n\nErstellen Sie das Aktivitäts-Diagramm mit draw.io. Speichern Sie es so, dass Sie es in der Folge weiter nutzen und verändern können.",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
-    "href": "04_Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q2: Effizienz (Performance Efficiency)",
-    "text": "ISO 25010 - Q2: Effizienz (Performance Efficiency)\nDefinition: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nZeitverhalten\nAntwort- und Verarbeitungszeiten\nSeitenladezeit &lt; 3 Sekunden\n\n\nRessourcenverbrauch\nCPU, RAM, Speicherplatz, Bandbreite\nMax. 512 MB RAM-Verbrauch\n\n\nKapazität\nMaximale Grenzen des Systems\n10.000 gleichzeitige Benutzer\n\n\n\nMessgrößen: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek",
+    "text": "Lösung: Bibliothek",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
-    "href": "04_Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 – Q3: Kompatibilität (Compatibility)",
-    "text": "ISO 25010 – Q3: Kompatibilität (Compatibility)\nDefinition: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nKoexistenz\nGemeinsamer Betrieb ohne gegenseitige Beeinträchtigung\nZwei Anwendungen teilen sich CPU/RAM ohne Performance‑Einbrüche\n\n\nInteroperabilität\nFähigkeit zum Informationsaustausch und zur Nutzung der ausgetauschten Daten\nCRM kommuniziert fehlerfrei mit ERP‑System\n\n\n\nMessgrößen: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-verzweigung",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-verzweigung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aktivitätsdiagramm: Verzweigung",
+    "text": "Aktivitätsdiagramm: Verzweigung",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
-    "href": "04_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q4: Benutzbarkeit (Usability)",
-    "text": "ISO 25010 - Q4: Benutzbarkeit (Usability)\nDefinition: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nErlernbarkeit\nWie schnell kann ein neuer Benutzer das System bedienen?\nEinarbeitungszeit &lt; 1 Tag\n\n\nBedienbarkeit\nWie einfach lässt sich das System steuern?\nMax. 3 Klicks bis zur Zielfunktion\n\n\nFehlertoleranz (UI)\nWie gut wird der Benutzer vor Fehlern geschützt?\nValidierung bei Formulareingaben\n\n\nÄsthetik\nAnsprechendes, konsistentes Design\nEinheitliches Farbschema, klare Struktur\n\n\nBarrierefreiheit\nZugänglichkeit für Menschen mit Einschränkungen\nScreenreader-Kompatibilität, Kontraste\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-verzweigung",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-verzweigung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek, Verzweigung",
+    "text": "Aufgabe: Bibliothek, Verzweigung\n\nSie besuchen die Bibliothek, um ein Buch auszuleihen.\nErstellen Sie ein Aktivitätsdiagramm mit Verzweigung.\n\nSie betreten die Bibliothek.\nSie suchen und finden ein Buch.\nSie prüfen, ob es ausleihbar ist.\nWenn ja (Buch ausleihbar):\n\nSie gehen zur Ausleihtheke.\nSie leihen das Buch aus.\nSie verlassen die Bibliothek.\n\nWenn nein (Buch nicht ausleihbar):\n\nPrüfen, ob Sie noch ein anderes Buch suchen\nFalls ja:\n\nBuch suchen\n\nFalls nein:\n\nSie verlassen die Bibliothek.",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
-    "href": "04_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)",
-    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nReife\nZuverlässigkeit im Normalbetrieb\nMTBF &gt; 1000h\n\n\nVerfügbarkeit\nSystem ist einsatzbereit wenn benötigt\n99,9% Verfügbarkeit (SLA)\n\n\nFehlertoleranz\nFunktioniert trotz Fehlern weiter\nGraceful Degradation\n\n\nWiederherstell-barkeit\nDaten und Zustand nach Ausfall wiederherstellen\nRecovery Time &lt; 5 min\n\n\n\nSchlüsselkennzahlen:\n\nMTBF = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)\nMTTR = Mean Time To Repair (Mittlere Reparaturzeit)\nVerfügbarkeit = MTBF / (MTBF + MTTR)"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-verzweigung",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-verzweigung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek, Verzweigung",
+    "text": "Lösung: Bibliothek, Verzweigung",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
-    "href": "04_Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 – Q6: Sicherheit (Security)",
-    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nVertraulichkeit\nSchutz vor unbefugtem Zugriff\nDaten nur für autorisierte Rollen sichtbar\n\n\nIntegrität\nSchutz vor unbefugter oder unbeabsichtigter Änderung\nHash‑Prüfungen verhindern Manipulation\n\n\nNichtabstreit-barkeit\nAktionen sind eindeutig zuordenbar\nDigitale Signaturen für Transaktionen\n\n\nAuthentizität\nIdentitäten und Daten sind echt\nMFA stellt sicher, dass der Nutzer korrekt identifiziert ist\n\n\nZugriffskontrolle\nAutorisierte Nutzung von Funktionen und Daten\nRollenbasierte Berechtigungen im Backend"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-parallel",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-parallel",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek, parallel",
+    "text": "Aufgabe: Bibliothek, parallel\n\n\nWie zuletzt\nSie besuchen die Bibliothek, um ein Buch auszuleihen.\n\nSie betreten die Bibliothek.\nSie suchen und finden ein Buch.\nSie prüfen, ob es ausleihbar ist.\nWenn ja (Buch ausleihbar):\n\nSie gehen zur Ausleihtheke.\nSie leihen das Buch aus.\nSie verlassen die Bibliothek.\n\nWenn nein (Buch nicht ausleihbar):\n\nPrüfen, ob Sie noch ein anderes Buch suchen\nFalls ja:\n\nBuch suchen\n\nFalls nein:\n\nSie verlassen die Bibliothek.\n\n\n\n\nNeu\nNach der Ausleihe laufen vor dem Verlassen der Bibo zwei Prozesse parallel:\n\nBibliotheksdatenbank muss das ausgeliehene Buch registrieren\nArbeitskraft am Schalter stellt Ausleihbeleg aus.",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
-    "href": "04_Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 – Q6: Sicherheit (Security)",
-    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition:\nGrad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.\n\nMessgrößen:\n\nAnzahl Sicherheitsvorfälle\nPen‑Test‑Ergebnisse\nAbdeckung von Sicherheitsanforderungen\nMFA‑Quote"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-parallel",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-parallel",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek, parallel",
+    "text": "Lösung: Bibliothek, parallel",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
-    "href": "04_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
-    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nÄnderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-mit-swimlanes",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-mit-swimlanes",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Bibliothek mit Swimlanes",
+    "text": "Aufgabe: Bibliothek mit Swimlanes\n\nDiagramm wie bisher, mit parallelen Prozessen vor dem Verlassen der Bibliothek.\nNeu: Kennzeichnen Sie die Verantwortlichkeiten anhand von Swimlanes.",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
-    "href": "04_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
-    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition:\nGrad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\nMessgrößen:\n\nZyklomatische Komplexität\nCode-Coverage\nCoupling / Cohesion-Metriken"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-mit-swimlanes",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-mit-swimlanes",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Bibliothek mit Swimlanes",
+    "text": "Lösung: Bibliothek mit Swimlanes",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
-    "href": "04_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
-    "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q8: Übertragbarkeit (Portability)",
-    "text": "ISO 25010 - Q8: Übertragbarkeit (Portability)\nDefinition: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nAnpassbarkeit\nAn verschiedene Umgebungen anpassbar\nKonfigurationsdateien statt Hardcoding\n\n\nInstallierbarkeit\nEinfache Installation / Deinstallation\nSetup-Wizard, Paketmanager\n\n\nAustauschbarkeit\nKann andere Software ersetzen\nStandardisierte Schnittstellen\n\n\n\nMessgrößen: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-übersicht",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-übersicht",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aktivitätsdiagramm: Übersicht",
+    "text": "Aktivitätsdiagramm: Übersicht",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#weitere-normen",
-    "href": "04_Softwareanforderungen.html#weitere-normen",
-    "title": "Softwareanforderungen erfassen",
-    "section": "Weitere Normen",
-    "text": "Weitere Normen\n\n\n\nNorm\nInhalt\n\n\n\n\nISO 25010\nQualitätsmodell für Softwareprodukte\n\n\nIEEE 830\nEmpfehlungen für Softwareanforderungsspezifikationen\n\n\nISO 25030\nQualitätsanforderungen\n\n\nISO 9241\nErgonomie der Mensch-System-Interaktion"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramme",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramme",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Anwendungsfalldiagramme",
+    "text": "Anwendungsfalldiagramme\nWas ist ein Anwendungsfall?\n\nVerhalten, das ein modelliertes System nach außen anbietet\nPerspektive: Nutzer\n\n\nWas ist ein Anwendungsfall-Diagramm (Use-Case-Diagramm)?\n\nZeigt das externe Verhalten eines Systems aus Sicht der Nutzer\nBeantwortet die Frage:\nWas soll mein geplantes System eigentlich leisten?",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
-    "href": "04_Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
-    "title": "Softwareanforderungen erfassen",
-    "section": "Anforderungen messbar formulieren: SMART",
-    "text": "Anforderungen messbar formulieren: SMART\nAnforderungen müssen messbar sein, damit sie prüfbar werden.\nSMART-Kriterien fuer Anforderungen:\n\nSpezifisch – klar und eindeutig formuliert\nMessbar – quantifizierbar mit Metriken\nAkzeptiert – vom Stakeholder abgenommen\nRealistisch – technisch umsetzbar\nTerminiert – zeitlich eingrenzbar"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Anwendungsfalldiagramm: Yachthafen",
+    "text": "Anwendungsfalldiagramm: Yachthafen\n\n\nLiegeplatzverwaltung\n\nProjekt: Softwarekomponente für Vermietung von Liegeplätzen\nTeil des Yachthafen-Managements\n\nAnforderungen:\n\n\nKunden können Liegeplatz mieten und kündigen\nKunden können sich im Yachthafen mit Yacht an- und abmelden\nMitarbeiter können einzelne Liegeplätze für Wartung sperren\nNutzer des Programms können aktuelle Liegeplatzbelegung ansehen\n\n\nProjektteam:\n\nobjektorientierte Entwicklung\nUML zur Planung\n\n\n\n\n\n\n\n\n\n\n\nQuelle: PaterMcFly, Wikimedia Commons\n\nNächster Schritt in Softwareentwicklung?\nWie können sich Entwickler einen Überblick über alle Anwendungsfälle verschaffen?",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#smart-beispiele",
-    "href": "04_Softwareanforderungen.html#smart-beispiele",
-    "title": "Softwareanforderungen erfassen",
-    "section": "SMART: Beispiele",
-    "text": "SMART: Beispiele\n\n\n\n\n\nSchlecht (vage)\n\n\n\n\n“Das System soll schnell sein”   \n\n\n“Einfache Bedienung”   \n\n\n“Hohe Verfügbarkeit”   \n\n\n“Sicher”   \n\n\n“Wartbar”\n\n\n\n\n\n\n\nGut (messbar)\n\n\n\n\n“Die Antwortzeit beträgt max. 2 Sekunden bei 1000 Nutzern”\n\n\n“Ein neuer Benutzer kann die Kernaufgabe in &lt; 5 Minuten erledigen”\n\n\n“Verfügbarkeit &gt;= 99,9% pro Monat (max. 43 Min. Downtime)”\n\n\n“Authentifizierung per 2FA, Verschlüsselung mit AES-256”\n\n\n“Zyklomatische Komplexität pro Methode &lt; 10”"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen-1",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen-1",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Anwendungsfalldiagramm: Yachthafen",
+    "text": "Anwendungsfalldiagramm: Yachthafen",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#prüfungstipps",
-    "href": "04_Softwareanforderungen.html#prüfungstipps",
-    "title": "Softwareanforderungen erfassen",
-    "section": "Prüfungstipps",
-    "text": "Prüfungstipps\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\n\n\nEffizienz und Effektivität verwechseln\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc."
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-grundelemente",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-grundelemente",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-Diagramm: Grundelemente",
+    "text": "Use-Case-Diagramm: Grundelemente",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#user-stories",
-    "href": "04_Softwareanforderungen.html#user-stories",
-    "title": "Softwareanforderungen erfassen",
-    "section": "User Stories",
-    "text": "User Stories\n\nkurze, informelle Beschreibung einer Anforderung aus Benutzersicht\nwird vor allem in agilen Projekten verwendet\n\nStandardformat\n\n\nAls [Rolle] möchte ich [Funktion], damit [Nutzen].\n\n\nBeispiel\n\n\nAls Sachbearbeiter möchte ich Rechnungen nach Datum filtern,\ndamit ich offene Posten schneller finde."
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-generalisierung",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-generalisierung",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-Diagramm: Generalisierung",
+    "text": "Use-Case-Diagramm: Generalisierung\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneralisierung / Spezialisierung\n\nzeigt Beziehung zwischen allgemeinem und spezialisiertem Element\nkann sowohl zwischen Anwendungsfällen als auch zwischen Akteuren dargestellt werden\nPfeilrichtung beachten:  Vom speziellen zum generellen Element!",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#user-stories-1",
-    "href": "04_Softwareanforderungen.html#user-stories-1",
-    "title": "Softwareanforderungen erfassen",
-    "section": "User Stories",
-    "text": "User Stories\nUser Stories enthalten Akzeptanzkriterien.\nDiese ersetzen nicht das Lastenheft,\nsondern ergänzen es in agilen Projekten."
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-bibliothek",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Use-Case-D. Bibliothek",
+    "text": "Aufgabe: Use-Case-D. Bibliothek\n\nBibliothek möchte neues System einführen zur Automatisierung:\n\nAusleihe von Büchern\nBenutzerverwaltung\nBücherverwaltung\n\nAufgabe: Use-Case-Diagramm\nAnforderungen\n\nBenutzer kann Bücher ausleihen, Bücher zurückgeben und seinen Kontostand für ausgeliehene Bücher überprüfen\nPremium-Benutzer kann zusätzlich Bücher vorbestellen\nBibliothekar kann neue Benutzer registrieren, Bücher hinzufügen und Bücher entfernen\nChef-Bibliothekar kann zusätzlich Berichte über die Ausleihe erstellen und die Verwaltung der Bibliothek übernehmen",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#user-stories-tipps",
-    "href": "04_Softwareanforderungen.html#user-stories-tipps",
-    "title": "Softwareanforderungen erfassen",
-    "section": "User Stories: Tipps",
-    "text": "User Stories: Tipps\nBeantworte die Fragen: WER? WAS? WOZU?\nAlternative Satzschablonen:\n\n„Um (Nutzen) als (Rolle) zu erreichen, möchte ich (Funktionalität/Ziel/Wunsch).“\n„Als (Rolle) möchte ich (was) (warum).“\n„Als (wer) (wann) (wo) möchte ich (was) (warum).“\n„Als (Persona) möchte ich (was) warum.“\n\nVgl. https://t2informatik.de/wissen-kompakt/user-story/"
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-bibliothek",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-bibliothek",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Use-Case-D. Bibliothek",
+    "text": "Lösung: Use-Case-D. Bibliothek",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
   },
   {
-    "objectID": "04_Softwareanforderungen.html#section",
-    "href": "04_Softwareanforderungen.html#section",
-    "title": "Softwareanforderungen erfassen",
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-include",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-include",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-D.: <<include>>",
+    "text": "Use-Case-D.: &lt;&lt;include&gt;&gt;\n\n\nEin Anwendungsfall führt immer einen anderen mit aus\nPflicht-Einbindung\nincludierter Use Case ist wiederverwendbar\nPfeilrichtung: vom Basis-Use-Case zum inkludierten Use-Case",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-include",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-include",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Use-Case-D., include",
+    "text": "Aufgabe: Use-Case-D., include\nBibliothek, wie zuletzt\nNeue Beziehungen\n\nAusleihen von Büchern enthält immer Berechtigungs-Prüfung\nRegistrieren eines Benutzers: immer Bestätigungs-Email\n\nUse-Case-Diagramm zeichnen.",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-include",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-include",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Use-Case-D., include",
+    "text": "Lösung: Use-Case-D., include",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-extend",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-extend",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-D.: <<extend>>",
+    "text": "Use-Case-D.: &lt;&lt;extend&gt;&gt;\n\n\n\n\n\n\n\n\n\n\n\nEin Anwendungsfall führt optional einen anderen mit aus\nErweiterung unter bestimmten Bedingungen\nAchtung: Pfeilrichtung vom erweiternden Anwendungsfall zum Basis-Use-Case\nAnders als bei &lt;&lt;include&gt;&gt;!!\nB ist Basis-Use-Case, A ist extended use case",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-extend",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-extend",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Aufgabe: Use-Case-D., extend",
+    "text": "Aufgabe: Use-Case-D., extend\nBibliothek, wie zuletzt, mit include\nNeue Sonderfälle\n\nBücher zurückgeben: manchmal müssen Gebühren erhoben werden\n-&gt; erweitert den Use Case “Bücher zurückgeben”\nWenn Bibliothekar ein Buch hinzufügt:  manchmal müssen Buchinformationen validiert werden,  wenn sie unvollständig sind\n\nAufgabe: Use-Case-Diagramm mit zwei Conditions",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-extend",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-extend",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Lösung: Use-Case-D., extend",
+    "text": "Lösung: Use-Case-D., extend",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-so-klappts",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-so-klappts",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
+    "section": "Use-Case-Diagramm: So klappt’s",
+    "text": "Use-Case-Diagramm: So klappt’s\n\n\nInclude (zwingende Folge) und extend (optionale Folge) gut unterscheiden\nPfeilrichtungen beachten:\n\nGeneralisierung / Spezialisierung: Vom speziellen zum generellen Element\nBeispiel: vom Premium-Benutzer zum Benutzer\n&lt;&lt;include&gt;&gt;: vom Basis-Use-Case zum inkludierten Use-Case\nBeispiel: von Bücher ausleihen zu Berechtigung prüfen\n&lt;&lt;extend&gt;&gt;: vom erweiternden Anwendungsfall zum Basis-Use-Case\nBeispiel: von Gebühren erheben zu Bücher zurückgeben\n\nUse-Case-Diagramm ist statisch\nNicht für Abläufe verwenden!",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#section",
+    "href": "05_UML_Aktivitätsd-Use-Case-D.html#section",
+    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
     "section": "",
-    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
+    "text": "Viel Erfolg mit UML!",
+    "crumbs": [
+      "05 UML Aktivitätsdiagramm, Use-Case-Diagramm"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#suchalgorithmen-lineare-suche",
+    "href": "03_Algorithmen.html#suchalgorithmen-lineare-suche",
+    "title": "Algorithmen",
+    "section": "Suchalgorithmen: Lineare Suche",
+    "text": "Suchalgorithmen: Lineare Suche\n\nDurchsucht eine Liste schrittweise von vorne nach hinten\nNach einander wird jeder Eintrag mit dem gesuchten Wert verglichen\nWird der Wert gefunden, wird die Position zurückgegeben\nWenn das Ende der Liste erreicht ist, ohne Treffer, gilt: nicht gefunden.\nVorteil: Einfach umzusetzen, keine Vorbereitung der Daten nötig\nNachteil: Langsam bei großen Listen, da im schlimmsten Fall alle Elemente geprüft werden müssen",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#suchalgorithmen-binäre-suche",
+    "href": "03_Algorithmen.html#suchalgorithmen-binäre-suche",
+    "title": "Algorithmen",
+    "section": "Suchalgorithmen: Binäre Suche",
+    "text": "Suchalgorithmen: Binäre Suche\n\nfindet Werte in sortierten Listen besonders effizient\nDer Suchbereich wird wiederholt halbiert:\n\nMittleres Element prüfen\nIst der gesuchte Wert kleiner, wird nur die linke Hälfte weiter durchsucht\nIst er größer, wird nur die rechte Hälfte betrachtet.\n\nProzess wird fortgesetzt, bis der Wert gefunden oder der Bereich leer ist\nVorteil: Sehr schnell – benötigt nur logarithmisch viele Schritte.\nNachteil: Funktioniert nur mit sortierten Daten.",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#binäre-suche-maximale-anzahl-suchschritte",
+    "href": "03_Algorithmen.html#binäre-suche-maximale-anzahl-suchschritte",
+    "title": "Algorithmen",
+    "section": "Binäre Suche: Maximale Anzahl Suchschritte",
+    "text": "Binäre Suche: Maximale Anzahl Suchschritte\nWas bedeutet “logarithmisch viele Schritte”?\n\n\n\n\n\n\n\n\nListengröße (n)\nlog2(n) (ungefähr)\nMaximale Schritte (ceiling)\n\n\n\n\n8\n3\n3\n\n\n16\n4\n4\n\n\n100\n6.64\n7\n\n\n1 000\n9.97\n10\n\n\n1 000 000\n19.93\n20\n\n\n1 000 000 000\n29.90\n30",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv",
+    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv",
+    "title": "Algorithmen",
+    "section": "Algorithmen: iterativ vs. rekursiv",
+    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nAufgabe wird wiederholt mit Schleifenstrukturen wie for,  while oder do-while\nVorteile\n\n\nin der Regel einfacher zu verstehen\ngeringerer Speicherverbrauch\nEffizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller\nRobustheit: keine Gefahr eines Stack Overflow\nDebugging: Schleifen einfacher nachzuverfolgen\nPraxisnähe: in realen Systeme fast immer bevorzugt\n\n\n\nRekursive Vorgehensweise\n\nFunktion ruft sich selbst auf\nlöst Probleme, die “natürlich” in kleinere Teilprobleme zerlegt werden können\n\nVorteile\n\nEleganz; kann intuitiver sein, näher an der mathematischen Idee\nLesbarkeit: Struktur folgt direkt der Problemdefinition\nVerwaltungsaufwand geringer: kein explizites Schleifen-Management\n\n\n\nsiehe Lernkarte AP2 146; hier ausführlicher!",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-wann-ist-rekursion-möglich",
+    "href": "03_Algorithmen.html#algorithmen-wann-ist-rekursion-möglich",
+    "title": "Algorithmen",
+    "section": "Algorithmen: Wann ist Rekursion möglich?",
+    "text": "Algorithmen: Wann ist Rekursion möglich?\nRekursive Algorithmen sind geeignet, wenn:\n\nder Algorithmus mehrmals ausgeführt werden muss\nder Algorithmus Daten benötigt, die sich bei jedem Aufruf ändern\nder Algorithmus selbst jedesmal unverändert bleibt\nes eine klare Bedingung gibt, bei deren Erfüllung der Algorithmus endet",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-1",
+    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-1",
+    "title": "Algorithmen",
+    "section": "Algorithmen: iterativ vs. rekursiv",
+    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nNachteile\n\nweniger elegant\nmehr Verwaltungslogik; z. B. binäre Suche: left, right, mid\nweniger mathematisch; z. B. binäre Suche: Idee der Halbierung nicht so klar sichtbar\n\n\nRekursive Vorgehensweise\nNachteile\n\nevtl. schwieriger zu verstehen\nSpeicher: jeder Funktionsaufruf landet auf dem Stack\nbei sehr großen Listen Stack Overflow möglich\nlangsamer: Funktionsaufrufe teurer als Schleifen\nDebuggen schwieriger: man muss Rekursionstiefe und Aufrufkette verstehen",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-2",
+    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-2",
+    "title": "Algorithmen",
+    "section": "Algorithmen: iterativ vs. rekursiv",
+    "text": "Algorithmen: iterativ vs. rekursiv\n\n\n\nAspekt\nIterativ\nRekursiv\n\n\n\n\nPerformance\nSchnell\nEtwas langsamer\n\n\nSpeicher\nMinimal\nRekursionsstack\n\n\nLesbarkeit\nTechnisch\nElegant\n\n\nDebugbarkeit\nEinfach\nAnspruchsvoll\n\n\nGefahr Stack Overflow\nKeine\nJa\n\n\nPraxis\nStandard\nSelten\n\n\nDidaktik\nOK\nSehr gut",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-bubble-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-bubble-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Bubble Sort",
+    "text": "Sortieralgorithmen: Bubble Sort\n\nVergleicht wiederholt benachbarte Elemente und vertauscht sie, wenn sie sich in der falschen Reihenfolge befinden\nGrößte Elemente “wandern” pro Durchlauf nach rechts (wie Blasen nach oben)\nWird wiederholt, bis keine Vertauschungen mehr nötig sind\nVorteil: relativ einfach zu verstehen\nNachteil: ineffizient bei großen Datenmengen\nLaufzeit: O(n²)",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#was-bedeutet-on²",
+    "href": "03_Algorithmen.html#was-bedeutet-on²",
+    "title": "Algorithmen",
+    "section": "Was bedeutet O(n²)?",
+    "text": "Was bedeutet O(n²)?\n\nAussprache: „O von n Quadrat“\nO steht für „Order of“ → beschreibt die Größenordnung des Wachstums\nn ist die Eingabegröße (z. B. Anzahl der Listenelemente)\nQuadratisches Wachstum: Verdoppelt man n, vervierfacht sich die Laufzeit\nTypisch bei Algorithmen mit verschachtelten Schleifen",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-selection-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-selection-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Selection Sort",
+    "text": "Sortieralgorithmen: Selection Sort\n\nSucht im unsortierten Teil das kleinste (oder größte) Element\nTauscht es an die aktuelle Position\nVerschiebt die Grenze zwischen sortiertem und unsortiertem Bereich Schritt für Schritt\nWenige Vertauschungen, aber viele Vergleiche\nLaufzeit: O(n²)",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-insertion-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-insertion-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Insertion Sort",
+    "text": "Sortieralgorithmen: Insertion Sort\n\nBaut die sortierte Liste schrittweise auf\nNimmt das nächste Element und fügt es an der richtigen Stelle im bereits sortierten Teil ein\nGut für kleine oder fast sortierte Listen\nIntuitiv (ähnlich wie Kartensortieren in der Hand)\nLaufzeit: O(n²), aber sehr schnell für fast sortierte Daten",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-merge-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-merge-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Merge Sort",
+    "text": "Sortieralgorithmen: Merge Sort\n\nTeilt die Liste rekursiv in immer kleinere Hälften\nSortiert die Teilstücke und führt sie geordnet wieder zusammen („merge“)\nNutzt das Prinzip Divide and Conquer (“Teile und herrsche”)\nSehr effizient, auch bei großen Datenmengen\nLaufzeit: O(n log n)\nStabil und gut parallelisierbar",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#merge-sort-vs.-bubble-selection-insertion-sort",
+    "href": "03_Algorithmen.html#merge-sort-vs.-bubble-selection-insertion-sort",
+    "title": "Algorithmen",
+    "section": "Merge Sort vs. Bubble / Selection / Insertion Sort",
+    "text": "Merge Sort vs. Bubble / Selection / Insertion Sort\n\nDeutlich schneller: O(n log n) statt O(n²)\nKomplexer zu implementieren  (Rekursion + Zusammenführen)\nBenötigt zusätzlichen Speicher zum Mergen\nFür große Datenmengen klar überlegen\nWährend die einfachen Sortierverfahren oft verschachtelte Schleifen nutzen, arbeitet Merge Sort mit Teilen und Zusammenfügen",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#sortieralgorithmen-quick-sort",
+    "href": "03_Algorithmen.html#sortieralgorithmen-quick-sort",
+    "title": "Algorithmen",
+    "section": "Sortieralgorithmen: Quick Sort",
+    "text": "Sortieralgorithmen: Quick Sort\n\n\nTeile-und-Herrsche-Algorithmus: zerlegt Problem in kleinere Teilprobleme -&gt; Rekursion!\nWählt ein Element als Pivot aus (z. B. erstes, letztes oder mittleres)\nPartitionierung\n\nAlle Elemente kleiner als Pivot nach links, E. größer als P. nach rechts\nPivot wird an seiner endgültigen Position platziert\n\nLaufzeiten:\n\nGünstiger Fall: O(n log n)\nUngünstiger Fall: max. O(𝑛²) (z. B. wenn Pivot ungünstig gewählt wird)\n\nGeringer Speicherbedarf: meist wird im Array (in place) umsortiert\nNicht stabil: relative Reihenfolge gleicher Elemente kann sich ändern!",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#on-log-n-vs.-on²",
+    "href": "03_Algorithmen.html#on-log-n-vs.-on²",
+    "title": "Algorithmen",
+    "section": "O(n log n) vs. O(n²)",
+    "text": "O(n log n) vs. O(n²)\n\n\n\nn (Länge Liste)\nn log2(n) (ungefähr)\nn²\n\n\n\n\n10\n33\n100\n\n\n100\n664\n10 000\n\n\n1 000\n9 966\n1 000 000\n\n\n10 000\n132 877\n100 000 000\n\n\n1 000 000\n19 931 568\n1 000 000 000 000",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03_Algorithmen.html#section",
+    "href": "03_Algorithmen.html#section",
+    "title": "Algorithmen",
+    "section": "",
+    "text": "Viel Erfolg mit allen Algorithmen!",
+    "crumbs": [
+      "03 Algorithmen"
+    ]
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#willkommen-in-lf10a",
+    "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a",
+    "title": "Willkommen in LF10a!",
+    "section": "Willkommen in LF10a!",
+    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\n\nCartoon The Art of Programming\nGeek and Code, Oliver Widder\nhttps://devhumor.com/media/the-art-of-programming",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
+    "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
+    "title": "Willkommen in LF10a!",
+    "section": "Willkommen in LF10a!",
+    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\nThemenübersicht\n\nAlgorithmen, Pseudocode, Datenstrukturen\nSoftware-Anforderungen\nUML, Modellierung, Analyse- und Designverfahren\nWerkzeuge und Entwicklungsumgebungen\nBenutzeroberflächen: UI / UX, Usability",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#zeitplan-und-noten",
+    "href": "01_Willkommen_Struktur.html#zeitplan-und-noten",
+    "title": "Willkommen in LF10a!",
+    "section": "Zeitplan und Noten",
+    "text": "Zeitplan und Noten\n\nKlassenarbeit am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen\nKlassenarbeit am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren\nSOL am 28. August, die am 29. September präsentiert und benotet wird\nPraxisprojekt vom 30. September bis 2. Oktober\nPräsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung\nAm Dienstag, 6. Oktober beginnt LF11a",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#sus-vorträge",
+    "href": "01_Willkommen_Struktur.html#sus-vorträge",
+    "title": "Willkommen in LF10a!",
+    "section": "SuS Vorträge",
+    "text": "SuS Vorträge\nca. 10 Minuten; Teamarbeit zu zweit möglich: dann tragen beide je einen Teil vor\n\n24.08.2026: Aktivitätsdiagramme vorstellen zu Bubble Sort, Insertion Sort, Selection Sort codebasierte Erstellung mit PlantUML, Mermaid oder anderer geeigneter Software\n24.08.2026: Merge Sort erklären, mit Aktivitätsdiagramm und Pseudocode\n\nreicht ohne Implementierung; Algorithmus verständlich erklären, Nachfragen beantworten\n\n24.08.2026: Quick Sort erklären, mit Aktivitätsdiagramm und Pseudocode\n\nreicht ohne Implementierung; Algorithmus verständlich erklären, Nachfragen beantworten\n\n24.08.2026: optional: Heap Sort, wie Merge Sort / Quick Sort\n28.08.2026: Modularisierung: Vorstellung Beispielprojekt und “Lessons Learnt”  z. B. Namensgebung, Kohäsion, Kopplung, Größe; Was waren Herausforderungen? Was würden Sie künftig anders machen?\n30.09.2026: WCAG: Web Content Accessibility Guidelines (W3C)\n30.09.2026: BITV: Barrierefreie-Informationstechnik-Verordnung\n30.09.2026: DIN ISO 9241:171 Leitlinien für Software-Barrierefreiheit  (2025er Version ersetzt 2008er Version)",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#zusatzaufgaben-für-fortgeschrittene",
+    "href": "01_Willkommen_Struktur.html#zusatzaufgaben-für-fortgeschrittene",
+    "title": "Willkommen in LF10a!",
+    "section": "Zusatzaufgaben für Fortgeschrittene",
+    "text": "Zusatzaufgaben für Fortgeschrittene\n\nbis 29.9. in Ilias hochladen: Beispiele für misslungene UIs sammeln, mindestens 15 Screenshots / Bilder\n\nschon mal vorüberlegen: Welche Möglichkeiten gibt es, schlechte UIs zu bauen? Was kann schief gehen?\n\nMerge Sort, Quick Sort oder Heap Sort implementieren\nSortieralgorithmen benchmarken: mit größeren Daten “füttern”, Zeitmessungen dokumentieren und darstellen\n\nDaten mit bestimmten Eigenschaften präparieren: z. B. fast sortierte Liste, “falsch herum” sortierte Liste, willkürlich unsortierte Liste etc.\nErgebnistabelle; Bonus: Sortier- oder Filteroptionen\nBonus: Grafischer Vergleich der Ergebnisse\nUI bauen, um Daten einzugeben oder gar nach Optionen zu simulieren",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
+  },
+  {
+    "objectID": "01_Willkommen_Struktur.html#section",
+    "href": "01_Willkommen_Struktur.html#section",
+    "title": "Willkommen in LF10a!",
+    "section": "",
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
+    "crumbs": [
+      "01 Willkommen zu LF10a - Themen und Zeitplan"
+    ]
   },
   {
     "objectID": "02_Pseudocode.html#warum-pseudocode",
@@ -580,431 +933,192 @@
     ]
   },
   {
-    "objectID": "01_Willkommen_Struktur.html#willkommen-in-lf10a",
-    "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a",
-    "title": "Willkommen in LF10a!",
-    "section": "Willkommen in LF10a!",
-    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\n\nCartoon The Art of Programming\nGeek and Code, Oliver Widder\nhttps://devhumor.com/media/the-art-of-programming",
+    "objectID": "04_Datenstrukturen.html#datenstrukturen-python",
+    "href": "04_Datenstrukturen.html#datenstrukturen-python",
+    "title": "Datenstrukturen",
+    "section": "Datenstrukturen: Python",
+    "text": "Datenstrukturen: Python\n\n\n\nListe      \nDictionary  \nTupel  \nSet  \n\n\n\nVielseitigste Datenstruktur in Python; Sammlung verschiedener Objekte; Elemente müssen nicht vom gleichen Datentyp sein; Listen können während Programmablauf beliebig wachsen und schrumpfen; man kann damit Arrays abbilden (ähnlich Java, C++), allerdings flexibler und leistungsfähiger\nErfassung von Elementen als Schlüssel-Wert-Paare; Zugriff auf Elemente über eindeutigen Schlüssel; kann wachsen und schrumpfen; ähnlich Hash oder Maps in anderen Programmiersprachen\nUnveränderliche, geordnete Sequenz von Elementen; ähnlich Liste, aber ohne Änderungsmöglichkeit; zum Vergrößern / Verkleinern muss neues Tupel erstellt werden\nUngeordnete Sammlung von einmaligen Elementen, d. h. Element kann nicht mehrmals vorkommen; ermöglicht Standardoperationen für Mengen wie Vereinigung, Schnittmenge, Differenz",
     "crumbs": [
-      "01 Willkommen zu LF10a - Themen und Zeitplan"
+      "04 Datenstrukturen"
     ]
   },
   {
-    "objectID": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
-    "href": "01_Willkommen_Struktur.html#willkommen-in-lf10a-1",
-    "title": "Willkommen in LF10a!",
-    "section": "Willkommen in LF10a!",
-    "text": "Willkommen in LF10a!\nBenutzerschnittstellen gestalten und entwickeln\nThemenübersicht\n\nAlgorithmen, Pseudocode, Datenstrukturen\nSoftware-Anforderungen\nUML, Modellierung, Analyse- und Designverfahren\nWerkzeuge und Entwicklungsumgebungen\nBenutzeroberflächen: UI / UX, Usability",
+    "objectID": "04_Datenstrukturen.html#datenstrukturen-java",
+    "href": "04_Datenstrukturen.html#datenstrukturen-java",
+    "title": "Datenstrukturen",
+    "section": "Datenstrukturen: Java",
+    "text": "Datenstrukturen: Java\n\n\n\nArray   \nArrayList  \nHashMap  \nHashSet  \n\n\n\nSequenzielle Sammlung von Elementen; alle müssen vom gleichen Datentyp sein und fest Größe aufweisen, die sich während der Laufzeit nicht ändern kann   \nImplementiert Listen-Funktionalität durch Abbildung auf ein Feld; kann schrumpfen und wachsen   \nErfassung von Elementen als Schlüssel-Wert-Paare; Zugriff auf Elemente über eindeutigen Schlüssel; kann wachsen und schrumpfen; ähnlich Dictionary in Python\nImplementiert Schnittstelle “Set” durch schnelles Hashverfahren; Speicherung der Elemente in Hashtabelle; dadurch schneller Zugriff; Element kann nicht mehrfach vorkommen, im Unterschied zu HashMap und ArrayList",
     "crumbs": [
-      "01 Willkommen zu LF10a - Themen und Zeitplan"
+      "04 Datenstrukturen"
     ]
   },
   {
-    "objectID": "01_Willkommen_Struktur.html#zeitplan-und-noten",
-    "href": "01_Willkommen_Struktur.html#zeitplan-und-noten",
-    "title": "Willkommen in LF10a!",
-    "section": "Zeitplan und Noten",
-    "text": "Zeitplan und Noten\n\nKlassenarbeit am Dienstag, 25. August zu Algorithmen, Pseudocode, Datenstrukturen\nKlassenarbeit am Dienstag, 29. September zu UML, Modellierung, Analyse- und Designverfahren\nSOL am 28. August, die am 29. September präsentiert und benotet wird\nPraxisprojekt vom 30. September bis 2. Oktober\nPräsentation des Praxisprojekts am Montag, 5. Oktober: Noten für Mitarbeit und fachliche Leistung\nAm Dienstag, 6. Oktober beginnt LF11a",
-    "crumbs": [
-      "01 Willkommen zu LF10a - Themen und Zeitplan"
-    ]
-  },
-  {
-    "objectID": "01_Willkommen_Struktur.html#sus-vorträge",
-    "href": "01_Willkommen_Struktur.html#sus-vorträge",
-    "title": "Willkommen in LF10a!",
-    "section": "SuS Vorträge",
-    "text": "SuS Vorträge\nca. 10 Minuten; Teamarbeit zu zweit möglich: dann tragen beide je einen Teil vor\n\n24.08.2026: Aktivitätsdiagramme vorstellen zu Bubble Sort, Insertion Sort, Selection Sort codebasierte Erstellung mit PlantUML, Mermaid oder anderer geeigneter Software\n24.08.2026: Merge Sort erklären, mit Aktivitätsdiagramm und Pseudocode\n\nreicht ohne Implementierung; Algorithmus verständlich erklären, Nachfragen beantworten\n\n24.08.2026: Quick Sort erklären, mit Aktivitätsdiagramm und Pseudocode\n\nreicht ohne Implementierung; Algorithmus verständlich erklären, Nachfragen beantworten\n\n24.08.2026: optional: Heap Sort, wie Merge Sort / Quick Sort\n28.08.2026: Modularisierung: Vorstellung Beispielprojekt und “Lessons Learnt”  z. B. Namensgebung, Kohäsion, Kopplung, Größe; Was waren Herausforderungen? Was würden Sie künftig anders machen?\n30.09.2026: WCAG: Web Content Accessibility Guidelines (W3C)\n30.09.2026: BITV: Barrierefreie-Informationstechnik-Verordnung\n30.09.2026: DIN ISO 9241:171 Leitlinien für Software-Barrierefreiheit  (2025er Version ersetzt 2008er Version)",
-    "crumbs": [
-      "01 Willkommen zu LF10a - Themen und Zeitplan"
-    ]
-  },
-  {
-    "objectID": "01_Willkommen_Struktur.html#zusatzaufgaben-für-fortgeschrittene",
-    "href": "01_Willkommen_Struktur.html#zusatzaufgaben-für-fortgeschrittene",
-    "title": "Willkommen in LF10a!",
-    "section": "Zusatzaufgaben für Fortgeschrittene",
-    "text": "Zusatzaufgaben für Fortgeschrittene\n\nbis 29.9. in Ilias hochladen: Beispiele für misslungene UIs sammeln, mindestens 15 Screenshots / Bilder\n\nschon mal vorüberlegen: Welche Möglichkeiten gibt es, schlechte UIs zu bauen? Was kann schief gehen?\n\nMerge Sort, Quick Sort oder Heap Sort implementieren\nSortieralgorithmen benchmarken: mit größeren Daten “füttern”, Zeitmessungen dokumentieren und darstellen\n\nDaten mit bestimmten Eigenschaften präparieren: z. B. fast sortierte Liste, “falsch herum” sortierte Liste, willkürlich unsortierte Liste etc.\nErgebnistabelle; Bonus: Sortier- oder Filteroptionen\nBonus: Grafischer Vergleich der Ergebnisse\nUI bauen, um Daten einzugeben oder gar nach Optionen zu simulieren",
-    "crumbs": [
-      "01 Willkommen zu LF10a - Themen und Zeitplan"
-    ]
-  },
-  {
-    "objectID": "01_Willkommen_Struktur.html#section",
-    "href": "01_Willkommen_Struktur.html#section",
-    "title": "Willkommen in LF10a!",
+    "objectID": "04_Datenstrukturen.html#section",
+    "href": "04_Datenstrukturen.html#section",
+    "title": "Datenstrukturen",
     "section": "",
     "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
     "crumbs": [
-      "01 Willkommen zu LF10a - Themen und Zeitplan"
+      "04 Datenstrukturen"
     ]
   },
   {
-    "objectID": "03_Algorithmen.html#suchalgorithen-lineare-suche",
-    "href": "03_Algorithmen.html#suchalgorithen-lineare-suche",
-    "title": "Algorithmen",
-    "section": "Suchalgorithen: Lineare Suche",
-    "text": "Suchalgorithen: Lineare Suche\n\nDurchsucht eine Liste schrittweise von vorne nach hinten\nNach einander wird jeder Eintrag mit dem gesuchten Wert verglichen\nWird der Wert gefunden, wird die Position zurückgegeben\nWenn das Ende der Liste erreicht ist, ohne Treffer, gilt: nicht gefunden.\nVorteil: Einfach umzusetzen, keine Vorbereitung der Daten nötig\nNachteil: Langsam bei großen Listen, da im schlimmsten Fall alle Elemente geprüft werden müssen",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#lernziele",
+    "href": "06_Softwareanforderungen.html#lernziele",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Lernziele",
+    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielen erkennen können"
   },
   {
-    "objectID": "03_Algorithmen.html#suchalgorithmen-binäre-suche",
-    "href": "03_Algorithmen.html#suchalgorithmen-binäre-suche",
-    "title": "Algorithmen",
-    "section": "Suchalgorithmen: Binäre Suche",
-    "text": "Suchalgorithmen: Binäre Suche\n\nfindet Werte in sortierten Listen besonders effizient\nDer Suchbereich wird wiederholt halbiert:\n\nMittleres Element prüfen\nIst der gesuchte Wert kleiner, wird nur die linke Hälfte weiter durchsucht\nIst er größer, wird nur die rechte Hälfte betrachtet.\n\nProzess wird fortgesetzt, bis der Wert gefunden oder der Bereich leer ist\nVorteil: Sehr schnell – benötigt nur logarithmisch viele Schritte.\nNachteil: Funktioniert nur mit sortierten Daten.",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
+    "href": "06_Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Funktionale vs. Nichtfunktionale Anforderungen",
+    "text": "Funktionale vs. Nichtfunktionale Anforderungen\n\n\n\n\n\nMerkmal\nFunktionale Anforderungen\n\n\n\n\nDefinition\nWAS das System tun soll   \n\n\nBeispiel\n“Benutzer kann sich einloggen”\n\n\nPrüfung\nFunktionstest\n\n\nQuelle\nFachliche Anforderungen\n\n\nDokumentation\nUse Cases, User Stories\n\n\n\n\n\n\n\nNicht-funktionale Anforderungen\n\n\n\n\nWIE GUT das System arbeiten soll\n\n\n“Login dauert max. 2 Sekunden”\n\n\nLeistungstest, Review\n\n\nQualitätsanforderungen\n\n\nQualitätsszenarien"
   },
   {
-    "objectID": "03_Algorithmen.html#binäre-suche-maximale-anzahl-suchschritte",
-    "href": "03_Algorithmen.html#binäre-suche-maximale-anzahl-suchschritte",
-    "title": "Algorithmen",
-    "section": "Binäre Suche: Maximale Anzahl Suchschritte",
-    "text": "Binäre Suche: Maximale Anzahl Suchschritte\nWas bedeutet “logarithmisch viele Schritte”?\n\n\n\n\n\n\n\n\nListengröße (n)\nlog2(n) (ungefähr)\nMaximale Schritte (ceiling)\n\n\n\n\n8\n3\n3\n\n\n16\n4\n4\n\n\n100\n6.64\n7\n\n\n1 000\n9.97\n10\n\n\n1 000 000\n19.93\n20\n\n\n1 000 000 000\n29.90\n30",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
+    "href": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Software-Qualitätsmerkmale: ISO 25010",
+    "text": "Software-Qualitätsmerkmale: ISO 25010\n\n\n\nNr.\nQualitätsmerkmal\nenglisch\n\n\n\n\n1\nFunktionale Eignung\nFunctional Suitability\n\n\n2\nLeistungseffizienz\nPerformance Efficiency\n\n\n3\nKompatibilität\nCompatibility\n\n\n4\nBenutzbarkeit\nUsability\n\n\n5\nZuverlässigkeit\nReliability\n\n\n6\nSicherheit\nSecurity\n\n\n7\nWartbarkeit\nMaintainability\n\n\n8\nÜbertragbarkeit\nPortability"
   },
   {
-    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv",
-    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv",
-    "title": "Algorithmen",
-    "section": "Algorithmen: iterativ vs. rekursiv",
-    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nAufgabe wird wiederholt mit Schleifenstrukturen wie for,  while oder do-while\nVorteile\n\n\nin der Regel einfacher zu verstehen\ngeringerer Speicherverbrauch\nEffizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller\nRobustheit: keine Gefahr eines Stack Overflow\nDebugging: Schleifen einfacher nachzuverfolgen\nPraxisnähe: in realen Systeme fast immer bevorzugt\n\n\n\nRekursive Vorgehensweise\n\nFunktion ruft sich selbst auf\nlöst Probleme, die “natürlich” in kleinere Teilprobleme zerlegt werden können\n\nVorteile\n\nEleganz; kann intuitiver sein, näher an der mathematischen Idee\nLesbarkeit: Struktur folgt direkt der Problemdefinition\nVerwaltungsaufwand geringer: kein explizites Schleifen-Management\n\n\n\nsiehe Lernkarte AP2 146; hier ausführlicher!",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
+    "href": "06_Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q1: Funktionalität (Functional Suitability)",
+    "text": "ISO 25010 - Q1: Funktionalität (Functional Suitability)\nDefinition: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nFunktionale Vollständigkeit\nAlle geforderten Funktionen vorhanden\nAlle Use Cases implementiert\n\n\nFunktionale Korrektheit\nErgebnisse sind richtig und präzise\nBerechnungen liefern korrekte Werte\n\n\nFunktionale Angemessenheit\nFunktionen unterstützen die Aufgaben\nKeine überflüssigen Features\n\n\n\nMessgrößen: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad"
   },
   {
-    "objectID": "03_Algorithmen.html#algorithmen-wann-ist-rekursion-möglich",
-    "href": "03_Algorithmen.html#algorithmen-wann-ist-rekursion-möglich",
-    "title": "Algorithmen",
-    "section": "Algorithmen: Wann ist Rekursion möglich?",
-    "text": "Algorithmen: Wann ist Rekursion möglich?\nRekursive Algorithmen sind geeignet, wenn:\n\nder Algorithmus mehrmals ausgeführt werden muss\nder Algorithmus Daten benötigt, die sich bei jedem Aufruf ändern\nder Algorithmus selbst jedesmal unverändert bleibt\nes eine klare Bedingung gibt, bei deren Erfüllung der Algorithmus endet",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
+    "href": "06_Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q2: Effizienz (Performance Efficiency)",
+    "text": "ISO 25010 - Q2: Effizienz (Performance Efficiency)\nDefinition: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nZeitverhalten\nAntwort- und Verarbeitungszeiten\nSeitenladezeit &lt; 3 Sekunden\n\n\nRessourcenverbrauch\nCPU, RAM, Speicherplatz, Bandbreite\nMax. 512 MB RAM-Verbrauch\n\n\nKapazität\nMaximale Grenzen des Systems\n10.000 gleichzeitige Benutzer\n\n\n\nMessgrößen: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde"
   },
   {
-    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-1",
-    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-1",
-    "title": "Algorithmen",
-    "section": "Algorithmen: iterativ vs. rekursiv",
-    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nNachteile\n\nweniger elegant\nmehr Verwaltungslogik; z. B. binäre Suche: left, right, mid\nweniger mathematisch; z. B. binäre Suche: Idee der Halbierung nicht so klar sichtbar\n\n\nRekursive Vorgehensweise\nNachteile\n\nevtl. schwieriger zu verstehen\nSpeicher: jeder Funktionsaufruf landet auf dem Stack\nbei sehr großen Listen Stack Overflow möglich\nlangsamer: Funktionsaufrufe teurer als Schleifen\nDebuggen schwieriger: man muss Rekursionstiefe und Aufrufkette verstehen",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
+    "href": "06_Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 – Q3: Kompatibilität (Compatibility)",
+    "text": "ISO 25010 – Q3: Kompatibilität (Compatibility)\nDefinition: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nKoexistenz\nGemeinsamer Betrieb ohne gegenseitige Beeinträchtigung\nZwei Anwendungen teilen sich CPU/RAM ohne Performance‑Einbrüche\n\n\nInteroperabilität\nFähigkeit zum Informationsaustausch und zur Nutzung der ausgetauschten Daten\nCRM kommuniziert fehlerfrei mit ERP‑System\n\n\n\nMessgrößen: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb"
   },
   {
-    "objectID": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-2",
-    "href": "03_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv-2",
-    "title": "Algorithmen",
-    "section": "Algorithmen: iterativ vs. rekursiv",
-    "text": "Algorithmen: iterativ vs. rekursiv\n\n\n\nAspekt\nIterativ\nRekursiv\n\n\n\n\nPerformance\nSchnell\nEtwas langsamer\n\n\nSpeicher\nMinimal\nRekursionsstack\n\n\nLesbarkeit\nTechnisch\nElegant\n\n\nDebugbarkeit\nEinfach\nAnspruchsvoll\n\n\nGefahr Stack Overflow\nKeine\nJa\n\n\nPraxis\nStandard\nSelten\n\n\nDidaktik\nOK\nSehr gut",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
+    "href": "06_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q4: Benutzbarkeit (Usability)",
+    "text": "ISO 25010 - Q4: Benutzbarkeit (Usability)\nDefinition: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nErlernbarkeit\nWie schnell kann ein neuer Benutzer das System bedienen?\nEinarbeitungszeit &lt; 1 Tag\n\n\nBedienbarkeit\nWie einfach lässt sich das System steuern?\nMax. 3 Klicks bis zur Zielfunktion\n\n\nFehlertoleranz (UI)\nWie gut wird der Benutzer vor Fehlern geschützt?\nValidierung bei Formulareingaben\n\n\nÄsthetik\nAnsprechendes, konsistentes Design\nEinheitliches Farbschema, klare Struktur\n\n\nBarrierefreiheit\nZugänglichkeit für Menschen mit Einschränkungen\nScreenreader-Kompatibilität, Kontraste\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)"
   },
   {
-    "objectID": "03_Algorithmen.html#sortieralgorithmen-bubble-sort",
-    "href": "03_Algorithmen.html#sortieralgorithmen-bubble-sort",
-    "title": "Algorithmen",
-    "section": "Sortieralgorithmen: Bubble Sort",
-    "text": "Sortieralgorithmen: Bubble Sort\n\nVergleicht wiederholt benachbarte Elemente und vertauscht sie, wenn sie sich in der falschen Reihenfolge befinden\nGrößte Elemente “wandern” pro Durchlauf nach rechts (wie Blasen nach oben)\nWird wiederholt, bis keien Vertauschungen mehr nötig sind\nVorteil: relativ einfach zu verstehen\nNachteil: ineffizient bei großen Datenmengen\nLaufzeit: O(n²)",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
+    "href": "06_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)",
+    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nReife\nZuverlässigkeit im Normalbetrieb\nMTBF &gt; 1000h\n\n\nVerfügbarkeit\nSystem ist einsatzbereit wenn benötigt\n99,9% Verfügbarkeit (SLA)\n\n\nFehlertoleranz\nFunktioniert trotz Fehlern weiter\nGraceful Degradation\n\n\nWiederherstell-barkeit\nDaten und Zustand nach Ausfall wiederherstellen\nRecovery Time &lt; 5 min\n\n\n\nSchlüsselkennzahlen:\n\nMTBF = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)\nMTTR = Mean Time To Repair (Mittlere Reparaturzeit)\nVerfügbarkeit = MTBF / (MTBF + MTTR)"
   },
   {
-    "objectID": "03_Algorithmen.html#was-bedeutet-on²",
-    "href": "03_Algorithmen.html#was-bedeutet-on²",
-    "title": "Algorithmen",
-    "section": "Was bedeutet O(n²)?",
-    "text": "Was bedeutet O(n²)?\n\nAussprache: „O von n Quadrat“\nO steht für „Order of“ → beschreibt die Größenordnung des Wachstums\nn ist die Eingabegröße (z. B. Anzahl der Listenelemente)\nQuadratisches Wachstum: Verdoppelt man n, vervierfacht sich die Laufzeit\nTypisch bei Algorithmen mit verschachtelten Schleifen",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
+    "href": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 – Q6: Sicherheit (Security)",
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nVertraulichkeit\nSchutz vor unbefugtem Zugriff\nDaten nur für autorisierte Rollen sichtbar\n\n\nIntegrität\nSchutz vor unbefugter oder unbeabsichtigter Änderung\nHash‑Prüfungen verhindern Manipulation\n\n\nNichtabstreit-barkeit\nAktionen sind eindeutig zuordenbar\nDigitale Signaturen für Transaktionen\n\n\nAuthentizität\nIdentitäten und Daten sind echt\nMFA stellt sicher, dass der Nutzer korrekt identifiziert ist\n\n\nZugriffskontrolle\nAutorisierte Nutzung von Funktionen und Daten\nRollenbasierte Berechtigungen im Backend"
   },
   {
-    "objectID": "03_Algorithmen.html#sortieralgorithmen-selection-sort",
-    "href": "03_Algorithmen.html#sortieralgorithmen-selection-sort",
-    "title": "Algorithmen",
-    "section": "Sortieralgorithmen: Selection Sort",
-    "text": "Sortieralgorithmen: Selection Sort\n\nSucht im unsortierten Teil das kleinste (oder größte) Element\nTauscht es an die aktuelle Position\nVerschiebt die Grenze zwischen sortiertem und unsortiertem Bereich Schritt für Schritt\nWenige Vertauschungen, aber viele Vergleiche\nLaufzeit: O(n²)",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
+    "href": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 – Q6: Sicherheit (Security)",
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition:\nGrad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.\n\nMessgrößen:\n\nAnzahl Sicherheitsvorfälle\nPen‑Test‑Ergebnisse\nAbdeckung von Sicherheitsanforderungen\nMFA‑Quote"
   },
   {
-    "objectID": "03_Algorithmen.html#sortieralgorithmen-insertion-sort",
-    "href": "03_Algorithmen.html#sortieralgorithmen-insertion-sort",
-    "title": "Algorithmen",
-    "section": "Sortieralgorithmen: Insertion Sort",
-    "text": "Sortieralgorithmen: Insertion Sort\n\nBaut die sortierte Liste schrittweise auf\nNimmt das nächste Element und fügt es an der richtigen Stelle im bereits sortierten Teil ein\nGut für kleine oder fast sortierte Listen\nIntuitiv (ähnlich wie Kartensortieren in der Hand)\nLaufzeit: O(n²), aber sehr schnell für fast sortierte Daten",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
+    "href": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nÄnderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%"
   },
   {
-    "objectID": "03_Algorithmen.html#sortieralgorithmen-merge-sort",
-    "href": "03_Algorithmen.html#sortieralgorithmen-merge-sort",
-    "title": "Algorithmen",
-    "section": "Sortieralgorithmen: Merge Sort",
-    "text": "Sortieralgorithmen: Merge Sort\n\nTeilt die Liste rekursiv in immer kleinere Hälften\nSortiert die Teilstücke und führt sie geordnet wieder zusammen („merge“)\nNutzt das Prinzip Divide and Conquer (“Teile und herrsche”)\nSehr effizient, auch bei großen Datenmengen\nLaufzeit: O(n log n)\nStabil und gut parallelisierbar",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
+    "href": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition:\nGrad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\nMessgrößen:\n\nZyklomatische Komplexität\nCode-Coverage\nCoupling / Cohesion-Metriken"
   },
   {
-    "objectID": "03_Algorithmen.html#merge-sort-vs.-bubble-selection-insertion-sort",
-    "href": "03_Algorithmen.html#merge-sort-vs.-bubble-selection-insertion-sort",
-    "title": "Algorithmen",
-    "section": "Merge Sort vs. Bubble / Selection / Insertion Sort",
-    "text": "Merge Sort vs. Bubble / Selection / Insertion Sort\n\nDeutlich schneller: O(n log n) statt O(n²)\nKomplexer zu implementieren  (Rekursion + Zusammenführen)\nBenötigt zusätzlichen Speicher zum Mergen\nFür große Datenmengen klar überlegen\nWährend die einfachen Sortierverfahren oft verschachtelte Schleifen nutzen, arbeitet Merge Sort mit Teilen und Zusammenfügen",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
+    "href": "06_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q8: Übertragbarkeit (Portability)",
+    "text": "ISO 25010 - Q8: Übertragbarkeit (Portability)\nDefinition: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nAnpassbarkeit\nAn verschiedene Umgebungen anpassbar\nKonfigurationsdateien statt Hardcoding\n\n\nInstallierbarkeit\nEinfache Installation / Deinstallation\nSetup-Wizard, Paketmanager\n\n\nAustauschbarkeit\nKann andere Software ersetzen\nStandardisierte Schnittstellen\n\n\n\nMessgrößen: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand"
   },
   {
-    "objectID": "03_Algorithmen.html#sortieralgorithmen-quick-sort",
-    "href": "03_Algorithmen.html#sortieralgorithmen-quick-sort",
-    "title": "Algorithmen",
-    "section": "Sortieralgorithmen: Quick Sort",
-    "text": "Sortieralgorithmen: Quick Sort\n\n\nTeile-und-Herrsche-Algorithmus: zerlegt Problem in kleinere Teilprobleme -&gt; Rekursion!\nWählt ein Element als Pivot aus (z. B. erstes, letztes oder mittleres)\nPartitionierung\n\nAlle Elemente kleiner als Pivot nach links, E. größer als P. nach rechts\nPivot wird an seiner endgültigen Position platziert\n\nLaufzeiten:\n\nGünstiger Fall: O(n log n)\nUngünstiger Fall: max. O(𝑛²) (z. B. wenn Pivot ungünstig gewählt wird)\n\nGeringer Speicherbedarf: meist wird im Array (in place) umsortiert\nNicht stabil: relative Reihenfolge gleicher Elemente kann sich ändern!",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#weitere-normen",
+    "href": "06_Softwareanforderungen.html#weitere-normen",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Weitere Normen",
+    "text": "Weitere Normen\n\n\n\nNorm\nInhalt\n\n\n\n\nISO 25010\nQualitätsmodell für Softwareprodukte\n\n\nIEEE 830\nEmpfehlungen für Softwareanforderungsspezifikationen\n\n\nISO 25030\nQualitätsanforderungen\n\n\nISO 9241\nErgonomie der Mensch-System-Interaktion"
   },
   {
-    "objectID": "03_Algorithmen.html#on-log-n-vs.-on²",
-    "href": "03_Algorithmen.html#on-log-n-vs.-on²",
-    "title": "Algorithmen",
-    "section": "O(n log n) vs. O(n²)",
-    "text": "O(n log n) vs. O(n²)\n\n\n\nn (Länge Liste)\nn log2(n) (ungefähr)\nn²\n\n\n\n\n10\n33\n100\n\n\n100\n664\n10 000\n\n\n1 000\n9 966\n1 000 000\n\n\n10 000\n132 877\n100 000 000\n\n\n1 000 000\n19 931 568\n1 000 000 000 000",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "objectID": "06_Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
+    "href": "06_Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Anforderungen messbar formulieren: SMART",
+    "text": "Anforderungen messbar formulieren: SMART\nAnforderungen müssen messbar sein, damit sie prüfbar werden.\nSMART-Kriterien fuer Anforderungen:\n\nSpezifisch – klar und eindeutig formuliert\nMessbar – quantifizierbar mit Metriken\nAkzeptiert – vom Stakeholder abgenommen\nRealistisch – technisch umsetzbar\nTerminiert – zeitlich eingrenzbar"
   },
   {
-    "objectID": "03_Algorithmen.html#section",
-    "href": "03_Algorithmen.html#section",
-    "title": "Algorithmen",
+    "objectID": "06_Softwareanforderungen.html#smart-beispiele",
+    "href": "06_Softwareanforderungen.html#smart-beispiele",
+    "title": "Softwareanforderungen erfassen",
+    "section": "SMART: Beispiele",
+    "text": "SMART: Beispiele\n\n\n\n\n\nSchlecht (vage)\n\n\n\n\n“Das System soll schnell sein”   \n\n\n“Einfache Bedienung”   \n\n\n“Hohe Verfügbarkeit”   \n\n\n“Sicher”   \n\n\n“Wartbar”\n\n\n\n\n\n\n\nGut (messbar)\n\n\n\n\n“Die Antwortzeit beträgt max. 2 Sekunden bei 1000 Nutzern”\n\n\n“Ein neuer Benutzer kann die Kernaufgabe in &lt; 5 Minuten erledigen”\n\n\n“Verfügbarkeit &gt;= 99,9% pro Monat (max. 43 Min. Downtime)”\n\n\n“Authentifizierung per 2FA, Verschlüsselung mit AES-256”\n\n\n“Zyklomatische Komplexität pro Methode &lt; 10”"
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#prüfungstipps",
+    "href": "06_Softwareanforderungen.html#prüfungstipps",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Prüfungstipps",
+    "text": "Prüfungstipps\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\n\n\nEffizienz und Effektivität verwechseln\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc."
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#user-stories",
+    "href": "06_Softwareanforderungen.html#user-stories",
+    "title": "Softwareanforderungen erfassen",
+    "section": "User Stories",
+    "text": "User Stories\n\nkurze, informelle Beschreibung einer Anforderung aus Benutzersicht\nwird vor allem in agilen Projekten verwendet\n\nStandardformat\n\n\nAls [Rolle] möchte ich [Funktion], damit [Nutzen].\n\n\nBeispiel\n\n\nAls Sachbearbeiter möchte ich Rechnungen nach Datum filtern,\ndamit ich offene Posten schneller finde."
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#user-stories-1",
+    "href": "06_Softwareanforderungen.html#user-stories-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "User Stories",
+    "text": "User Stories\nUser Stories enthalten Akzeptanzkriterien.\nDiese ersetzen nicht das Lastenheft,\nsondern ergänzen es in agilen Projekten."
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#user-stories-tipps",
+    "href": "06_Softwareanforderungen.html#user-stories-tipps",
+    "title": "Softwareanforderungen erfassen",
+    "section": "User Stories: Tipps",
+    "text": "User Stories: Tipps\nBeantworte die Fragen: WER? WAS? WOZU?\nAlternative Satzschablonen:\n\n„Um (Nutzen) als (Rolle) zu erreichen, möchte ich (Funktionalität/Ziel/Wunsch).“\n„Als (Rolle) möchte ich (was) (warum).“\n„Als (wer) (wann) (wo) möchte ich (was) (warum).“\n„Als (Persona) möchte ich (was) warum.“\n\nVgl. https://t2informatik.de/wissen-kompakt/user-story/"
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#section",
+    "href": "06_Softwareanforderungen.html#section",
+    "title": "Softwareanforderungen erfassen",
     "section": "",
-    "text": "Viel Erfolg mit allen Algorithmen!",
-    "crumbs": [
-      "03 Algorithmen"
-    ]
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
   },
   {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lokaler-computer-experte",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lokaler-computer-experte",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lokaler Computer-Experte …",
-    "text": "Lokaler Computer-Experte …\n\n\n\n\n\n\n\n\n\n\n\n\n\nKein echtes UML!\n\nQuelle: xkcd.com/627/"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#uml-diagramm-übersicht",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#uml-diagramm-übersicht",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "UML Diagramm-Übersicht",
-    "text": "UML Diagramm-Übersicht\n\nQuelle: esb-dev.github.io"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#ein-echtes-aktivitätsdiagramm",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#ein-echtes-aktivitätsdiagramm",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Ein “echtes” Aktivitätsdiagramm",
-    "text": "Ein “echtes” Aktivitätsdiagramm\n\n\n\n\n\n\n\n\n\n\n\n\n\nbildet die von einem System ausgeführten Aktivitäten ab\nzählt zu den Verhaltensdiagrammen in der UML\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStartknoten\nAktion\nKonnektor\nEndknoten"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aufgabe: Bibliothek",
-    "text": "Aufgabe: Bibliothek\n\nStellen Sie sich vor, Sie besuchen die Bibliothek, um ein Buch auszuleihen.\nErstellen Sie ein Aktivitätsdiagramm, das den gesamten Ablauf Ihres Besuchs in der Bibliothek beschreibt.\n\nSie betreten die Bibliothek.\nSie gehen zur Buchabteilung und suchen ein Buch.\nSie prüfen, ob das Buch ausleihbar ist.\nSie verlassen die Bibliothek.\n\nErstellen Sie das Aktivitäts-Diagramm mit draw.io. Speichern Sie es so, dass Sie es in der Folge weiter nutzen und verändern können."
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lösung: Bibliothek",
-    "text": "Lösung: Bibliothek"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-verzweigung",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-verzweigung",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aktivitätsdiagramm: Verzweigung",
-    "text": "Aktivitätsdiagramm: Verzweigung"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-verzweigung",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-verzweigung",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aufgabe: Bibliothek, Verzweigung",
-    "text": "Aufgabe: Bibliothek, Verzweigung\n\nSie besuchen die Bibliothek, um ein Buch auszuleihen.\nErstellen Sie ein Aktivitätsdiagramm mit Verzweigung.\n\nSie betreten die Bibliothek.\nSie suchen und finden ein Buch.\nSie prüfen, ob es ausleihbar ist.\nWenn ja (Buch ausleihbar):\n\nSie gehen zur Ausleihtheke.\nSie leihen das Buch aus.\nSie verlassen die Bibliothek.\n\nWenn nein (Buch nicht ausleihbar):\n\nPrüfen, ob Sie noch ein anderes Buch suchen\nFalls ja:\n\nBuch suchen\n\nFalls nein:\n\nSie verlassen die Bibliothek."
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-verzweigung",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-verzweigung",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lösung: Bibliothek, Verzweigung",
-    "text": "Lösung: Bibliothek, Verzweigung"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-parallel",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-parallel",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aufgabe: Bibliothek, parallel",
-    "text": "Aufgabe: Bibliothek, parallel\n\n\nWie zuletzt\nSie besuchen die Bibliothek, um ein Buch auszuleihen.\n\nSie betreten die Bibliothek.\nSie suchen und finden ein Buch.\nSie prüfen, ob es ausleihbar ist.\nWenn ja (Buch ausleihbar):\n\nSie gehen zur Ausleihtheke.\nSie leihen das Buch aus.\nSie verlassen die Bibliothek.\n\nWenn nein (Buch nicht ausleihbar):\n\nPrüfen, ob Sie noch ein anderes Buch suchen\nFalls ja:\n\nBuch suchen\n\nFalls nein:\n\nSie verlassen die Bibliothek.\n\n\n\n\nNeu\nNach der Ausleihe laufen vor dem Verlassen der Bibo zwei Prozesse parallel:\n\nBibliotheksdatenbank muss das ausgeliehene Buch registrieren\nArbeitskraft am Schalter stellt Ausleihbeleg aus."
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-parallel",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-parallel",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lösung: Bibliothek, parallel",
-    "text": "Lösung: Bibliothek, parallel"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-mit-swimlanes",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-bibliothek-mit-swimlanes",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aufgabe: Bibliothek mit Swimlanes",
-    "text": "Aufgabe: Bibliothek mit Swimlanes\n\nDiagramm wie bisher, mit parallelen Prozessen vor dem Verlassen der Bibliothek.\nNeu: Kennzeichnen Sie die Verantwortlichkeiten anhand von Swimlanes."
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-mit-swimlanes",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-bibliothek-mit-swimlanes",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lösung: Bibliothek mit Swimlanes",
-    "text": "Lösung: Bibliothek mit Swimlanes"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-übersicht",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aktivitätsdiagramm-übersicht",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aktivitätsdiagramm: Übersicht",
-    "text": "Aktivitätsdiagramm: Übersicht"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramme",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramme",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Anwendungsfalldiagramme",
-    "text": "Anwendungsfalldiagramme\nWas ist ein Anwendungsfall?\n\nVerhalten, das ein modelliertes System nach außen anbietet\nPerspektive: Nutzer\n\n\nWas ist ein Anwendungsfall-Diagramm (Use-Case-Diagramm)?\n\nZeigt das externe Verhalten eines Systems aus Sicht der Nutzer\nBeantwortet die Frage:\nWas soll mein geplantes System eigentlich leisten?"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Anwendungsfalldiagramm: Yachthafen",
-    "text": "Anwendungsfalldiagramm: Yachthafen\n\n\nLiegeplatzverwaltung\n\nProjekt: Softwarekomponente für Vermietung von Liegeplätzen\nTeil des Yachthafen-Managements\n\nAnforderungen:\n\n\nKunden können Liegeplatz mieten und kündigen\nKunden können sich im Yachthafen mit Yacht an- und abmelden\nMitarbeiter können einzelne Liegeplätze für Wartung sperren\nNutzer des Programms können aktuelle Liegeplatzbelegung ansehen\n\n\nProjektteam:\n\nobjektorientierte Entwicklung\nUML zur Planung\n\n\n\n\n\n\n\n\n\n\n\nQuelle: PaterMcFly, Wikimedia Commons\n\nNächster Schritt in Softwareentwicklung?\nWie können sich Entwickler einen Überblick über alle Anwendungsfälle verschaffen?"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen-1",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#anwendungsfalldiagramm-yachthafen-1",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Anwendungsfalldiagramm: Yachthafen",
-    "text": "Anwendungsfalldiagramm: Yachthafen"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-grundelemente",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-grundelemente",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Use-Case-Diagramm: Grundelemente",
-    "text": "Use-Case-Diagramm: Grundelemente"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-generalisierung",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-generalisierung",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Use-Case-Diagramm: Generalisierung",
-    "text": "Use-Case-Diagramm: Generalisierung\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneralisierung / Spezialisierung\n\nzeigt Beziehung zwischen allgemeinem und spezialisiertem Element\nkann sowohl zwischen Anwendungsfällen als auch zwischen Akteuren dargestellt werden\nPfeilrichtung beachten:  Vom speziellen zum generellen Element!"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-bibliothek",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-bibliothek",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aufgabe: Use-Case-D. Bibliothek",
-    "text": "Aufgabe: Use-Case-D. Bibliothek\n\nBibliothek möchte neues System einführen zur Automatisierung:\n\nAusleihe von Büchern\nBenutzerverwaltung\nBücherverwaltung\n\nAufgabe: Use-Case-Diagramm\nAnforderungen\n\nBenutzer kann Bücher ausleihen, Bücher zurückgeben und seinen Kontostand für ausgeliehene Bücher überprüfen\nPremium-Benutzer kann zusätzlich Bücher vorbestellen\nBibliothekar kann neue Benutzer registrieren, Bücher hinzufügen und Bücher entfernen\nChef-Bibliothekar kann zusätzlich Berichte über die Ausleihe erstellen und die Verwaltung der Bibliothek übernehmen"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-bibliothek",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-bibliothek",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lösung: Use-Case-D. Bibliothek",
-    "text": "Lösung: Use-Case-D. Bibliothek"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-include",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-include",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Use-Case-D.: <<include>>",
-    "text": "Use-Case-D.: &lt;&lt;include&gt;&gt;\n\n\nEin Anwendungsfall führt immer einen anderen mit aus\nPflicht-Einbindung\nincludierter Use Case ist wiederverwendbar\nPfeilrichtung: vom Basis-Use-Case zum inkludierten Use-Case"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-include",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-include",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aufgabe: Use-Case-D., include",
-    "text": "Aufgabe: Use-Case-D., include\nBibliothek, wie zuletzt\nNeue Beziehungen\n\nAusleihen von Büchern enthält immer Berechtigungs-Prüfung\nRegistrieren eines Benutzers: immer Bestätigungs-Email\n\nUse-Case-Diagramm zeichnen."
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-include",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-include",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lösung: Use-Case-D., include",
-    "text": "Lösung: Use-Case-D., include"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-extend",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-d.-extend",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Use-Case-D.: <<extend>>",
-    "text": "Use-Case-D.: &lt;&lt;extend&gt;&gt;\n\n\n\n\n\n\n\n\n\n\n\nEin Anwendungsfall führt optional einen anderen mit aus\nErweiterung unter bestimmten Bedingungen\nAchtung: Pfeilrichtung vom erweiternden Anwendungsfall zum Basis-Use-Case\nAnders als bei &lt;&lt;include&gt;&gt;!!\nB ist Basis-Use-Case, A ist extended use case"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-extend",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#aufgabe-use-case-d.-extend",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Aufgabe: Use-Case-D., extend",
-    "text": "Aufgabe: Use-Case-D., extend\nBibliothek, wie zuletzt, mit include\nNeue Sonderfälle\n\nBücher zurückgeben: manchmal müssen Gebühren erhoben werden\n-&gt; erweitert den Use Case “Bücher zurückgeben”\nWenn Bibliothekar ein Buch hinzufügt:  manchmal müssen Buchinformationen validiert werden,  wenn sie unvollständig sind\n\nAufgabe: Use-Case-Diagramm mit zwei Conditions"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-extend",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#lösung-use-case-d.-extend",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Lösung: Use-Case-D., extend",
-    "text": "Lösung: Use-Case-D., extend"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-so-klappts",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#use-case-diagramm-so-klappts",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "Use-Case-Diagramm: So klappt’s",
-    "text": "Use-Case-Diagramm: So klappt’s\n\n\nInclude (zwingende Folge) und extend (optionale Folge) gut unterscheiden\nPfeilrichtungen beachten:\n\nGeneralisierung / Spezialisierung: Vom speziellen zum generellen Element\nBeispiel: vom Premium-Benutzer zum Benutzer\n&lt;&lt;include&gt;&gt;: vom Basis-Use-Case zum inkludierten Use-Case\nBeispiel: von Bücher ausleihen zu Berechtigung prüfen\n&lt;&lt;extend&gt;&gt;: vom erweiternden Anwendungsfall zum Basis-Use-Case\nBeispiel: von Gebühren erheben zu Bücher zurückgeben\n\nUse-Case-Diagramm ist statisch\nNicht für Abläufe verwenden!"
-  },
-  {
-    "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#section",
-    "href": "05_UML_Aktivitätsd-Use-Case-D.html#section",
-    "title": "UML:  Aktivitätsdiagramm Use-Case-Diagramm",
-    "section": "",
-    "text": "Viel Erfolg mit UML!"
-  },
-  {
-    "objectID": "07_Werkzeuge-Entwicklgsumgebungen.html#editor",
-    "href": "07_Werkzeuge-Entwicklgsumgebungen.html#editor",
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#editor",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#editor",
     "title": "Werkzeuge und Entwicklungsumgebungen",
     "section": "Editor",
     "text": "Editor"
   },
   {
-    "objectID": "07_Werkzeuge-Entwicklgsumgebungen.html#section",
-    "href": "07_Werkzeuge-Entwicklgsumgebungen.html#section",
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#section",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#section",
     "title": "Werkzeuge und Entwicklungsumgebungen",
     "section": "",
     "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"

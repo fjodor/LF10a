@@ -15,6 +15,10 @@ website:
         text: 02 Pseudocode
       - href: 03_Algorithmen.qmd
         text: 03 Algorithmen
+      - href: 04_Datenstrukturen.qmd
+        text: 04 Datenstrukturen
+      - href: 05_UML_Aktivitätsd-Use-Case-D.qmd
+        text: 05 UML Aktivitätsdiagramm, Use-Case-Diagramm
 
 format:
   revealjs:

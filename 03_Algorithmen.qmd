@@ -178,7 +178,7 @@ Rekursive Algorithmen sind geeignet, wenn:
 
 - Vergleicht wiederholt benachbarte Elemente und vertauscht sie, wenn sie sich in der falschen Reihenfolge befinden
 - Größte Elemente "wandern" pro Durchlauf nach rechts (wie Blasen nach oben)
-- Wird wiederholt, bis keien Vertauschungen mehr nötig sind
+- Wird wiederholt, bis keine Vertauschungen mehr nötig sind
 - Vorteil: relativ einfach zu verstehen
 - Nachteil: ineffizient bei großen Datenmengen
 - Laufzeit: O(n²)

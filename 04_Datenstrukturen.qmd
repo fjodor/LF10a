@@ -30,14 +30,34 @@ callout-appearance: simple
 ::: {.column .incremental style="min-width: 72%; font-size: 1.6rem"}
 - Vielseitigste Datenstruktur in Python; Sammlung verschiedener Objekte; Elemente müssen **nicht** vom **gleichen Datentyp** sein; Listen können während Programmablauf beliebig wachsen und schrumpfen; man kann damit Arrays abbilden (ähnlich Java, C++), allerdings flexibler und leistungsfähiger
 - Erfassung von Elementen als **Schlüssel-Wert-Paare**; Zugriff auf Elemente über eindeutigen Schlüssel; kann wachsen und schrumpfen; ähnlich Hash oder Maps in anderen Programmiersprachen
-- **unveränderliche, geordnete Sequenz** von Elementen; ähnlich Liste, aber ohne Änderungsmöglichkeit; zum Vergrößern / Verkleinern muss neues Tupel erstellt werden
-- ungeordnete Sammlung von **einmaligen** Elementen, d. h. Element kann nicht mehrmals vorkommen; ermöglicht Standardoperationen für Mengen wie *Vereinigung, Schnittmenge, Differenz*
+- **Unveränderliche, geordnete Sequenz** von Elementen; ähnlich Liste, aber ohne Änderungsmöglichkeit; zum Vergrößern / Verkleinern muss neues Tupel erstellt werden
+- Ungeordnete Sammlung von **einmaligen** Elementen, d. h. Element kann nicht mehrmals vorkommen; ermöglicht Standardoperationen für Mengen wie *Vereinigung, Schnittmenge, Differenz*
 
 :::
 ::::
 
 
+## Datenstrukturen: Java {background-image="libs/_Images/logo-java.png" background-size="contain" background-opacity="0.2"}
 
+:::: {.columns}
+::: {.column .incremental style="width: 24%"}
+
+- Array <br> &nbsp;
+- ArrayList<br> &nbsp;
+- HashMap<br> &nbsp;
+- HashSet<br> &nbsp;
+
+:::
+
+::: {.column .incremental style="min-width: 72%; font-size: 1.6rem"}
+
+- Sequenzielle Sammlung von Elementen; alle müssen vom **gleichen Datentyp** sein und **fest Größe** aufweisen, die sich während der Laufzeit nicht ändern kann <br> &nbsp;
+- Implementiert Listen-Funktionalität durch Abbildung auf ein Feld; kann **schrumpfen und wachsen** <br> &nbsp;
+- Erfassung von Elementen als **Schlüssel-Wert-Paare**; Zugriff auf Elemente über eindeutigen Schlüssel; kann wachsen und schrumpfen; ähnlich *Dictionary* in Python
+- Implementiert Schnittstelle "Set" durch schnelles **Hashverfahren**; Speicherung der Elemente in **Hashtabelle**; dadurch schneller Zugriff; Element kann **nicht mehrfach vorkommen**, im Unterschied zu HashMap und ArrayList
+
+:::
+::::
 
 
 ## <!-- -->

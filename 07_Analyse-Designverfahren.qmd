@@ -128,7 +128,7 @@ Beispiel |
 Top-down |
 ----------|
 Gesamtsystem |
-Vom Grossen zum Kleinen |
+Vom Großen zum Kleinen |
 Neues System, keine Vorarbeiten |
 Früh vorhanden	|
 Spät (erst wenn Module implementiert) |
@@ -229,31 +229,65 @@ Niedrig: Module sollen unabhängig sein |
 
 ## Modularisierung: Kriterien für gute Module
 
-::: {style="font-size: 1.9rem"}
+:::: {.columns style="font-size: 1.9rem"}
+::: {.column width="55%"}
 
-Kriterium | Gut | Schlecht
-:---|:----------|:----------
-**Kohäsion** | Alle Funktionen eines Moduls gehoeren zum gleichen Thema	| **Ein** Modul macht Login, PDF-Export **und** Datenbankzugriff
-**Kopplung** | Module kommunizieren nur über definierte Schnittstellen | Ein Modul greift direkt auf interne Variablen eines anderen Moduls zu
-**Größe** | Überschaubarer Umfang (eine klare Aufgabe) | Riesiges Modul mit hunderten Funktionen
-**Namensgebung** | Sprechender Name: BenutzerAuthentifizierung | Unklarer Name: Modul_A
+Kriterium | Gut |
+--- | ---------- |
+**Kohäsion** | Alle Funktionen eines Moduls gehören zum gleichen Thema |
+**Kopplung** | Module kommunizieren nur über definierte Schnittstellen |
+**Größe** | Überschaubarer Umfang (eine klare Aufgabe) |
+**Namens-gebung** | Sprechender Name: BenutzerAuthentifizierung |
 
 :::
+
+::: {.column .fragment width="40%"}
+
+Schlecht |
+---------- |
+**Ein** Modul macht Login, PDF-Export **und** Datenbankzugriff |
+Ein Modul greift direkt auf interne Variablen eines anderen Moduls zu |
+Riesiges Modul mit hunderten Funktionen |
+Unklarer Name: <br> Modul_A |
+
+:::
+::::
 
 
 ## Design: Prüfungstipps {style="font-size: 1.8rem"}
 
+::: incremental 
+
 - Szenario lesen und Top-down oder Bottom-up empfehlen mit Begründung
-- Kohaesion und Kopplung definieren und bewerten
+- Kohäsion und Kopplung definieren und bewerten
 - Vorteile der Modularisierung nennen (mindestens drei)
 - Zerlegung eines Problems in Module darstellen (Baumdiagramm)
 
-Häufige Fehler | Korrektur
--------|------------
-Top-down und Bottom-up verwechselt | Top-down = vom Ganzen zum Detail, <br> Bottom-up = vom Detail zum Ganzen
-Hohe Kopplung als positiv bewertet | Hohe Kopplung = schlecht (starke Abhaengigkeit), niedrig = gut
-Kohäsion mit Kopplung verwechselt | Kohäsion = innerhalb eines Moduls, <br> Kopplung = zwischen Modulen
-Modularisierung nur als Aufteilung in Dateien verstanden | Es geht um fachliche Trennung mit definierten Schnittstellen
+:::
+
+:::: columns
+::: {.column .fragment width="45%"}
+
+Häufige Fehler |
+-------|
+Top-down und Bottom-up verwechselt |
+Hohe Kopplung als positiv bewertet |
+Kohäsion mit Kopplung verwechselt | 
+Modularisierung nur als Aufteilung in Dateien verstanden |
+
+::: 
+
+::: {.column .fragment}
+
+Korrektur |
+-------|
+Top-down = vom Ganzen zum Detail, <br> Bottom-up = vom Detail zum Ganzen |
+Hohe Kopplung = schlecht (starke Abhängigkeit), niedrig = gut |
+Kohäsion = innerhalb eines Moduls, <br> Kopplung = zwischen Modulen |
+Es geht um fachliche Trennung mit definierten Schnittstellen |
+
+:::
+::::
 
 
 ## <!-- -->

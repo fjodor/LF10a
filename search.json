@@ -983,6 +983,36 @@
     ]
   },
   {
+    "objectID": "03a_Algorithmen.html#rekursion-callstack",
+    "href": "03a_Algorithmen.html#rekursion-callstack",
+    "title": "Algorithmen",
+    "section": "Rekursion: Callstack",
+    "text": "Rekursion: Callstack\n\n\nStack: LIFO\n\nStack = Stapel\nLIFO = Last In, First Out\nRekursion arbeitet mit Callstack\n\n\nZum Vergleich: Warteschlange\n\nWarteschlange: FIFO\nFIFO = First In, First Out",
+    "crumbs": [
+      "03a Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03a_Algorithmen.html#rekursion-callstack-verstehen",
+    "href": "03a_Algorithmen.html#rekursion-callstack-verstehen",
+    "title": "Algorithmen",
+    "section": "Rekursion: Callstack verstehen",
+    "text": "Rekursion: Callstack verstehen\n\n\n# Vor rekursivem Aufruf: \"Hinweg\"\n# Nach rekursivem Aufruf: \"Rückweg\"\n\ndef fac(n):\n    if n == 0:\n        return 1\n    print(\"Hinweg:\", n)\n    result = n * fac(n-1)\n    print(\"Rückweg:\", result)\n    return result\n\n# Beispielaufruf\nprint(fac(5))\n\nHinweg: 5\nHinweg: 4\nHinweg: 3\nHinweg: 2\nHinweg: 1\nRückweg: 1\nRückweg: 2\nRückweg: 6\nRückweg: 24\nRückweg: 120\n120",
+    "crumbs": [
+      "03a Algorithmen"
+    ]
+  },
+  {
+    "objectID": "03a_Algorithmen.html#rekursion-callstack-verstehen-1",
+    "href": "03a_Algorithmen.html#rekursion-callstack-verstehen-1",
+    "title": "Algorithmen",
+    "section": "Rekursion: Callstack verstehen",
+    "text": "Rekursion: Callstack verstehen\n\n\ndef fac(n):\n    if n == 0:\n        print(\"Bei n=0 gebe 1 zurück\")\n        return 1\n    print(f\"Rufe fac({n-1})\")\n    result = n * fac(n-1)\n    print(f\"n = {n}; \"\n          f\"Ergebnis = {result}\")\n    return result\n\n# Beispielaufruf\nprint(fac(5))\n\nRufe fac(4)\nRufe fac(3)\nRufe fac(2)\nRufe fac(1)\nRufe fac(0)\nBei n=0 gebe 1 zurück\nn = 1; Ergebnis = 1\nn = 2; Ergebnis = 2\nn = 3; Ergebnis = 6\nn = 4; Ergebnis = 24\nn = 5; Ergebnis = 120\n120\n\n\n\n\n\n\n\n\nEs ist entscheidend, ob Zwischenergebnisse vor oder nach dem rekursiven Aufruf abgefragt werden!\nHinweg vs. Rückweg, Aufbau / Abbau des Stapels",
+    "crumbs": [
+      "03a Algorithmen"
+    ]
+  },
+  {
     "objectID": "03a_Algorithmen.html#sortieralgorithmen-bubble-sort",
     "href": "03a_Algorithmen.html#sortieralgorithmen-bubble-sort",
     "title": "Algorithmen",

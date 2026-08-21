@@ -13,8 +13,10 @@ website:
         text: 01 Willkommen zu LF10a - Themen und Zeitplan
       - href: 02_Pseudocode.qmd
         text: 02 Pseudocode
-      - href: 03_Algorithmen.qmd
-        text: 03 Algorithmen
+      - href: 03a_Algorithmen.qmd
+        text: 03a Algorithmen
+      - href: 03b_Aufgaben_Pseudocode.qmd
+        text: 03b Aufgaben Pseudocode
       - href: 04_Datenstrukturen.qmd
         text: 04 Datenstrukturen
       - href: 05_UML_Aktivitätsd-Use-Case-D.qmd

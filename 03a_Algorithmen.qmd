@@ -171,6 +171,122 @@ Rekursive Algorithmen sind geeignet, wenn:
 | **Didaktik** | OK | Sehr gut |
 
 
+## Rekursion: Callstack
+
+:::: columns
+::: column
+
+#### Stack: LIFO
+
+- Stack = Stapel
+- LIFO = *Last In, First Out*
+- Rekursion arbeitet mit Callstack
+
+:::
+
+::: column
+
+#### Zum Vergleich: Warteschlange
+
+- Warteschlange: FIFO
+- FIFO = *First In, First Out*
+
+:::
+::::
+
+
+## Rekursion: Callstack verstehen
+
+:::: columns
+::: column
+
+```python
+# Vor rekursivem Aufruf: "Hinweg"
+# Nach rekursivem Aufruf: "Rückweg"
+
+def fac(n):
+    if n == 0:
+        return 1
+    print("Hinweg:", n)
+    result = n * fac(n-1)
+    print("Rückweg:", result)
+    return result
+
+# Beispielaufruf
+print(fac(5))
+```
+
+:::
+
+::: {.column .fragment}
+
+```pseudo
+Hinweg: 5
+Hinweg: 4
+Hinweg: 3
+Hinweg: 2
+Hinweg: 1
+Rückweg: 1
+Rückweg: 2
+Rückweg: 6
+Rückweg: 24
+Rückweg: 120
+120
+```
+
+:::
+::::
+
+
+## Rekursion: Callstack verstehen
+
+:::: columns
+::: column
+
+```python
+def fac(n):
+    if n == 0:
+        print("Bei n=0 gebe 1 zurück")
+        return 1
+    print(f"Rufe fac({n-1})")
+    result = n * fac(n-1)
+    print(f"n = {n}; "
+          f"Ergebnis = {result}")
+    return result
+
+# Beispielaufruf
+print(fac(5))
+```
+
+:::
+
+::: {.column .fragment}
+
+```pseudo
+Rufe fac(4)
+Rufe fac(3)
+Rufe fac(2)
+Rufe fac(1)
+Rufe fac(0)
+Bei n=0 gebe 1 zurück
+n = 1; Ergebnis = 1
+n = 2; Ergebnis = 2
+n = 3; Ergebnis = 6
+n = 4; Ergebnis = 24
+n = 5; Ergebnis = 120
+120
+```
+
+:::
+::::
+
+::: {.callout-tip .fragment}
+
+Es ist entscheidend, ob Zwischenergebnisse **vor** oder **nach** dem rekursiven Aufruf abgefragt werden!  
+**Hinweg** vs. **Rückweg**, Aufbau / Abbau des Stapels
+
+:::
+
 
 ## Sortieralgorithmen: Bubble Sort {style="font-size: 2.2rem"}
 

@@ -21,7 +21,9 @@ callout-appearance: simple
 - Dazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien
 
 ::: notes
-Quelle: IHK-Prüfung-Lernmaterial 3.4.13
+- Quelle: IHK-Prüfung-Lernmaterial 3.4.13
+- Eigene Ergänzungen
+- Impuls zur DIN-Gründung: Rationalisierung der Rüstungsproduktion 1917; vgl. Einschränkung der Kinderarbeit 1839, weil früh arbeitende Kinder später als untaugliche Soldaten galten
 :::
 
 ---
@@ -39,6 +41,131 @@ Grundsatz | Bedeutung | Beispiel |
 | (5) Steuerbarkeit | Benutzer kann Ablauf und Geschwindigkeit steuern | Zurück-Button, Abbruch-Möglichkeit, Undo |
 | (6) Individualisier-barkeit | Software lässt sich an Benutzerbedürfnisse anpassen | Schriftgröße, Farbschema, Dashboard-Layout |
 | (7) Lernförderlichkeit | Software unterstützt das Erlernen der Bedienung | Tutorials, Assistenten, kontextsensitive Hilfe |
+
+
+## Was bedeutet "DIN EN ISO" 9241?
+
+::: {.incremental style="font-size: 2rem"}
+
+- ISO: **Internationale Organisation für Normung**
+  + erarbeitet internationale Normen, außer für Elektrik und Elektronik: das macht die IEC = Internationale elektrotechnische Kommission
+  + ISO = einheitliche Kurzbezeichnung, in allen Sprachen! von griech. isos = "gleich"; ISO ist also **ein Kurzwort** (eigentständiger, vollwertiger Begriff), keine Abkürzung
+- EN: **Europäische Normen**; von einem der drei europäischen Komitees für Normung ratifiziert
+- DIN: **Deutsches Institut für Normung**
+- DIN EN ISO: Identische Normen gelten weltweit, in Europa, in Deutschland (im jeweiligen Recht)
+
+:::
+
+::: notes
+- ISO: Gründungsbeschluss 1946, Beginn der Tätigkeit 1947
+- EN: die drei europäischen Komitees für Normung: Europäisches Komitee für Normung CEN, Europäisches Komitee für elektrotechnische Normung CENELEC und Europäisches Institut für Telekommunikationsnormen ETSI
+- DIN: gegründet 1917 als "Normenausschuß der deutschen Industrie"; heutiger Name seit 1975; e. V., privatwirtschaftlich getragen
+:::
+
+
+## ISO 9241-110 (1) Aufgaben-Angemessenheit {style="font-size: 2rem"}
+
+::: incremental
+
+- Automatisierte Abläufe entlasten den User, z.B. voreingestellte Startparameter
+- Voreinstellungen sind zielführend und nachvollziehbar, <br>z.B. die Position des Maus-Cursors
+- Dialogwege und Fenster bilden die Schritte der Aufgabe genau ab.
+- Relevante Infos wie Ansprechpartner und Mail-Kontaktadressen sind leicht zu finden.
+- Mühsames Ausfüllen irrelevanter Formularfelder wird vermieden.
+
+:::
+
+[Quelle: [weka-manager.de](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)]{style="font-size: 1.3rem"}
+
+
+## ISO 9241-110 (2) Selbstbeschreibungsfähigkeit {style="font-size: 2rem"}
+
+::: incremental
+
+- Linkziele sind für den User ersichtlich.
+- Sicherheitsabfragen schützen vor folgenschweren Fehlbedienungen, z.B. vor Löschvorgängen
+- Datenbankanfragen geben Feedback.
+- Bedienhinweise reagieren kontextspezifisch.
+- Wartezeiten werden visualisiert und erläutert.
+
+:::
+
+[Quelle: [weka-manager.de](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)]{style="font-size: 1.3rem"}
+
+
+## ISO 9241-110 (3) Erwartungskonformität {style="font-size: 1.8rem"}
+
+::: incremental
+
+- WYSIWYG-Prinzip beachten *(What You See Is What You Get)*
+-Schaltflächen und Menüeinträge reagieren auf vorhersehbare Weise und sind innerhalb des Dokuments/der Website optisch und funktionell konsistent.
+- Unterstreichung von Wörtern bedeutet stets, dass es sich um einen anklickbaren Link handelt.
+- Unternehmenslogos sind mit Links zur Unternehmenshomepage hinterlegt.
+- Tastatureingaben funktionieren analog zu gängigen Textverarbeitungsprogrammen.
+- Für Klickbuttons, Schaltflächen Kontrollkästchen usw. sind Default-Einstellungen festgelegt, die dem häufigsten oder Normalablauf entsprechen und den User klar führen.
+- Bedien- und Steuerfunktionen entsprechen den zu erwartenden Vorerfahrungen der User.
+
+:::
+
+[Quelle: [weka-manager.de](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)]{style="font-size: 1.3rem"}
+
+
+## ISO 9241-110 (4) Fehlertoleranz {style="font-size: 2rem"}
+
+::: incremental
+
+- Eingabefehler des Users führen nicht zu Programmabstürzen.
+- Formulareingaben werden auf Plausibilität geprüft.
+- Fehlermeldungen sind in verständlicher Sprache verfasst.
+- Für alle Eingaben und Steuerfunktionen gibt es Korrektur- oder Rückgängig-Optionen.
+- Der User kann sein Ziel erreichen, auch wenn er Fehler macht, z.B. Tippfehler in einer Suchfunktion oder andere fehlerhafte Eingaben.
+
+:::
+
+[Quelle: [weka-manager.de](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)]{style="font-size: 1.3rem"}
+
+
+## ISO 9241-110 (5) Steuerbarkeit {style="font-size: 2rem"}
+
+::: incremental
+
+- Abfolge und Tiefe der angebotenen Information sind beeinflussbar
+- Ergebnisse von Abfragen lassen sich sortieren und filtern.
+- Bedienschritte mehrstufiger Eingabeprozesse lassen sich rückgängig machen ("Undo-Funktion") und ohne wieder ganz von vorn starten zu müssen.
+- Übergroße Grafiken erscheinen zunächst als anklickbare Thumbnails (Vorschaubilder).
+
+:::
+
+[Quelle: [weka-manager.de](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)]{style="font-size: 1.3rem"}
+
+
+## ISO 9241-110 (6) Individualisierbarkeit {style="font-size: 2rem"}
+
+::: incremental
+
+- Der User kann Anzeigeformate (z.B. Fenstergrößen) und Ausgabeformate (z.B. von Grafiken oder Downloads) den eigenen Bedürfnissen und Vorlieben anpassen.
+- Strukturelemente auf Startseiten sind individuell einstellbar, z.B. mit der lokalen Wetterprognose oder regionalen Veranstaltungstipps.
+- Funktionale Elemente wie Menüs, Funktionstasten, Symbolleisten lassen sich konfigurieren und für jeden Nutzer speichern.
+- Newsletter sind themenspezifisch konfigurierbar.
+
+:::
+
+[Quelle: [weka-manager.de](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)]{style="font-size: 1.3rem"}
+
+
+## ISO 9241-110 (7) Lernförderlichkeit {style="font-size: 2rem"}
+
+::: incremental
+
+- Der User wird zum Verstehen der Dokumentationsstruktur und der Nutzungsoptionen angeleitet.
+- Der Aufbau komplexer Websites lässt sich mit einer Sitemap anschaulich erfassen.
+- Bedienschritte erfolgen nach einem klaren und nachvollziehbaren Prinzip.
+- Für mehrstufige Eingabevorgänge wie Buchungen oder Bestellungen gibt es eine Option zum unverbindlichen Testen.
+- Für komplexe Sachverhalte werden bewährte Lernelemente wie FAQ-Listen (Antworten auf häufig gestellte Fragen) oder „Guided Tours“ genutzt.
+
+:::
+
+[Quelle: [weka-manager.de](https://www.weka-manager-ce.de/betriebsanleitung/grundsaetze-dialoggestaltung-iso-9241-110/)]{style="font-size: 1.3rem"}
 
 
 ## Usability (Gebrauchstauglichkeit) {style="font-size: 1.8rem"}

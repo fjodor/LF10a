@@ -288,6 +288,58 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 ::::
 
 
+## Was sind Stakeholder eines Projekts?
+
+::: fragment
+
+**Projekt-Stakeholder** sind Personen oder Personengruppen, die aktiv am Projekt beteiligt oder von der Durchführung bzw. dem Ergebnis eines Projekts betroffen sind.
+
+:::
+
+Typische Stakeholder eines Projekts sind zum Beispiel:
+
+::: incremental
+
+- Kundinnen und Kunden
+- Auftraggebende
+- Mitarbeitende im Projekt
+- Projektleitung
+- Lieferanten
+
+:::
+
+::: notes
+Lernkarte AP2 55 2025 u-form
+:::
+
+
+## Was ist ein MVP = Minimum Viable Product?
+
+::: {.incremental style="font-size: 1.9rem"}
+
+- MVP = *Minimum Viable Product* (nicht *Most Valuable Player ...*)
+- Grundlegendes, **funktionsfähiges** Produkt oder Dienstleistung
+- Wird mit minimalen Funktionen / Merkmalen entwickelt
+- Oft in **agilen Entwicklungsmethoden** eingesetzt
+- Nicht mit **Mock-up** verwechseln! Mockup zeigt UI, Aussehen, Layout - ohne Interaktionsmöglichkeit
+:::
+
+#### Ziele
+
+::: {.fragment style="font-size: 1.9rem"}
+
+- Reaktionen und Bedürfnisse der Nutzer verstehen
+- Frühzeitiges Feedback von Benutzern und Kunden
+- Basis, um Produkt iterativ weiterzuentwickeln
+
+:::
+
+
+::: notes
+Lernkarte AP2 69 2025 u-form
+:::
+
+
 ## User Stories
 
 - kurze, informelle Beschreibung einer Anforderung **aus Benutzersicht**

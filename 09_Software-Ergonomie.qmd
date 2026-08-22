@@ -5,6 +5,7 @@ title-slide-attributes:
 subtitle: ""
 format:
   revealjs:
+    mermaid-format: svg
     theme: simple
 execute:
   echo: false
@@ -256,6 +257,12 @@ Grundsatz | Bedeutung | Beispiel |
 | Fragebogen (SUS, UEQ) | Standardisierte Befragung nach Nutzung | Nach Einführung / Release |
 
 
+::: notes
+- Jakob Nielsen, einer der einflussreichsten Usability-Experten
+- "10 Usability-Heuristiken", 1990/1994, aktualisiert 2020; praxisbezogen, wie Checkliste
+:::
+
+
 ## Typische Prüfungsaspekte
 
 - Grundsätze der DIN EN ISO 9241-110 benennen und in Szenarien erkennen
@@ -284,3 +291,4 @@ Grundsatz | Bedeutung | Beispiel |
 ::: {style="color: green; text-align: center; font-size: 2.8rem"}
 **Viel Erfolg!**
 :::
+

@@ -15,13 +15,14 @@ execute:
 callout-appearance: simple
 ---
 
-***IHK-Prüfung-Lernmaterial 3.4.13***
-
 ## Lernziele
 
 - Grundsätze der Softwareergonomie nach <br>**DIN EN ISO 9241** kennen, anwenden und in Prüfungsszenarien bewerten können
 - Dazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien
 
+::: notes
+Quelle: IHK-Prüfung-Lernmaterial 3.4.13
+:::
 
 ---
 
@@ -34,7 +35,7 @@ Grundsatz | Bedeutung | Beispiel |
 | (1) Aufgaben-angemessenheit | Software unterstützt die Aufgabe ohne unnötige Schritte | Bestellformular zeigt nur relevante Felder |
 | (2) Selbstbeschrei-bungsfähigkeit | Jeder Schritt ist verständlich, ohne Handbuch | Tooltips, Hilfetexte, klare Beschriftungen |
 | (3) Erwartungs-konformität | Software verhält sich so, wie der Benutzer es erwartet | "Speichern"-Button oben links, Abbruch mit ESC |
-| (4) Fehlertoleranz | Fehlerhafte Eingaben fuehren nicht zu Datenverlust | Rückgaengig-Funktion, Validierung vor Absenden |
+| (4) Fehlertoleranz | Fehlerhafte Eingaben führen nicht zu Datenverlust | Rückgängig-Funktion, Validierung vor Absenden |
 | (5) Steuerbarkeit | Benutzer kann Ablauf und Geschwindigkeit steuern | Zurück-Button, Abbruch-Möglichkeit, Undo |
 | (6) Individualisier-barkeit | Software lässt sich an Benutzerbedürfnisse anpassen | Schriftgröße, Farbschema, Dashboard-Layout |
 | (7) Lernförderlichkeit | Software unterstützt das Erlernen der Bedienung | Tutorials, Assistenten, kontextsensitive Hilfe |
@@ -66,16 +67,16 @@ Grundsatz | Bedeutung | Beispiel |
 
 ## WCAG-Prinzipien (POUR)
 
-1. **Perceivable (Wahrnehmbar):** Textalternativen fuer Bilder, Untertitel fuer Videos
-2. **Operable (Bedienbar):** Tastaturnavigation, ausreichend Zeit fuer Eingaben
-3. **Understandable (Verstaendlich):** Klare Sprache, konsistente Navigation
+1. **Perceivable (Wahrnehmbar):** Textalternativen für Bilder, Untertitel für Videos
+2. **Operable (Bedienbar):** Tastaturnavigation, ausreichend Zeit für Eingaben
+3. **Understandable (Verständlich):** Klare Sprache, konsistente Navigation
 4. **Robust:** Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)
 
 
 ## WCAG: Praktische Maßnahmen {style="font-size: 2rem"}
 
 - Alt-Texte für Bilder
-- Kontrastverhaeeltnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)
+- Kontrastverhältnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)
 - Tastaturbedienbarkeit aller Funktionen
 - Formularbeschriftungen mit `<label>`-Elementen
 - Skip-Links für Screenreader

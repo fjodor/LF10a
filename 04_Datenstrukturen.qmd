@@ -60,6 +60,49 @@ callout-appearance: simple
 ::::
 
 
+## Datentypen in SQL {style="font-size: 1.7rem"}
+
+::: fragment
+
+Datentyp | Verwendung
+---------|------------
+INTEGER | Ganzzahlen
+FLOAT oder DECIMAL | Gleitkommazahlen
+VARCHAR oder CHAR | Zeichenketten: CHAR(anzahl), VARCHAR(anzahl) mit max. anzahl
+DATE, Time oder TIMESTAMP | Datum und Uhrzeit
+BOOLEAN | Boolsche Werte
+BINARY | Binär-String
+
+:::
+
+[Warum sind Floating-Point-Operationen in der IT problematisch?]{.fragment}
+
+:::: columns
+::: {.column .fragment}
+
+```python
+# Beispiel Python
+>>> 0.3 == 0.2 + 0.1
+false
+```
+
+:::
+
+::: {.column .fragment}
+
+```python
+>>> 0.2 + 0.1
+0.30000000000000004
+```
+
+:::
+::::
+
+::: {.callout-tip .fragment}
+DECIMAL speichert jede Dezimalstelle exakt als Ziffer -> keine Rundungsfehler
+:::
+
+
 ## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}

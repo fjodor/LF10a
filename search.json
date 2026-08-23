@@ -4,77 +4,190 @@
     "href": "09_Software-Ergonomie.html#lernziele",
     "title": "Software-Ergonomie",
     "section": "Lernziele",
-    "text": "Lernziele\n\nGrundsätze der Softwareergonomie nach DIN EN ISO 9241 kennen, anwenden und in Prüfungsszenarien bewerten können\nDazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien"
+    "text": "Lernziele\n\nGrundsätze der Softwareergonomie nach DIN EN ISO 9241 kennen, anwenden und in Prüfungsszenarien bewerten können\nDazu gehören auch Barrierefreiheit (WCAG / BITV) und praktische Bewertungskriterien\n\n\n\nQuelle: IHK-Prüfung-Lernmaterial 3.4.13\nEigene Ergänzungen\nImpuls zur DIN-Gründung: Rationalisierung der Rüstungsproduktion 1917; vgl. Einschränkung der Kinderarbeit 1839, weil früh arbeitende Kinder später als untaugliche Soldaten galten",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
     "href": "09_Software-Ergonomie.html#din-en-iso-9241-ergonomie-der-mensch-system-interaktion",
     "title": "Software-Ergonomie",
     "section": "DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion",
-    "text": "DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion\nDie Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsätze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:\n\n\n\n\n\n\n\n\nGrundsatz\nBedeutung\nBeispiel\n\n\n\n\n(1) Aufgaben-angemessenheit\nSoftware unterstützt die Aufgabe ohne unnötige Schritte\nBestellformular zeigt nur relevante Felder\n\n\n(2) Selbstbeschrei-bungsfähigkeit\nJeder Schritt ist verständlich, ohne Handbuch\nTooltips, Hilfetexte, klare Beschriftungen\n\n\n(3) Erwartungs-konformität\nSoftware verhält sich so, wie der Benutzer es erwartet\n“Speichern”-Button oben links, Abbruch mit ESC\n\n\n(4) Fehlertoleranz\nFehlerhafte Eingaben fuehren nicht zu Datenverlust\nRückgaengig-Funktion, Validierung vor Absenden\n\n\n(5) Steuerbarkeit\nBenutzer kann Ablauf und Geschwindigkeit steuern\nZurück-Button, Abbruch-Möglichkeit, Undo\n\n\n(6) Individualisier-barkeit\nSoftware lässt sich an Benutzerbedürfnisse anpassen\nSchriftgröße, Farbschema, Dashboard-Layout\n\n\n(7) Lernförderlichkeit\nSoftware unterstützt das Erlernen der Bedienung\nTutorials, Assistenten, kontextsensitive Hilfe"
+    "text": "DIN EN ISO 9241: Ergonomie der Mensch-System-Interaktion\nDie Norm DIN EN ISO 9241 (Teil 110) definiert sieben Grundsätze der Dialoggestaltung, die die Interaktion zwischen Benutzer und Software bewerten:\n\n\n\n\n\n\n\n\nGrundsatz\nBedeutung\nBeispiel\n\n\n\n\n(1) Aufgaben-angemessenheit\nSoftware unterstützt die Aufgabe ohne unnötige Schritte\nBestellformular zeigt nur relevante Felder\n\n\n(2) Selbstbeschrei-bungsfähigkeit\nJeder Schritt ist verständlich, ohne Handbuch\nTooltips, Hilfetexte, klare Beschriftungen\n\n\n(3) Erwartungs-konformität\nSoftware verhält sich so, wie der Benutzer es erwartet\n“Speichern”-Button oben links, Abbruch mit ESC\n\n\n(4) Fehlertoleranz\nFehlerhafte Eingaben führen nicht zu Datenverlust\nRückgängig-Funktion, Validierung vor Absenden\n\n\n(5) Steuerbarkeit\nBenutzer kann Ablauf und Geschwindigkeit steuern\nZurück-Button, Abbruch-Möglichkeit, Undo\n\n\n(6) Individualisier-barkeit\nSoftware lässt sich an Benutzerbedürfnisse anpassen\nSchriftgröße, Farbschema, Dashboard-Layout\n\n\n(7) Lernförderlichkeit\nSoftware unterstützt das Erlernen der Bedienung\nTutorials, Assistenten, kontextsensitive Hilfe",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#was-bedeutet-din-en-iso-9241",
+    "href": "09_Software-Ergonomie.html#was-bedeutet-din-en-iso-9241",
+    "title": "Software-Ergonomie",
+    "section": "Was bedeutet “DIN EN ISO” 9241?",
+    "text": "Was bedeutet “DIN EN ISO” 9241?\n\n\nISO: Internationale Organisation für Normung\n\nerarbeitet internationale Normen, außer für Elektrik und Elektronik: das macht die IEC = Internationale elektrotechnische Kommission\nISO = einheitliche Kurzbezeichnung, in allen Sprachen! von griech. isos = “gleich”; ISO ist also ein Kurzwort (eigentständiger, vollwertiger Begriff), keine Abkürzung\n\nEN: Europäische Normen; von einem der drei europäischen Komitees für Normung ratifiziert\nDIN: Deutsches Institut für Normung\nDIN EN ISO: Identische Normen gelten weltweit, in Europa, in Deutschland (im jeweiligen Recht)\n\n\n\n\nISO: Gründungsbeschluss 1946, Beginn der Tätigkeit 1947\nEN: die drei europäischen Komitees für Normung: Europäisches Komitee für Normung CEN, Europäisches Komitee für elektrotechnische Normung CENELEC und Europäisches Institut für Telekommunikationsnormen ETSI\nDIN: gegründet 1917 als “Normenausschuß der deutschen Industrie”; heutiger Name seit 1975; e. V., privatwirtschaftlich getragen",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#iso-9241-110-1-aufgaben-angemessenheit",
+    "href": "09_Software-Ergonomie.html#iso-9241-110-1-aufgaben-angemessenheit",
+    "title": "Software-Ergonomie",
+    "section": "ISO 9241-110 (1) Aufgaben-Angemessenheit",
+    "text": "ISO 9241-110 (1) Aufgaben-Angemessenheit\n\nAutomatisierte Abläufe entlasten den User, z.B. voreingestellte Startparameter\nVoreinstellungen sind zielführend und nachvollziehbar, z.B. die Position des Maus-Cursors\nDialogwege und Fenster bilden die Schritte der Aufgabe genau ab.\nRelevante Infos wie Ansprechpartner und Mail-Kontaktadressen sind leicht zu finden.\nMühsames Ausfüllen irrelevanter Formularfelder wird vermieden.\n\nQuelle: weka-manager.de",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#iso-9241-110-2-selbstbeschreibungsfähigkeit",
+    "href": "09_Software-Ergonomie.html#iso-9241-110-2-selbstbeschreibungsfähigkeit",
+    "title": "Software-Ergonomie",
+    "section": "ISO 9241-110 (2) Selbstbeschreibungsfähigkeit",
+    "text": "ISO 9241-110 (2) Selbstbeschreibungsfähigkeit\n\nLinkziele sind für den User ersichtlich.\nSicherheitsabfragen schützen vor folgenschweren Fehlbedienungen, z.B. vor Löschvorgängen\nDatenbankanfragen geben Feedback.\nBedienhinweise reagieren kontextspezifisch.\nWartezeiten werden visualisiert und erläutert.\n\nQuelle: weka-manager.de",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#iso-9241-110-3-erwartungskonformität",
+    "href": "09_Software-Ergonomie.html#iso-9241-110-3-erwartungskonformität",
+    "title": "Software-Ergonomie",
+    "section": "ISO 9241-110 (3) Erwartungskonformität",
+    "text": "ISO 9241-110 (3) Erwartungskonformität\n\nWYSIWYG-Prinzip beachten (What You See Is What You Get) -Schaltflächen und Menüeinträge reagieren auf vorhersehbare Weise und sind innerhalb des Dokuments/der Website optisch und funktionell konsistent.\nUnterstreichung von Wörtern bedeutet stets, dass es sich um einen anklickbaren Link handelt.\nUnternehmenslogos sind mit Links zur Unternehmenshomepage hinterlegt.\nTastatureingaben funktionieren analog zu gängigen Textverarbeitungsprogrammen.\nFür Klickbuttons, Schaltflächen Kontrollkästchen usw. sind Default-Einstellungen festgelegt, die dem häufigsten oder Normalablauf entsprechen und den User klar führen.\nBedien- und Steuerfunktionen entsprechen den zu erwartenden Vorerfahrungen der User.\n\nQuelle: weka-manager.de",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#iso-9241-110-4-fehlertoleranz",
+    "href": "09_Software-Ergonomie.html#iso-9241-110-4-fehlertoleranz",
+    "title": "Software-Ergonomie",
+    "section": "ISO 9241-110 (4) Fehlertoleranz",
+    "text": "ISO 9241-110 (4) Fehlertoleranz\n\nEingabefehler des Users führen nicht zu Programmabstürzen.\nFormulareingaben werden auf Plausibilität geprüft.\nFehlermeldungen sind in verständlicher Sprache verfasst.\nFür alle Eingaben und Steuerfunktionen gibt es Korrektur- oder Rückgängig-Optionen.\nDer User kann sein Ziel erreichen, auch wenn er Fehler macht, z.B. Tippfehler in einer Suchfunktion oder andere fehlerhafte Eingaben.\n\nQuelle: weka-manager.de",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#iso-9241-110-5-steuerbarkeit",
+    "href": "09_Software-Ergonomie.html#iso-9241-110-5-steuerbarkeit",
+    "title": "Software-Ergonomie",
+    "section": "ISO 9241-110 (5) Steuerbarkeit",
+    "text": "ISO 9241-110 (5) Steuerbarkeit\n\nAbfolge und Tiefe der angebotenen Information sind beeinflussbar\nErgebnisse von Abfragen lassen sich sortieren und filtern.\nBedienschritte mehrstufiger Eingabeprozesse lassen sich rückgängig machen (“Undo-Funktion”) und ohne wieder ganz von vorn starten zu müssen.\nÜbergroße Grafiken erscheinen zunächst als anklickbare Thumbnails (Vorschaubilder).\n\nQuelle: weka-manager.de",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#iso-9241-110-6-individualisierbarkeit",
+    "href": "09_Software-Ergonomie.html#iso-9241-110-6-individualisierbarkeit",
+    "title": "Software-Ergonomie",
+    "section": "ISO 9241-110 (6) Individualisierbarkeit",
+    "text": "ISO 9241-110 (6) Individualisierbarkeit\n\nDer User kann Anzeigeformate (z.B. Fenstergrößen) und Ausgabeformate (z.B. von Grafiken oder Downloads) den eigenen Bedürfnissen und Vorlieben anpassen.\nStrukturelemente auf Startseiten sind individuell einstellbar, z.B. mit der lokalen Wetterprognose oder regionalen Veranstaltungstipps.\nFunktionale Elemente wie Menüs, Funktionstasten, Symbolleisten lassen sich konfigurieren und für jeden Nutzer speichern.\nNewsletter sind themenspezifisch konfigurierbar.\n\nQuelle: weka-manager.de",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
+  },
+  {
+    "objectID": "09_Software-Ergonomie.html#iso-9241-110-7-lernförderlichkeit",
+    "href": "09_Software-Ergonomie.html#iso-9241-110-7-lernförderlichkeit",
+    "title": "Software-Ergonomie",
+    "section": "ISO 9241-110 (7) Lernförderlichkeit",
+    "text": "ISO 9241-110 (7) Lernförderlichkeit\n\nDer User wird zum Verstehen der Dokumentationsstruktur und der Nutzungsoptionen angeleitet.\nDer Aufbau komplexer Websites lässt sich mit einer Sitemap anschaulich erfassen.\nBedienschritte erfolgen nach einem klaren und nachvollziehbaren Prinzip.\nFür mehrstufige Eingabevorgänge wie Buchungen oder Bestellungen gibt es eine Option zum unverbindlichen Testen.\nFür komplexe Sachverhalte werden bewährte Lernelemente wie FAQ-Listen (Antworten auf häufig gestellte Fragen) oder „Guided Tours“ genutzt.\n\nQuelle: weka-manager.de",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#usability-gebrauchstauglichkeit",
     "href": "09_Software-Ergonomie.html#usability-gebrauchstauglichkeit",
     "title": "Software-Ergonomie",
     "section": "Usability (Gebrauchstauglichkeit)",
-    "text": "Usability (Gebrauchstauglichkeit)\nDefinition (DIN EN ISO 9241-11): Das Ausmaß, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.\n\n\n\n\n\n\n\n\nKriterium\nBedeutung\nBeispiel\n\n\n\n\nEffektivität\nAufgabe wird korrekt und vollständig erledigt\nBestellung wird fehlerfrei abgeschlossen\n\n\nEffizienz\nAufgabe wird mit minimalem Aufwand erledigt\nWenige Klicks bis zum Ziel\n\n\nZufriedenheit\nBenutzer hat positives Nutzungserlebnis\nKlare Rückmeldungen, angenehmes Design"
+    "text": "Usability (Gebrauchstauglichkeit)\nDefinition (DIN EN ISO 9241-11): Das Ausmaß, in dem ein Produkt von bestimmten Benutzern in einem bestimmten Nutzungskontext genutzt werden kann, um bestimmte Ziele effektiv, effizient und zufriedenstellend zu erreichen.\n\n\n\n\n\n\n\n\nKriterium\nBedeutung\nBeispiel\n\n\n\n\nEffektivität\nAufgabe wird korrekt und vollständig erledigt\nBestellung wird fehlerfrei abgeschlossen\n\n\nEffizienz\nAufgabe wird mit minimalem Aufwand erledigt\nWenige Klicks bis zum Ziel\n\n\nZufriedenheit\nBenutzer hat positives Nutzungserlebnis\nKlare Rückmeldungen, angenehmes Design",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#barrierefreiheit-accessibility",
     "href": "09_Software-Ergonomie.html#barrierefreiheit-accessibility",
     "title": "Software-Ergonomie",
     "section": "Barrierefreiheit (Accessibility)",
-    "text": "Barrierefreiheit (Accessibility)\nDefinition: Software muss so gestaltet sein, dass sie auch von Menschen mit Behinderungen genutzt werden kann.\nRegelwerke:\n\n\n\n\n\n\n\n\nStandard\nBeschreibung\nGeltungsbereich\n\n\n\n\nWCAG 2.1\nWeb Content Accessibility Guidelines (W3C)\nInternational, Webinhalte\n\n\nBITV 2.0\nBarrierefreie-Informationstechnik-Verordnung\nDeutschland, öffentliche Stellen\n\n\nDIN EN ISO 9241-171\nLeitlinien für barrierefreie Software\nInternational, allgemein"
+    "text": "Barrierefreiheit (Accessibility)\nDefinition: Software muss so gestaltet sein, dass sie auch von Menschen mit Behinderungen genutzt werden kann.\nRegelwerke:\n\n\n\n\n\n\n\n\nStandard\nBeschreibung\nGeltungsbereich\n\n\n\n\nWCAG 2.1\nWeb Content Accessibility Guidelines (W3C)\nInternational, Webinhalte\n\n\nBITV 2.0\nBarrierefreie-Informationstechnik-Verordnung\nDeutschland, öffentliche Stellen\n\n\nDIN EN ISO 9241-171\nLeitlinien für barrierefreie Software\nInternational, allgemein",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#wcag-prinzipien-pour",
     "href": "09_Software-Ergonomie.html#wcag-prinzipien-pour",
     "title": "Software-Ergonomie",
     "section": "WCAG-Prinzipien (POUR)",
-    "text": "WCAG-Prinzipien (POUR)\n\nPerceivable (Wahrnehmbar): Textalternativen fuer Bilder, Untertitel fuer Videos\nOperable (Bedienbar): Tastaturnavigation, ausreichend Zeit fuer Eingaben\nUnderstandable (Verstaendlich): Klare Sprache, konsistente Navigation\nRobust: Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)"
+    "text": "WCAG-Prinzipien (POUR)\n\nPerceivable (Wahrnehmbar): Textalternativen für Bilder, Untertitel für Videos\nOperable (Bedienbar): Tastaturnavigation, ausreichend Zeit für Eingaben\nUnderstandable (Verständlich): Klare Sprache, konsistente Navigation\nRobust: Kompatibel mit Hilfstechnologien (Screenreader, Braillezeile)",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#wcag-praktische-maßnahmen",
     "href": "09_Software-Ergonomie.html#wcag-praktische-maßnahmen",
     "title": "Software-Ergonomie",
     "section": "WCAG: Praktische Maßnahmen",
-    "text": "WCAG: Praktische Maßnahmen\n\nAlt-Texte für Bilder\nKontrastverhaeeltnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)\nTastaturbedienbarkeit aller Funktionen\nFormularbeschriftungen mit &lt;label&gt;-Elementen\nSkip-Links für Screenreader\nKeine reinen Farb-Informationen  (z.B. “rote Felder sind Pflichtfelder”)"
+    "text": "WCAG: Praktische Maßnahmen\n\nAlt-Texte für Bilder\nKontrastverhältnis mindestens 4,5:1 (normal) bzw. 3:1 (gross)\nTastaturbedienbarkeit aller Funktionen\nFormularbeschriftungen mit &lt;label&gt;-Elementen\nSkip-Links für Screenreader\nKeine reinen Farb-Informationen  (z.B. “rote Felder sind Pflichtfelder”)",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#zusammenhang-der-konzepte",
     "href": "09_Software-Ergonomie.html#zusammenhang-der-konzepte",
     "title": "Software-Ergonomie",
     "section": "Zusammenhang der Konzepte",
-    "text": "Zusammenhang der Konzepte\n\n+--------------------------------------------+\n|  DIN EN ISO 9241-110                       |\n|  (7 Grundsätze der Dialoggestaltung)       |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Usability (DIN EN ISO 9241-11)            |\n|  Effektiv, Effizient, Zufriedenstellend    |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Accessibility (WCAG, BITV)                |\n|  Barrierefreiheit für alle Nutzergruppen   |\n+--------------------------------------------+"
+    "text": "Zusammenhang der Konzepte\n\n+--------------------------------------------+\n|  DIN EN ISO 9241-110                       |\n|  (7 Grundsätze der Dialoggestaltung)       |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Usability (DIN EN ISO 9241-11)            |\n|  Effektiv, Effizient, Zufriedenstellend    |\n+--------------------------------------------+\n\n        |\n        v\n\n+--------------------------------------------+\n|  Accessibility (WCAG, BITV)                |\n|  Barrierefreiheit für alle Nutzergruppen   |\n+--------------------------------------------+",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
     "href": "09_Software-Ergonomie.html#evaluationskriterien-in-der-praxis",
     "title": "Software-Ergonomie",
     "section": "Evaluationskriterien in der Praxis",
-    "text": "Evaluationskriterien in der Praxis\n\n\n\n\n\n\n\n\nMethode\nBeschreibung\nWann einsetzen\n\n\n\n\nHeuristische Evaluation\nExperten prüfen anhand von Regeln (z.B. Nielsen)\nFrüh im Entwicklungsprozess\n\n\nUsability-Test\nEchte Benutzer testen die Software\nNach Prototyp-Phase\n\n\nCognitive Walkthrough\nSchritt-für-Schritt-Analyse aus Benutzersicht\nEntwurfsphase\n\n\nFragebogen (SUS, UEQ)\nStandardisierte Befragung nach Nutzung\nNach Einführung / Release"
+    "text": "Evaluationskriterien in der Praxis\n\n\n\n\n\n\n\n\nMethode\nBeschreibung\nWann einsetzen\n\n\n\n\nHeuristische Evaluation\nExperten prüfen anhand von Regeln (z.B. Nielsen)\nFrüh im Entwicklungsprozess\n\n\nUsability-Test\nEchte Benutzer testen die Software\nNach Prototyp-Phase\n\n\nCognitive Walkthrough\nSchritt-für-Schritt-Analyse aus Benutzersicht\nEntwurfsphase\n\n\nFragebogen (SUS, UEQ)\nStandardisierte Befragung nach Nutzung\nNach Einführung / Release\n\n\n\n\n\nJakob Nielsen, einer der einflussreichsten Usability-Experten\n“10 Usability-Heuristiken”, 1990/1994, aktualisiert 2020; praxisbezogen, wie Checkliste",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#typische-prüfungsaspekte",
     "href": "09_Software-Ergonomie.html#typische-prüfungsaspekte",
     "title": "Software-Ergonomie",
     "section": "Typische Prüfungsaspekte",
-    "text": "Typische Prüfungsaspekte\n\nGrundsätze der DIN EN ISO 9241-110 benennen und in Szenarien erkennen\nNegativbeispiel bewerten: Welcher Grundsatz ist verletzt?\nUnterschied Usability vs. User Experience erklären\nWCAG-Prinzipien nennen können\nMaßnahmen für Barrierefreiheit benennen"
+    "text": "Typische Prüfungsaspekte\n\nGrundsätze der DIN EN ISO 9241-110 benennen und in Szenarien erkennen\nNegativbeispiel bewerten: Welcher Grundsatz ist verletzt?\nUnterschied Usability vs. User Experience erklären\nWCAG-Prinzipien nennen können\nMaßnahmen für Barrierefreiheit benennen",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#häufige-fehler",
     "href": "09_Software-Ergonomie.html#häufige-fehler",
     "title": "Software-Ergonomie",
     "section": "Häufige Fehler",
-    "text": "Häufige Fehler\n\nUsability wird mit Design verwechselt: Schön ≠ benutzbar\nBarrierefreiheit wird nur auf Sehbehinderung reduziert → betrifft auch motorische, kognitive und auditive Einschränkungen\nErwartungskonformität wird vergessen: Software funktioniert, aber anders als gewohnt → frustriert Benutzer\nIndividualisierbarkeit wird als “optional nice-to-have” abgetan → ist ein Grundsatz der Norm"
+    "text": "Häufige Fehler\n\nUsability wird mit Design verwechselt: Schön ≠ benutzbar\nBarrierefreiheit wird nur auf Sehbehinderung reduziert → betrifft auch motorische, kognitive und auditive Einschränkungen\nErwartungskonformität wird vergessen: Software funktioniert, aber anders als gewohnt → frustriert Benutzer\nIndividualisierbarkeit wird als “optional nice-to-have” abgetan → ist ein Grundsatz der Norm",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "09_Software-Ergonomie.html#section",
     "href": "09_Software-Ergonomie.html#section",
     "title": "Software-Ergonomie",
     "section": "",
-    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
+    "crumbs": [
+      "09 Software-Ergonomie"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
@@ -144,7 +257,7 @@
     "href": "07_Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down vs. Bottom-up: Vergleich",
-    "text": "Top-down vs. Bottom-up: Vergleich\n\n\n\n\n\nKriterium\n\n\n\n\nStartpunkt\n\n\nRichtung\n\n\nEignung   \n\n\nGesamtüberblick\n\n\nTestbarkeit einzelner Module\n\n\nRisiko   \n\n\nBeispiel\n\n\n\n\n\n\n\nTop-down\n\n\n\n\nGesamtsystem\n\n\nVom Grossen zum Kleinen\n\n\nNeues System, keine Vorarbeiten\n\n\nFrüh vorhanden\n\n\nSpät (erst wenn Module implementiert)\n\n\nDetail-Probleme werden spät entdeckt\n\n\nNeues ERP-System planen\n\n\n\n\n\n\n\nBottom-up\n\n\n\n\nEinzelne Bausteine\n\n\nVom Kleinen zum Grossen\n\n\nBestehende Module vorhanden\n\n\nErst spät sichtbar\n\n\nFrüh (Module einzeln testbar)\n\n\nGesamtkonzept passt evtl. nicht\n\n\nBestehende Bibliotheken integrieren"
+    "text": "Top-down vs. Bottom-up: Vergleich\n\n\n\n\n\nKriterium\n\n\n\n\nStartpunkt\n\n\nRichtung\n\n\nEignung   \n\n\nGesamtüberblick\n\n\nTestbarkeit einzelner Module\n\n\nRisiko   \n\n\nBeispiel\n\n\n\n\n\n\n\nTop-down\n\n\n\n\nGesamtsystem\n\n\nVom Großen zum Kleinen\n\n\nNeues System, keine Vorarbeiten\n\n\nFrüh vorhanden\n\n\nSpät (erst wenn Module implementiert)\n\n\nDetail-Probleme werden spät entdeckt\n\n\nNeues ERP-System planen\n\n\n\n\n\n\n\nBottom-up\n\n\n\n\nEinzelne Bausteine\n\n\nVom Kleinen zum Grossen\n\n\nBestehende Module vorhanden\n\n\nErst spät sichtbar\n\n\nFrüh (Module einzeln testbar)\n\n\nGesamtkonzept passt evtl. nicht\n\n\nBestehende Bibliotheken integrieren"
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#kombination-meet-in-the-middle",
@@ -186,14 +299,14 @@
     "href": "07_Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Kriterien für gute Module",
-    "text": "Modularisierung: Kriterien für gute Module\n\n\n\n\n\n\n\n\n\nKriterium\nGut\nSchlecht\n\n\n\n\nKohäsion\nAlle Funktionen eines Moduls gehoeren zum gleichen Thema\nEin Modul macht Login, PDF-Export und Datenbankzugriff\n\n\nKopplung\nModule kommunizieren nur über definierte Schnittstellen\nEin Modul greift direkt auf interne Variablen eines anderen Moduls zu\n\n\nGröße\nÜberschaubarer Umfang (eine klare Aufgabe)\nRiesiges Modul mit hunderten Funktionen\n\n\nNamensgebung\nSprechender Name: BenutzerAuthentifizierung\nUnklarer Name: Modul_A"
+    "text": "Modularisierung: Kriterien für gute Module\n\n\n\n\n\n\n\n\n\nKriterium\nGut\n\n\n\n\nKohäsion\nAlle Funktionen eines Moduls gehören zum gleichen Thema\n\n\nKopplung\nModule kommunizieren nur über definierte Schnittstellen\n\n\nGröße\nÜberschaubarer Umfang (eine klare Aufgabe)\n\n\nNamens-gebung\nSprechender Name: BenutzerAuthentifizierung\n\n\n\n\n\n\n\nSchlecht\n\n\n\n\nEin Modul macht Login, PDF-Export und Datenbankzugriff\n\n\nEin Modul greift direkt auf interne Variablen eines anderen Moduls zu\n\n\nRiesiges Modul mit hunderten Funktionen\n\n\nUnklarer Name:  Modul_A"
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#design-prüfungstipps",
     "href": "07_Analyse-Designverfahren.html#design-prüfungstipps",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Design: Prüfungstipps",
-    "text": "Design: Prüfungstipps\n\nSzenario lesen und Top-down oder Bottom-up empfehlen mit Begründung\nKohaesion und Kopplung definieren und bewerten\nVorteile der Modularisierung nennen (mindestens drei)\nZerlegung eines Problems in Module darstellen (Baumdiagramm)\n\n\n\n\n\n\n\n\nHäufige Fehler\nKorrektur\n\n\n\n\nTop-down und Bottom-up verwechselt\nTop-down = vom Ganzen zum Detail,  Bottom-up = vom Detail zum Ganzen\n\n\nHohe Kopplung als positiv bewertet\nHohe Kopplung = schlecht (starke Abhaengigkeit), niedrig = gut\n\n\nKohäsion mit Kopplung verwechselt\nKohäsion = innerhalb eines Moduls,  Kopplung = zwischen Modulen\n\n\nModularisierung nur als Aufteilung in Dateien verstanden\nEs geht um fachliche Trennung mit definierten Schnittstellen"
+    "text": "Design: Prüfungstipps\n\nSzenario lesen und Top-down oder Bottom-up empfehlen mit Begründung\nKohäsion und Kopplung definieren und bewerten\nVorteile der Modularisierung nennen (mindestens drei)\nZerlegung eines Problems in Module darstellen (Baumdiagramm)\n\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nTop-down und Bottom-up verwechselt\n\n\nHohe Kopplung als positiv bewertet\n\n\nKohäsion mit Kopplung verwechselt\n\n\nModularisierung nur als Aufteilung in Dateien verstanden\n\n\n\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nTop-down = vom Ganzen zum Detail,  Bottom-up = vom Detail zum Ganzen\n\n\nHohe Kopplung = schlecht (starke Abhängigkeit), niedrig = gut\n\n\nKohäsion = innerhalb eines Moduls,  Kopplung = zwischen Modulen\n\n\nEs geht um fachliche Trennung mit definierten Schnittstellen"
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#section",
@@ -1123,6 +1236,16 @@
     ]
   },
   {
+    "objectID": "04_Datenstrukturen.html#datentypen-in-sql",
+    "href": "04_Datenstrukturen.html#datentypen-in-sql",
+    "title": "Datenstrukturen",
+    "section": "Datentypen in SQL",
+    "text": "Datentypen in SQL\n\n\n\n\n\n\n\n\nDatentyp\nVerwendung\n\n\n\n\nINTEGER\nGanzzahlen\n\n\nFLOAT oder DECIMAL\nGleitkommazahlen\n\n\nVARCHAR oder CHAR\nZeichenketten: CHAR(anzahl), VARCHAR(anzahl) mit max. anzahl\n\n\nDATE, Time oder TIMESTAMP\nDatum und Uhrzeit\n\n\nBOOLEAN\nBoolsche Werte\n\n\nBINARY\nBinär-String\n\n\n\n\nWarum sind Floating-Point-Operationen in der IT problematisch?\n\n\n# Beispiel Python\n&gt;&gt;&gt; 0.3 == 0.2 + 0.1\nfalse\n\n&gt;&gt;&gt; 0.2 + 0.1\n0.30000000000000004\n\n\n\n\n\n\n\n\nDECIMAL speichert jede Dezimalstelle exakt als Ziffer -&gt; keine Rundungsfehler",
+    "crumbs": [
+      "04 Datenstrukturen"
+    ]
+  },
+  {
     "objectID": "04_Datenstrukturen.html#section",
     "href": "04_Datenstrukturen.html#section",
     "title": "Datenstrukturen",
@@ -1137,147 +1260,230 @@
     "href": "06_Softwareanforderungen.html#lernziele",
     "title": "Softwareanforderungen erfassen",
     "section": "Lernziele",
-    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielen erkennen können"
+    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielen erkennen können",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
     "href": "06_Softwareanforderungen.html#funktionale-vs.-nichtfunktionale-anforderungen",
     "title": "Softwareanforderungen erfassen",
     "section": "Funktionale vs. Nichtfunktionale Anforderungen",
-    "text": "Funktionale vs. Nichtfunktionale Anforderungen\n\n\n\n\n\nMerkmal\nFunktionale Anforderungen\n\n\n\n\nDefinition\nWAS das System tun soll   \n\n\nBeispiel\n“Benutzer kann sich einloggen”\n\n\nPrüfung\nFunktionstest\n\n\nQuelle\nFachliche Anforderungen\n\n\nDokumentation\nUse Cases, User Stories\n\n\n\n\n\n\n\nNicht-funktionale Anforderungen\n\n\n\n\nWIE GUT das System arbeiten soll\n\n\n“Login dauert max. 2 Sekunden”\n\n\nLeistungstest, Review\n\n\nQualitätsanforderungen\n\n\nQualitätsszenarien"
+    "text": "Funktionale vs. Nichtfunktionale Anforderungen\n\n\n\n\n\nMerkmal\nFunktionale Anforderungen\n\n\n\n\nDefinition\nWAS das System tun soll   \n\n\nBeispiel\n“Benutzer kann sich einloggen”\n\n\nPrüfung\nFunktionstest\n\n\nQuelle\nFachliche Anforderungen\n\n\nDokumentation\nUse Cases, User Stories\n\n\n\n\n\n\n\nNicht-funktionale Anforderungen\n\n\n\n\nWIE GUT das System arbeiten soll\n\n\n“Login dauert max. 2 Sekunden”\n\n\nLeistungstest, Review\n\n\nQualitätsanforderungen\n\n\nQualitätsszenarien",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
     "href": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
     "title": "Softwareanforderungen erfassen",
     "section": "Software-Qualitätsmerkmale: ISO 25010",
-    "text": "Software-Qualitätsmerkmale: ISO 25010\n\n\n\nNr.\nQualitätsmerkmal\nenglisch\n\n\n\n\n1\nFunktionale Eignung\nFunctional Suitability\n\n\n2\nLeistungseffizienz\nPerformance Efficiency\n\n\n3\nKompatibilität\nCompatibility\n\n\n4\nBenutzbarkeit\nUsability\n\n\n5\nZuverlässigkeit\nReliability\n\n\n6\nSicherheit\nSecurity\n\n\n7\nWartbarkeit\nMaintainability\n\n\n8\nÜbertragbarkeit\nPortability"
+    "text": "Software-Qualitätsmerkmale: ISO 25010\n\n\n\nNr.\nQualitätsmerkmal\nenglisch\n\n\n\n\n1\nFunktionale Eignung\nFunctional Suitability\n\n\n2\nLeistungseffizienz\nPerformance Efficiency\n\n\n3\nKompatibilität\nCompatibility\n\n\n4\nBenutzbarkeit\nUsability\n\n\n5\nZuverlässigkeit\nReliability\n\n\n6\nSicherheit\nSecurity\n\n\n7\nWartbarkeit\nMaintainability\n\n\n8\nÜbertragbarkeit\nPortability",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
     "href": "06_Softwareanforderungen.html#iso-25010---q1-funktionalität-functional-suitability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q1: Funktionalität (Functional Suitability)",
-    "text": "ISO 25010 - Q1: Funktionalität (Functional Suitability)\nDefinition: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nFunktionale Vollständigkeit\nAlle geforderten Funktionen vorhanden\nAlle Use Cases implementiert\n\n\nFunktionale Korrektheit\nErgebnisse sind richtig und präzise\nBerechnungen liefern korrekte Werte\n\n\nFunktionale Angemessenheit\nFunktionen unterstützen die Aufgaben\nKeine überflüssigen Features\n\n\n\nMessgrößen: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad"
+    "text": "ISO 25010 - Q1: Funktionalität (Functional Suitability)\nDefinition: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nFunktionale Vollständigkeit\nAlle geforderten Funktionen vorhanden\nAlle Use Cases implementiert\n\n\nFunktionale Korrektheit\nErgebnisse sind richtig und präzise\nBerechnungen liefern korrekte Werte\n\n\nFunktionale Angemessenheit\nFunktionen unterstützen die Aufgaben\nKeine überflüssigen Features\n\n\n\nMessgrößen: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
     "href": "06_Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q2: Effizienz (Performance Efficiency)",
-    "text": "ISO 25010 - Q2: Effizienz (Performance Efficiency)\nDefinition: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nZeitverhalten\nAntwort- und Verarbeitungszeiten\nSeitenladezeit &lt; 3 Sekunden\n\n\nRessourcenverbrauch\nCPU, RAM, Speicherplatz, Bandbreite\nMax. 512 MB RAM-Verbrauch\n\n\nKapazität\nMaximale Grenzen des Systems\n10.000 gleichzeitige Benutzer\n\n\n\nMessgrößen: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde"
+    "text": "ISO 25010 - Q2: Effizienz (Performance Efficiency)\nDefinition: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nZeitverhalten\nAntwort- und Verarbeitungszeiten\nSeitenladezeit &lt; 3 Sekunden\n\n\nRessourcenverbrauch\nCPU, RAM, Speicherplatz, Bandbreite\nMax. 512 MB RAM-Verbrauch\n\n\nKapazität\nMaximale Grenzen des Systems\n10.000 gleichzeitige Benutzer\n\n\n\nMessgrößen: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
     "href": "06_Softwareanforderungen.html#iso-25010-q3-kompatibilität-compatibility",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 – Q3: Kompatibilität (Compatibility)",
-    "text": "ISO 25010 – Q3: Kompatibilität (Compatibility)\nDefinition: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nKoexistenz\nGemeinsamer Betrieb ohne gegenseitige Beeinträchtigung\nZwei Anwendungen teilen sich CPU/RAM ohne Performance‑Einbrüche\n\n\nInteroperabilität\nFähigkeit zum Informationsaustausch und zur Nutzung der ausgetauschten Daten\nCRM kommuniziert fehlerfrei mit ERP‑System\n\n\n\nMessgrößen: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb"
+    "text": "ISO 25010 – Q3: Kompatibilität (Compatibility)\nDefinition: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nKoexistenz\nGemeinsamer Betrieb ohne gegenseitige Beeinträchtigung\nZwei Anwendungen teilen sich CPU/RAM ohne Performance‑Einbrüche\n\n\nInteroperabilität\nFähigkeit zum Informationsaustausch und zur Nutzung der ausgetauschten Daten\nCRM kommuniziert fehlerfrei mit ERP‑System\n\n\n\nMessgrößen: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
     "href": "06_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q4: Benutzbarkeit (Usability)",
-    "text": "ISO 25010 - Q4: Benutzbarkeit (Usability)\nDefinition: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nErlernbarkeit\nWie schnell kann ein neuer Benutzer das System bedienen?\nEinarbeitungszeit &lt; 1 Tag\n\n\nBedienbarkeit\nWie einfach lässt sich das System steuern?\nMax. 3 Klicks bis zur Zielfunktion\n\n\nFehlertoleranz (UI)\nWie gut wird der Benutzer vor Fehlern geschützt?\nValidierung bei Formulareingaben\n\n\nÄsthetik\nAnsprechendes, konsistentes Design\nEinheitliches Farbschema, klare Struktur\n\n\nBarrierefreiheit\nZugänglichkeit für Menschen mit Einschränkungen\nScreenreader-Kompatibilität, Kontraste\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)"
+    "text": "ISO 25010 - Q4: Benutzbarkeit (Usability)\nDefinition: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nErlernbarkeit\nWie schnell kann ein neuer Benutzer das System bedienen?\nEinarbeitungszeit &lt; 1 Tag\n\n\nBedienbarkeit\nWie einfach lässt sich das System steuern?\nMax. 3 Klicks bis zur Zielfunktion\n\n\nFehlertoleranz (UI)\nWie gut wird der Benutzer vor Fehlern geschützt?\nValidierung bei Formulareingaben\n\n\nÄsthetik\nAnsprechendes, konsistentes Design\nEinheitliches Farbschema, klare Struktur\n\n\nBarrierefreiheit\nZugänglichkeit für Menschen mit Einschränkungen\nScreenreader-Kompatibilität, Kontraste\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
     "href": "06_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)",
-    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nReife\nZuverlässigkeit im Normalbetrieb\nMTBF &gt; 1000h\n\n\nVerfügbarkeit\nSystem ist einsatzbereit wenn benötigt\n99,9% Verfügbarkeit (SLA)\n\n\nFehlertoleranz\nFunktioniert trotz Fehlern weiter\nGraceful Degradation\n\n\nWiederherstell-barkeit\nDaten und Zustand nach Ausfall wiederherstellen\nRecovery Time &lt; 5 min\n\n\n\nSchlüsselkennzahlen:\n\nMTBF = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)\nMTTR = Mean Time To Repair (Mittlere Reparaturzeit)\nVerfügbarkeit = MTBF / (MTBF + MTTR)"
+    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nReife\nZuverlässigkeit im Normalbetrieb\nMTBF &gt; 1000h\n\n\nVerfügbarkeit\nSystem ist einsatzbereit wenn benötigt\n99,9% Verfügbarkeit (SLA)\n\n\nFehlertoleranz\nFunktioniert trotz Fehlern weiter\nGraceful Degradation\n\n\nWiederherstell-barkeit\nDaten und Zustand nach Ausfall wiederherstellen\nRecovery Time &lt; 5 min\n\n\n\nSchlüsselkennzahlen:\n\nMTBF = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)\nMTTR = Mean Time To Repair (Mittlere Reparaturzeit)\nVerfügbarkeit = MTBF / (MTBF + MTTR)",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
     "href": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 – Q6: Sicherheit (Security)",
-    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nVertraulichkeit\nSchutz vor unbefugtem Zugriff\nDaten nur für autorisierte Rollen sichtbar\n\n\nIntegrität\nSchutz vor unbefugter oder unbeabsichtigter Änderung\nHash‑Prüfungen verhindern Manipulation\n\n\nNichtabstreit-barkeit\nAktionen sind eindeutig zuordenbar\nDigitale Signaturen für Transaktionen\n\n\nAuthentizität\nIdentitäten und Daten sind echt\nMFA stellt sicher, dass der Nutzer korrekt identifiziert ist\n\n\nZugriffskontrolle\nAutorisierte Nutzung von Funktionen und Daten\nRollenbasierte Berechtigungen im Backend"
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nVertraulichkeit\nSchutz vor unbefugtem Zugriff\nDaten nur für autorisierte Rollen sichtbar\n\n\nIntegrität\nSchutz vor unbefugter oder unbeabsichtigter Änderung\nHash‑Prüfungen verhindern Manipulation\n\n\nNichtabstreit-barkeit\nAktionen sind eindeutig zuordenbar\nDigitale Signaturen für Transaktionen\n\n\nAuthentizität\nIdentitäten und Daten sind echt\nMFA stellt sicher, dass der Nutzer korrekt identifiziert ist\n\n\nZugriffskontrolle\nAutorisierte Nutzung von Funktionen und Daten\nRollenbasierte Berechtigungen im Backend",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
     "href": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 – Q6: Sicherheit (Security)",
-    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition:\nGrad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.\n\nMessgrößen:\n\nAnzahl Sicherheitsvorfälle\nPen‑Test‑Ergebnisse\nAbdeckung von Sicherheitsanforderungen\nMFA‑Quote"
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition:\nGrad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.\n\nMessgrößen:\n\nAnzahl Sicherheitsvorfälle\nPen‑Test‑Ergebnisse\nAbdeckung von Sicherheitsanforderungen\nMFA‑Quote",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
     "href": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
-    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nÄnderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%"
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nÄnderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
     "href": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
-    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition:\nGrad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\nMessgrößen:\n\nZyklomatische Komplexität\nCode-Coverage\nCoupling / Cohesion-Metriken"
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition:\nGrad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\nMessgrößen:\n\nZyklomatische Komplexität\nCode-Coverage\nCoupling / Cohesion-Metriken",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
     "href": "06_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q8: Übertragbarkeit (Portability)",
-    "text": "ISO 25010 - Q8: Übertragbarkeit (Portability)\nDefinition: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nAnpassbarkeit\nAn verschiedene Umgebungen anpassbar\nKonfigurationsdateien statt Hardcoding\n\n\nInstallierbarkeit\nEinfache Installation / Deinstallation\nSetup-Wizard, Paketmanager\n\n\nAustauschbarkeit\nKann andere Software ersetzen\nStandardisierte Schnittstellen\n\n\n\nMessgrößen: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand"
+    "text": "ISO 25010 - Q8: Übertragbarkeit (Portability)\nDefinition: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nAnpassbarkeit\nAn verschiedene Umgebungen anpassbar\nKonfigurationsdateien statt Hardcoding\n\n\nInstallierbarkeit\nEinfache Installation / Deinstallation\nSetup-Wizard, Paketmanager\n\n\nAustauschbarkeit\nKann andere Software ersetzen\nStandardisierte Schnittstellen\n\n\n\nMessgrößen: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#weitere-normen",
     "href": "06_Softwareanforderungen.html#weitere-normen",
     "title": "Softwareanforderungen erfassen",
     "section": "Weitere Normen",
-    "text": "Weitere Normen\n\n\n\nNorm\nInhalt\n\n\n\n\nISO 25010\nQualitätsmodell für Softwareprodukte\n\n\nIEEE 830\nEmpfehlungen für Softwareanforderungsspezifikationen\n\n\nISO 25030\nQualitätsanforderungen\n\n\nISO 9241\nErgonomie der Mensch-System-Interaktion"
+    "text": "Weitere Normen\n\n\n\nNorm\nInhalt\n\n\n\n\nISO 25010\nQualitätsmodell für Softwareprodukte\n\n\nIEEE 830\nEmpfehlungen für Softwareanforderungsspezifikationen\n\n\nISO 25030\nQualitätsanforderungen\n\n\nISO 9241\nErgonomie der Mensch-System-Interaktion",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
     "href": "06_Softwareanforderungen.html#anforderungen-messbar-formulieren-smart",
     "title": "Softwareanforderungen erfassen",
     "section": "Anforderungen messbar formulieren: SMART",
-    "text": "Anforderungen messbar formulieren: SMART\nAnforderungen müssen messbar sein, damit sie prüfbar werden.\nSMART-Kriterien fuer Anforderungen:\n\nSpezifisch – klar und eindeutig formuliert\nMessbar – quantifizierbar mit Metriken\nAkzeptiert – vom Stakeholder abgenommen\nRealistisch – technisch umsetzbar\nTerminiert – zeitlich eingrenzbar"
+    "text": "Anforderungen messbar formulieren: SMART\nAnforderungen müssen messbar sein, damit sie prüfbar werden.\nSMART-Kriterien fuer Anforderungen:\n\nSpezifisch – klar und eindeutig formuliert\nMessbar – quantifizierbar mit Metriken\nAkzeptiert – vom Stakeholder abgenommen\nRealistisch – technisch umsetzbar\nTerminiert – zeitlich eingrenzbar",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#smart-beispiele",
     "href": "06_Softwareanforderungen.html#smart-beispiele",
     "title": "Softwareanforderungen erfassen",
     "section": "SMART: Beispiele",
-    "text": "SMART: Beispiele\n\n\n\n\n\nSchlecht (vage)\n\n\n\n\n“Das System soll schnell sein”   \n\n\n“Einfache Bedienung”   \n\n\n“Hohe Verfügbarkeit”   \n\n\n“Sicher”   \n\n\n“Wartbar”\n\n\n\n\n\n\n\nGut (messbar)\n\n\n\n\n“Die Antwortzeit beträgt max. 2 Sekunden bei 1000 Nutzern”\n\n\n“Ein neuer Benutzer kann die Kernaufgabe in &lt; 5 Minuten erledigen”\n\n\n“Verfügbarkeit &gt;= 99,9% pro Monat (max. 43 Min. Downtime)”\n\n\n“Authentifizierung per 2FA, Verschlüsselung mit AES-256”\n\n\n“Zyklomatische Komplexität pro Methode &lt; 10”"
+    "text": "SMART: Beispiele\n\n\n\n\n\nSchlecht (vage)\n\n\n\n\n“Das System soll schnell sein”   \n\n\n“Einfache Bedienung”   \n\n\n“Hohe Verfügbarkeit”   \n\n\n“Sicher”   \n\n\n“Wartbar”\n\n\n\n\n\n\n\nGut (messbar)\n\n\n\n\n“Die Antwortzeit beträgt max. 2 Sekunden bei 1000 Nutzern”\n\n\n“Ein neuer Benutzer kann die Kernaufgabe in &lt; 5 Minuten erledigen”\n\n\n“Verfügbarkeit &gt;= 99,9% pro Monat (max. 43 Min. Downtime)”\n\n\n“Authentifizierung per 2FA, Verschlüsselung mit AES-256”\n\n\n“Zyklomatische Komplexität pro Methode &lt; 10”",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#prüfungstipps",
     "href": "06_Softwareanforderungen.html#prüfungstipps",
     "title": "Softwareanforderungen erfassen",
     "section": "Prüfungstipps",
-    "text": "Prüfungstipps\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\n\n\nEffizienz und Effektivität verwechseln\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc."
+    "text": "Prüfungstipps\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nFunktionale mit nicht-funktionalen Anforderungen verwechseln\n\n\nEffizienz und Effektivität verwechseln\n\n\nWartbarkeit und Änderbarkeit gleichsetzen\n\n\nZuverlässigkeit nur als “läuft ohne Fehler” verstehen\n\n\nBenutzbarkeit mit “schönem Design” gleichsetzen\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nFunktional = WAS, Nicht-funktional = WIE GUT\n\n\nEffizienz = mit wenig Ressourcen, Effektivität = Ziel erreichen\n\n\nWartbarkeit ist der Oberbegriff (ISO 25010), Änderbarkeit ein Aspekt\n\n\nUmfasst auch Fehlertoleranz und Wiederherstellbarkeit\n\n\nUmfasst Erlernbarkeit, Bedienbarkeit, Barrierefreiheit etc.",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#was-sind-stakeholder-eines-projekts",
+    "href": "06_Softwareanforderungen.html#was-sind-stakeholder-eines-projekts",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Was sind Stakeholder eines Projekts?",
+    "text": "Was sind Stakeholder eines Projekts?\n\nProjekt-Stakeholder sind Personen oder Personengruppen, die aktiv am Projekt beteiligt oder von der Durchführung bzw. dem Ergebnis eines Projekts betroffen sind.\n\nTypische Stakeholder eines Projekts sind zum Beispiel:\n\nKundinnen und Kunden\nAuftraggebende\nMitarbeitende im Projekt\nProjektleitung\nLieferanten\n\n\nLernkarte AP2 55 2025 u-form",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#was-ist-ein-mvp-minimum-viable-product",
+    "href": "06_Softwareanforderungen.html#was-ist-ein-mvp-minimum-viable-product",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Was ist ein MVP = Minimum Viable Product?",
+    "text": "Was ist ein MVP = Minimum Viable Product?\n\n\nMVP = Minimum Viable Product (nicht Most Valuable Player …)\nGrundlegendes, funktionsfähiges Produkt oder Dienstleistung\nWird mit minimalen Funktionen / Merkmalen entwickelt\nOft in agilen Entwicklungsmethoden eingesetzt\nNicht mit Mock-up verwechseln! Mockup zeigt UI, Aussehen, Layout - ohne Interaktionsmöglichkeit\n\n\nZiele\n\n\nReaktionen und Bedürfnisse der Nutzer verstehen\nFrühzeitiges Feedback von Benutzern und Kunden\nBasis, um Produkt iterativ weiterzuentwickeln\n\n\n\nLernkarte AP2 69 2025 u-form",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#user-stories",
     "href": "06_Softwareanforderungen.html#user-stories",
     "title": "Softwareanforderungen erfassen",
     "section": "User Stories",
-    "text": "User Stories\n\nkurze, informelle Beschreibung einer Anforderung aus Benutzersicht\nwird vor allem in agilen Projekten verwendet\n\nStandardformat\n\n\nAls [Rolle] möchte ich [Funktion], damit [Nutzen].\n\n\nBeispiel\n\n\nAls Sachbearbeiter möchte ich Rechnungen nach Datum filtern,\ndamit ich offene Posten schneller finde."
+    "text": "User Stories\n\nkurze, informelle Beschreibung einer Anforderung aus Benutzersicht\nwird vor allem in agilen Projekten verwendet\n\nStandardformat\n\n\nAls [Rolle] möchte ich [Funktion], damit [Nutzen].\n\n\nBeispiel\n\n\nAls Sachbearbeiter möchte ich Rechnungen nach Datum filtern,\ndamit ich offene Posten schneller finde.",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#user-stories-1",
     "href": "06_Softwareanforderungen.html#user-stories-1",
     "title": "Softwareanforderungen erfassen",
     "section": "User Stories",
-    "text": "User Stories\nUser Stories enthalten Akzeptanzkriterien.\nDiese ersetzen nicht das Lastenheft,\nsondern ergänzen es in agilen Projekten."
+    "text": "User Stories\nUser Stories enthalten Akzeptanzkriterien.\nDiese ersetzen nicht das Lastenheft,\nsondern ergänzen es in agilen Projekten.",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#user-stories-tipps",
     "href": "06_Softwareanforderungen.html#user-stories-tipps",
     "title": "Softwareanforderungen erfassen",
     "section": "User Stories: Tipps",
-    "text": "User Stories: Tipps\nBeantworte die Fragen: WER? WAS? WOZU?\nAlternative Satzschablonen:\n\n„Um (Nutzen) als (Rolle) zu erreichen, möchte ich (Funktionalität/Ziel/Wunsch).“\n„Als (Rolle) möchte ich (was) (warum).“\n„Als (wer) (wann) (wo) möchte ich (was) (warum).“\n„Als (Persona) möchte ich (was) warum.“\n\nVgl. https://t2informatik.de/wissen-kompakt/user-story/"
+    "text": "User Stories: Tipps\nBeantworte die Fragen: WER? WAS? WOZU?\nAlternative Satzschablonen:\n\n„Um (Nutzen) als (Rolle) zu erreichen, möchte ich (Funktionalität/Ziel/Wunsch).“\n„Als (Rolle) möchte ich (was) (warum).“\n„Als (wer) (wann) (wo) möchte ich (was) (warum).“\n„Als (Persona) möchte ich (was) warum.“\n\nVgl. https://t2informatik.de/wissen-kompakt/user-story/",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "06_Softwareanforderungen.html#section",
     "href": "06_Softwareanforderungen.html#section",
     "title": "Softwareanforderungen erfassen",
     "section": "",
-    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
   },
   {
     "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#editor",

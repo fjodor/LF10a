@@ -54,8 +54,6 @@ callout-appearance: simple
 
 ## Software-Qualitätsmerkmale: ISO 25010:2023 {style="font-size: 1.9rem"}
 
-Aktuell ist ISO/IEC 25010:2023.
-
 | Nr. | Qualitätsmerkmal | englisch |
 |-----|-------------|-------------|
 | 1 | Funktionale Eignung | Functional Suitability
@@ -91,7 +89,7 @@ Das neue Merkmal **Sicherheit im Betrieb** / **Safety** ist die wichtigste struk
 :::: {.columns style="font-size: 1.7rem"}
 ::: column
 
-### Sicherheit / Security
+### Q6 Sicherheit / Security
 
 Schutz von Informationen, Daten und Systemfunktionen vor Bedrohungen wie
 
@@ -106,7 +104,7 @@ Ziel: Verhindern, dass böswillige oder unautorisierte Aktionen stattfinden.
 
 ::: column
 
-### Sicherheit im Betrieb / Safety
+### Q9 Sicherheit im Betrieb / Safety
 
 Schutz von Menschen, Umwelt und Infrastruktur vor Schäden, die durch das System entstehen könnten, z. B.:
 
@@ -160,19 +158,35 @@ Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angrei
 **Messgrößen**: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb
 
 
-## ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability) {style="font-size: 1.8rem"}
+---
+
+## ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability) {style="font-size: 1.7rem"}
 
 **Definition**: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.
 
+Untermerkmale, Teil 1:
+
 | Untermerkmal | Beschreibung | Beispiel |
-| --- | --- | --- |
-| **Erlernbarkeit (Learnability)** | Wie schnell können Nutzer das System verstehen und bedienen? | Einarbeitungszeit < 1 Tag |
-| **Bedienbarkeit (Operability)** | Wie einfach lässt sich das System steuern? | Max. 3 Schritte bis zur Zielfunktion |
-| **Schutz vor Benutzerfehlern (User error protection)** | Wie gut verhindert das System Bedienfehler? | Validierung bei Formulareingaben |
-| **Ästhetik der Benutzeroberfläche (User interface aesthetics)** | Visuelle Qualität und Konsistenz | Einheitliches Farbschema |
-| **Barrierefreiheit (Accessibility)** | Nutzbarkeit für Menschen mit Einschränkungen | Screenreader‑Kompatibilität |
-| **Kontextkonformität (Context conformity)** | Passt sich das System an Gerät, Umgebung, Situation an? | Mobile UI bei kleinem Viewport |
-| **Interaktionsrobustheit (Interaction robustness)** | Stabilität und Vorhersehbarkeit der Systemreaktionen | Konsistente Fehlermeldungen, Undo‑Funktion |
+|:----|:---------|:-----|
+| **Erlernbarkeit** | Wie schnell können Nutzer das System verstehen und bedienen? | Einarbeitungszeit < 1 Tag |
+| **Bedienbarkeit** | Wie einfach lässt sich das System steuern? | Max. 3 Schritte bis zur Zielfunktion |
+| **Schutz vor <br> Benutzerfehlern** | Wie gut verhindert das System Bedienfehler? | Validierung bei Formulareingaben |
+| **Ästhetik der Benutzeroberfläche** | Visuelle Qualität und Konsistenz | Einheitliches Farbschema |
+
+**Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit
+
+
+## ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability) {style="font-size: 1.7rem"}
+
+**Definition**: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.
+
+Untermerkmale, Teil 2:
+
+| Untermerkmal | Beschreibung | Beispiel |
+|:----|:---------|:-----|
+| **Barrierefreiheit** | Nutzbarkeit für Menschen mit Einschränkungen | Screenreader‑Kompatibilität |
+| **Kontextkonformität** | Passt sich das System an Gerät, Umgebung, Situation an? | Mobile UI bei kleinem Viewport |
+| **Interaktions-robustheit** | Stabilität und Vorhersehbarkeit der Systemreaktionen | Konsistente Fehlermeldungen, Undo‑Funktion |
 
 **Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit
 
@@ -252,7 +266,7 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 - Coupling / Cohesion-Metriken
 
 
-## ISO 25010 - Q8: Übertragbarkeit (Portability) {style="font-size: 1.9rem"}
+## ISO 25010 – Q8: Flexibilität (Flexibility) {style="font-size: 1.7rem"}
 
 **Definition**: Grad, in dem ein System effektiv und effizient an unterschiedliche Umgebungen, Plattformen oder Einsatzkontexte angepasst, installiert, ersetzt oder konfiguriert werden kann.
 
@@ -261,9 +275,9 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 | **Anpassbarkeit (Adaptability)** | Fähigkeit, sich an verschiedene technische oder organisatorische Umgebungen anzupassen | Konfigurationsdateien statt Hardcoding |
 | **Installierbarkeit (Installability)** | Aufwand und Qualität der Installation, Aktualisierung und Deinstallation | Setup‑Wizard, Paketmanager |
 | **Austauschbarkeit (Replaceability)** | Fähigkeit, andere Systeme zu ersetzen oder ersetzt zu werden | Standardisierte Schnittstellen, API‑Kompatibilität |
-| **Konfigurierbarkeit (Configurability)** *(NEU)* | Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen | Feature‑Flags, Environment‑Variablen |
+| **Konfigurierbarkeit (Configurability)** *(NEU)* | Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen | Feature‑Flags, Environment‑Variablen 
 
-**Messgrößen**:  Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration
+**Messgrößen**: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration
 
 
 ## Weitere Normen

@@ -17,7 +17,7 @@ callout-appearance: simple
 
 ## Lernziele
 
-- 9 Qualitätsmerkmale nach ISO 25010 benennen und erklären können
+- 9 Qualitätsmerkmale nach ISO 25010:2023 benennen und erklären können
 - Funktionale von nicht-funktionalen Anforderungen unterscheiden können
 - Anforderungen messbar formulieren können
 - Qualitätsmerkmale an konkreten Beispielen erkennen können
@@ -102,7 +102,7 @@ Ziel: Verhindern, dass böswillige oder unautorisierte Aktionen stattfinden.
 
 :::
 
-::: column
+::: {.column .fragment}
 
 ### Q9 Sicherheit im Betrieb / Safety
 
@@ -147,7 +147,7 @@ Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angrei
 **Messgrößen**: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde, Skalierungsverhalten unter Last
 
 
-## ISO 25010 – Q3: Kompatibilität (Compatibility) {style="font-size: 1.9rem"}
+## ISO 25010 – Q3: Kompatibilität (Compatibility) {style="font-size: 1.8rem"}
 
 **Definition**: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.
 
@@ -192,7 +192,7 @@ Untermerkmale, Teil 2:
 **Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit
 
 
-## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.7rem"}
+## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.8rem"}
 
 **Definition**: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.
 
@@ -203,6 +203,11 @@ Untermerkmale, Teil 2:
 | Fehlertoleranz | Funktioniert trotz Fehlern weiter | Graceful Degradation |
 | Widerstandsfähigkeit | Fähigkeit, Störungen zu verkraften und sich zu erholen | Recovery Time < 5 min, automatische Self‑Healing‑Mechanismen |
 
+
+## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.8rem"}
+
+**Definition**: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.
+
 **Messgrößen**:
 
 - **MTBF** = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)
@@ -211,7 +216,7 @@ Untermerkmale, Teil 2:
 - Anzahl ungeplanter Ausfälle; Recovery-Zeit
 
 
-## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.8rem"}
+## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.7rem"}
 
 **Definition**: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.
 
@@ -224,7 +229,7 @@ Untermerkmale, Teil 2:
 | Authentizität | Identitäten und Daten sind echt | MFA stellt sicher, dass der Nutzer korrekt identifiziert ist |
 
 
-## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.8rem"}
+## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.7rem"}
 
 **Definition**: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.
 
@@ -239,10 +244,10 @@ Untermerkmale, Teil 2:
 - Anzahl fehlgeschlagener Authentifizierungen
 - Audit-Log-Vollständigkeit
 - Anzahl erfolgreicher / fehlgeschlagener Zugriffsversuche
-- Vulnerabilitäts-Score (CVSS)
+- Vulnerabilitäts-Score (CVSS): Schwere von Sicherheitslücken, 0.0 bis 10.0
 
 
-## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.7rem"}
+## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.6rem"}
 
 **Definition**: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann
 
@@ -264,10 +269,16 @@ Untermerkmale, Teil 2:
 
 **Messgrößen**:
 
-- Zyklomatische Komplexität
-- Code-Coverage
-- Coupling / Cohesion-Metriken
-- Dokumentationsqualität
+Zyklomatische Komplexität, Code-Coverage, Coupling / Cohesion-Metriken, Dokumentationsqualität
+
+::: incremental
+
+- Zykomatische Komplexität: Anzahl der unabhängigen Pfade durch den Code; <br> *Wie viele verschiedene Wege kann der Code beim Ausführen nehmen?*
+- Kohäsion: niedrig - "Modul wirkt zusammengewürfelt"; hoch - "Modul macht eine Sache und macht sie gut"
+- Kopplung *(Coupling*): hoch - viele Abhängigkeiten; niedrig: Module unabhängig, klar getrennt
+
+:::
+
 
 
 ## ISO 25010 – Q8: Flexibilität (Flexibility) {style="font-size: 1.6rem"}
@@ -284,7 +295,7 @@ Untermerkmale, Teil 2:
 **Messgrößen**: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration
 
 
-## ISO 25010 – Q9: Sicherheit im Betrieb (Safety) {style="font-size: 1.8rem"}
+## ISO 25010 – Q9: Sicherheit im Betrieb (Safety) {style="font-size: 1.6rem"}
 
 **Definition**:  Grad, in dem ein System Menschen, Umwelt und Infrastruktur vor Schäden schützt, indem es Gefahren erkennt, kontrolliert, Schäden begrenzt und sichere Zustände gewährleistet.
 

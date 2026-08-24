@@ -17,7 +17,7 @@ callout-appearance: simple
 
 ## Lernziele
 
-- 9 Qualitätsmerkmale nach ISO 25010 benennen und erklären können
+- 8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können
 - Funktionale von nicht-funktionalen Anforderungen unterscheiden können
 - Anforderungen messbar formulieren können
 - Qualitätsmerkmale an konkreten Beispielen erkennen können
@@ -52,74 +52,18 @@ callout-appearance: simple
 ::::
 
 
-## Software-Qualitätsmerkmale: ISO 25010:2023 {style="font-size: 1.9rem"}
-
-Aktuell ist ISO/IEC 25010:2023.
+## Software-Qualitätsmerkmale: ISO 25010 {style="font-size: 2rem"}
 
 | Nr. | Qualitätsmerkmal | englisch |
 |-----|-------------|-------------|
 | 1 | Funktionale Eignung | Functional Suitability
 | 2 | Leistungseffizienz | Performance Efficiency
 | 3 | Kompatibilität | Compatibility
-| 4 | Interaktionsfähigkeit | Interaction capability
+| 4 | Benutzbarkeit | Usability
 | 5 | Zuverlässigkeit  | Reliability
 | 6 | Sicherheit | Security
 | 7 | Wartbarkeit | Maintainability
-| 8 | Flexibilität | Flexibility
-| 9 | Sicherheit im Betrieb| Safety
-
-::: {style="font-size: 1.6rem"}
-Neu gegenüber der 2011er-Fassung: **Sicherheit im Betrieb** als Top-Level-Kriterium; Begriff **Interaktionsfähigkeit** ersetzt **Benutzbarkeit**
-:::
-
-
-## Warum 9 statt 8 Qualitätsmerkmale?
-
-Die Norm wurde modernisiert, um aktuelle Systeme abzudecken:
-
-- Cloud-native Architekturen
-- Verteilte Systeme
-- KI‑Komponenten
-- Safety‑relevante Software (z. B. autonome Systeme)
-- Interaktive multimodale Interfaces
-
-Das neue Merkmal **Sicherheit im Betrieb** / **Safety** ist die wichtigste strukturelle Erweiterung.
-
-
-## Security vs. Safety
-
-:::: {.columns style="font-size: 1.7rem"}
-::: column
-
-### Sicherheit / Security
-
-Schutz von Informationen, Daten und Systemfunktionen vor Bedrohungen wie
-
-- unbefugtem Zugriff
-- Manipulation
-- Datenverlust
-- Angriffen (z. B. Malware, Injection, Spoofing)
-
-Ziel: Verhindern, dass böswillige oder unautorisierte Aktionen stattfinden.
-
-:::
-
-::: column
-
-### Sicherheit im Betrieb / Safety
-
-Schutz von Menschen, Umwelt und Infrastruktur vor Schäden, die durch das System entstehen könnten, z. B.:
-
-- Fehlfunktionen autonomer Fahrzeuge
-- gefährliche Maschinensteuerungen
-- medizinische Geräte
-- kritische Industrieanlagen
-- KI‑Systeme mit physischer Wirkung
-
-Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angreifer.
-
-:::
-::::
+| 8 | Übertragbarkeit | Portability
 
 
 ## ISO 25010 - Q1: Funktionalität (Functional Suitability) {style="font-size: 1.9rem"}
@@ -160,21 +104,19 @@ Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angrei
 **Messgrößen**: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb
 
 
-## ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability) {style="font-size: 1.8rem"}
+## ISO 25010 - Q4: Benutzbarkeit (Usability) {style="font-size: 1.8rem"}
 
-**Definition**: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.
+**Definition**: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.
 
 | Untermerkmal | Beschreibung | Beispiel |
-| --- | --- | --- |
-| **Erlernbarkeit (Learnability)** | Wie schnell können Nutzer das System verstehen und bedienen? | Einarbeitungszeit < 1 Tag |
-| **Bedienbarkeit (Operability)** | Wie einfach lässt sich das System steuern? | Max. 3 Schritte bis zur Zielfunktion |
-| **Schutz vor Benutzerfehlern (User error protection)** | Wie gut verhindert das System Bedienfehler? | Validierung bei Formulareingaben |
-| **Ästhetik der Benutzeroberfläche (User interface aesthetics)** | Visuelle Qualität und Konsistenz | Einheitliches Farbschema |
-| **Barrierefreiheit (Accessibility)** | Nutzbarkeit für Menschen mit Einschränkungen | Screenreader‑Kompatibilität |
-| **Kontextkonformität (Context conformity)** | Passt sich das System an Gerät, Umgebung, Situation an? | Mobile UI bei kleinem Viewport |
-| **Interaktionsrobustheit (Interaction robustness)** | Stabilität und Vorhersehbarkeit der Systemreaktionen | Konsistente Fehlermeldungen, Undo‑Funktion |
+|:-----|-------------|----------|
+| Erlernbarkeit | Wie schnell kann ein neuer Benutzer das System bedienen? | Einarbeitungszeit < 1 Tag |
+| Bedienbarkeit | Wie einfach lässt sich das System steuern? | Max. 3 Klicks bis zur Zielfunktion |
+| Fehlertoleranz (UI) | Wie gut wird der Benutzer vor Fehlern geschützt? | Validierung bei Formulareingaben |
+| Ästhetik | Ansprechendes, konsistentes Design | Einheitliches Farbschema, klare Struktur |
+| Barrierefreiheit | Zugänglichkeit für Menschen mit Einschränkungen | Screenreader-Kompatibilität, Kontraste |
 
-**Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit
+**Messgrößen**: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)
 
 
 ## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.8rem"}
@@ -254,16 +196,15 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 
 ## ISO 25010 - Q8: Übertragbarkeit (Portability) {style="font-size: 1.9rem"}
 
-**Definition**: Grad, in dem ein System effektiv und effizient an unterschiedliche Umgebungen, Plattformen oder Einsatzkontexte angepasst, installiert, ersetzt oder konfiguriert werden kann.
+**Definition**: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.
 
 | Untermerkmal | Beschreibung | Beispiel |
-| --- | --- | --- |
-| **Anpassbarkeit (Adaptability)** | Fähigkeit, sich an verschiedene technische oder organisatorische Umgebungen anzupassen | Konfigurationsdateien statt Hardcoding |
-| **Installierbarkeit (Installability)** | Aufwand und Qualität der Installation, Aktualisierung und Deinstallation | Setup‑Wizard, Paketmanager |
-| **Austauschbarkeit (Replaceability)** | Fähigkeit, andere Systeme zu ersetzen oder ersetzt zu werden | Standardisierte Schnittstellen, API‑Kompatibilität |
-| **Konfigurierbarkeit (Configurability)** *(NEU)* | Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen | Feature‑Flags, Environment‑Variablen |
+|--------------|-------------|----------|
+| Anpassbarkeit | An verschiedene Umgebungen anpassbar | Konfigurationsdateien statt Hardcoding |
+| Installierbarkeit | Einfache Installation / Deinstallation | Setup-Wizard, Paketmanager |
+| Austauschbarkeit | Kann andere Software ersetzen | Standardisierte Schnittstellen |
 
-**Messgrößen**:  Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration
+**Messgrößen**: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand
 
 
 ## Weitere Normen

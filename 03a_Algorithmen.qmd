@@ -77,7 +77,7 @@ Aufgabe wird wiederholt mit Schleifenstrukturen wie `for`, <br> `while` oder `do
   + Effizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller
   + Robustheit: keine Gefahr eines *Stack Overflow*
   + Debugging: Schleifen einfacher nachzuverfolgen
-  + Praxisnähe: in realen Systeme fast immer bevorzugt
+  + Praxisnähe: in realen Systemen fast immer bevorzugt
 
 :::
 :::

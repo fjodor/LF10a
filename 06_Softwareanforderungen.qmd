@@ -133,17 +133,18 @@ Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angrei
 **Messgrößen**: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad
 
 
-## ISO 25010 - Q2: Effizienz (Performance Efficiency) {style="font-size: 1.9rem"}
+## ISO 25010 - Q2: Effizienz (Performance Efficiency) {style="font-size: 1.8rem"}
 
-**Definition**: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.
+**Definition**: Grad, in dem ein System unter bestimmten Bedingungen angemessene Antwortzeiten, effiziente Ressourcennutzung, ausreichende Kapazität und vorhersehbare Skalierbarkeit erreicht.
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
 | Zeitverhalten | Antwort- und Verarbeitungszeiten | Seitenladezeit < 3 Sekunden |
 | Ressourcenverbrauch | CPU, RAM, Speicherplatz, Bandbreite | Max. 512 MB RAM-Verbrauch |
 | Kapazität | Maximale Grenzen des Systems | 10.000 gleichzeitige Benutzer |
+| Skalierbarkeit | Verhalten bei steigender Last; Fähigkeit, Ressourcen dynamisch zu erweitern | Auto-Scaling bei >70% CPU-Auslastung
 
-**Messgrößen**: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde
+**Messgrößen**: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde, Skalierungsverhalten unter Last
 
 
 ## ISO 25010 – Q3: Kompatibilität (Compatibility) {style="font-size: 1.9rem"}
@@ -191,42 +192,41 @@ Untermerkmale, Teil 2:
 **Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit
 
 
-## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.8rem"}
+## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.7rem"}
 
-**Definition**: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.
+**Definition**: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
 | Reife | Zuverlässigkeit im Normalbetrieb | MTBF > 1000h |
-| Verfügbarkeit | System ist einsatzbereit wenn benötigt | 99,9% Verfügbarkeit (SLA) |
+| Verfügbarkeit | System ist einsatzbereit, wenn benötigt | 99,9% Verfügbarkeit (SLA) |
 | Fehlertoleranz | Funktioniert trotz Fehlern weiter | Graceful Degradation |
-| Wiederherstell-barkeit | Daten und Zustand nach Ausfall wiederherstellen | Recovery Time < 5 min |
+| Widerstandsfähigkeit | Fähigkeit, Störungen zu verkraften und sich zu erholen | Recovery Time < 5 min, automatische Self‑Healing‑Mechanismen |
 
-**Schlüsselkennzahlen**:
+**Messgrößen**:
 
 - **MTBF** = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)
 - **MTTR** = Mean Time To Repair (Mittlere Reparaturzeit)
 - **Verfügbarkeit** = MTBF / (MTBF + MTTR)
+- Anzahl ungeplanter Ausfälle; Recovery-Zeit
 
 
 ## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.8rem"}
 
-**Definition**: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.
+**Definition**: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:----- |------------- |-----------|
 | Vertraulichkeit | Schutz vor unbefugtem Zugriff | Daten nur für autorisierte Rollen sichtbar |
 | Integrität | Schutz vor unbefugter oder unbeabsichtigter Änderung | Hash‑Prüfungen verhindern Manipulation |
 | Nichtabstreit-barkeit | Aktionen sind eindeutig zuordenbar | Digitale Signaturen für Transaktionen |
+| Verantwortlichkeit | Aktionen sind nachvollziehbar und auditierbar | Audit‑Logs, unveränderbare Log‑Streams |
 | Authentizität | Identitäten und Daten sind echt | MFA stellt sicher, dass der Nutzer korrekt identifiziert ist |
-| Zugriffskontrolle | Autorisierte Nutzung von Funktionen und Daten | Rollenbasierte Berechtigungen im Backend |
 
 
 ## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.8rem"}
 
-**Definition**:
-
-Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.
+**Definition**: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.
 
 <br>
 
@@ -236,11 +236,15 @@ Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gem
 - Pen‑Test‑Ergebnisse
 - Abdeckung von Sicherheitsanforderungen
 - MFA‑Quote
+- Anzahl fehlgeschlagener Authentifizierungen
+- Audit-Log-Vollständigkeit
+- Anzahl erfolgreicher / fehlgeschlagener Zugriffsversuche
+- Vulnerabilitäts-Score (CVSS)
 
 
-## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.8rem"}
+## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.7rem"}
 
-**Definition**: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.
+**Definition**: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
@@ -249,13 +253,12 @@ Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gem
 | Analysierbarkeit | Wie leicht kann man Fehlerursachen finden? | Aussagekräftige Logs, klarer Code |
 | Modifizierbarkeit | Wie einfach sind Änderungen umsetzbar? | Saubere Architektur, Design Patterns |
 | Testbarkeit | Wie einfach kann man Tests durchführen? | Unit-Test-Abdeckung > 80% |
+| Selbstdokumentation | System erklärt sich selbst durch klare Strukturen, Metadaten, Fehlermeldungen | API-Dokumentation, sprechende Konfigurationen
 
 
 ## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.8rem"}
 
-**Definition**:
-
-Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.
+**Definition**: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann
 
 <br>
 
@@ -264,6 +267,7 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 - Zyklomatische Komplexität
 - Code-Coverage
 - Coupling / Cohesion-Metriken
+- Dokumentationsqualität
 
 
 ## ISO 25010 – Q8: Flexibilität (Flexibility) {style="font-size: 1.6rem"}
@@ -278,6 +282,21 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 | **Konfigurierbarkeit** | Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen | Feature‑Flags, Environment‑Variablen 
 
 **Messgrößen**: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration
+
+
+## ISO 25010 – Q9: Sicherheit im Betrieb (Safety) {style="font-size: 1.8rem"}
+
+**Definition**:  Grad, in dem ein System Menschen, Umwelt und Infrastruktur vor Schäden schützt, indem es Gefahren erkennt, kontrolliert, Schäden begrenzt und sichere Zustände gewährleistet.
+
+| Untermerkmal | Beschreibung | Beispiel |
+| --- | --- | --- |
+| **Gefahrenerkennung** | Fähigkeit, potenzielle Risiken und gefährliche Zustände zu erkennen | Sensoren erkennen Hindernisse, Anomalie‑Detection |
+| **Gefahrenkontrolle** | Vermeidung oder Minimierung von Risiken | Not‑Aus‑Mechanismen, Sicherheitsabstände |
+| **Schadensbegrenzung** | Begrenzung der Auswirkungen, wenn ein Fehler auftritt | Airbags, automatische Bremsung, Rate‑Limiting |
+| **Sicherer Zustand** | Fähigkeit, das System in einen sicheren Zustand zu überführen | Fail‑Safe‑Modus, Shutdown bei kritischen Fehlern |
+
+
+**Messgrößen**: Anzahl sicherheitsrelevanter Vorfälle, Reaktionszeit auf Gefahren, Wirksamkeit von Fail‑Safe‑Mechanismen, Abdeckung sicherheitskritischer Anforderungen
 
 
 ## Weitere Normen

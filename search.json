@@ -1060,7 +1060,7 @@
     "href": "03a_Algorithmen.html#algorithmen-iterativ-vs.-rekursiv",
     "title": "Algorithmen",
     "section": "Algorithmen: iterativ vs. rekursiv",
-    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nAufgabe wird wiederholt mit Schleifenstrukturen wie for,  while oder do-while\nVorteile\n\n\nin der Regel einfacher zu verstehen\ngeringerer Speicherverbrauch\nEffizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller\nRobustheit: keine Gefahr eines Stack Overflow\nDebugging: Schleifen einfacher nachzuverfolgen\nPraxisnähe: in realen Systeme fast immer bevorzugt\n\n\n\nRekursive Vorgehensweise\n\nFunktion ruft sich selbst auf\nlöst Probleme, die “natürlich” in kleinere Teilprobleme zerlegt werden können\n\nVorteile\n\nEleganz; kann intuitiver sein, näher an der mathematischen Idee\nLesbarkeit: Struktur folgt direkt der Problemdefinition\nVerwaltungsaufwand geringer: kein explizites Schleifen-Management\n\n\n\nsiehe Lernkarte AP2 146; hier ausführlicher!",
+    "text": "Algorithmen: iterativ vs. rekursiv\n\n\nIterative Vorgehensweise\nAufgabe wird wiederholt mit Schleifenstrukturen wie for,  while oder do-while\nVorteile\n\n\nin der Regel einfacher zu verstehen\ngeringerer Speicherverbrauch\nEffizienz: kein Overhead durch wiederholte Funktionsaufrufe, läuft schneller\nRobustheit: keine Gefahr eines Stack Overflow\nDebugging: Schleifen einfacher nachzuverfolgen\nPraxisnähe: in realen Systemen fast immer bevorzugt\n\n\n\nRekursive Vorgehensweise\n\nFunktion ruft sich selbst auf\nlöst Probleme, die “natürlich” in kleinere Teilprobleme zerlegt werden können\n\nVorteile\n\nEleganz; kann intuitiver sein, näher an der mathematischen Idee\nLesbarkeit: Struktur folgt direkt der Problemdefinition\nVerwaltungsaufwand geringer: kein explizites Schleifen-Management\n\n\n\nsiehe Lernkarte AP2 146; hier ausführlicher!",
     "crumbs": [
       "03a Algorithmen"
     ]
@@ -1260,7 +1260,7 @@
     "href": "06_Softwareanforderungen.html#lernziele",
     "title": "Softwareanforderungen erfassen",
     "section": "Lernziele",
-    "text": "Lernziele\n\n8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielen erkennen können",
+    "text": "Lernziele\n\n9 Qualitätsmerkmale nach ISO 25010:2023 benennen und erklären können\nFunktionale von nicht-funktionalen Anforderungen unterscheiden können\nAnforderungen messbar formulieren können\nQualitätsmerkmale an konkreten Beispielen erkennen können",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1276,11 +1276,31 @@
     ]
   },
   {
-    "objectID": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
-    "href": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-25010",
+    "objectID": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-250102023",
+    "href": "06_Softwareanforderungen.html#software-qualitätsmerkmale-iso-250102023",
     "title": "Softwareanforderungen erfassen",
-    "section": "Software-Qualitätsmerkmale: ISO 25010",
-    "text": "Software-Qualitätsmerkmale: ISO 25010\n\n\n\nNr.\nQualitätsmerkmal\nenglisch\n\n\n\n\n1\nFunktionale Eignung\nFunctional Suitability\n\n\n2\nLeistungseffizienz\nPerformance Efficiency\n\n\n3\nKompatibilität\nCompatibility\n\n\n4\nBenutzbarkeit\nUsability\n\n\n5\nZuverlässigkeit\nReliability\n\n\n6\nSicherheit\nSecurity\n\n\n7\nWartbarkeit\nMaintainability\n\n\n8\nÜbertragbarkeit\nPortability",
+    "section": "Software-Qualitätsmerkmale: ISO 25010:2023",
+    "text": "Software-Qualitätsmerkmale: ISO 25010:2023\n\n\n\nNr.\nQualitätsmerkmal\nenglisch\n\n\n\n\n1\nFunktionale Eignung\nFunctional Suitability\n\n\n2\nLeistungseffizienz\nPerformance Efficiency\n\n\n3\nKompatibilität\nCompatibility\n\n\n4\nInteraktionsfähigkeit\nInteraction capability\n\n\n5\nZuverlässigkeit\nReliability\n\n\n6\nSicherheit\nSecurity\n\n\n7\nWartbarkeit\nMaintainability\n\n\n8\nFlexibilität\nFlexibility\n\n\n9\nSicherheit im Betrieb\nSafety\n\n\n\n\nNeu gegenüber der 2011er-Fassung: Sicherheit im Betrieb als Top-Level-Kriterium; Begriff Interaktionsfähigkeit ersetzt Benutzbarkeit",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#warum-9-statt-8-qualitätsmerkmale",
+    "href": "06_Softwareanforderungen.html#warum-9-statt-8-qualitätsmerkmale",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Warum 9 statt 8 Qualitätsmerkmale?",
+    "text": "Warum 9 statt 8 Qualitätsmerkmale?\nDie Norm wurde modernisiert, um aktuelle Systeme abzudecken:\n\nCloud-native Architekturen\nVerteilte Systeme\nKI‑Komponenten\nSafety‑relevante Software (z. B. autonome Systeme)\nInteraktive multimodale Interfaces\n\nDas neue Merkmal Sicherheit im Betrieb / Safety ist die wichtigste strukturelle Erweiterung.",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#security-vs.-safety",
+    "href": "06_Softwareanforderungen.html#security-vs.-safety",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Security vs. Safety",
+    "text": "Security vs. Safety\n\n\nQ6 Sicherheit / Security\nSchutz von Informationen, Daten und Systemfunktionen vor Bedrohungen wie\n\nunbefugtem Zugriff\nManipulation\nDatenverlust\nAngriffen (z. B. Malware, Injection, Spoofing)\n\nZiel: Verhindern, dass böswillige oder unautorisierte Aktionen stattfinden.\n\nQ9 Sicherheit im Betrieb / Safety\nSchutz von Menschen, Umwelt und Infrastruktur vor Schäden, die durch das System entstehen könnten, z. B.:\n\nFehlfunktionen autonomer Fahrzeuge\ngefährliche Maschinensteuerungen\nmedizinische Geräte\nkritische Industrieanlagen\nKI‑Systeme mit physischer Wirkung\n\nZiel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angreifer.",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1300,7 +1320,7 @@
     "href": "06_Softwareanforderungen.html#iso-25010---q2-effizienz-performance-efficiency",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q2: Effizienz (Performance Efficiency)",
-    "text": "ISO 25010 - Q2: Effizienz (Performance Efficiency)\nDefinition: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nZeitverhalten\nAntwort- und Verarbeitungszeiten\nSeitenladezeit &lt; 3 Sekunden\n\n\nRessourcenverbrauch\nCPU, RAM, Speicherplatz, Bandbreite\nMax. 512 MB RAM-Verbrauch\n\n\nKapazität\nMaximale Grenzen des Systems\n10.000 gleichzeitige Benutzer\n\n\n\nMessgrößen: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde",
+    "text": "ISO 25010 - Q2: Effizienz (Performance Efficiency)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen angemessene Antwortzeiten, effiziente Ressourcennutzung, ausreichende Kapazität und vorhersehbare Skalierbarkeit erreicht.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nZeitverhalten\nAntwort- und Verarbeitungszeiten\nSeitenladezeit &lt; 3 Sekunden\n\n\nRessourcenverbrauch\nCPU, RAM, Speicherplatz, Bandbreite\nMax. 512 MB RAM-Verbrauch\n\n\nKapazität\nMaximale Grenzen des Systems\n10.000 gleichzeitige Benutzer\n\n\nSkalierbarkeit\nVerhalten bei steigender Last; Fähigkeit, Ressourcen dynamisch zu erweitern\nAuto-Scaling bei &gt;70% CPU-Auslastung\n\n\n\nMessgrößen: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde, Skalierungsverhalten unter Last",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1316,11 +1336,21 @@
     ]
   },
   {
-    "objectID": "06_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
-    "href": "06_Softwareanforderungen.html#iso-25010---q4-benutzbarkeit-usability",
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q4-interaktionsfähigkeit-interaction-capability",
+    "href": "06_Softwareanforderungen.html#iso-25010---q4-interaktionsfähigkeit-interaction-capability",
     "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q4: Benutzbarkeit (Usability)",
-    "text": "ISO 25010 - Q4: Benutzbarkeit (Usability)\nDefinition: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nErlernbarkeit\nWie schnell kann ein neuer Benutzer das System bedienen?\nEinarbeitungszeit &lt; 1 Tag\n\n\nBedienbarkeit\nWie einfach lässt sich das System steuern?\nMax. 3 Klicks bis zur Zielfunktion\n\n\nFehlertoleranz (UI)\nWie gut wird der Benutzer vor Fehlern geschützt?\nValidierung bei Formulareingaben\n\n\nÄsthetik\nAnsprechendes, konsistentes Design\nEinheitliches Farbschema, klare Struktur\n\n\nBarrierefreiheit\nZugänglichkeit für Menschen mit Einschränkungen\nScreenreader-Kompatibilität, Kontraste\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)",
+    "section": "ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability)",
+    "text": "ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability)\nDefinition: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.\nUntermerkmale, Teil 1:\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nErlernbarkeit\nWie schnell können Nutzer das System verstehen und bedienen?\nEinarbeitungszeit &lt; 1 Tag\n\n\nBedienbarkeit\nWie einfach lässt sich das System steuern?\nMax. 3 Schritte bis zur Zielfunktion\n\n\nSchutz vor  Benutzerfehlern\nWie gut verhindert das System Bedienfehler?\nValidierung bei Formulareingaben\n\n\nÄsthetik der Benutzeroberfläche\nVisuelle Qualität und Konsistenz\nEinheitliches Farbschema\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q4-interaktionsfähigkeit-interaction-capability-1",
+    "href": "06_Softwareanforderungen.html#iso-25010---q4-interaktionsfähigkeit-interaction-capability-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability)",
+    "text": "ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability)\nDefinition: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.\nUntermerkmale, Teil 2:\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nBarrierefreiheit\nNutzbarkeit für Menschen mit Einschränkungen\nScreenreader‑Kompatibilität\n\n\nKontextkonformität\nPasst sich das System an Gerät, Umgebung, Situation an?\nMobile UI bei kleinem Viewport\n\n\nInteraktions-robustheit\nStabilität und Vorhersehbarkeit der Systemreaktionen\nKonsistente Fehlermeldungen, Undo‑Funktion\n\n\n\nMessgrößen: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1330,7 +1360,17 @@
     "href": "06_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)",
-    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nReife\nZuverlässigkeit im Normalbetrieb\nMTBF &gt; 1000h\n\n\nVerfügbarkeit\nSystem ist einsatzbereit wenn benötigt\n99,9% Verfügbarkeit (SLA)\n\n\nFehlertoleranz\nFunktioniert trotz Fehlern weiter\nGraceful Degradation\n\n\nWiederherstell-barkeit\nDaten und Zustand nach Ausfall wiederherstellen\nRecovery Time &lt; 5 min\n\n\n\nSchlüsselkennzahlen:\n\nMTBF = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)\nMTTR = Mean Time To Repair (Mittlere Reparaturzeit)\nVerfügbarkeit = MTBF / (MTBF + MTTR)",
+    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nReife\nZuverlässigkeit im Normalbetrieb\nMTBF &gt; 1000h\n\n\nVerfügbarkeit\nSystem ist einsatzbereit, wenn benötigt\n99,9% Verfügbarkeit (SLA)\n\n\nFehlertoleranz\nFunktioniert trotz Fehlern weiter\nGraceful Degradation\n\n\nWiderstandsfähigkeit\nFähigkeit, Störungen zu verkraften und sich zu erholen\nRecovery Time &lt; 5 min, automatische Self‑Healing‑Mechanismen",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability-1",
+    "href": "06_Softwareanforderungen.html#iso-25010---q5-zuverlässigkeit-reliability-1",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)",
+    "text": "ISO 25010 - Q5: Zuverlässigkeit (Reliability)\nDefinition: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.\nMessgrößen:\n\nMTBF = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)\nMTTR = Mean Time To Repair (Mittlere Reparaturzeit)\nVerfügbarkeit = MTBF / (MTBF + MTTR)\nAnzahl ungeplanter Ausfälle; Recovery-Zeit",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1340,7 +1380,7 @@
     "href": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 – Q6: Sicherheit (Security)",
-    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nVertraulichkeit\nSchutz vor unbefugtem Zugriff\nDaten nur für autorisierte Rollen sichtbar\n\n\nIntegrität\nSchutz vor unbefugter oder unbeabsichtigter Änderung\nHash‑Prüfungen verhindern Manipulation\n\n\nNichtabstreit-barkeit\nAktionen sind eindeutig zuordenbar\nDigitale Signaturen für Transaktionen\n\n\nAuthentizität\nIdentitäten und Daten sind echt\nMFA stellt sicher, dass der Nutzer korrekt identifiziert ist\n\n\nZugriffskontrolle\nAutorisierte Nutzung von Funktionen und Daten\nRollenbasierte Berechtigungen im Backend",
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nVertraulichkeit\nSchutz vor unbefugtem Zugriff\nDaten nur für autorisierte Rollen sichtbar\n\n\nIntegrität\nSchutz vor unbefugter oder unbeabsichtigter Änderung\nHash‑Prüfungen verhindern Manipulation\n\n\nNichtabstreit-barkeit\nAktionen sind eindeutig zuordenbar\nDigitale Signaturen für Transaktionen\n\n\nVerantwortlichkeit\nAktionen sind nachvollziehbar und auditierbar\nAudit‑Logs, unveränderbare Log‑Streams\n\n\nAuthentizität\nIdentitäten und Daten sind echt\nMFA stellt sicher, dass der Nutzer korrekt identifiziert ist",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1350,7 +1390,7 @@
     "href": "06_Softwareanforderungen.html#iso-25010-q6-sicherheit-security-1",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 – Q6: Sicherheit (Security)",
-    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition:\nGrad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.\n\nMessgrößen:\n\nAnzahl Sicherheitsvorfälle\nPen‑Test‑Ergebnisse\nAbdeckung von Sicherheitsanforderungen\nMFA‑Quote",
+    "text": "ISO 25010 – Q6: Sicherheit (Security)\nDefinition: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.\n\nMessgrößen:\n\nAnzahl Sicherheitsvorfälle\nPen‑Test‑Ergebnisse\nAbdeckung von Sicherheitsanforderungen\nMFA‑Quote\nAnzahl fehlgeschlagener Authentifizierungen\nAudit-Log-Vollständigkeit\nAnzahl erfolgreicher / fehlgeschlagener Zugriffsversuche\nVulnerabilitäts-Score (CVSS): Schwere von Sicherheitslücken, 0.0 bis 10.0",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1360,7 +1400,7 @@
     "href": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
-    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nÄnderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%",
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nModularität\nÄnderung einer Komponente hat minimale Auswirkung\nLose Kopplung zwischen Modulen\n\n\nWiederverwendbarkeit\nKomponenten können in anderen Systemen genutzt werden\nBibliotheken, Microservices\n\n\nAnalysierbarkeit\nWie leicht kann man Fehlerursachen finden?\nAussagekräftige Logs, klarer Code\n\n\nModifizierbarkeit\nWie einfach sind Änderungen umsetzbar?\nSaubere Architektur, Design Patterns\n\n\nTestbarkeit\nWie einfach kann man Tests durchführen?\nUnit-Test-Abdeckung &gt; 80%\n\n\nSelbstdokumentation\nSystem erklärt sich selbst durch klare Strukturen, Metadaten, Fehlermeldungen\nAPI-Dokumentation, sprechende Konfigurationen",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
@@ -1370,17 +1410,27 @@
     "href": "06_Softwareanforderungen.html#iso-25010---q7-wartbarkeit-maintainability-1",
     "title": "Softwareanforderungen erfassen",
     "section": "ISO 25010 - Q7: Wartbarkeit (Maintainability)",
-    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition:\nGrad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.\n\nMessgrößen:\n\nZyklomatische Komplexität\nCode-Coverage\nCoupling / Cohesion-Metriken",
+    "text": "ISO 25010 - Q7: Wartbarkeit (Maintainability)\nDefinition: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann\n\nMessgrößen:\nZyklomatische Komplexität, Code-Coverage, Coupling / Cohesion-Metriken, Dokumentationsqualität\n\nZykomatische Komplexität: Anzahl der unabhängigen Pfade durch den Code;  Wie viele verschiedene Wege kann der Code beim Ausführen nehmen?\nKohäsion: niedrig - “Modul wirkt zusammengewürfelt”; hoch - “Modul macht eine Sache und macht sie gut”\nKopplung (Coupling): hoch - viele Abhängigkeiten; niedrig: Module unabhängig, klar getrennt",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]
   },
   {
-    "objectID": "06_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
-    "href": "06_Softwareanforderungen.html#iso-25010---q8-übertragbarkeit-portability",
+    "objectID": "06_Softwareanforderungen.html#iso-25010-q8-flexibilität-flexibility",
+    "href": "06_Softwareanforderungen.html#iso-25010-q8-flexibilität-flexibility",
     "title": "Softwareanforderungen erfassen",
-    "section": "ISO 25010 - Q8: Übertragbarkeit (Portability)",
-    "text": "ISO 25010 - Q8: Übertragbarkeit (Portability)\nDefinition: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nAnpassbarkeit\nAn verschiedene Umgebungen anpassbar\nKonfigurationsdateien statt Hardcoding\n\n\nInstallierbarkeit\nEinfache Installation / Deinstallation\nSetup-Wizard, Paketmanager\n\n\nAustauschbarkeit\nKann andere Software ersetzen\nStandardisierte Schnittstellen\n\n\n\nMessgrößen: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand",
+    "section": "ISO 25010 – Q8: Flexibilität (Flexibility)",
+    "text": "ISO 25010 – Q8: Flexibilität (Flexibility)\nDefinition: Grad, in dem ein System effektiv und effizient an unterschiedliche Umgebungen, Plattformen oder Einsatzkontexte angepasst, installiert, ersetzt oder konfiguriert werden kann.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nAnpassbarkeit\nFähigkeit, sich an verschiedene technische oder organisatorische Umgebungen anzupassen\nKonfigurationsdateien statt Hardcoding\n\n\nInstallierbarkeit\nAufwand und Qualität der Installation, Aktualisierung und Deinstallation\nSetup‑Wizard, Paketmanager\n\n\nAustauschbarkeit\nFähigkeit, andere Systeme zu ersetzen oder ersetzt zu werden\nStandardisierte Schnittstellen, API‑Kompatibilität\n\n\nKonfigurierbarkeit\nMöglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen\nFeature‑Flags, Environment‑Variablen\n\n\n\nMessgrößen: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#iso-25010-q9-sicherheit-im-betrieb-safety",
+    "href": "06_Softwareanforderungen.html#iso-25010-q9-sicherheit-im-betrieb-safety",
+    "title": "Softwareanforderungen erfassen",
+    "section": "ISO 25010 – Q9: Sicherheit im Betrieb (Safety)",
+    "text": "ISO 25010 – Q9: Sicherheit im Betrieb (Safety)\nDefinition: Grad, in dem ein System Menschen, Umwelt und Infrastruktur vor Schäden schützt, indem es Gefahren erkennt, kontrolliert, Schäden begrenzt und sichere Zustände gewährleistet.\n\n\n\n\n\n\n\n\nUntermerkmal\nBeschreibung\nBeispiel\n\n\n\n\nGefahrenerkennung\nFähigkeit, potenzielle Risiken und gefährliche Zustände zu erkennen\nSensoren erkennen Hindernisse, Anomalie‑Detection\n\n\nGefahrenkontrolle\nVermeidung oder Minimierung von Risiken\nNot‑Aus‑Mechanismen, Sicherheitsabstände\n\n\nSchadensbegrenzung\nBegrenzung der Auswirkungen, wenn ein Fehler auftritt\nAirbags, automatische Bremsung, Rate‑Limiting\n\n\nSicherer Zustand\nFähigkeit, das System in einen sicheren Zustand zu überführen\nFail‑Safe‑Modus, Shutdown bei kritischen Fehlern\n\n\n\nMessgrößen: Anzahl sicherheitsrelevanter Vorfälle, Reaktionszeit auf Gefahren, Wirksamkeit von Fail‑Safe‑Mechanismen, Abdeckung sicherheitskritischer Anforderungen",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]

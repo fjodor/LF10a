@@ -999,7 +999,7 @@ margin-right: 0; }
 <section id="lernziele" class="slide level2">
 <h2>Lernziele</h2>
 <ul>
-<li>8 Qualitätsmerkmale nach ISO 25010 benennen und erklären können</li>
+<li>9 Qualitätsmerkmale nach ISO 25010:2023 benennen und erklären können</li>
 <li>Funktionale von nicht-funktionalen Anforderungen unterscheiden können</li>
 <li>Anforderungen messbar formulieren können</li>
 <li>Qualitätsmerkmale an konkreten Beispielen erkennen können</li>
@@ -1066,8 +1066,8 @@ margin-right: 0; }
 </table>
 </div></div>
 </section>
-<section id="software-qualitätsmerkmale-iso-25010" class="slide level2" style="font-size: 2rem">
-<h2>Software-Qualitätsmerkmale: ISO 25010</h2>
+<section id="software-qualitätsmerkmale-iso-250102023" class="slide level2" style="font-size: 1.9rem">
+<h2>Software-Qualitätsmerkmale: ISO 25010:2023</h2>
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -1094,8 +1094,8 @@ margin-right: 0; }
 </tr>
 <tr class="even">
 <td>4</td>
-<td>Benutzbarkeit</td>
-<td>Usability</td>
+<td>Interaktionsfähigkeit</td>
+<td>Interaction capability</td>
 </tr>
 <tr class="odd">
 <td>5</td>
@@ -1114,11 +1114,57 @@ margin-right: 0; }
 </tr>
 <tr class="even">
 <td>8</td>
-<td>Übertragbarkeit</td>
-<td>Portability</td>
+<td>Flexibilität</td>
+<td>Flexibility</td>
+</tr>
+<tr class="odd">
+<td>9</td>
+<td>Sicherheit im Betrieb</td>
+<td>Safety</td>
 </tr>
 </tbody>
 </table>
+<div style="font-size: 1.6rem">
+<p>Neu gegenüber der 2011er-Fassung: <strong>Sicherheit im Betrieb</strong> als Top-Level-Kriterium; Begriff <strong>Interaktionsfähigkeit</strong> ersetzt <strong>Benutzbarkeit</strong></p>
+</div>
+</section>
+<section id="warum-9-statt-8-qualitätsmerkmale" class="slide level2">
+<h2>Warum 9 statt 8 Qualitätsmerkmale?</h2>
+<p>Die Norm wurde modernisiert, um aktuelle Systeme abzudecken:</p>
+<ul>
+<li>Cloud-native Architekturen</li>
+<li>Verteilte Systeme</li>
+<li>KI‑Komponenten</li>
+<li>Safety‑relevante Software (z. B. autonome Systeme)</li>
+<li>Interaktive multimodale Interfaces</li>
+</ul>
+<p>Das neue Merkmal <strong>Sicherheit im Betrieb</strong> / <strong>Safety</strong> ist die wichtigste strukturelle Erweiterung.</p>
+</section>
+<section id="security-vs.-safety" class="slide level2">
+<h2>Security vs. Safety</h2>
+<div class="columns" style="font-size: 1.7rem">
+<div class="column">
+<h3 id="q6-sicherheit-security">Q6 Sicherheit / Security</h3>
+<p>Schutz von Informationen, Daten und Systemfunktionen vor Bedrohungen wie</p>
+<ul>
+<li>unbefugtem Zugriff</li>
+<li>Manipulation</li>
+<li>Datenverlust</li>
+<li>Angriffen (z. B. Malware, Injection, Spoofing)</li>
+</ul>
+<p>Ziel: Verhindern, dass böswillige oder unautorisierte Aktionen stattfinden.</p>
+</div><div class="column fragment">
+<h3 id="q9-sicherheit-im-betrieb-safety">Q9 Sicherheit im Betrieb / Safety</h3>
+<p>Schutz von Menschen, Umwelt und Infrastruktur vor Schäden, die durch das System entstehen könnten, z. B.:</p>
+<ul>
+<li>Fehlfunktionen autonomer Fahrzeuge</li>
+<li>gefährliche Maschinensteuerungen</li>
+<li>medizinische Geräte</li>
+<li>kritische Industrieanlagen</li>
+<li>KI‑Systeme mit physischer Wirkung</li>
+</ul>
+<p>Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angreifer.</p>
+</div></div>
 </section>
 <section id="iso-25010---q1-funktionalität-functional-suitability" class="slide level2" style="font-size: 1.9rem">
 <h2>ISO 25010 - Q1: Funktionalität (Functional Suitability)</h2>
@@ -1156,9 +1202,9 @@ margin-right: 0; }
 </table>
 <p><strong>Messgrößen</strong>: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad</p>
 </section>
-<section id="iso-25010---q2-effizienz-performance-efficiency" class="slide level2" style="font-size: 1.9rem">
+<section id="iso-25010---q2-effizienz-performance-efficiency" class="slide level2" style="font-size: 1.8rem">
 <h2>ISO 25010 - Q2: Effizienz (Performance Efficiency)</h2>
-<p><strong>Definition</strong>: Leistung im Verhältnis zu den eingesetzten Ressourcen unter bestimmten Bedingungen.</p>
+<p><strong>Definition</strong>: Grad, in dem ein System unter bestimmten Bedingungen angemessene Antwortzeiten, effiziente Ressourcennutzung, ausreichende Kapazität und vorhersehbare Skalierbarkeit erreicht.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 20%">
@@ -1188,11 +1234,16 @@ margin-right: 0; }
 <td>Maximale Grenzen des Systems</td>
 <td>10.000 gleichzeitige Benutzer</td>
 </tr>
+<tr class="even">
+<td style="text-align: left;">Skalierbarkeit</td>
+<td>Verhalten bei steigender Last; Fähigkeit, Ressourcen dynamisch zu erweitern</td>
+<td>Auto-Scaling bei &gt;70% CPU-Auslastung</td>
+</tr>
 </tbody>
 </table>
-<p><strong>Messgrößen</strong>: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde</p>
+<p><strong>Messgrößen</strong>: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde, Skalierungsverhalten unter Last</p>
 </section>
-<section id="iso-25010-q3-kompatibilität-compatibility" class="slide level2" style="font-size: 1.9rem">
+<section id="iso-25010-q3-kompatibilität-compatibility" class="slide level2" style="font-size: 1.8rem">
 <h2>ISO 25010 – Q3: Kompatibilität (Compatibility)</h2>
 <p><strong>Definition</strong>: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.</p>
 <table class="caption-top">
@@ -1223,55 +1274,88 @@ margin-right: 0; }
 </table>
 <p><strong>Messgrößen</strong>: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb</p>
 </section>
-<section id="iso-25010---q4-benutzbarkeit-usability" class="slide level2" style="font-size: 1.8rem">
-<h2>ISO 25010 - Q4: Benutzbarkeit (Usability)</h2>
-<p><strong>Definition</strong>: Grad, in dem ein Produkt durch bestimmte Benutzer effektiv, effizient und zufriedenstellend genutzt werden kann.</p>
-<table class="caption-top">
+<section id="iso-25010---q4-interaktionsfähigkeit-interaction-capability" class="slide level2" style="font-size: 1.7rem">
+<h2>ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability)</h2>
+<p><strong>Definition</strong>: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.</p>
+<p>Untermerkmale, Teil 1:</p>
+<table class="caption-top" style="width:100%;">
 <colgroup>
-<col style="width: 20%">
-<col style="width: 44%">
-<col style="width: 34%">
+<col style="width: 23%">
+<col style="width: 47%">
+<col style="width: 28%">
 </colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Untermerkmal</th>
-<th>Beschreibung</th>
-<th>Beispiel</th>
+<th style="text-align: left;">Beschreibung</th>
+<th style="text-align: left;">Beispiel</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">Erlernbarkeit</td>
-<td>Wie schnell kann ein neuer Benutzer das System bedienen?</td>
-<td>Einarbeitungszeit &lt; 1 Tag</td>
+<td style="text-align: left;"><strong>Erlernbarkeit</strong></td>
+<td style="text-align: left;">Wie schnell können Nutzer das System verstehen und bedienen?</td>
+<td style="text-align: left;">Einarbeitungszeit &lt; 1 Tag</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Bedienbarkeit</td>
-<td>Wie einfach lässt sich das System steuern?</td>
-<td>Max. 3 Klicks bis zur Zielfunktion</td>
+<td style="text-align: left;"><strong>Bedienbarkeit</strong></td>
+<td style="text-align: left;">Wie einfach lässt sich das System steuern?</td>
+<td style="text-align: left;">Max. 3 Schritte bis zur Zielfunktion</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">Fehlertoleranz (UI)</td>
-<td>Wie gut wird der Benutzer vor Fehlern geschützt?</td>
-<td>Validierung bei Formulareingaben</td>
+<td style="text-align: left;"><strong>Schutz vor <br> Benutzerfehlern</strong></td>
+<td style="text-align: left;">Wie gut verhindert das System Bedienfehler?</td>
+<td style="text-align: left;">Validierung bei Formulareingaben</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Ästhetik</td>
-<td>Ansprechendes, konsistentes Design</td>
-<td>Einheitliches Farbschema, klare Struktur</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">Barrierefreiheit</td>
-<td>Zugänglichkeit für Menschen mit Einschränkungen</td>
-<td>Screenreader-Kompatibilität, Kontraste</td>
+<td style="text-align: left;"><strong>Ästhetik der Benutzeroberfläche</strong></td>
+<td style="text-align: left;">Visuelle Qualität und Konsistenz</td>
+<td style="text-align: left;">Einheitliches Farbschema</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Messgrößen</strong>: Aufgabenabschlussrate, Fehlerrate bei Bedienung, Zufriedenheitsbefragung (SUS-Score)</p>
+<p><strong>Messgrößen</strong>: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit</p>
+</section>
+<section id="iso-25010---q4-interaktionsfähigkeit-interaction-capability-1" class="slide level2" style="font-size: 1.7rem">
+<h2>ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability)</h2>
+<p><strong>Definition</strong>: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.</p>
+<p>Untermerkmale, Teil 2:</p>
+<table class="caption-top" style="width:100%;">
+<colgroup>
+<col style="width: 23%">
+<col style="width: 47%">
+<col style="width: 28%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Untermerkmal</th>
+<th style="text-align: left;">Beschreibung</th>
+<th style="text-align: left;">Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Barrierefreiheit</strong></td>
+<td style="text-align: left;">Nutzbarkeit für Menschen mit Einschränkungen</td>
+<td style="text-align: left;">Screenreader‑Kompatibilität</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Kontextkonformität</strong></td>
+<td style="text-align: left;">Passt sich das System an Gerät, Umgebung, Situation an?</td>
+<td style="text-align: left;">Mobile UI bei kleinem Viewport</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Interaktions-robustheit</strong></td>
+<td style="text-align: left;">Stabilität und Vorhersehbarkeit der Systemreaktionen</td>
+<td style="text-align: left;">Konsistente Fehlermeldungen, Undo‑Funktion</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Messgrößen</strong>: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit</p>
 </section>
 <section id="iso-25010---q5-zuverlässigkeit-reliability" class="slide level2" style="font-size: 1.8rem">
 <h2>ISO 25010 - Q5: Zuverlässigkeit (Reliability)</h2>
-<p><strong>Definition</strong>: Grad, in dem ein System unter bestimmten Bedingungen für einen bestimmten Zeitraum funktioniert.</p>
+<p><strong>Definition</strong>: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 20%">
@@ -1293,7 +1377,7 @@ margin-right: 0; }
 </tr>
 <tr class="even">
 <td style="text-align: left;">Verfügbarkeit</td>
-<td>System ist einsatzbereit wenn benötigt</td>
+<td>System ist einsatzbereit, wenn benötigt</td>
 <td>99,9% Verfügbarkeit (SLA)</td>
 </tr>
 <tr class="odd">
@@ -1302,22 +1386,27 @@ margin-right: 0; }
 <td>Graceful Degradation</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">Wiederherstell-barkeit</td>
-<td>Daten und Zustand nach Ausfall wiederherstellen</td>
-<td>Recovery Time &lt; 5 min</td>
+<td style="text-align: left;">Widerstandsfähigkeit</td>
+<td>Fähigkeit, Störungen zu verkraften und sich zu erholen</td>
+<td>Recovery Time &lt; 5 min, automatische Self‑Healing‑Mechanismen</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Schlüsselkennzahlen</strong>:</p>
+</section>
+<section id="iso-25010---q5-zuverlässigkeit-reliability-1" class="slide level2" style="font-size: 1.8rem">
+<h2>ISO 25010 - Q5: Zuverlässigkeit (Reliability)</h2>
+<p><strong>Definition</strong>: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.</p>
+<p><strong>Messgrößen</strong>:</p>
 <ul>
 <li><strong>MTBF</strong> = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)</li>
 <li><strong>MTTR</strong> = Mean Time To Repair (Mittlere Reparaturzeit)</li>
 <li><strong>Verfügbarkeit</strong> = MTBF / (MTBF + MTTR)</li>
+<li>Anzahl ungeplanter Ausfälle; Recovery-Zeit</li>
 </ul>
 </section>
-<section id="iso-25010-q6-sicherheit-security" class="slide level2" style="font-size: 1.8rem">
+<section id="iso-25010-q6-sicherheit-security" class="slide level2" style="font-size: 1.7rem">
 <h2>ISO 25010 – Q6: Sicherheit (Security)</h2>
-<p><strong>Definition</strong>: Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff gemäß Autorisierungslevel erfolgt.</p>
+<p><strong>Definition</strong>: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 20%">
@@ -1348,22 +1437,21 @@ margin-right: 0; }
 <td>Digitale Signaturen für Transaktionen</td>
 </tr>
 <tr class="even">
+<td style="text-align: left;">Verantwortlichkeit</td>
+<td>Aktionen sind nachvollziehbar und auditierbar</td>
+<td>Audit‑Logs, unveränderbare Log‑Streams</td>
+</tr>
+<tr class="odd">
 <td style="text-align: left;">Authentizität</td>
 <td>Identitäten und Daten sind echt</td>
 <td>MFA stellt sicher, dass der Nutzer korrekt identifiziert ist</td>
 </tr>
-<tr class="odd">
-<td style="text-align: left;">Zugriffskontrolle</td>
-<td>Autorisierte Nutzung von Funktionen und Daten</td>
-<td>Rollenbasierte Berechtigungen im Backend</td>
-</tr>
 </tbody>
 </table>
 </section>
-<section id="iso-25010-q6-sicherheit-security-1" class="slide level2" style="font-size: 1.8rem">
+<section id="iso-25010-q6-sicherheit-security-1" class="slide level2" style="font-size: 1.7rem">
 <h2>ISO 25010 – Q6: Sicherheit (Security)</h2>
-<p><strong>Definition</strong>:</p>
-<p>Grad, in dem ein System Informationen und Daten schützt, sodass Zugriff nur gemäß Autorisierungslevel erfolgt.</p>
+<p><strong>Definition</strong>: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.</p>
 <p><br></p>
 <p><strong>Messgrößen</strong>:</p>
 <ul>
@@ -1371,11 +1459,15 @@ margin-right: 0; }
 <li>Pen‑Test‑Ergebnisse</li>
 <li>Abdeckung von Sicherheitsanforderungen</li>
 <li>MFA‑Quote</li>
+<li>Anzahl fehlgeschlagener Authentifizierungen</li>
+<li>Audit-Log-Vollständigkeit</li>
+<li>Anzahl erfolgreicher / fehlgeschlagener Zugriffsversuche</li>
+<li>Vulnerabilitäts-Score (CVSS): Schwere von Sicherheitslücken, 0.0 bis 10.0</li>
 </ul>
 </section>
-<section id="iso-25010---q7-wartbarkeit-maintainability" class="slide level2" style="font-size: 1.8rem">
+<section id="iso-25010---q7-wartbarkeit-maintainability" class="slide level2" style="font-size: 1.6rem">
 <h2>ISO 25010 - Q7: Wartbarkeit (Maintainability)</h2>
-<p><strong>Definition</strong>: Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.</p>
+<p><strong>Definition</strong>: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann</p>
 <table class="caption-top">
 <colgroup>
 <col style="width: 20%">
@@ -1415,29 +1507,75 @@ margin-right: 0; }
 <td>Wie einfach kann man Tests durchführen?</td>
 <td>Unit-Test-Abdeckung &gt; 80%</td>
 </tr>
+<tr class="even">
+<td style="text-align: left;">Selbstdokumentation</td>
+<td>System erklärt sich selbst durch klare Strukturen, Metadaten, Fehlermeldungen</td>
+<td>API-Dokumentation, sprechende Konfigurationen</td>
+</tr>
 </tbody>
 </table>
 </section>
 <section id="iso-25010---q7-wartbarkeit-maintainability-1" class="slide level2" style="font-size: 1.8rem">
 <h2>ISO 25010 - Q7: Wartbarkeit (Maintainability)</h2>
-<p><strong>Definition</strong>:</p>
-<p>Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kann.</p>
+<p><strong>Definition</strong>: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann</p>
 <p><br></p>
 <p><strong>Messgrößen</strong>:</p>
+<p>Zyklomatische Komplexität, Code-Coverage, Coupling / Cohesion-Metriken, Dokumentationsqualität</p>
 <ul>
-<li>Zyklomatische Komplexität</li>
-<li>Code-Coverage</li>
-<li>Coupling / Cohesion-Metriken</li>
+<li class="fragment">Zykomatische Komplexität: Anzahl der unabhängigen Pfade durch den Code; <br> <em>Wie viele verschiedene Wege kann der Code beim Ausführen nehmen?</em></li>
+<li class="fragment">Kohäsion: niedrig - “Modul wirkt zusammengewürfelt”; hoch - “Modul macht eine Sache und macht sie gut”</li>
+<li class="fragment">Kopplung <em>(Coupling</em>): hoch - viele Abhängigkeiten; niedrig: Module unabhängig, klar getrennt</li>
 </ul>
 </section>
-<section id="iso-25010---q8-übertragbarkeit-portability" class="slide level2" style="font-size: 1.9rem">
-<h2>ISO 25010 - Q8: Übertragbarkeit (Portability)</h2>
-<p><strong>Definition</strong>: Grad der Effektivitaet und Effizienz, mit der ein System von einer Umgebung in eine andere übertragen werden kann.</p>
+<section id="iso-25010-q8-flexibilität-flexibility" class="slide level2" style="font-size: 1.6rem">
+<h2>ISO 25010 – Q8: Flexibilität (Flexibility)</h2>
+<p><strong>Definition</strong>: Grad, in dem ein System effektiv und effizient an unterschiedliche Umgebungen, Plattformen oder Einsatzkontexte angepasst, installiert, ersetzt oder konfiguriert werden kann.</p>
 <table class="caption-top">
 <colgroup>
-<col style="width: 37%">
-<col style="width: 35%">
+<col style="width: 22%">
+<col style="width: 50%">
 <col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Untermerkmal</th>
+<th style="text-align: left;">Beschreibung</th>
+<th style="text-align: left;">Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Anpassbarkeit</strong></td>
+<td style="text-align: left;">Fähigkeit, sich an verschiedene technische oder organisatorische Umgebungen anzupassen</td>
+<td style="text-align: left;">Konfigurationsdateien statt Hardcoding</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Installierbarkeit</strong></td>
+<td style="text-align: left;">Aufwand und Qualität der Installation, Aktualisierung und Deinstallation</td>
+<td style="text-align: left;">Setup‑Wizard, Paketmanager</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Austauschbarkeit</strong></td>
+<td style="text-align: left;">Fähigkeit, andere Systeme zu ersetzen oder ersetzt zu werden</td>
+<td style="text-align: left;">Standardisierte Schnittstellen, API‑Kompatibilität</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Konfigurierbarkeit</strong></td>
+<td style="text-align: left;">Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen</td>
+<td style="text-align: left;">Feature‑Flags, Environment‑Variablen</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Messgrößen</strong>: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration</p>
+</section>
+<section id="iso-25010-q9-sicherheit-im-betrieb-safety" class="slide level2" style="font-size: 1.6rem">
+<h2>ISO 25010 – Q9: Sicherheit im Betrieb (Safety)</h2>
+<p><strong>Definition</strong>: Grad, in dem ein System Menschen, Umwelt und Infrastruktur vor Schäden schützt, indem es Gefahren erkennt, kontrolliert, Schäden begrenzt und sichere Zustände gewährleistet.</p>
+<table class="caption-top">
+<colgroup>
+<col style="width: 33%">
+<col style="width: 33%">
+<col style="width: 33%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -1448,23 +1586,28 @@ margin-right: 0; }
 </thead>
 <tbody>
 <tr class="odd">
-<td>Anpassbarkeit</td>
-<td>An verschiedene Umgebungen anpassbar</td>
-<td>Konfigurationsdateien statt Hardcoding</td>
+<td><strong>Gefahrenerkennung</strong></td>
+<td>Fähigkeit, potenzielle Risiken und gefährliche Zustände zu erkennen</td>
+<td>Sensoren erkennen Hindernisse, Anomalie‑Detection</td>
 </tr>
 <tr class="even">
-<td>Installierbarkeit</td>
-<td>Einfache Installation / Deinstallation</td>
-<td>Setup-Wizard, Paketmanager</td>
+<td><strong>Gefahrenkontrolle</strong></td>
+<td>Vermeidung oder Minimierung von Risiken</td>
+<td>Not‑Aus‑Mechanismen, Sicherheitsabstände</td>
 </tr>
 <tr class="odd">
-<td>Austauschbarkeit</td>
-<td>Kann andere Software ersetzen</td>
-<td>Standardisierte Schnittstellen</td>
+<td><strong>Schadensbegrenzung</strong></td>
+<td>Begrenzung der Auswirkungen, wenn ein Fehler auftritt</td>
+<td>Airbags, automatische Bremsung, Rate‑Limiting</td>
+</tr>
+<tr class="even">
+<td><strong>Sicherer Zustand</strong></td>
+<td>Fähigkeit, das System in einen sicheren Zustand zu überführen</td>
+<td>Fail‑Safe‑Modus, Shutdown bei kritischen Fehlern</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Messgrößen</strong>: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand</p>
+<p><strong>Messgrößen</strong>: Anzahl sicherheitsrelevanter Vorfälle, Reaktionszeit auf Gefahren, Wirksamkeit von Fail‑Safe‑Mechanismen, Abdeckung sicherheitskritischer Anforderungen</p>
 </section>
 <section id="weitere-normen" class="slide level2">
 <h2>Weitere Normen</h2>

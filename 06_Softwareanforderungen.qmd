@@ -266,16 +266,16 @@ Grad der Effektivität und Effizienz, mit der ein Produkt modifiziert werden kan
 - Coupling / Cohesion-Metriken
 
 
-## ISO 25010 – Q8: Flexibilität (Flexibility) {style="font-size: 1.7rem"}
+## ISO 25010 – Q8: Flexibilität (Flexibility) {style="font-size: 1.6rem"}
 
 **Definition**: Grad, in dem ein System effektiv und effizient an unterschiedliche Umgebungen, Plattformen oder Einsatzkontexte angepasst, installiert, ersetzt oder konfiguriert werden kann.
 
 | Untermerkmal | Beschreibung | Beispiel |
-| --- | --- | --- |
-| **Anpassbarkeit (Adaptability)** | Fähigkeit, sich an verschiedene technische oder organisatorische Umgebungen anzupassen | Konfigurationsdateien statt Hardcoding |
-| **Installierbarkeit (Installability)** | Aufwand und Qualität der Installation, Aktualisierung und Deinstallation | Setup‑Wizard, Paketmanager |
-| **Austauschbarkeit (Replaceability)** | Fähigkeit, andere Systeme zu ersetzen oder ersetzt zu werden | Standardisierte Schnittstellen, API‑Kompatibilität |
-| **Konfigurierbarkeit (Configurability)** *(NEU)* | Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen | Feature‑Flags, Environment‑Variablen 
+|:---|:--------|:----|
+| **Anpassbarkeit** | Fähigkeit, sich an verschiedene technische oder organisatorische Umgebungen anzupassen | Konfigurationsdateien statt Hardcoding |
+| **Installierbarkeit** | Aufwand und Qualität der Installation, Aktualisierung und Deinstallation | Setup‑Wizard, Paketmanager |
+| **Austauschbarkeit** | Fähigkeit, andere Systeme zu ersetzen oder ersetzt zu werden | Standardisierte Schnittstellen, API‑Kompatibilität |
+| **Konfigurierbarkeit** | Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen | Feature‑Flags, Environment‑Variablen 
 
 **Messgrößen**: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration
 

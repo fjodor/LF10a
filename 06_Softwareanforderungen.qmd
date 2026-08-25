@@ -26,7 +26,7 @@ callout-appearance: simple
 ## Funktionale vs. Nichtfunktionale Anforderungen {style="font-size: 1.9rem"}
 
 :::: columns
-::: {.column width="60%"}
+::: {.column .fragment width="60%"}
 
 | Merkmal | Funktionale Anforderungen |
 |---------|--------------------------|

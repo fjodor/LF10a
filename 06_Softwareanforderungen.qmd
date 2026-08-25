@@ -67,13 +67,15 @@ callout-appearance: simple
 | 9 | Sicherheit im Betrieb| Safety
 
 ::: {style="font-size: 1.6rem"}
-Neu gegenüber der 2011er-Fassung: **Sicherheit im Betrieb** als Top-Level-Kriterium; Begriff **Interaktionsfähigkeit** ersetzt **Benutzbarkeit**
+Neu gegenüber der 2011er-Fassung: **Sicherheit im Betrieb** als Top-Level-Kriterium; Begriff **Interaktionsfähigkeit** ersetzt **Benutzbarkeit**; **Flexibilität** statt **Übertragbarkeit**
 :::
 
 
 ## Warum 9 statt 8 Qualitätsmerkmale?
 
 Die Norm wurde modernisiert, um aktuelle Systeme abzudecken:
+
+::: fragment
 
 - Cloud-native Architekturen
 - Verteilte Systeme
@@ -82,6 +84,8 @@ Die Norm wurde modernisiert, um aktuelle Systeme abzudecken:
 - Interaktive multimodale Interfaces
 
 Das neue Merkmal **Sicherheit im Betrieb** / **Safety** ist die wichtigste strukturelle Erweiterung.
+
+:::
 
 
 ## Security vs. Safety
@@ -122,7 +126,9 @@ Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angrei
 
 ## ISO 25010 - Q1: Funktionalität (Functional Suitability) {style="font-size: 1.9rem"}
 
-**Definition**: Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.
+**Definition**: [Grad, in dem das Produkt Funktionen bereitstellt, die erklärte und implizierte Bedürfnisse erfüllen.]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
@@ -130,12 +136,16 @@ Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angrei
 | Funktionale Korrektheit | Ergebnisse sind richtig und präzise | Berechnungen liefern korrekte Werte |
 | Funktionale Angemessenheit | Funktionen unterstützen die Aufgaben | Keine überflüssigen Features |
 
-**Messgrößen**: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad
+:::
+
+[**Messgrößen**: Testabdeckung, Fehleranzahl pro Feature, Anforderungserfüllungsgrad]{.fragment}
 
 
 ## ISO 25010 - Q2: Effizienz (Performance Efficiency) {style="font-size: 1.8rem"}
 
-**Definition**: Grad, in dem ein System unter bestimmten Bedingungen angemessene Antwortzeiten, effiziente Ressourcennutzung, ausreichende Kapazität und vorhersehbare Skalierbarkeit erreicht.
+**Definition**: [Grad, in dem ein System unter bestimmten Bedingungen angemessene Antwortzeiten, effiziente Ressourcennutzung, ausreichende Kapazität und vorhersehbare Skalierbarkeit erreicht.]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
@@ -144,28 +154,36 @@ Ziel: Verhindern, dass das System selbst Schaden verursacht – auch ohne Angrei
 | Kapazität | Maximale Grenzen des Systems | 10.000 gleichzeitige Benutzer |
 | Skalierbarkeit | Verhalten bei steigender Last; Fähigkeit, Ressourcen dynamisch zu erweitern | Auto-Scaling bei >70% CPU-Auslastung
 
-**Messgrößen**: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde, Skalierungsverhalten unter Last
+:::
+
+[**Messgrößen**: Response Time, Throughput, CPU-/RAM-Auslastung, Requests pro Sekunde, Skalierungsverhalten unter Last]{.fragment}
 
 
 ## ISO 25010 – Q3: Kompatibilität (Compatibility) {style="font-size: 1.8rem"}
 
-**Definition**: Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.
+**Definition**: [Grad, in dem ein System oder eine Komponente Informationen austauschen und gemeinsam mit anderen Systemen oder Komponenten funktionieren kann.]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 | --- | --- | --- |
 | Koexistenz | Gemeinsamer Betrieb ohne gegenseitige Beeinträchtigung | Zwei Anwendungen teilen sich CPU/RAM ohne Performance‑Einbrüche |
 | Interoperabilität | Fähigkeit zum Informationsaustausch und zur Nutzung der ausgetauschten Daten | CRM kommuniziert fehlerfrei mit ERP‑System |
 
-**Messgrößen**: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb
+:::
+
+[**Messgrößen**: Anzahl Integrationsfehler, Schnittstellen‑Konformität, Ressourcenverbrauch im Parallelbetrieb]{.fragment}
 
 
 ---
 
 ## ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability) {style="font-size: 1.7rem"}
 
-**Definition**: Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.
+**Definition**: [Grad, in dem ein System die Interaktion mit Nutzern unterstützt, erleichtert und optimiert.]{.fragment}
 
 Untermerkmale, Teil 1:
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:----|:---------|:-----|
@@ -174,7 +192,9 @@ Untermerkmale, Teil 1:
 | **Schutz vor <br> Benutzerfehlern** | Wie gut verhindert das System Bedienfehler? | Validierung bei Formulareingaben |
 | **Ästhetik der Benutzeroberfläche** | Visuelle Qualität und Konsistenz | Einheitliches Farbschema |
 
-**Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit
+:::
+
+[**Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score = *System Usability Scale*, Kontextwechsel‑Robustheit]{.fragment}
 
 
 ## ISO 25010 - Q4: Interaktionsfähigkeit (Interaction capability) {style="font-size: 1.7rem"}
@@ -183,18 +203,24 @@ Untermerkmale, Teil 1:
 
 Untermerkmale, Teil 2:
 
+::: fragment
+
 | Untermerkmal | Beschreibung | Beispiel |
 |:----|:---------|:-----|
 | **Barrierefreiheit** | Nutzbarkeit für Menschen mit Einschränkungen | Screenreader‑Kompatibilität |
 | **Kontextkonformität** | Passt sich das System an Gerät, Umgebung, Situation an? | Mobile UI bei kleinem Viewport |
 | **Interaktions-robustheit** | Stabilität und Vorhersehbarkeit der Systemreaktionen | Konsistente Fehlermeldungen, Undo‑Funktion |
 
-**Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score, Kontextwechsel‑Robustheit
+:::
+
+**Messgrößen**: Aufgabenabschlussrate, Fehlerrate, SUS‑Score = *System Usability Scale*, Kontextwechsel‑Robustheit
 
 
 ## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.8rem"}
 
-**Definition**: Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.
+**Definition**: [Grad, in dem ein System unter bestimmten Bedingungen über einen definierten Zeitraum stabil, fehlerfrei und widerstandsfähig funktioniert.]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
@@ -203,6 +229,8 @@ Untermerkmale, Teil 2:
 | Fehlertoleranz | Funktioniert trotz Fehlern weiter | Graceful Degradation |
 | Widerstandsfähigkeit | Fähigkeit, Störungen zu verkraften und sich zu erholen | Recovery Time < 5 min, automatische Self‑Healing‑Mechanismen |
 
+:::
+
 
 ## ISO 25010 - Q5: Zuverlässigkeit (Reliability) {style="font-size: 1.8rem"}
 
@@ -210,15 +238,21 @@ Untermerkmale, Teil 2:
 
 **Messgrößen**:
 
+::: fragment
+
 - **MTBF** = Mean Time Between Failures (Mittlere Betriebsdauer zw. Ausfällen)
 - **MTTR** = Mean Time To Repair (Mittlere Reparaturzeit)
 - **Verfügbarkeit** = MTBF / (MTBF + MTTR)
 - Anzahl ungeplanter Ausfälle; Recovery-Zeit
 
+:::
+
 
 ## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.7rem"}
 
-**Definition**: Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.
+**Definition**: [Grad, in dem ein System Informationen und Daten schützt, sodass nur autorisierte Akteure Zugriff erhalten, Aktionen nachvollziehbar sind und Daten unverändert bleiben.]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:----- |------------- |-----------|
@@ -227,6 +261,8 @@ Untermerkmale, Teil 2:
 | Nichtabstreit-barkeit | Aktionen sind eindeutig zuordenbar | Digitale Signaturen für Transaktionen |
 | Verantwortlichkeit | Aktionen sind nachvollziehbar und auditierbar | Audit‑Logs, unveränderbare Log‑Streams |
 | Authentizität | Identitäten und Daten sind echt | MFA stellt sicher, dass der Nutzer korrekt identifiziert ist |
+
+:::
 
 
 ## ISO 25010 – Q6: Sicherheit (Security) {style="font-size: 1.7rem"}
@@ -237,6 +273,8 @@ Untermerkmale, Teil 2:
 
 **Messgrößen**:
 
+::: fragment
+
 - Anzahl Sicherheitsvorfälle
 - Pen‑Test‑Ergebnisse
 - Abdeckung von Sicherheitsanforderungen
@@ -244,12 +282,17 @@ Untermerkmale, Teil 2:
 - Anzahl fehlgeschlagener Authentifizierungen
 - Audit-Log-Vollständigkeit
 - Anzahl erfolgreicher / fehlgeschlagener Zugriffsversuche
-- Vulnerabilitäts-Score (CVSS): Schwere von Sicherheitslücken, 0.0 bis 10.0
+- Vulnerabilitäts-Score (CVSS): Schwere von Sicherheitslücken, 0.0 bis 10.0  
+  CVSS = *Common Vulnerability Scoring System*
+
+:::
 
 
 ## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.6rem"}
 
-**Definition**: Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann
+**Definition**: [Grad, in dem ein System effektiv und effizient analysiert, geändert, getestet und erweitert werden kann]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:-----|-------------|----------|
@@ -260,6 +303,8 @@ Untermerkmale, Teil 2:
 | Testbarkeit | Wie einfach kann man Tests durchführen? | Unit-Test-Abdeckung > 80% |
 | Selbstdokumentation | System erklärt sich selbst durch klare Strukturen, Metadaten, Fehlermeldungen | API-Dokumentation, sprechende Konfigurationen
 
+:::
+
 
 ## ISO 25010 - Q7: Wartbarkeit (Maintainability) {style="font-size: 1.8rem"}
 
@@ -269,11 +314,15 @@ Untermerkmale, Teil 2:
 
 **Messgrößen**:
 
+::: fragment
+
 Zyklomatische Komplexität, Code-Coverage, Coupling / Cohesion-Metriken, Dokumentationsqualität
+
+:::
 
 ::: incremental
 
-- Zykomatische Komplexität: Anzahl der unabhängigen Pfade durch den Code; <br> *Wie viele verschiedene Wege kann der Code beim Ausführen nehmen?*
+- Zyklomatische Komplexität: Anzahl der unabhängigen Pfade durch den Code; <br> *Wie viele verschiedene Wege kann der Code beim Ausführen nehmen?*
 - Kohäsion: niedrig - "Modul wirkt zusammengewürfelt"; hoch - "Modul macht eine Sache und macht sie gut"
 - Kopplung *(Coupling*): hoch - viele Abhängigkeiten; niedrig: Module unabhängig, klar getrennt
 
@@ -283,7 +332,9 @@ Zyklomatische Komplexität, Code-Coverage, Coupling / Cohesion-Metriken, Dokumen
 
 ## ISO 25010 – Q8: Flexibilität (Flexibility) {style="font-size: 1.6rem"}
 
-**Definition**: Grad, in dem ein System effektiv und effizient an unterschiedliche Umgebungen, Plattformen oder Einsatzkontexte angepasst, installiert, ersetzt oder konfiguriert werden kann.
+**Definition**: [Grad, in dem ein System effektiv und effizient an unterschiedliche Umgebungen, Plattformen oder Einsatzkontexte angepasst, installiert, ersetzt oder konfiguriert werden kann.]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 |:---|:--------|:----|
@@ -292,12 +343,16 @@ Zyklomatische Komplexität, Code-Coverage, Coupling / Cohesion-Metriken, Dokumen
 | **Austauschbarkeit** | Fähigkeit, andere Systeme zu ersetzen oder ersetzt zu werden | Standardisierte Schnittstellen, API‑Kompatibilität |
 | **Konfigurierbarkeit** | Möglichkeit, das System durch Einstellungen oder Parameter an unterschiedliche Kontexte anzupassen | Feature‑Flags, Environment‑Variablen 
 
-**Messgrößen**: Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration
+:::
+
+**Messgrößen**: [Anzahl unterstützter Plattformen, Installationszeit, Konfigurationsaufwand, Aufwand für Systemmigration]{.fragment}
 
 
 ## ISO 25010 – Q9: Sicherheit im Betrieb (Safety) {style="font-size: 1.6rem"}
 
-**Definition**:  Grad, in dem ein System Menschen, Umwelt und Infrastruktur vor Schäden schützt, indem es Gefahren erkennt, kontrolliert, Schäden begrenzt und sichere Zustände gewährleistet.
+**Definition**: [Grad, in dem ein System Menschen, Umwelt und Infrastruktur vor Schäden schützt, indem es Gefahren erkennt, kontrolliert, Schäden begrenzt und sichere Zustände gewährleistet.]{.fragment}
+
+::: fragment
 
 | Untermerkmal | Beschreibung | Beispiel |
 | --- | --- | --- |
@@ -306,8 +361,9 @@ Zyklomatische Komplexität, Code-Coverage, Coupling / Cohesion-Metriken, Dokumen
 | **Schadensbegrenzung** | Begrenzung der Auswirkungen, wenn ein Fehler auftritt | Airbags, automatische Bremsung, Rate‑Limiting |
 | **Sicherer Zustand** | Fähigkeit, das System in einen sicheren Zustand zu überführen | Fail‑Safe‑Modus, Shutdown bei kritischen Fehlern |
 
+:::
 
-**Messgrößen**: Anzahl sicherheitsrelevanter Vorfälle, Reaktionszeit auf Gefahren, Wirksamkeit von Fail‑Safe‑Mechanismen, Abdeckung sicherheitskritischer Anforderungen
+**Messgrößen**: [Anzahl sicherheitsrelevanter Vorfälle, Reaktionszeit auf Gefahren, Wirksamkeit von Fail‑Safe‑Mechanismen, Abdeckung sicherheitskritischer Anforderungen]{.fragment}
 
 
 ## Weitere Normen

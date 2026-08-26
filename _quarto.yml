@@ -23,6 +23,8 @@ website:
         text: 05 UML Aktivitätsdiagramm, Use-Case-Diagramm
       - href: 06_Softwareanforderungen.qmd
         text: 06 Softwareanforderungen erfassen
+      - href: 07_Analyse-Designverfahren.qmd
+        text: 07 Analyse- und Designverfahren
       - href: 09_Software-Ergonomie.qmd
         text: 09 Software-Ergonomie
 

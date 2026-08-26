@@ -194,126 +194,180 @@
     "href": "07_Analyse-Designverfahren.html#strukturierte-analyse--und-designverfahren",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Strukturierte Analyse- und Designverfahren",
-    "text": "Strukturierte Analyse- und Designverfahren\nGehört zum Prüfungsteil: Konzipieren und Umsetzen von kundenspezifischen Softwareanwendungen\n\nTop-down-Entwurf\nBottom-up-Entwurf\nModularisierung"
+    "text": "Strukturierte Analyse- und Designverfahren\nGehört zum Prüfungsteil: Konzipieren und Umsetzen von kundenspezifischen Softwareanwendungen\n\nTop-down-Entwurf\nBottom-up-Entwurf\nModularisierung",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf",
     "href": "07_Analyse-Designverfahren.html#top-down-entwurf",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf",
-    "text": "Top-down-Entwurf\n\nBeginn mit Gesamtsystem\nschrittweise Zerlegung in kleinere Teilsysteme und Module\nMotto: Divide and Conquer\n\nWann geeignet?\n\nNeue Systeme, bei denen das Gesamtsystem zuerst stehen muss"
+    "text": "Top-down-Entwurf\n\nBeginn mit Gesamtsystem\nschrittweise Zerlegung in kleinere Teilsysteme und Module\nMotto: Divide and Conquer\n\nWann geeignet?\n\nNeue Systeme, bei denen das Gesamtsystem zuerst stehen muss",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
     "href": "07_Analyse-Designverfahren.html#top-down-entwurf-kernaussagen",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf: Kernaussagen",
-    "text": "Top-down-Entwurf: Kernaussagen\n\nStart beim Gesamtproblem, dann Zerlegung in Teilprobleme\nHierarchische Struktur: Hauptprogramm - Unterprogramme - Einzelfunktionen\nGut geeignet für komplett neue Systeme ohne bestehende Bausteine\nFrühe Sicht auf die Gesamtarchitektur"
+    "text": "Top-down-Entwurf: Kernaussagen\n\nStart beim Gesamtproblem, dann Zerlegung in Teilprobleme\nHierarchische Struktur: Hauptprogramm - Unterprogramme - Einzelfunktionen\nGut geeignet für komplett neue Systeme ohne bestehende Bausteine\nFrühe Sicht auf die Gesamtarchitektur",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
     "href": "07_Analyse-Designverfahren.html#top-down-entwurf-wichtige-begriffe",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf: Wichtige Begriffe",
-    "text": "Top-down-Entwurf: Wichtige Begriffe\n\nDivide and Conquer: Teile und Herrsche: Problem in Teilprobleme zerlegen\nVerfeinerung: schrittweise Detaillierung der Lösung\nHierarchie: Ober-/Unterordnung der Module"
+    "text": "Top-down-Entwurf: Wichtige Begriffe\n\nDivide and Conquer: Teile und Herrsche: Problem in Teilprobleme zerlegen\nVerfeinerung: schrittweise Detaillierung der Lösung\nHierarchie: Ober-/Unterordnung der Module",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#top-down-entwurf-beispiel",
     "href": "07_Analyse-Designverfahren.html#top-down-entwurf-beispiel",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down-Entwurf: Beispiel",
-    "text": "Top-down-Entwurf: Beispiel\n\nProjektleiter plant ERP-System: Enterprise Resource Planning System\nGesamtsystem wird in Module aufgeteilt\nModule werden weiter zerlegt"
+    "text": "Top-down-Entwurf: Beispiel\n\nProjektleiter plant ERP-System: Enterprise Resource Planning System\nGesamtsystem wird in Module aufgeteilt\nModule werden weiter zerlegt",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf",
     "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf",
-    "text": "Bottom-up-Entwurf\n\nBeginn mit kleinsten, elementaren Bausteinen (Module, Funktionen)\nSchrittweises Zusammensetzen zu größeren Einheiten\n\nWann geeignet?\n\nWenn bereits wiederverwendbare Komponenten existieren"
+    "text": "Bottom-up-Entwurf\n\nBeginn mit kleinsten, elementaren Bausteinen (Module, Funktionen)\nSchrittweises Zusammensetzen zu größeren Einheiten\n\nWann geeignet?\n\nWenn bereits wiederverwendbare Komponenten existieren",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
     "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf-kernaussagen",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf: Kernaussagen",
-    "text": "Bottom-up-Entwurf: Kernaussagen\n\nStart bei Detailkomponenten, dann Zusammenbau zum Gesamtsystem\nGut geeignet, wenn wiederverwendbare Bausteine bereits vorhanden sind\nEinzelne Module können früh getestet werden\nRisiko: Gesamtergebnis passt möglicherweise nicht zusammen"
+    "text": "Bottom-up-Entwurf: Kernaussagen\n\nStart bei Detailkomponenten, dann Zusammenbau zum Gesamtsystem\nGut geeignet, wenn wiederverwendbare Bausteine bereits vorhanden sind\nEinzelne Module können früh getestet werden\nRisiko: Gesamtergebnis passt möglicherweise nicht zusammen",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
     "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf-wichtige-begriffe",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf: Wichtige Begriffe",
-    "text": "Bottom-up-Entwurf: Wichtige Begriffe\n\nModul: in sich geschlossene Einheit mit definierter Aufgabe\nWiederverwendung: bestehende Module in neuen Kontext einsetzen\nIntegration: Zusammenfügen von Modulen zu einem größeren System"
+    "text": "Bottom-up-Entwurf: Wichtige Begriffe\n\nModul: in sich geschlossene Einheit mit definierter Aufgabe\nWiederverwendung: bestehende Module in neuen Kontext einsetzen\nIntegration: Zusammenfügen von Modulen zu einem größeren System",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
     "href": "07_Analyse-Designverfahren.html#bottom-up-entwurf-beispiel",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Bottom-up-Entwurf: Beispiel",
-    "text": "Bottom-up-Entwurf: Beispiel\n\nEntwickler baut zuerst Login-Komponente, Datenbankzugriffs-Schicht und PDF-Export-Funktion\nAnschließend fügt er die Module zu einer Anwendung zusammen"
+    "text": "Bottom-up-Entwurf: Beispiel\n\nEntwickler baut zuerst Login-Komponente, Datenbankzugriffs-Schicht und PDF-Export-Funktion\nAnschließend fügt er die Module zu einer Anwendung zusammen",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
     "href": "07_Analyse-Designverfahren.html#top-down-vs.-bottom-up-vergleich",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Top-down vs. Bottom-up: Vergleich",
-    "text": "Top-down vs. Bottom-up: Vergleich\n\n\n\n\n\nKriterium\n\n\n\n\nStartpunkt\n\n\nRichtung\n\n\nEignung   \n\n\nGesamtüberblick\n\n\nTestbarkeit einzelner Module\n\n\nRisiko   \n\n\nBeispiel\n\n\n\n\n\n\n\nTop-down\n\n\n\n\nGesamtsystem\n\n\nVom Großen zum Kleinen\n\n\nNeues System, keine Vorarbeiten\n\n\nFrüh vorhanden\n\n\nSpät (erst wenn Module implementiert)\n\n\nDetail-Probleme werden spät entdeckt\n\n\nNeues ERP-System planen\n\n\n\n\n\n\n\nBottom-up\n\n\n\n\nEinzelne Bausteine\n\n\nVom Kleinen zum Grossen\n\n\nBestehende Module vorhanden\n\n\nErst spät sichtbar\n\n\nFrüh (Module einzeln testbar)\n\n\nGesamtkonzept passt evtl. nicht\n\n\nBestehende Bibliotheken integrieren"
+    "text": "Top-down vs. Bottom-up: Vergleich\n\n\n\n\n\nKriterium\n\n\n\n\nStartpunkt\n\n\nRichtung\n\n\nEignung   \n\n\nGesamtüberblick\n\n\nTestbarkeit einzelner Module\n\n\nRisiko   \n\n\nBeispiel\n\n\n\n\n\n\n\nTop-down\n\n\n\n\nGesamtsystem\n\n\nVom Großen zum Kleinen\n\n\nNeues System, keine Vorarbeiten\n\n\nFrüh vorhanden\n\n\nSpät (erst wenn Module implementiert)\n\n\nDetail-Probleme werden spät entdeckt\n\n\nNeues ERP-System planen\n\n\n\n\n\n\n\nBottom-up\n\n\n\n\nEinzelne Bausteine\n\n\nVom Kleinen zum Grossen\n\n\nBestehende Module vorhanden\n\n\nErst spät sichtbar\n\n\nFrüh (Module einzeln testbar)\n\n\nGesamtkonzept passt evtl. nicht\n\n\nBestehende Bibliotheken integrieren",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#kombination-meet-in-the-middle",
     "href": "07_Analyse-Designverfahren.html#kombination-meet-in-the-middle",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Kombination: Meet-in-the-Middle",
-    "text": "Kombination: Meet-in-the-Middle\nIn der Praxis werden Top-down und Bottom-up oft kombiniert:\n\nTop-down: Architektur des Gesamtsystems wird definiert\nBottom-up: Vorhandene Bibliotheken und Module werden eingebunden\nDer Treffpunkt in der Mitte ergibt die Integrationsebene"
+    "text": "Kombination: Meet-in-the-Middle\nIn der Praxis werden Top-down und Bottom-up oft kombiniert:\n\nTop-down: Architektur des Gesamtsystems wird definiert\nBottom-up: Vorhandene Bibliotheken und Module werden eingebunden\nDer Treffpunkt in der Mitte ergibt die Integrationsebene",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#modularisierung",
     "href": "07_Analyse-Designverfahren.html#modularisierung",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung",
-    "text": "Modularisierung\n\nSystem wird in eigenständige, austauschbare Module zerlegt\nJedes Modul hat eine klar definierte Aufgabe und kommuniziert über definierte Schnittstellen mit anderen Modulen\nZiel:\n\nhohe Kohäsion innerhalb der Module\ngeringe Kopplung zwischen den Modulen"
+    "text": "Modularisierung\n\nSystem wird in eigenständige, austauschbare Module zerlegt\nJedes Modul hat eine klar definierte Aufgabe und kommuniziert über definierte Schnittstellen mit anderen Modulen\nZiel:\n\nhohe Kohäsion innerhalb der Module\ngeringe Kopplung zwischen den Modulen",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#modularisierung-kernaussagen",
     "href": "07_Analyse-Designverfahren.html#modularisierung-kernaussagen",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Kernaussagen",
-    "text": "Modularisierung: Kernaussagen\n\n\nJedes Modul erfüllt genau eine klar abgegrenzte Aufgabe\nModule sind über Schnittstellen (Interfaces) verbunden\nÄnderungen in einem Modul sollen keine Auswirkungen auf andere Module haben\nZwei zentrale Qualitätsmerkmale: Kohäsion und Kopplung\n\n\n\n\n\n\n\n\n\n\n\nEigenschaft\nDefinition\n\n\n\n\nKohäsion\nWie stark die Bestandteile eines Moduls inhaltlich zusammengehören\n\n\nKopplung\nWie stark Module voneinander abhängig sind\n\n\n\n\n\n\n\nZiel\n\n\n\n\nHoch: alles in einem Modul gehört thematisch zusammen\n\n\nNiedrig: Module sollen unabhängig sein"
+    "text": "Modularisierung: Kernaussagen\n\n\nJedes Modul erfüllt genau eine klar abgegrenzte Aufgabe\nModule sind über Schnittstellen (Interfaces) verbunden\nÄnderungen in einem Modul sollen keine Auswirkungen auf andere Module haben\nZwei zentrale Qualitätsmerkmale: Kohäsion und Kopplung\n\n\n\n\n\n\n\n\n\n\n\nEigenschaft\nDefinition\n\n\n\n\nKohäsion\nWie stark die Bestandteile eines Moduls inhaltlich zusammengehören\n\n\nKopplung\nWie stark Module voneinander abhängig sind\n\n\n\n\n\n\n\nZiel\n\n\n\n\nHoch: alles in einem Modul gehört thematisch zusammen\n\n\nNiedrig: Module sollen unabhängig sein",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
     "href": "07_Analyse-Designverfahren.html#modularisierung-wichtige-begriffe",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Wichtige Begriffe",
-    "text": "Modularisierung: Wichtige Begriffe\n\nSchnittstelle (Interface): definierter Ein-/ Ausgabekanal zwischen Modulen\nInformation Hiding: interne Details eines Moduls sind von außen nicht sichtbar\nSeparation of Concerns: Trennung von Zuständigkeiten"
+    "text": "Modularisierung: Wichtige Begriffe\n\nSchnittstelle (Interface): definierter Ein-/ Ausgabekanal zwischen Modulen\nInformation Hiding: interne Details eines Moduls sind von außen nicht sichtbar\nSeparation of Concerns: Trennung von Zuständigkeiten",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#modularisierung-vorteile",
     "href": "07_Analyse-Designverfahren.html#modularisierung-vorteile",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Vorteile",
-    "text": "Modularisierung: Vorteile\n\nBessere Wartbarkeit: Fehler lokal beheben\nBessere Testbarkeit: Module einzeln testbar\nBessere Wiederverwendbarkeit: Module in anderen Projekten nutzbar\nArbeitsteilung im Team: jedes Teammitglied bearbeitet ein Modul"
+    "text": "Modularisierung: Vorteile\n\nBessere Wartbarkeit: Fehler lokal beheben\nBessere Testbarkeit: Module einzeln testbar\nBessere Wiederverwendbarkeit: Module in anderen Projekten nutzbar\nArbeitsteilung im Team: jedes Teammitglied bearbeitet ein Modul",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
     "href": "07_Analyse-Designverfahren.html#modularisierung-kriterien-für-gute-module",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Modularisierung: Kriterien für gute Module",
-    "text": "Modularisierung: Kriterien für gute Module\n\n\n\n\n\n\n\n\n\nKriterium\nGut\n\n\n\n\nKohäsion\nAlle Funktionen eines Moduls gehören zum gleichen Thema\n\n\nKopplung\nModule kommunizieren nur über definierte Schnittstellen\n\n\nGröße\nÜberschaubarer Umfang (eine klare Aufgabe)\n\n\nNamens-gebung\nSprechender Name: BenutzerAuthentifizierung\n\n\n\n\n\n\n\nSchlecht\n\n\n\n\nEin Modul macht Login, PDF-Export und Datenbankzugriff\n\n\nEin Modul greift direkt auf interne Variablen eines anderen Moduls zu\n\n\nRiesiges Modul mit hunderten Funktionen\n\n\nUnklarer Name:  Modul_A"
+    "text": "Modularisierung: Kriterien für gute Module\n\n\n\n\n\n\n\n\n\nKriterium\nGut\n\n\n\n\nKohäsion\nAlle Funktionen eines Moduls gehören zum gleichen Thema\n\n\nKopplung\nModule kommunizieren nur über definierte Schnittstellen\n\n\nGröße\nÜberschaubarer Umfang (eine klare Aufgabe)\n\n\nNamens-gebung\nSprechender Name: BenutzerAuthentifizierung\n\n\n\n\n\n\n\nSchlecht\n\n\n\n\nEin Modul macht Login, PDF-Export und Datenbankzugriff\n\n\nEin Modul greift direkt auf interne Variablen eines anderen Moduls zu\n\n\nRiesiges Modul mit hunderten Funktionen\n\n\nUnklarer Name:  Modul_A",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#design-prüfungstipps",
     "href": "07_Analyse-Designverfahren.html#design-prüfungstipps",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "Design: Prüfungstipps",
-    "text": "Design: Prüfungstipps\n\nSzenario lesen und Top-down oder Bottom-up empfehlen mit Begründung\nKohäsion und Kopplung definieren und bewerten\nVorteile der Modularisierung nennen (mindestens drei)\nZerlegung eines Problems in Module darstellen (Baumdiagramm)\n\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nTop-down und Bottom-up verwechselt\n\n\nHohe Kopplung als positiv bewertet\n\n\nKohäsion mit Kopplung verwechselt\n\n\nModularisierung nur als Aufteilung in Dateien verstanden\n\n\n\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nTop-down = vom Ganzen zum Detail,  Bottom-up = vom Detail zum Ganzen\n\n\nHohe Kopplung = schlecht (starke Abhängigkeit), niedrig = gut\n\n\nKohäsion = innerhalb eines Moduls,  Kopplung = zwischen Modulen\n\n\nEs geht um fachliche Trennung mit definierten Schnittstellen"
+    "text": "Design: Prüfungstipps\n\nSzenario lesen und Top-down oder Bottom-up empfehlen mit Begründung\nKohäsion und Kopplung definieren und bewerten\nVorteile der Modularisierung nennen (mindestens drei)\nZerlegung eines Problems in Module darstellen (Baumdiagramm)\n\n\n\n\n\n\nHäufige Fehler\n\n\n\n\nTop-down und Bottom-up verwechselt\n\n\nHohe Kopplung als positiv bewertet\n\n\nKohäsion mit Kopplung verwechselt\n\n\nModularisierung nur als Aufteilung in Dateien verstanden\n\n\n\n\n\n\n\n\n\n\nKorrektur\n\n\n\n\nTop-down = vom Ganzen zum Detail,  Bottom-up = vom Detail zum Ganzen\n\n\nHohe Kopplung = schlecht (starke Abhängigkeit), niedrig = gut\n\n\nKohäsion = innerhalb eines Moduls,  Kopplung = zwischen Modulen\n\n\nEs geht um fachliche Trennung mit definierten Schnittstellen",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "07_Analyse-Designverfahren.html#section",
     "href": "07_Analyse-Designverfahren.html#section",
     "title": "Strukturierte Analyse- und Designverfahren",
     "section": "",
-    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!"
+    "text": "©torange.biz CC-BY 4.0\n\n\nViel Erfolg!",
+    "crumbs": [
+      "07 Analyse- und Designverfahren"
+    ]
   },
   {
     "objectID": "05_UML_Aktivitätsd-Use-Case-D.html#lokaler-computer-experte",

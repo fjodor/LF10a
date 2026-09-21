@@ -471,6 +471,59 @@ Typische Stakeholder eines Projekts sind zum Beispiel:
 Lernkarte AP2 55 2025 u-form
 :::
 
+## Designprozess: Vom Sketch zum Mockup
+
+![](libs/_Images/Sketch-Wireframe-Mockup-Prototype.png)
+
+[Quelle: IT-Berufe, Lernfelder 10-12, Westermann, S. 38]{style="font-size: 1.2rem"}
+
+
+## Designprozess: Vom Sketch zum Mockup
+
+![](libs/_Images/Sketch-Wireframe-Mockup-Prototype.png)
+
+:::: {.columns style="font-size: 1.5rem"}
+::: column
+- **Sketch:** ***Skizze, meist auf Papier***; niedrigster Detailgrad, ungenaues Layout
+- **Wireframe** ("Drahtmodell"): ***struktureller Bauplan der Benutzeroberfläche***; statisch, ohne Farben, ohne echte Inhalte; zeigt, **wo** welche Elemente platziert werden sollen (Navigation, Textblöcke, Buttons); Fokus: Informations-Architektur
+:::
+
+::: column
+- **Mockup** ("Design-Attrappe"): ***visuelles Gesicht des Produkts***; statisch, aber detailgetreu; zeigt bereits alle Farben, Typografien, Logos, exaktes Branding; simuliert das finale Aussehen
+- **Prototype** (Prototyp): ***interaktives Versuchsmodell***; verknüpft die Screens, macht sie erlebbar; simuliert Benutzerfluss *(User Flow)*; Basis für Usability-Tests vor echter Programmierung
+:::
+::::
+
+
+## Designprozess
+
+<br>
+
+::: {style="font-size: 1.6rem"}
+
+Phase | Fokus | Detailgrad (Fidelity) | Interaktivität
+------|--------------|----------------|---------------
+**Sketch** | Idee & Konzept | Sehr niedrig (Low-Fi) | Keine (Statisch)
+**Wireframe** | Struktur & Layout | Niedrig bis mittel | Keine (Statisch)
+**Mockup** | Design & Ästhetik | Hoch (High-Fi) | Keine (Statisch)
+**Prototype** | Funktion & User Flow | Mittel bis hoch | Ja (Dynamisch)
+
+:::
+
+
+## Mockup: Vorteile
+
+::: {.incremental style="font-size: 1.9rem"}
+- erleichtert Kommunikation mit Stakeholdern (unterschiedliches Fachwissen, Begriffe!)
+- Anforderungskatalog visuell leichter ablesbar
+- überflüssige Features werden leichter / früher erkannt
+- Änderungen können einfacher abgestimmt und in agile Entwicklung integriert werden
+- Fazit: Mockups können UI- und UX-Entwicklung vereinfachen, beschleunigen und teure Korrekturen verhindern
+- Beispiel: Themes von Wordpress
+:::
+
+[Quelle: [datacenter-insider.de/](https://www.datacenter-insider.de/was-ist-ein-mockup-a-15a0e77b2a0a6bc30240af25600b1e2c/)]{style="font-size: 1.2rem"}
+
 
 ## Was ist ein MVP = Minimum Viable Product?
 

@@ -471,14 +471,18 @@ Typische Stakeholder eines Projekts sind zum Beispiel:
 Lernkarte AP2 55 2025 u-form
 :::
 
-## Designprozess: Vom Sketch zum Mockup
+---
+
+### Designprozess: Vom Sketch zum Prototype
 
 ![](libs/_Images/Sketch-Wireframe-Mockup-Prototype.png)
 
 [Quelle: IT-Berufe, Lernfelder 10-12, Westermann, S. 38]{style="font-size: 1.2rem"}
 
 
-## Designprozess: Vom Sketch zum Mockup
+---
+
+### Designprozess: Vom Sketch zum Prototype
 
 ![](libs/_Images/Sketch-Wireframe-Mockup-Prototype.png)
 
@@ -525,20 +529,21 @@ Phase | Fokus | Detailgrad (Fidelity) | Interaktivität
 [Quelle: [datacenter-insider.de/](https://www.datacenter-insider.de/was-ist-ein-mockup-a-15a0e77b2a0a6bc30240af25600b1e2c/)]{style="font-size: 1.2rem"}
 
 
-## Was ist ein MVP = Minimum Viable Product?
+## MVP = Minimum Viable Product
 
-::: {.incremental style="font-size: 1.9rem"}
+::: {.incremental style="font-size: 1.7rem"}
 
 - MVP = *Minimum Viable Product* (nicht *Most Valuable Player ...*)
 - Grundlegendes, **funktionsfähiges** Produkt oder Dienstleistung
 - Wird mit minimalen Funktionen / Merkmalen entwickelt
 - Oft in **agilen Entwicklungsmethoden** eingesetzt
 - Nicht mit **Mock-up** verwechseln! Mockup zeigt UI, Aussehen, Layout - ohne Interaktionsmöglichkeit
+- **MVP vs. Prototype:** MVP reicht viel weiter; enthält echten, stabilen Code; <br>Prototype: z. B. Datenbanken, Backend oft nur vorgetäuscht
 :::
 
 #### Ziele
 
-::: {.fragment style="font-size: 1.9rem"}
+::: {.fragment style="font-size: 1.7rem"}
 
 - Reaktionen und Bedürfnisse der Nutzer verstehen
 - Frühzeitiges Feedback von Benutzern und Kunden

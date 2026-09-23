@@ -17,6 +17,61 @@ callout-appearance: simple
 
 ## Editor
 
+## CI/CD
+
+:::: {style="font-size: 1.6rem"}
+
+Wie können automatische Kompilierung und Bereitstellung *(Continuous Integration und Continuous Deployment, kurz CI/CD)* implementiert werden?
+
+::: {.incremental .fragment}
+
+Die folgenden Schritte sollten zur **automatischen Kompilierung und Bereitstellung** im Allgemeinen befolgt werden:
+
+1. ***Source Control Management (SCM):*** Alle Entwicklungsarbeit sollte in einem **Versionskontrollsystem** gespeichert werden.
+2. **Automatische Kompilierung:** Wenn Änderungen im Versionskontrollsystem vorgenommen werden, wird ein automatisierter Build-Prozess ausgelöst.
+3. **Automatisierte Tests:** Nach der Kompilierung sollte der Code automatisiert getestet werden.
+4. **Automatisierte Bereitstellung:** Nach erfolgreichem Build und Test wird der Code automatisch bereitgestellt.
+5. **Monitoring und Feedback:** Nach der Bereitstellung sollte der Zustand überwacht und bei Problemen Feedback gegeben werden.
+
+:::
+::::
+
+::: notes
+Lernkarte AP2 2025 Nr. 148
+:::
+
+
+## Compiler- und Interpretersprachen
+
+:::: {style="font-size: 2rem"}
+
+Nennen Sie je ein Beispiel für eine Compiler- und Interpretersprache.
+
+:::: columns
+::: {.column .fragment}
+
+### Compilersprachen
+
+- C
+- C++
+- Pascal
+
+:::
+
+::: {.column .fragment}
+
+### Interpretersprachen
+
+- Perl
+- Python
+- BASIC
+
+:::
+::::
+
+::: notes
+Lernkarte AP2 2025 Nr. 119
+:::
 
 
 ## <!-- -->

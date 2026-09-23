@@ -1400,11 +1400,31 @@
     ]
   },
   {
-    "objectID": "06_Softwareanforderungen.html#was-ist-ein-mvp-minimum-viable-product",
-    "href": "06_Softwareanforderungen.html#was-ist-ein-mvp-minimum-viable-product",
+    "objectID": "06_Softwareanforderungen.html#designprozess",
+    "href": "06_Softwareanforderungen.html#designprozess",
     "title": "Softwareanforderungen erfassen",
-    "section": "Was ist ein MVP = Minimum Viable Product?",
-    "text": "Was ist ein MVP = Minimum Viable Product?\n\n\nMVP = Minimum Viable Product (nicht Most Valuable Player …)\nGrundlegendes, funktionsfähiges Produkt oder Dienstleistung\nWird mit minimalen Funktionen / Merkmalen entwickelt\nOft in agilen Entwicklungsmethoden eingesetzt\nNicht mit Mock-up verwechseln! Mockup zeigt UI, Aussehen, Layout - ohne Interaktionsmöglichkeit\n\n\nZiele\n\n\nReaktionen und Bedürfnisse der Nutzer verstehen\nFrühzeitiges Feedback von Benutzern und Kunden\nBasis, um Produkt iterativ weiterzuentwickeln\n\n\n\nLernkarte AP2 69 2025 u-form",
+    "section": "Designprozess",
+    "text": "Designprozess\n\n\n\n\n\n\n\n\n\n\n\nPhase\nFokus\nDetailgrad (Fidelity)\nInteraktivität\n\n\n\n\nSketch\nIdee & Konzept\nSehr niedrig (Low-Fi)\nKeine (Statisch)\n\n\nWireframe\nStruktur & Layout\nNiedrig bis mittel\nKeine (Statisch)\n\n\nMockup\nDesign & Ästhetik\nHoch (High-Fi)\nKeine (Statisch)\n\n\nPrototype\nFunktion & User Flow\nMittel bis hoch\nJa (Dynamisch)",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#mockup-vorteile",
+    "href": "06_Softwareanforderungen.html#mockup-vorteile",
+    "title": "Softwareanforderungen erfassen",
+    "section": "Mockup: Vorteile",
+    "text": "Mockup: Vorteile\n\n\nerleichtert Kommunikation mit Stakeholdern (unterschiedliches Fachwissen, Begriffe!)\nAnforderungskatalog visuell leichter ablesbar\nüberflüssige Features werden leichter / früher erkannt\nÄnderungen können einfacher abgestimmt und in agile Entwicklung integriert werden\nFazit: Mockups können UI- und UX-Entwicklung vereinfachen, beschleunigen und teure Korrekturen verhindern\nBeispiel: Themes von Wordpress\n\n\nQuelle: datacenter-insider.de/",
+    "crumbs": [
+      "06 Softwareanforderungen erfassen"
+    ]
+  },
+  {
+    "objectID": "06_Softwareanforderungen.html#mvp-minimum-viable-product",
+    "href": "06_Softwareanforderungen.html#mvp-minimum-viable-product",
+    "title": "Softwareanforderungen erfassen",
+    "section": "MVP = Minimum Viable Product",
+    "text": "MVP = Minimum Viable Product\n\n\nMVP = Minimum Viable Product (nicht Most Valuable Player …)\nGrundlegendes, funktionsfähiges Produkt oder Dienstleistung\nWird mit minimalen Funktionen / Merkmalen entwickelt\nOft in agilen Entwicklungsmethoden eingesetzt\nNicht mit Mock-up verwechseln! Mockup zeigt UI, Aussehen, Layout - ohne Interaktionsmöglichkeit\nMVP vs. Prototype: MVP reicht viel weiter; enthält echten, stabilen Code; Prototype: z. B. Datenbanken, Backend oft nur vorgetäuscht\n\n\nZiele\n\n\nReaktionen und Bedürfnisse der Nutzer verstehen\nFrühzeitiges Feedback von Benutzern und Kunden\nBasis, um Produkt iterativ weiterzuentwickeln\n\n\n\nLernkarte AP2 69 2025 u-form",
     "crumbs": [
       "06 Softwareanforderungen erfassen"
     ]

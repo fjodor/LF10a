@@ -1477,6 +1477,48 @@
     "text": "Editor"
   },
   {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#cicd",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#cicd",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "CI/CD",
+    "text": "CI/CD\n\nWie können automatische Kompilierung und Bereitstellung (Continuous Integration und Continuous Deployment, kurz CI/CD) implementiert werden?\n\nDie folgenden Schritte sollten zur automatischen Kompilierung und Bereitstellung im Allgemeinen befolgt werden:\n\nSource Control Management (SCM): Alle Entwicklungsarbeit sollte in einem Versionskontrollsystem gespeichert werden.\nAutomatische Kompilierung: Wenn Änderungen im Versionskontrollsystem vorgenommen werden, wird ein automatisierter Build-Prozess ausgelöst.\nAutomatisierte Tests: Nach der Kompilierung sollte der Code automatisiert getestet werden.\nAutomatisierte Bereitstellung: Nach erfolgreichem Build und Test wird der Code automatisch bereitgestellt.\nMonitoring und Feedback: Nach der Bereitstellung sollte der Zustand überwacht und bei Problemen Feedback gegeben werden.\n\n\n\n\nLernkarte AP2 2025 Nr. 148"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler--und-interpretersprachen",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler--und-interpretersprachen",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Compiler- und Interpretersprachen",
+    "text": "Compiler- und Interpretersprachen\n\nNennen Sie je ein Beispiel für eine Compiler- und Interpretersprache.\n\n\nCompilersprachen\n\nC\nC++\nPascal\n\n\nInterpretersprachen\n\nPerl\nPython\nBASIC\n\n\n\n\nLernkarte AP2 2025 Nr. 119"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler-vs.-interpreter",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler-vs.-interpreter",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Compiler vs. Interpreter",
+    "text": "Compiler vs. Interpreter\n\n\nCompiler\n\nProgramm, das den gesamten Quellcode einer Programmiersprache analysiert und in einen ausführbaren Maschinencode übersetzt\nDer übersetzte Code kann später unabhängig vom Compiler ausgeführt werden.\n\n\nInterpreter\n\nProgramm, das den Quellcode einer Programmiersprache Zeile für Zeile ausführt\nAnalysiert Code zur Laufzeit, anstatt ihn vorab zu übersetzen\nInterpreter analysiert und führt jede Anweisung einzeln aus, wodurch eine direkte Interpretation des Codes ermöglicht wird\n\n\n\nLernkarte AP2 2025 Nr. 118"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#versionsverwaltung-vorteile",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#versionsverwaltung-vorteile",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Versionsverwaltung: Vorteile",
+    "text": "Versionsverwaltung: Vorteile\n\n\nermöglicht die Nachverfolgung von Änderungen am Quellcode\nerlaubt das einfache Zurücksetzen auf frühere Versionen, falls Fehler auftreten oder unerwünschte Änderungen vorgenommen wurden\nermöglicht die Zusammenarbeit mehrerer Entwickler an einem Projekt, da Änderungen nahtlos zusammengeführt werden können\nerleichtert das Testen neuer Funktionen oder Experimente, ohne die Integrität des Hauptprojekts zu gefährden\nträgt dazu bei, den Entwicklungsprozess transparenter zu gestalten\n\n\n\nLernkarte AP2 2025 Nr. 120"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#git-die-xkcd-sicht",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#git-die-xkcd-sicht",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "git: Die xkcd-Sicht",
+    "text": "git: Die xkcd-Sicht\n\n\n\nQuelle: https://xkcd.com/1597/\n\nIf that doesn’t fix it, git.txt contains the phone number of a friend of mine who understands git. Just wait through a few minutes of ‘It’s really pretty simple, just think of branches as…’ and eventually you’ll learn the commands that will fix everything.\nQuelle: https://www.explainxkcd.com/wiki/index.php/1597:_Git"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#git-commit-xkcd",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#git-commit-xkcd",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "git commit: xkcd",
+    "text": "git commit: xkcd\n\nQuelle: https://xkcd.com/1296/"
+  },
+  {
     "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#section",
     "href": "08_Werkzeuge-Entwicklgsumgebungen.html#section",
     "title": "Werkzeuge und Entwicklungsumgebungen",

@@ -1470,25 +1470,25 @@
     ]
   },
   {
-    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#editor",
-    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#editor",
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#was-ist-ein-editor",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#was-ist-ein-editor",
     "title": "Werkzeuge und Entwicklungsumgebungen",
-    "section": "Editor",
-    "text": "Editor"
+    "section": "Was ist ein Editor?",
+    "text": "Was ist ein Editor?\n\n\nWerkzeug zum Erstellen und Bearbeiten von Quellcode\nTypische Funktionen:\n\nSyntax-Highlighting\nAuto-Vervollständigung\nDateiverwaltung\nPlugins / Erweiterungen"
   },
   {
-    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#cicd",
-    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#cicd",
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#was-ist-ein-programmgenerator",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#was-ist-ein-programmgenerator",
     "title": "Werkzeuge und Entwicklungsumgebungen",
-    "section": "CI/CD",
-    "text": "CI/CD\n\nWie können automatische Kompilierung und Bereitstellung (Continuous Integration und Continuous Deployment, kurz CI/CD) implementiert werden?\n\nDie folgenden Schritte sollten zur automatischen Kompilierung und Bereitstellung im Allgemeinen befolgt werden:\n\nSource Control Management (SCM): Alle Entwicklungsarbeit sollte in einem Versionskontrollsystem gespeichert werden.\nAutomatische Kompilierung: Wenn Änderungen im Versionskontrollsystem vorgenommen werden, wird ein automatisierter Build-Prozess ausgelöst.\nAutomatisierte Tests: Nach der Kompilierung sollte der Code automatisiert getestet werden.\nAutomatisierte Bereitstellung: Nach erfolgreichem Build und Test wird der Code automatisch bereitgestellt.\nMonitoring und Feedback: Nach der Bereitstellung sollte der Zustand überwacht und bei Problemen Feedback gegeben werden.\n\n\n\n\nLernkarte AP2 2025 Nr. 148"
+    "section": "Was ist ein Programmgenerator?",
+    "text": "Was ist ein Programmgenerator?\n\n\nErzeugt automatisch Quellcode aus:\n\nModellen\nKonfigurationen\nVorlagen (Templates)\nDSLs (Domain-Specific Languages)\n\nZiel:\n\nWiederholbare, konsistente Code-Strukturen\nWeniger manuelle Fehler\nHöhere Produktivität"
   },
   {
-    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler--und-interpretersprachen",
-    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler--und-interpretersprachen",
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#programmgenerator-beispiele",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#programmgenerator-beispiele",
     "title": "Werkzeuge und Entwicklungsumgebungen",
-    "section": "Compiler- und Interpretersprachen",
-    "text": "Compiler- und Interpretersprachen\n\nNennen Sie je ein Beispiel für eine Compiler- und Interpretersprache.\n\n\nCompilersprachen\n\nC\nC++\nPascal\n\n\nInterpretersprachen\n\nPerl\nPython\nBASIC\n\n\n\n\nLernkarte AP2 2025 Nr. 119"
+    "section": "Programmgenerator: Beispiele",
+    "text": "Programmgenerator: Beispiele\n\n\nGUI‑Builder erzeugt Code für Fenster, Buttons, Layouts\nORM‑Generator erzeugt Klassen aus Datenbanktabellen\nDSL‑Compiler erzeugt Code aus einer Fachsprache\nCode‑Skeleton‑Generator erzeugt Grundgerüste z. B. Controller, Services\n\n\n\nORM = Object-Relational Mapping\nDSL = Domain Specific Language: optimiert für bestimmten Aufgabenbereich, nicht allgemeine Programmierung\n\n\n\n\nORM-Generator liest Struktur einer Datenbank: Tabellen, Spalten, Datentypen, Primär- und Fremdschlüssel, Beziehungen\nORM-Generator erzeugt daraus passende Klassen (z. B.: User, Order, Product) mit Attributen (z. B. name: String, price: Double), Beziehungen und mehr\nZiele eines ORM-Generators: Automatisierung, Konsistenz, Fehlerreduktion, schneller Start\nBeispiele für ORM-Generatoren: Hibernate Tools (Java), Entity Framework Scaffold-Generator (C#), SQLAlchemy Codegen (Python)\nORM = Brücke zwischen Objekten und Tabellen; ORM-Generator baut diese Brücke automatisch\nBeispiele für DSLs: SQL, HTML, CSS, Regex, PlantUML / Mermaid, LaTeX\nCode-Skeleton-Generator erzeugt Grundgerüste für Programme, z. B. in Frameworks mit wiederkehrenden Strukturen\nBeispiele: Spring Initializr (Java / Spring Boot); Angular CLI (JavaScript / TypeScript); Django Admin / Django Startproject (Python)"
   },
   {
     "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler-vs.-interpreter",
@@ -1496,6 +1496,41 @@
     "title": "Werkzeuge und Entwicklungsumgebungen",
     "section": "Compiler vs. Interpreter",
     "text": "Compiler vs. Interpreter\n\n\nCompiler\n\nProgramm, das den gesamten Quellcode einer Programmiersprache analysiert und in einen ausführbaren Maschinencode übersetzt\nDer übersetzte Code kann später unabhängig vom Compiler ausgeführt werden.\n\n\nInterpreter\n\nProgramm, das den Quellcode einer Programmiersprache Zeile für Zeile ausführt\nAnalysiert Code zur Laufzeit, anstatt ihn vorab zu übersetzen\nInterpreter analysiert und führt jede Anweisung einzeln aus, wodurch eine direkte Interpretation des Codes ermöglicht wird\n\n\n\nLernkarte AP2 2025 Nr. 118"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler--und-interpretersprachen",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#compiler--und-interpretersprachen",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Compiler- und Interpretersprachen",
+    "text": "Compiler- und Interpretersprachen\n\nNennen Sie je ein Beispiel für eine Compiler- und Interpretersprache.\n\n\nCompilersprachen\n\nC\nC++\nPascal\n\n\nInterpretersprachen\n\nPerl\nPython\nBASIC\n\n\n\n\n\nLernkarte AP2 2025 Nr. 119\nWeitere Compilersprachen: Fortran, Ada, Rust, Go, Swift, Kotlin\nSprachen mit Compiler -&gt; Bytecode: Java, C#, F#, Scala\nInterpretersprachen: Ruby, Bash/Shell-Skripte, PowerShell, Lua\nPHP: früher interpretiert, heute teils JIT\nJavaScript: Browser-Interpreter + JIT"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#was-ist-ein-linker",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#was-ist-ein-linker",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Was ist ein Linker?",
+    "text": "Was ist ein Linker?\n\n\nVerbindet kompilierte Programmteile (Objektdateien, Bibliotheken)\nLöst Symbole auf:\n\nWo ist eine Funktion implementiert?\nWo liegen Variablen im Speicher?\n\nErzeugt:\n\nAusführbare Programme (.exe, .out)\nDynamische Bibliotheken (.dll, .so)\nStatische Bibliotheken (.a)\n\n\n\n\n\nSymbole: Funktionsnamen, Variablennamen, Klassen / Strukturen / Methoden; Globale Konstanten\nLinker ersetzt symbolische Namen durch konkrete Speicheradressen"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#linker-im-entwicklungsprozess",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#linker-im-entwicklungsprozess",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Linker im Entwicklungsprozess",
+    "text": "Linker im Entwicklungsprozess\n\n\nCompiler – erzeugt Objektdateien\n\nLinker – verbindet alles zu einem lauffähigen Programm\n\nLaufzeitumgebung – führt das Programm aus\n\nTypische Fehler:\n\nUndefined reference (Implementierung fehlt)\nMultiple definition (doppelte Implementierung)\nMissing library (Bibliothek nicht gefunden)"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#editor-im-entwicklungsprozess",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#editor-im-entwicklungsprozess",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Editor im Entwicklungsprozess",
+    "text": "Editor im Entwicklungsprozess\n\n\nProgrammgenerator\nEditor stellt die Eingabe bereit, aus der automatisiert Code erzeugt wird.\nCompiler\nEditor liefert den Quelltext, der in Maschinencode übersetzt wird.\nInterpreter\nEditor ist die Quelle für Skripte, die direkt ausgeführt werden.\nLinker\nEditor erzeugt die Dateien, die später zu einem ausführbaren Programm verbunden werden."
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#cicd",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#cicd",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "CI/CD",
+    "text": "CI/CD\n\nWie können automatische Kompilierung und Bereitstellung (Continuous Integration und Continuous Deployment, kurz CI/CD) implementiert werden?\n\nDie folgenden Schritte sollten zur automatischen Kompilierung und Bereitstellung im Allgemeinen befolgt werden:\n\nSource Control Management (SCM): Alle Entwicklungsarbeit sollte in einem Versionskontrollsystem gespeichert werden.\nAutomatische Kompilierung: Wenn Änderungen im Versionskontrollsystem vorgenommen werden, wird ein automatisierter Build-Prozess ausgelöst.\nAutomatisierte Tests: Nach der Kompilierung sollte der Code automatisiert getestet werden.\nAutomatisierte Bereitstellung: Nach erfolgreichem Build und Test wird der Code automatisch bereitgestellt.\nMonitoring und Feedback: Nach der Bereitstellung sollte der Zustand überwacht und bei Problemen Feedback gegeben werden.\n\n\n\n\nLernkarte AP2 2025 Nr. 148"
   },
   {
     "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#versionsverwaltung-vorteile",
@@ -1517,6 +1552,48 @@
     "title": "Werkzeuge und Entwicklungsumgebungen",
     "section": "git commit: xkcd",
     "text": "git commit: xkcd\n\nQuelle: https://xkcd.com/1296/"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Testsoftware",
+    "text": "Testsoftware\n\n\nUnterstützt das Planen, Ausführen und Auswerten von Softwaretests\nZiel:\n\nFehler früh erkennen\nQualität sichern\nWiederholbare Tests ermöglichen\n\n\nTypische Funktionen\n\nTestfallverwaltung\nAutomatisierte Testausführung\nReporting & Protokollierung\nIntegration in CI/CD-Pipelines"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-unit-tests",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-unit-tests",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Testsoftware: Unit Tests",
+    "text": "Testsoftware: Unit Tests\n\n\n\n\n\nSprache\n\n\n\n\nPython\n\n\nJava\n\n\nJavaScript\n\n\nC#\n\n\n\n\n\n\n\nSoftware\n\n\n\n\npytest\n\n\nJUnit\n\n\nJest\n\n\nNUnit / xUnit"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-api-tests",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-api-tests",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Testsoftware: API-Tests",
+    "text": "Testsoftware: API-Tests\n\n\n\n\n\nSprache\n\n\n\n\nPython   \n\n\nPython   \n\n\nJava\n\n\nJavaScript\n\n\nJavaScript\n\n\nC#\n\n\n\n\n\n\n\nSoftware\nBeschreibung\n\n\n\n\nrequests + pytest\nAPI-Tests über HTTP + Assertions\n\n\nLocust (API-Lasttests)\nLast- und Performance-Tests\n\n\nREST Assured\nFluent API für REST-Tests\n\n\nPostman / Newman\nAPI-Tests + CLI-Ausführung\n\n\nSupertest\nTests für Node.js-REST-APIs\n\n\nRestSharp + NUnit\nAPI-Tests im .NET-Ökosystem"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-ui-browser-tests",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-ui-browser-tests",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Testsoftware: UI-/Browser-Tests",
+    "text": "Testsoftware: UI-/Browser-Tests\n\n\n\n\n\nSprache\n\n\n\n\nPython\n\n\nJava\n\n\nJavaScript\n\n\nC#\n\n\n\n\n\n\n\nSoftware\n\n\n\n\nPlaywright, Selenium\n\n\nSelenium\n\n\nPlaywright, Cypress\n\n\nSelenium"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-last--performance-tests",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-last--performance-tests",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Testsoftware: Last-/ Performance-Tests",
+    "text": "Testsoftware: Last-/ Performance-Tests\n\n\n\n\n\nSprache\n\n\n\n\nPython\n\n\nJava\n\n\nJavaScript\n\n\nC#\n\n\n\n\n\n\n\nSoftware\n\n\n\n\nLocust\n\n\nJMeter\n\n\nk6\n\n\nNBomber"
+  },
+  {
+    "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-statische-analyse",
+    "href": "08_Werkzeuge-Entwicklgsumgebungen.html#testsoftware-statische-analyse",
+    "title": "Werkzeuge und Entwicklungsumgebungen",
+    "section": "Testsoftware: Statische Analyse",
+    "text": "Testsoftware: Statische Analyse\n\n\n\n\n\nSprache\n\n\n\n\nPython\n\n\nJava\n\n\nJavaScript\n\n\nC#\n\n\n\n\n\n\n\nSoftware\n\n\n\n\nflake8, mypy\n\n\nSpotBugs\n\n\nESLint\n\n\nSonarQube"
   },
   {
     "objectID": "08_Werkzeuge-Entwicklgsumgebungen.html#section",

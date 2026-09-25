@@ -15,29 +15,93 @@ execute:
 callout-appearance: simple
 ---
 
-## Editor
+## Was ist ein Editor?
 
-## CI/CD
+::: {.incremental style="font-size: 2.2rem"}
 
-:::: {style="font-size: 1.6rem"}
+- Werkzeug zum **Erstellen und Bearbeiten von Quellcode**
+- Typische Funktionen:
+  - Syntax-Highlighting
+  - Auto-Vervollständigung
+  - Dateiverwaltung
+  - Plugins / Erweiterungen
 
-Wie können automatische Kompilierung und Bereitstellung *(Continuous Integration und Continuous Deployment, kurz CI/CD)* implementiert werden?
+:::
 
-::: {.incremental .fragment}
 
-Die folgenden Schritte sollten zur **automatischen Kompilierung und Bereitstellung** im Allgemeinen befolgt werden:
+## Was ist ein Programmgenerator?
 
-1. ***Source Control Management (SCM):*** Alle Entwicklungsarbeit sollte in einem **Versionskontrollsystem** gespeichert werden.
-2. **Automatische Kompilierung:** Wenn Änderungen im Versionskontrollsystem vorgenommen werden, wird ein automatisierter Build-Prozess ausgelöst.
-3. **Automatisierte Tests:** Nach der Kompilierung sollte der Code automatisiert getestet werden.
-4. **Automatisierte Bereitstellung:** Nach erfolgreichem Build und Test wird der Code automatisch bereitgestellt.
-5. **Monitoring und Feedback:** Nach der Bereitstellung sollte der Zustand überwacht und bei Problemen Feedback gegeben werden.
+::: {.incremental style="font-size: 2rem"}
+
+- Erzeugt **automatisch Quellcode** aus:
+  - Modellen
+  - Konfigurationen
+  - Vorlagen (Templates)
+  - DSLs *(Domain-Specific Languages)*
+
+- Ziel:
+  - Wiederholbare, konsistente Code-Strukturen
+  - Weniger manuelle Fehler
+  - Höhere Produktivität
+
+:::
+
+
+## Programmgenerator: Beispiele
+
+:::: {.incremental style="font-size: 2rem"}
+
+- **GUI‑Builder** erzeugt Code für Fenster, Buttons, Layouts
+- **ORM‑Generator** erzeugt Klassen aus Datenbanktabellen
+- **DSL‑Compiler** erzeugt Code aus einer Fachsprache
+- **Code‑Skeleton‑Generator** erzeugt Grundgerüste <br>z. B. Controller, Services
+
+<br>
+
+- ORM = *Object-Relational Mapping*
+- DSL = *Domain Specific Language*: optimiert für bestimmten Aufgabenbereich, nicht allgemeine Programmierung
+
+::::
+
+::: notes
+
+- **ORM-Generator** liest Struktur einer Datenbank: Tabellen, Spalten, Datentypen, Primär- und Fremdschlüssel, Beziehungen
+- ORM-Generator erzeugt daraus passende Klassen (z. B.: User, Order, Product) mit Attributen (z. B. name: String, price: Double), Beziehungen und mehr
+- Ziele eines ORM-Generators: Automatisierung, Konsistenz, Fehlerreduktion, schneller Start
+- Beispiele für ORM-Generatoren: Hibernate Tools (Java), Entity Framework Scaffold-Generator (C#), SQLAlchemy Codegen (Python)
+- ORM = Brücke zwischen Objekten und Tabellen; ORM-Generator baut diese Brücke automatisch
+- Beispiele für **DSLs:** SQL, HTML, CSS, Regex, PlantUML / Mermaid, LaTeX
+- **Code-Skeleton-Generator** erzeugt Grundgerüste für Programme, z. B. in Frameworks mit wiederkehrenden Strukturen
+- Beispiele: Spring Initializr (Java / Spring Boot); Angular CLI (JavaScript / TypeScript); Django Admin / Django Startproject (Python)
+
+:::
+
+
+## Compiler vs. Interpreter
+
+:::: {.columns style="font-size: 1.8rem"}
+::: {.column .fragment}
+
+### Compiler
+
+- Programm, das den gesamten Quellcode einer Programmiersprache analysiert und in einen ausführbaren Maschinencode übersetzt
+- Der übersetzte Code kann später unabhängig vom Compiler ausgeführt werden.
+
+:::
+
+::: {.column .fragment}
+
+### Interpreter
+
+- Programm, das den Quellcode einer Programmiersprache Zeile für Zeile ausführt
+- Analysiert Code zur Laufzeit, anstatt ihn vorab zu übersetzen
+- Interpreter analysiert und führt jede Anweisung einzeln aus, wodurch eine direkte Interpretation des Codes ermöglicht wird
 
 :::
 ::::
 
 ::: notes
-Lernkarte AP2 2025 Nr. 148
+Lernkarte AP2 2025 Nr. 118
 :::
 
 
@@ -75,32 +139,45 @@ Lernkarte AP2 2025 Nr. 119
 :::
 
 
-## Compiler vs. Interpreter
+## Editor im Entwicklungsprozess
 
-:::: {.columns style="font-size: 1.8rem"}
-::: {.column .fragment}
+- **Programmgenerator**  
+  Editor stellt die Eingabe bereit, aus der automatisiert Code erzeugt wird.
 
-### Compiler
+- **Compiler**  
+  Editor liefert den Quelltext, der in Maschinencode übersetzt wird.
 
-- Programm, das den gesamten Quellcode einer Programmiersprache analysiert und in einen ausführbaren Maschinencode übersetzt
-- Der übersetzte Code kann später unabhängig vom Compiler ausgeführt werden.
+- **Interpreter**  
+  Editor ist die Quelle für Skripte, die direkt ausgeführt werden.
 
-:::
+- **Linker**  
+  Editor erzeugt die Dateien, die später zu einem ausführbaren Programm verbunden werden.
 
-::: {.column .fragment}
 
-### Interpreter
+## CI/CD
 
-- Programm, das den Quellcode einer Programmiersprache Zeile für Zeile ausführt
-- Analysiert Code zur Laufzeit, anstatt ihn vorab zu übersetzen
-- Interpreter analysiert und führt jede Anweisung einzeln aus, wodurch eine direkte Interpretation des Codes ermöglicht wird
+:::: {style="font-size: 1.6rem"}
+
+Wie können automatische Kompilierung und Bereitstellung *(Continuous Integration und Continuous Deployment, kurz CI/CD)* implementiert werden?
+
+::: {.incremental .fragment}
+
+Die folgenden Schritte sollten zur **automatischen Kompilierung und Bereitstellung** im Allgemeinen befolgt werden:
+
+1. ***Source Control Management (SCM):*** Alle Entwicklungsarbeit sollte in einem **Versionskontrollsystem** gespeichert werden.
+2. **Automatische Kompilierung:** Wenn Änderungen im Versionskontrollsystem vorgenommen werden, wird ein automatisierter Build-Prozess ausgelöst.
+3. **Automatisierte Tests:** Nach der Kompilierung sollte der Code automatisiert getestet werden.
+4. **Automatisierte Bereitstellung:** Nach erfolgreichem Build und Test wird der Code automatisch bereitgestellt.
+5. **Monitoring und Feedback:** Nach der Bereitstellung sollte der Zustand überwacht und bei Problemen Feedback gegeben werden.
 
 :::
 ::::
 
 ::: notes
-Lernkarte AP2 2025 Nr. 118
+Lernkarte AP2 2025 Nr. 148
 :::
+
+
 
 
 ## Versionsverwaltung: Vorteile

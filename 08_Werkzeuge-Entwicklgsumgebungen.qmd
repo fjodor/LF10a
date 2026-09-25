@@ -135,11 +135,59 @@ Nennen Sie je ein Beispiel für eine Compiler- und Interpretersprache.
 :::::
 
 ::: notes
-Lernkarte AP2 2025 Nr. 119
+- Lernkarte AP2 2025 Nr. 119
+- Weitere Compilersprachen: Fortran, Ada, Rust, Go, Swift, Kotlin
+- Sprachen mit Compiler -> Bytecode: Java, C#, F#, Scala
+- Interpretersprachen: Ruby, Bash/Shell-Skripte, PowerShell, Lua
+- PHP: früher interpretiert, heute teils JIT
+- JavaScript: Browser-Interpreter + JIT
 :::
 
 
+## Was ist ein Linker?
+
+:::: {.incremental style="font-size: 2rem"}
+
+- Verbindet **kompilierte Programmteile** (Objektdateien, Bibliotheken)
+- Löst **Symbole** auf:
+  - Wo ist eine Funktion implementiert?
+  - Wo liegen Variablen im Speicher?
+- Erzeugt:
+  - Ausführbare Programme (.exe, .out)
+  - Dynamische Bibliotheken (.dll, .so)
+  - Statische Bibliotheken (.a)
+
+::::
+
+::: notes
+- Symbole: Funktionsnamen, Variablennamen, Klassen / Strukturen / Methoden; Globale Konstanten
+- Linker ersetzt symbolische Namen durch konkrete Speicheradressen
+:::
+
+
+## Linker im Entwicklungsprozess
+
+:::: {style="font-size: 2rem"}
+
+1. **Compiler** – erzeugt Objektdateien  
+2. **Linker** – verbindet alles zu einem lauffähigen Programm  
+3. **Laufzeitumgebung** – führt das Programm aus
+
+Typische Fehler:
+
+::: incremental
+
+  - *Undefined reference* (Implementierung fehlt)
+  - *Multiple definition* (doppelte Implementierung)
+  - *Missing library* (Bibliothek nicht gefunden)
+
+:::
+::::
+
+
 ## Editor im Entwicklungsprozess
+
+:::: {.incremental style="font-size: 2rem"}
 
 - **Programmgenerator**  
   Editor stellt die Eingabe bereit, aus der automatisiert Code erzeugt wird.
@@ -152,6 +200,8 @@ Lernkarte AP2 2025 Nr. 119
 
 - **Linker**  
   Editor erzeugt die Dateien, die später zu einem ausführbaren Programm verbunden werden.
+
+::::
 
 
 ## CI/CD

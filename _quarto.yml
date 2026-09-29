@@ -23,6 +23,8 @@ website:
         text: 06 Softwareanforderungen erfassen
       - href: 07_Analyse-Designverfahren.qmd
         text: 07 Analyse- und Designverfahren
+      - href: 08_Werkzeuge-Entwicklgsumgebungen.qmd
+        text: 08 Werkzeuge Entwicklungsumgebungen
       - href: 09_Software-Ergonomie.qmd
         text: 09 Software-Ergonomie
 

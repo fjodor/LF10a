@@ -18,19 +18,11 @@ callout-appearance: simple
 
 ## Lokaler Computer-Experte ...
 
-```{r}
-library(knitr)
-```
 
 :::: columns
 ::: {.column .fragment width="70%"}
 
-```{r}
-#| out-width: "75%"
-
-include_graphics("libs/_Images/xkcd-627_tech-support-cheatsheet.png")
-```
-
+![](libs/_Images/xkcd-627_tech-support-cheatsheet.png){fig-align="center" width="75%"}
 
 :::
 
@@ -42,7 +34,7 @@ include_graphics("libs/_Images/xkcd-627_tech-support-cheatsheet.png")
 
 <br><br><br><br><br>
 
-[Quelle: xkcd.com/627/]{style="font-size: 1rem;"}
+[Quelle: <https://xkcd.com/627/>]{style="font-size: 1rem;"}
 
 :::
 ::::
@@ -50,9 +42,7 @@ include_graphics("libs/_Images/xkcd-627_tech-support-cheatsheet.png")
 
 ## UML Diagramm-Übersicht
 
-```{r}
-include_graphics("libs/_Images/Diagrammtypen-UML_esb-dev-github-io.png")
-```
+![](libs/_Images/Diagrammtypen-UML_esb-dev-github-io.png)
 
 [Quelle: esb-dev.github.io]{style="font-size: 1rem"}
 
@@ -62,9 +52,7 @@ include_graphics("libs/_Images/Diagrammtypen-UML_esb-dev-github-io.png")
 ::::: columns
 :::: {.column width="25%"}
 
-```{r}
-include_graphics("libs/_Images/Aktivitätsd_Morgenroutine-Arbeitstag.png")
-```
+![](libs/_Images/Aktivitätsd_Morgenroutine-Arbeitstag.png){width="80%"}
 
 ::::
 
@@ -77,29 +65,13 @@ include_graphics("libs/_Images/Aktivitätsd_Morgenroutine-Arbeitstag.png")
 
 ::: {.column width="50%"}
 
-```{r}
-#| out-width: "12%"
-#| fig-align: "center"
+![](libs/_Images/Anfangssymbol.png){width="12%"}
 
-include_graphics("libs/_Images/Anfangssymbol.png")
-```
+![](libs/_Images/Aktionssymbol.png){width="50%"}
 
-```{r}
-#| out-width: "50%"
+![](libs/_Images/Konnektorsymbol.png)
 
-include_graphics("libs/_Images/Aktionssymbol.png")
-```
-
-```{r}
-include_graphics("libs/_Images/Konnektorsymbol.png")
-```
-
-```{r}
-#| out-width: "12%"
-#| fig-align: "center"
-
-include_graphics("libs/_Images/Endsymbol.png")
-```
+![](libs/_Images/Endsymbol.png){width="12%"}
 
 :::
 
@@ -136,11 +108,7 @@ Erstellen Sie ein Aktivitätsdiagramm, das den gesamten Ablauf Ihres Besuchs in 
 
 ## Lösung: Bibliothek
 
-```{r}
-#| fig-align: "center"
-
-include_graphics("libs/_Images/Bibliothek-1.png")
-```
+![](libs/_Images/Bibliothek-1.png)
 
 
 ## Aktivitätsdiagramm: Verzweigung
@@ -148,21 +116,13 @@ include_graphics("libs/_Images/Bibliothek-1.png")
 :::: columns
 ::: column
 
-```{r}
-#| out-width: "75%"
-
-include_graphics("libs/_Images/Verzweigung-links.png")
-```
+![](libs/_Images/Verzweigung-links.png){width="75%"}
 
 :::
 
 ::: {.column .fragment}
 
-```{r}
-#| out-width: "100%"
-
-include_graphics("libs/_Images/Verzweigung-rechts.png")
-```
+![](libs/_Images/Verzweigung-rechts.png)
 
 :::
 ::::
@@ -195,11 +155,8 @@ Erstellen Sie ein Aktivitätsdiagramm **mit Verzweigung**.
 
 ## Lösung: Bibliothek, Verzweigung
 
-```{r}
-#| fig-align: "center"
+![](libs/_Images/Bibliothek-2.png)
 
-include_graphics("libs/_Images/Bibliothek-2.png")
-```
 
 ---
 
@@ -208,21 +165,13 @@ include_graphics("libs/_Images/Bibliothek-2.png")
 :::: columns
 ::: column
 
-```{r}
-#| out-width: "100%"
-
-include_graphics("libs/_Images/Aktivität-parallel-links.png")
-```
+![](libs/_Images/Aktivität-parallel-links.png)
 
 :::
 
 ::: {.column .fragment}
 
-```{r}
-#| out-width: "75%"
-
-include_graphics("libs/_Images/Aktivität-parallel-rechts.png")
-```
+![](libs/_Images/Aktivität-parallel-rechts.png){width="75%"}
 
 :::
 ::::
@@ -269,19 +218,14 @@ Nach der Ausleihe laufen vor dem Verlassen der Bibo zwei Prozesse parallel:
 
 ## Lösung: Bibliothek, parallel
 
-```{r}
-#| fig-align: "center"
+![](libs/_Images/Bibo-parallel.png)
 
-include_graphics("libs/_Images/Bibo-parallel.png")
-```
 
 ---
 
 ### Aktivitätsdiagramm: Swimlanes für Akteure
 
-```{r}
-include_graphics("libs/_Images/Aktivität_Swimlanes.png")
-```
+![](libs/_Images/Aktivität_Swimlanes.png)
 
 ::: fragment
 
@@ -301,20 +245,12 @@ Diagramm wie bisher, mit parallelen Prozessen vor dem Verlassen der Bibliothek.
 
 ## Lösung: Bibliothek mit Swimlanes
 
-```{r}
-#| fig-align: "center"
-
-include_graphics("libs/_Images/Bibo-Swimlanes.png")
-```
+![](libs/_Images/Bibo-Swimlanes.png)
 
 
 ## Aktivitätsdiagramm: Übersicht
 
-```{r}
-#| fig-align: "center"
-
-include_graphics("libs/_Images/Aktivität-Übersicht.png")
-```
+![](libs/_Images/Aktivität-Übersicht.png)
 
 
 ## Anwendungsfalldiagramme
@@ -365,9 +301,7 @@ Projektteam:
 
 ::: {.column}
 
-```{r}
-include_graphics("libs/_Images/Yachthafen_Bagenkop.jpg")
-```
+![](libs/_Images/Yachthafen_Bagenkop.jpg){width="50%"}
 
 [Quelle: PaterMcFly, Wikimedia Commons]{style="font-size: 1rem"}
 
@@ -383,16 +317,12 @@ Wie können sich Entwickler einen Überblick über alle Anwendungsfälle verscha
 
 ## Anwendungsfalldiagramm: Yachthafen
 
-```{r}
-include_graphics("libs/_Images/Use-Case-Yachthafen.png")
-```
+![](libs/_Images/Use-Case-Yachthafen.png)
 
 
 ## Use-Case-Diagramm: Grundelemente
 
-```{r}
-include_graphics("libs/_Images/Use-Case-Grundelemente.png")
-```
+![](libs/_Images/Use-Case-Grundelemente.png)
 
 
 ## Use-Case-Diagramm: Generalisierung
@@ -400,10 +330,8 @@ include_graphics("libs/_Images/Use-Case-Grundelemente.png")
 :::: columns
 ::: column
 
-```{r}
-include_graphics("libs/_Images/Use-Case-Generalisierung-Anw.png")
-include_graphics("libs/_Images/Use-Case-Generalisierung-Akt.png")
-```
+![](libs/_Images/Use-Case-Generalisierung-Anw.png){width="85%"}
+![](libs/_Images/Use-Case-Generalisierung-Akt.png){width="60%"}
 
 :::
 
@@ -442,16 +370,13 @@ Bibliothek möchte neues System einführen zur Automatisierung:
 
 ## Lösung: Use-Case-D. Bibliothek
 
-```{r}
-include_graphics("libs/_Images/Use-Case-Bibo-Gen.png")
-```
+![](libs/_Images/Use-Case-Bibo-Gen.png)
 
 
 ## Use-Case-D.: \<\<include\>\>
 
-```{r}
-include_graphics("libs/_Images/Use-Case-include.svg")
-```
+![](libs/_Images/Use-Case-include.svg)
+
 
 ::: incremental
 
@@ -459,6 +384,7 @@ include_graphics("libs/_Images/Use-Case-include.svg")
 - Pflicht-Einbindung
 - includierter Use Case ist wiederverwendbar
 - **Pfeilrichtung: <br>vom Basis-Use-Case zum inkludierten Use-Case**
+
 :::
 
 
@@ -476,16 +402,13 @@ Use-Case-Diagramm zeichnen.
 
 ## Lösung: Use-Case-D., include
 
-```{r}
-include_graphics("libs/_Images/Use-Case-Bibo-include.png")
-```
+![](libs/_Images/Use-Case-Bibo-include.png)
 
 
 ## Use-Case-D.: \<\<extend\>\>
 
-```{r}
-include_graphics("libs/_Images/Use-Case-extend.svg")
-```
+![](libs/_Images/Use-Case-extend.svg)
+
 
 ::: {.incremental style="font-size: 1.8rem"}
 
@@ -494,13 +417,12 @@ include_graphics("libs/_Images/Use-Case-extend.svg")
 - **Achtung: Pfeilrichtung <br>vom erweiternden Anwendungsfall zum Basis-Use-Case**
 - Anders als bei \<\<include\>\>!!
 - B ist Basis-Use-Case, A ist *extended use case*
+
 :::
 
 ::: fragment
 
-```{r}
-include_graphics("libs/_Images/Use-Case-extend-condition.svg")
-```
+![](libs/_Images/Use-Case-extend-condition.svg)
 
 :::
 
@@ -520,9 +442,7 @@ Aufgabe: Use-Case-Diagramm mit zwei *Conditions*
 
 ## Lösung: Use-Case-D., extend
 
-```{r}
-include_graphics("libs/_Images/Use-Case-Bibo-extend.png")
-```
+![](libs/_Images/Use-Case-Bibo-extend.png)
 
 
 ## Use-Case-Diagramm: So klappt's
@@ -545,9 +465,11 @@ include_graphics("libs/_Images/Use-Case-Bibo-extend.png")
 
 ## <!-- -->
 
-```{r, fig.align = "center", out.width = "50%", out.height = "50%"}
-include_graphics("libs/_Images/coffee.jpg")
-```
+![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
+
+::: {style="text-align: center; font-size: 1rem;"}
+[©torange.biz](https://torange.biz/cup-coffee-30851) CC-BY 4.0
+:::
 
 ::: {style="color: green; text-align: center; font-size: 2.8rem"}
 **Viel Erfolg mit UML!**

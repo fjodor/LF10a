@@ -555,6 +555,11 @@ ENDE WENN
 - keine Sprache nachahmen! <br> (kein Python-Stil, kein Java-Stil)
 
 
+## Übersicht
+
+![](libs/_Images/Pseudocode_AP2-So-2022-Belegsatz.png)
+
+
 ## <!-- -->
 
 ![](libs/_Images/coffee.jpg){fig-align="center" width="50%"}
